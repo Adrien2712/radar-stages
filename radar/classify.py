@@ -51,7 +51,7 @@ EVENT = re.compile(r"coffee chat|webinar|networking|info(rmation)? session|open 
 
 STRONG_TARGET = re.compile(r"m ?& ?a\b|mergers|private equity|investment bank|leveraged finance|restructuring|private (credit|debt)|corporate finance|\bibd\b", I)
 
-SPRING = re.compile(r"spring (week|insights?|intern|internship|program|programme|analyst)|insight (day|days|week|event|program|programme|series|evening)|early insight|discovery (day|week|program)"
+SPRING = re.compile(r"spring (week|insights?( (event|day|days|programme|program|week|series))?|intern|internship|program|programme|analyst)|insight (day|days|week|event|program|programme|series|evening)|early insight|discovery (day|week|program)"
                     r"|work experience|pre-?university", I)
 
 # At these firms almost every internship is deal-related, so any non-support internship counts as target.
@@ -100,3 +100,57 @@ def classify(title, category, location=""):
     region = next((name for name, rx in REGIONS if rx.search(location or "")), None) \
         or next((name for name, rx in REGIONS if rx.search(t)), "Autre / NC")
     return level, cycle, region
+
+
+COUNTRIES = [
+    ("France", r"paris|france|lyon|nantes|lille|bordeaux|marseille|toulouse|\bnice\b|neuilly|courbevoie|la d[ée]fense|puteaux|levallois|montrouge|rennes|strasbourg|[îi]le-de-france"),
+    ("Royaume-Uni", r"london|londres|united kingdom|\buk\b|\bgb\b|england|scotland|edinburgh|manchester|birmingham|glasgow|bournemouth|leeds|bristol|canary wharf"),
+    ("États-Unis", r"new york|\bnyc\b|united states|\busa\b|\bus\b|chicago|san francisco|boston|los angeles|houston|dallas|charlotte|menlo park|greenwich|miami|atlanta|washington|jersey city|wilmington|denver|palo alto|seattle|minneapolis|st\.? louis|richmond|philadelphia|austin|baltimore|nashville|tennessee|saratoga|, (ny|ca|tx|il|ma|nc|ga|fl|co|ct|nj|pa|de|va|wa|mn|mo|tn|oh|wi|az|ut)\b"),
+    ("Suisse", r"gen[eè]v|geneva|zurich|z[üu]rich|lausanne|switzerland|suisse|\bbaar\b|\bzug\b|lugano|basel|b[âa]le|nyon"),
+    ("Allemagne", r"frankfurt|francfort|munich|m[üu]nchen|berlin|germany|deutschland|hamburg|d[üu]sseldorf|cologne|k[öo]ln|stuttgart|taunus"),
+    ("Luxembourg", r"luxembourg|luxemburg"),
+    ("Belgique", r"brussels|bruxelles|belgium|belgique|antwerp"),
+    ("Pays-Bas", r"amsterdam|netherlands|rotterdam|the hague|\bnl\b"),
+    ("Espagne", r"madrid|barcelona|spain|espagne"),
+    ("Italie", r"milan|milano|rome|roma|italy|italie|medelan"),
+    ("Irlande", r"dublin|ireland|irlande"),
+    ("Suède", r"stockholm|sweden|su[èe]de"),
+    ("Norvège", r"\boslo\b|norway"),
+    ("Danemark", r"copenhagen|denmark"),
+    ("Pologne", r"warsaw|krak[óo]w|poland|pologne"),
+    ("Portugal", r"lisbon|lisboa|porto|portugal"),
+    ("Autriche", r"vienna|wien|austria"),
+    ("Grèce", r"athens|greece|gr[èe]ce"),
+    ("Corée du Sud", r"seoul|s[ée]oul|korea|cor[ée]e"),
+    ("Hong Kong", r"hong kong|kowloon"),
+    ("Singapour", r"singapore|singapour"),
+    ("Japon", r"tokyo|japan|japon|osaka"),
+    ("Chine", r"shanghai|beijing|shenzhen|china|chine"),
+    ("Inde", r"mumbai|bengaluru|bangalore|india|inde|hyderabad|pune|delhi|gurgaon|gurugram|chennai"),
+    ("Australie", r"sydney|melbourne|australia|australie|brisbane|perth"),
+    ("Canada", r"toronto|montr[ée]al|vancouver|canada|calgary|ontario|qu[ée]bec"),
+    ("Émirats arabes unis", r"dubai|duba[iï]|abu dhabi|\buae\b|emirates"),
+    ("Arabie saoudite", r"riyadh|saudi"),
+    ("Qatar", r"doha|qatar"),
+    ("Brésil", r"s[ãa]o paulo|brazil|br[ée]sil|rio de janeiro"),
+    ("Mexique", r"mexico|mexique"),
+    ("Philippines", r"manila|philippines"),
+    ("Taïwan", r"taipei|taiwan"),
+    ("Kazakhstan", r"almaty|kazakhstan"),
+]
+COUNTRIES = [(name, re.compile(rx, I)) for name, rx in COUNTRIES]
+
+
+def country(location, title=""):
+    """First country mentioned in the location (else in the title)."""
+    for text in (location or "", title or ""):
+        best = None
+        for name, rx in COUNTRIES:
+            m = rx.search(text)
+            if m and (best is None or m.start() < best[1]):
+                best = (name, m.start())
+        if best:
+            return best[0]
+        if re.search(r"\d+ locations|multiple locations|various", text, I):
+            return "Plusieurs pays"
+    return ""

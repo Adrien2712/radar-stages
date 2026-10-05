@@ -134,6 +134,19 @@ td.prog a:hover{color:var(--brand-2)}
 .kcard .f{display:flex;align-items:center;justify-content:space-between;gap:6px;font-size:11.5px;color:var(--muted)}
 .kcard select.st{height:28px;font-size:11.5px;max-width:110px}
 
+dialog{border:1px solid var(--line);border-radius:14px;padding:0;width:min(520px,calc(100vw - 32px));background:var(--surface);color:var(--ink);box-shadow:0 20px 50px rgba(0,0,0,.25)}
+dialog::backdrop{background:rgba(13,19,33,.45)}
+dialog form{padding:20px}
+dialog h3{margin:0 0 4px;font-size:16px}
+dialog p.d{margin:0 0 16px;color:var(--muted);font-size:12.5px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.fld{display:flex;flex-direction:column;gap:4px;margin-bottom:10px;font-size:12px;color:var(--ink-2);font-weight:500}
+.fld input,.fld select{height:36px;border:1px solid var(--line);border-radius:8px;padding:0 10px;background:var(--surface);font-size:13.5px;font-weight:400}
+.dlg-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:8px}
+.icon-btn{border:0;background:none;color:var(--muted);cursor:pointer;font-size:16px;line-height:1;padding:4px 6px;border-radius:6px}
+.icon-btn:hover{background:var(--bad-soft);color:var(--bad)}
+.btn.sm{height:28px;padding:0 10px;font-size:12px}
+.acts{display:flex;gap:6px;flex-wrap:wrap}
 .tools{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:18px 0 48px;color:var(--muted);font-size:12px}
 
 @media (max-width:900px){
@@ -181,9 +194,10 @@ td.prog a:hover{color:var(--brand-2)}
     <input type="search" id="q" placeholder="Rechercher une boîte, un poste, une ville…">
     <select id="level"><option value="A">Offres ciblées</option><option value="">Tous les stages</option></select>
     <select id="cycle"><option value="">Tous les cycles</option></select>
-    <select id="region"><option value="">Toutes les régions</option></select>
+    <select id="country"><option value="">Tous les pays</option></select>
     <select id="category"><option value="">Toutes les catégories</option></select>
     <label class="check"><input type="checkbox" id="hideDone" checked> Masquer mes candidatures</label>
+    <button class="btn" id="addBtn" type="button">+ Ajouter une offre</button>
   </div>
 
   <section id="v-prio"></section>
@@ -194,11 +208,34 @@ td.prog a:hover{color:var(--brand-2)}
   <section id="v-firms" hidden></section>
 
   <div class="tools" id="tools">
-    <button class="btn ghost" id="export">Exporter mes candidatures</button>
+    <button class="btn ghost" id="export">Exporter mes données</button>
     <label class="btn ghost">Importer<input type="file" id="import" accept=".json" hidden></label>
-    <span>Tes candidatures sont enregistrées dans ce navigateur (exporte puis importe pour passer du Mac au téléphone).</span>
+    <span>Tes candidatures et les offres que tu ajoutes sont enregistrées dans ce navigateur (exporte puis importe pour passer du Mac au téléphone).</span>
   </div>
 </main>
+
+<dialog id="dlg">
+  <form method="dialog" id="addForm">
+    <h3>Ajouter une offre</h3>
+    <p class="d">Pour une offre que tu as vue toi-même (boîte suivie à la main, LinkedIn, JobTeaser…). Elle apparaîtra partout sur le site, enregistrée dans ce navigateur.</p>
+    <input type="hidden" name="prog">
+    <label class="fld">Boîte<input name="company" list="companyList" required autocomplete="off"></label>
+    <datalist id="companyList"></datalist>
+    <label class="fld">Intitulé de l'offre<input name="title" required placeholder="2027 Spring Insight Programme"></label>
+    <label class="fld">Lien pour postuler<input name="url" type="url" placeholder="https://…"></label>
+    <div class="grid2">
+      <label class="fld">Ville<input name="location" placeholder="London"></label>
+      <label class="fld">Pays<input name="country" list="countryList" placeholder="Royaume-Uni"></label>
+    </div>
+    <datalist id="countryList"></datalist>
+    <div class="grid2">
+      <label class="fld">Cycle<select name="cycle"><option>Spring / Insight</option><option>Summer</option><option>Off-cycle</option><option>Stage</option><option>VIE</option></select></label>
+      <label class="fld">Date de publication<input name="published" type="date"></label>
+    </div>
+    <label class="fld">Deadline (si indiquée)<input name="deadline" type="date"></label>
+    <div class="dlg-actions"><button class="btn ghost" value="cancel" formnovalidate>Annuler</button><button class="btn" value="ok">Ajouter</button></div>
+  </form>
+</dialog>
 
 <script>
 /* ---------- state ---------- */
@@ -228,6 +265,12 @@ try {
   }
 } catch (e) { ST = {}; }
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(ST)); } catch (e) {} };
+// Offres ajoutées à la main + vérifications ("pas encore ouverte") — enregistrées dans ce navigateur
+const MKEY = "radar-manuel-v1";
+let MAN = {offers: [], checks: {}};
+try { MAN = Object.assign({offers: [], checks: {}}, JSON.parse(localStorage.getItem(MKEY) || "{}")); } catch (e) {}
+const saveMan = () => { try { localStorage.setItem(MKEY, JSON.stringify(MAN)); } catch (e) {} };
+const progKey = p => `${p.company}|${p.program}`;
 const statusOf = id => (ST[id] && ST[id].s) || "";
 
 /* ---------- helpers ---------- */
@@ -250,6 +293,21 @@ const pubLabel = j => {
 };
 const isNew = j => j.published && -daysFrom(j.published) <= 1;
 const score = j => typeof j.score === "number" ? j.score : 0;
+const COUNTRY_PREF = {"France": 2, "Royaume-Uni": 2, "États-Unis": 2, "Suisse": 1, "Corée du Sud": 1};
+function manualJobs() {
+  const firms = Object.fromEntries((DATA.companies || []).map(c => [c.name, c]));
+  return MAN.offers.map(o => {
+    const f = firms[o.company] || {};
+    const j = {...o, manual: true, level: "A", tier: f.tier || "", category: f.category || "Ajoutée à la main",
+               region: o.country, closed: false};
+    j.score = ({"1": 3, "2": 1})[j.tier] || 0;
+    j.score += COUNTRY_PREF[o.country] || 0;
+    if (STRONG.test(o.title)) j.score += 3;
+    if (o.cycle === "Spring / Insight") j.score += 2;
+    return j;
+  });
+}
+const allJobs = () => DATA.jobs.concat(manualJobs());
 const COLORS = ["#1f3a8a", "#0f766e", "#6d28d9", "#b45309", "#be123c", "#0369a1", "#4d7c0f", "#7e22ce", "#c2410c", "#334155"];
 const mono = name => {
   let h = 0; for (const c of name) h = (h * 31 + c.charCodeAt(0)) >>> 0;
@@ -261,6 +319,7 @@ const reasons = j => {
   const r = [];
   if (j.tier === "1") r.push("Boîte prioritaire");
   if (PREFERRED[j.region] === 2) r.push(j.region.split(" / ")[0]);
+  else if (j.manual && COUNTRY_PREF[j.country] === 2) r.push(j.country);
   if (STRONG.test(j.title)) r.push("M&A / PE / IB");
   if (j.cycle === "Spring / Insight") r.push("Spring");
   return r;
@@ -279,16 +338,16 @@ function statusSelect(id) {
 /* ---------- filters ---------- */
 function filtered() {
   const q = $("q").value.trim().toLowerCase();
-  const f = {level: $("level").value, cycle: $("cycle").value, region: $("region").value, category: $("category").value};
-  return DATA.jobs.filter(j => {
+  const f = {level: $("level").value, cycle: $("cycle").value, country: $("country").value, category: $("category").value};
+  return allJobs().filter(j => {
     const st = statusOf(j.id);
     if (st === "Ignorer") return false;
     if ($("hideDone").checked && st && st !== "À postuler") return false;
     if (f.level && j.level !== f.level) return false;
     if (f.cycle && j.cycle !== f.cycle) return false;
-    if (f.region && j.region !== f.region) return false;
+    if (f.country && j.country !== f.country) return false;
     if (f.category && j.category !== f.category) return false;
-    if (q && !`${j.company} ${j.title} ${j.location} ${j.region} ${j.category}`.toLowerCase().includes(q)) return false;
+    if (q && !`${j.company} ${j.title} ${j.location} ${j.country} ${j.category}`.toLowerCase().includes(q)) return false;
     return true;
   });
 }
@@ -301,14 +360,16 @@ function row(j, why) {
     <div style="min-width:0">
       <div class="r-top"><span class="r-co">${esc(j.company)}</span>${j.tier === "1" ? '<span class="tier" title="Boîte prioritaire">★</span>' : ""}
         ${isNew(j) ? '<span class="badge b-warn">Nouvelle</span>' : ""}${j.closed ? '<span class="badge b-bad">Fermée</span>' : ""}
+        ${j.manual ? '<span class="badge b-info">Ajoutée par toi</span>' : ""}
         ${r.map(x => `<span class="badge b-grey b-plain">${esc(x)}</span>`).join("")}</div>
       <a class="r-title" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
-      <div class="r-meta"><span>${esc(j.location || j.region || "")}</span>${j.cycle ? `<span>${esc(j.cycle)}</span>` : ""}<span>${esc(j.category || "")}</span></div>
+      <div class="r-meta"><span>${esc([j.location, j.country && !(j.location || "").includes(j.country) ? j.country : ""].filter(Boolean).join(" · ") || "Lieu non précisé")}</span>${j.cycle ? `<span>${esc(j.cycle)}</span>` : ""}<span>${esc(j.category || "")}</span></div>
     </div>
     <div class="r-side">
       <div class="r-dates"><b>${pubLabel(j)}</b><br>${deadlineHtml(j) || '<span class="sub">Pas de deadline affichée</span>'}</div>
       ${statusSelect(j.id)}
       <a class="btn" href="${esc(j.url)}" target="_blank" rel="noopener">Postuler</a>
+      ${j.manual ? `<button class="icon-btn" data-del="${j.id}" title="Supprimer cette offre ajoutée">✕</button>` : ""}
     </div>
   </div>`;
 }
@@ -343,7 +404,7 @@ function renderNews() {
 }
 
 /* ---------- Tableau ---------- */
-const COLS = [["company", "Boîte"], ["title", "Programme"], ["location", "Lieu"], ["cycle", "Cycle"],
+const COLS = [["company", "Boîte"], ["title", "Programme"], ["location", "Lieu"], ["country", "Pays"], ["cycle", "Cycle"],
               ["published", "Publiée"], ["deadline", "Deadline"], ["open", "Statut"], ["mine", "Ma candidature"], ["", ""]];
 function renderTable() {
   const val = (j, k) => k === "open" ? (j.closed ? "b" : "a") : k === "mine" ? statusOf(j.id) : (j[k] || "");
@@ -355,60 +416,78 @@ function renderTable() {
   const rows = list.slice(0, TABLE_LIMIT).map(j => `<tr>
     <td class="co">${esc(j.company)}${j.tier === "1" ? ' <span class="tier">★</span>' : ""}</td>
     <td class="prog"><a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a></td>
-    <td>${esc(j.location || j.region || "")}</td>
+    <td>${esc(j.location || "")}</td>
+    <td style="white-space:nowrap">${esc(j.country || "")}</td>
     <td style="white-space:nowrap">${esc(j.cycle || "")}</td>
     <td class="num">${j.published ? fmt(j.published, true) : '<span class="sub">—</span>'}</td>
     <td class="num">${j.deadline ? deadlineHtml(j) : '<span class="sub">—</span>'}</td>
     <td>${j.closed ? '<span class="badge b-bad">Fermée</span>' : isNew(j) ? '<span class="badge b-warn">Nouvelle</span>' : '<span class="badge b-ok">Ouverte</span>'}</td>
     <td>${statusSelect(j.id)}</td>
-    <td><a class="btn" href="${esc(j.url)}" target="_blank" rel="noopener">Postuler</a></td>
+    <td><div class="acts"><a class="btn" href="${esc(j.url)}" target="_blank" rel="noopener">Postuler</a>${j.manual ? `<button class="icon-btn" data-del="${j.id}" title="Supprimer">✕</button>` : ""}</div></td>
   </tr>`).join("");
   $("v-table").innerHTML = `<div class="panel"><div class="tablewrap"><table>
     <thead><tr>${COLS.map(([k, l]) => k ? `<th class="sort" data-sort="${k}">${l}${SORT.key === k ? `<span class="arr">${SORT.dir > 0 ? "↑" : "↓"}</span>` : ""}</th>` : "<th></th>").join("")}</tr></thead>
-    <tbody>${rows || `<tr><td colspan="9" class="empty">Aucune offre ne correspond à ces filtres.</td></tr>`}</tbody></table></div>
+    <tbody>${rows || `<tr><td colspan="10" class="empty">Aucune offre ne correspond à ces filtres.</td></tr>`}</tbody></table></div>
     ${list.length > TABLE_LIMIT ? `<button class="more" data-more-table>Afficher plus (${list.length - TABLE_LIMIT} restantes)</button>` : ""}</div>`;
 }
 
 /* ---------- Springs ---------- */
 const SPRING_STATUS = {
   "ouverte": ["b-ok", "Ouverte"], "à venir": ["b-brand", "À venir"], "en retard": ["b-warn", "Date passée, pas encore repérée"],
-  "source indisponible": ["b-grey", "Site illisible en ce moment"], "non surveillée": ["b-grey", "À vérifier à la main"]
+  "source indisponible": ["b-grey", "Site illisible en ce moment"], "non surveillée": ["b-grey", "À vérifier à la main"],
+  "vérifiée": ["b-info", "Vérifiée, pas encore ouverte"]
 };
+function effectivePrograms() {
+  return (DATA.programmes || []).map(p => {
+    const k = progKey(p);
+    const mine = MAN.offers.find(o => o.prog === k);
+    if (p.status !== "ouverte" && mine)
+      return {...p, status: "ouverte", manualOpen: true, job_url: mine.url, job_title: mine.title, opened: mine.published};
+    const chk = MAN.checks[k];
+    if (p.status !== "ouverte" && chk) return {...p, status: "vérifiée", checked: chk};
+    return p;
+  });
+}
 function renderSprings() {
-  const P = DATA.programmes || [];
+  const P = effectivePrograms();
   const q = $("q").value.trim().toLowerCase();
   const count = s => P.filter(p => p.status === s).length;
-  const order = {"ouverte": 0, "à venir": 1, "en retard": 2, "source indisponible": 3, "non surveillée": 4};
+  const order = {"ouverte": 0, "à venir": 1, "en retard": 2, "vérifiée": 3, "source indisponible": 4, "non surveillée": 5};
   const list = P.filter(p => (!SPRING_FILTER || p.status === SPRING_FILTER) && (!q || `${p.company} ${p.program}`.toLowerCase().includes(q)))
     .sort((a, b) => order[a.status] - order[b.status] || (a.expected_open || "").localeCompare(b.expected_open || ""));
   const chip = (s, label) => `<button class="chip ${SPRING_FILTER === s ? "on" : ""}" data-sf="${s}"><b>${s ? count(s) : P.length}</b>${label}</button>`;
   const rows = list.map(p => {
     const [cls, label] = SPRING_STATUS[p.status] || ["b-grey", p.status];
     let when = "";
-    if (p.status === "ouverte") when = p.opened ? `depuis le ${fmt(p.opened)}` : "déjà ouverte au lancement du radar";
+    if (p.status === "ouverte") when = (p.opened ? `depuis le ${fmt(p.opened)}` : "déjà ouverte au lancement du radar") + (p.manualOpen ? " · ajoutée par toi" : "");
+    else if (p.status === "vérifiée") when = `vérifiée le ${fmt(p.checked.slice(0, 10))}` + (p.days != null && p.days >= 0 ? ` · attendue dans ${p.days} j` : "");
     else if (p.days != null && p.days >= 0) when = p.days === 0 ? "attendue aujourd'hui" : `dans ${p.days} jour${p.days > 1 ? "s" : ""}`;
     else if (p.days != null) when = `attendue il y a ${-p.days} j`;
     const link = p.job_url || p.url;
     return `<tr>
       <td class="co">${esc(p.company)}</td>
       <td class="prog">${esc(p.program)}${p.job_title ? `<span class="sub">Repérée : ${esc(p.job_title)}</span>` : ""}${p.notes ? `<span class="sub">${esc(p.notes)}</span>` : ""}</td>
+      <td style="white-space:nowrap">${esc(p.country || "")}</td>
       <td class="num">${fmt(p.last_open, true)}</td>
       <td class="num"><b>${fmt(p.expected_open)}</b></td>
       <td><span class="badge ${cls}">${label}</span><span class="sub">${when}</span></td>
-      <td>${link ? `<a class="btn ${p.status === "ouverte" ? "" : "ghost"}" href="${esc(link)}" target="_blank" rel="noopener">${p.status === "ouverte" ? "Postuler" : "Site carrière"}</a>` : ""}</td>
+      <td><div class="acts">${link ? `<a class="btn sm ${p.status === "ouverte" ? "" : "ghost"}" href="${esc(link)}" target="_blank" rel="noopener">${p.status === "ouverte" ? "Postuler" : "Site carrière"}</a>` : ""}
+        ${p.status !== "ouverte" ? `<button class="btn sm" data-seen="${esc(progKey(p))}">J'ai vu l'offre</button>` : ""}
+        ${p.status !== "ouverte" && p.status !== "vérifiée" ? `<button class="btn sm ghost" data-check="${esc(progKey(p))}" title="J'ai vérifié : pas encore ouverte">Pas encore</button>` : ""}
+        ${p.status === "vérifiée" || p.manualOpen ? `<button class="icon-btn" data-uncheck="${esc(progKey(p))}" title="Annuler">↺</button>` : ""}</div></td>
     </tr>`;
   }).join("");
   $("v-springs").innerHTML = `
-    <div class="summary">${chip("", "programmes suivis")}${chip("ouverte", "ouvertes")}${chip("à venir", "à venir")}${chip("en retard", "date passée, pas encore repérées")}${chip("non surveillée", "à vérifier à la main")}</div>
-    <p class="note">Date attendue = date d'ouverture du même programme l'an dernier (source : TrackR). Le statut « Ouverte » est détecté automatiquement sur le site de la boîte. Liste modifiable dans <code>programmes.csv</code>.</p>
+    <div class="summary">${chip("", "programmes suivis")}${chip("ouverte", "ouvertes")}${chip("à venir", "à venir")}${chip("en retard", "date passée, pas encore repérées")}${chip("vérifiée", "vérifiées par toi")}${chip("non surveillée", "à vérifier à la main")}</div>
+    <p class="note">Date attendue = date d'ouverture du même programme l'an dernier (source : TrackR). Le statut « Ouverte » est détecté automatiquement sur le site de la boîte. Pour celles à vérifier à la main : « J'ai vu l'offre » l'ajoute au site, « Pas encore » note ta vérification.</p>
     <div class="panel"><div class="tablewrap"><table>
-      <thead><tr><th>Boîte</th><th>Programme</th><th>Ouverture l'an dernier</th><th>Attendue</th><th>Statut</th><th></th></tr></thead>
-      <tbody>${rows || `<tr><td colspan="6" class="empty">Aucun programme.</td></tr>`}</tbody></table></div></div>`;
+      <thead><tr><th>Boîte</th><th>Programme</th><th>Pays</th><th>L'an dernier</th><th>Attendue</th><th>Statut</th><th></th></tr></thead>
+      <tbody>${rows || `<tr><td colspan="7" class="empty">Aucun programme.</td></tr>`}</tbody></table></div></div>`;
 }
 
 /* ---------- Candidatures ---------- */
 function renderMine() {
-  const byId = Object.fromEntries(DATA.jobs.map(j => [j.id, j]));
+  const byId = Object.fromEntries(allJobs().map(j => [j.id, j]));
   const q = $("q").value.trim().toLowerCase();
   const mine = Object.entries(ST).filter(([, v]) => v.s && v.s !== "Ignorer")
     .map(([id, v]) => byId[id] || {id, ...(v.job || {company: "?", title: "Offre retirée"}), closed: true})
@@ -437,18 +516,25 @@ function renderFirms() {
     : c.status === "en panne" ? `<span class="badge b-bad" title="${esc(c.error)}">Illisible en ce moment</span>`
     : c.status === "manuel" ? `<span class="badge b-grey">À la main</span>` : `<span class="badge b-brand">En attente</span>`;
   $("v-firms").innerHTML = `<div class="panel"><div class="tablewrap"><table>
-    <thead><tr><th>Boîte</th><th>Catégorie</th><th>Siège</th><th>Suivi</th><th>Offres ouvertes</th><th></th></tr></thead>
-    <tbody>${rows.map(c => `<tr><td class="co">${esc(c.name)}${c.tier === "1" ? ' <span class="tier">★</span>' : ""}</td>
-      <td>${esc(c.category)}</td><td>${esc(c.hq)}</td><td>${pill(c)}</td><td class="num">${c.open || "—"}</td>
-      <td><a href="${esc(c.careers_url)}" target="_blank" rel="noopener">Site carrière ↗</a></td></tr>`).join("")}</tbody></table></div></div>`;
+    <thead><tr><th>Boîte</th><th>Catégorie</th><th>Siège</th><th>Pays</th><th>Suivi</th><th>Offres ouvertes</th><th></th></tr></thead>
+    <tbody>${rows.map(c => {
+      const chk = MAN.checks["firm|" + c.name], added = MAN.offers.filter(o => o.company === c.name).length;
+      const manualActs = c.status !== "ok" ? `<button class="btn sm ghost" data-add-firm="${esc(c.name)}">+ Offre</button>
+        <button class="btn sm ghost" data-check-firm="${esc(c.name)}" title="J'ai regardé leur site aujourd'hui">Vérifiée</button>` : "";
+      return `<tr><td class="co">${esc(c.name)}${c.tier === "1" ? ' <span class="tier">★</span>' : ""}</td>
+      <td>${esc(c.category)}</td><td>${esc(c.hq)}</td><td style="white-space:nowrap">${esc(c.country || "")}</td>
+      <td>${pill(c)}${chk ? `<span class="sub">vérifiée par toi ${ago(chk)}</span>` : ""}</td>
+      <td class="num">${(c.open || 0) + added || "—"}</td>
+      <td><div class="acts"><a class="btn sm ghost" href="${esc(c.careers_url)}" target="_blank" rel="noopener">Site ↗</a>${manualActs}</div></td></tr>`;
+    }).join("")}</tbody></table></div></div>`;
 }
 
 /* ---------- KPIs & routing ---------- */
 function renderKpis() {
-  const open = DATA.jobs.filter(j => !j.closed), a = open.filter(j => j.level === "A");
+  const open = allJobs().filter(j => !j.closed), a = open.filter(j => j.level === "A");
   const week = a.filter(j => j.published && -daysFrom(j.published) < 7);
   const soon = a.filter(j => j.deadline && daysFrom(j.deadline) >= 0 && daysFrom(j.deadline) <= 7);
-  const P = DATA.programmes || [], springsOpen = P.filter(p => p.status === "ouverte").length;
+  const P = effectivePrograms(), springsOpen = P.filter(p => p.status === "ouverte").length;
   const applied = Object.values(ST).filter(v => ["Postulé", "Entretien", "Offre", "Refus"].includes(v.s)).length;
   $("kpis").innerHTML = [[a.length, "offres ciblées ouvertes"], [week.length, "publiées cette semaine"], [soon.length, "deadlines sous 7 jours"],
     [`${springsOpen}/${P.length}`, "springs déjà ouvertes"], [applied, "candidatures envoyées"]]
@@ -461,7 +547,7 @@ function renderKpis() {
 function render() {
   ["prio", "news", "table", "springs", "mine", "firms"].forEach(t => $("v-" + t).hidden = t !== TAB);
   const jobFilters = ["prio", "news", "table"].includes(TAB);
-  ["level", "cycle", "region", "category"].forEach(id => $(id).hidden = !jobFilters);
+  ["level", "cycle", "country", "category"].forEach(id => $(id).hidden = !jobFilters);
   $("hideDone").parentElement.hidden = !jobFilters;
   $("tools").hidden = !["prio", "news", "table", "mine"].includes(TAB);
   ({prio: renderPrio, news: renderNews, table: renderTable, springs: renderSprings, mine: renderMine, firms: renderFirms})[TAB]();
@@ -473,7 +559,7 @@ document.addEventListener("change", e => {
   if (!e.target.matches("select.st")) return;
   const id = e.target.dataset.id, v = e.target.value;
   if (v) {
-    const j = DATA.jobs.find(x => x.id === id) || (ST[id] && ST[id].job) || {};
+    const j = allJobs().find(x => x.id === id) || (ST[id] && ST[id].job) || {};
     ST[id] = {s: v, d: ST[id] && ST[id].s === v ? ST[id].d : new Date().toISOString(),
               job: {company: j.company, title: j.title, url: j.url, location: j.location, deadline: j.deadline}};
   } else delete ST[id];
@@ -487,17 +573,54 @@ document.addEventListener("click", e => {
   const s = e.target.closest("th[data-sort]");
   if (s) { const k = s.dataset.sort; SORT = {key: k, dir: SORT.key === k ? -SORT.dir : (k === "published" ? -1 : 1)}; render(); return; }
   if (e.target.closest("[data-more-table]")) { TABLE_LIMIT += 200; render(); return; }
-  const c = e.target.closest("[data-sf]"); if (c) { SPRING_FILTER = SPRING_FILTER === c.dataset.sf ? "" : c.dataset.sf; render(); }
+  const c = e.target.closest("[data-sf]"); if (c) { SPRING_FILTER = SPRING_FILTER === c.dataset.sf ? "" : c.dataset.sf; render(); return; }
+  const seen = e.target.closest("[data-seen]");
+  if (seen) { const p = (DATA.programmes || []).find(x => progKey(x) === seen.dataset.seen);
+              openAdd({company: p.company, title: p.program, country: p.country || "", cycle: p.type === "Summer" ? "Summer" : "Spring / Insight", url: p.url, prog: progKey(p)}); return; }
+  const chk = e.target.closest("[data-check]"); if (chk) { MAN.checks[chk.dataset.check] = new Date().toISOString(); saveMan(); render(); return; }
+  const un = e.target.closest("[data-uncheck]");
+  if (un) { delete MAN.checks[un.dataset.uncheck]; MAN.offers = MAN.offers.filter(o => o.prog !== un.dataset.uncheck); saveMan(); render(); return; }
+  const af = e.target.closest("[data-add-firm]");
+  if (af) { const f = DATA.companies.find(x => x.name === af.dataset.addFirm) || {};
+            openAdd({company: f.name, country: f.country, url: f.careers_url}); return; }
+  const cf = e.target.closest("[data-check-firm]"); if (cf) { MAN.checks["firm|" + cf.dataset.checkFirm] = new Date().toISOString(); saveMan(); render(); return; }
+  const del = e.target.closest("[data-del]");
+  if (del && confirm("Supprimer cette offre ajoutée à la main ?")) { MAN.offers = MAN.offers.filter(o => o.id !== del.dataset.del); delete ST[del.dataset.del]; saveMan(); save(); render(); }
 });
-["q", "level", "cycle", "region", "category", "hideDone"].forEach(id => $(id).addEventListener("input", () => { EXP = {}; TABLE_LIMIT = 100; render(); }));
+
+/* ---------- ajout manuel ---------- */
+function openAdd(prefill = {}) {
+  const f = $("addForm");
+  f.reset();
+  for (const [k, v] of Object.entries(prefill)) if (f.elements[k] && v) f.elements[k].value = v;
+  f.elements.published.value = new Date().toISOString().slice(0, 10);
+  $("dlg").showModal();
+}
+$("addBtn").addEventListener("click", () => openAdd());
+$("dlg").addEventListener("close", () => {
+  if ($("dlg").returnValue !== "ok") return;
+  const v = Object.fromEntries(new FormData($("addForm")));
+  if (!v.company || !v.title) return;
+  MAN.offers.push({id: "m" + Date.now().toString(36), company: v.company.trim(), title: v.title.trim(), url: v.url.trim(),
+                   location: v.location.trim(), country: v.country.trim(), cycle: v.cycle, published: v.published || null,
+                   deadline: v.deadline || null, prog: v.prog || null, first_seen: new Date().toISOString()});
+  saveMan(); render();
+});
+["q", "level", "cycle", "country", "category", "hideDone"].forEach(id => $(id).addEventListener("input", () => { EXP = {}; TABLE_LIMIT = 100; render(); }));
 $("export").addEventListener("click", () => {
   const a = document.createElement("a");
-  a.href = URL.createObjectURL(new Blob([JSON.stringify(ST, null, 1)], {type: "application/json"}));
+  a.href = URL.createObjectURL(new Blob([JSON.stringify({version: 3, candidatures: ST, manuel: MAN}, null, 1)], {type: "application/json"}));
   a.download = "radar-candidatures.json"; a.click();
 });
 $("import").addEventListener("change", async e => {
   try {
-    for (const [id, v] of Object.entries(JSON.parse(await e.target.files[0].text()))) {
+    const data = JSON.parse(await e.target.files[0].text());
+    if (data.manuel) {  // nouveau format : candidatures + offres ajoutées + vérifications
+      const ids = new Set(MAN.offers.map(o => o.id));
+      MAN.offers.push(...(data.manuel.offers || []).filter(o => !ids.has(o.id)));
+      Object.assign(MAN.checks, data.manuel.checks || {}); saveMan();
+    }
+    for (const [id, v] of Object.entries(data.candidatures || data)) {
       const s = norm(typeof v === "string" ? v : v.s);
       if (s) ST[id] = typeof v === "string" ? {s, d: new Date().toISOString()} : {...v, s};
     }
@@ -508,11 +631,55 @@ $("import").addEventListener("change", async e => {
 /* ---------- boot ---------- */
 try { const t = localStorage.getItem("radar-tab"); if (t && $("v-" + t)) { TAB = t; document.querySelectorAll(".tab").forEach(x => x.classList.toggle("on", x.dataset.tab === t)); } } catch (e) {}
 const fill = (sel, vals) => [...new Set(vals)].filter(Boolean).sort().forEach(v => $(sel).insertAdjacentHTML("beforeend", `<option>${esc(v)}</option>`));
-fetch("jobs.json?" + Date.now()).then(r => r.json()).then(d => {
-  DATA = d; DATA.programmes = d.programmes || [];
-  $("updated").textContent = "Mis à jour " + ago(d.updated);
-  fill("cycle", d.jobs.map(j => j.cycle)); fill("region", d.jobs.map(j => j.region)); fill("category", d.jobs.map(j => j.category));
+/* ---------- heure du dernier scan ---------- */
+let LAST_SCAN = null, SCANNING = false;
+const hhmm = d => d.toLocaleTimeString("fr-FR", {hour: "2-digit", minute: "2-digit"}).replace(":", "h");
+function when(d) {
+  const t0 = new Date(); t0.setHours(0, 0, 0, 0);
+  const day = d >= t0 ? "" : d >= new Date(t0 - 864e5) ? "hier " : d.toLocaleDateString("fr-FR", {day: "numeric", month: "short"}) + " ";
+  const min = Math.round((Date.now() - d) / 6e4);
+  const rel = min < 1 ? "à l'instant" : min < 60 ? `il y a ${min} min` : `il y a ${Math.floor(min / 60)} h ${String(min % 60).padStart(2, "0")}`;
+  return `${day}à ${hhmm(d)} · ${rel}`;
+}
+function showUpdated() {
+  const changed = DATA.updated ? new Date(DATA.updated) : null;
+  const ref = LAST_SCAN || changed;
+  if (!ref) return;
+  $("updated").textContent = (SCANNING ? "Scan en cours · " : "") + (LAST_SCAN ? "Dernier scan " : "Mis à jour ") + when(ref);
+  $("updated").parentElement.title = changed ? `Dernière nouveauté dans les données : ${changed.toLocaleString("fr-FR")}` : "";
+  const stale = (Date.now() - ref) / 6e4 > 90;  // plus d'1 h 30 sans scan : quelque chose cloche
+  document.querySelector(".dot").style.background = stale ? "var(--warn)" : "";
+}
+async function fetchLastScan() {
+  const m = location.hostname.match(/^([^.]+)\.github\.io$/), repo = location.pathname.split("/")[1];
+  if (!m || !repo) return;
+  try {
+    const r = await fetch(`https://api.github.com/repos/${m[1]}/${repo}/actions/workflows/radar.yml/runs?per_page=3`);
+    const runs = (await r.json()).workflow_runs || [];
+    SCANNING = runs.length > 0 && runs[0].status !== "completed";
+    const done = runs.find(x => x.status === "completed");
+    if (done) LAST_SCAN = new Date(done.updated_at);
+  } catch (e) {}
+  showUpdated();
+}
+setInterval(showUpdated, 30e3);
+setInterval(() => { fetchLastScan(); loadData(true); }, 5 * 60e3);  // rafraîchit tout seul toutes les 5 min
+
+function loadData(refresh) {
+  return fetch("jobs.json?" + Date.now()).then(r => r.json()).then(d => {
+    DATA = d; DATA.programmes = d.programmes || [];
+    showUpdated();
+    if (refresh) render();
+    return d;
+  });
+}
+loadData(false).then(d => {
+  fill("cycle", d.jobs.map(j => j.cycle)); fill("category", d.jobs.map(j => j.category));
+  fill("country", allJobs().map(j => j.country).filter(c => c && c !== "Plusieurs pays"));
+  $("companyList").innerHTML = d.companies.map(c => `<option value="${esc(c.name)}">`).join("");
+  $("countryList").innerHTML = [...new Set(d.jobs.map(j => j.country).filter(Boolean))].sort().map(c => `<option value="${esc(c)}">`).join("");
   render();
+  fetchLastScan();
 }).catch(() => {
   $("updated").textContent = "En attente du premier scan";
   $("v-prio").innerHTML = `<div class="panel empty">Pas encore de données : le premier scan n'a pas encore tourné.</div>`;

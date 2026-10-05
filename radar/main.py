@@ -22,7 +22,7 @@ except ImportError:  # pragma: no cover
     ZoneInfo = None
 
 from . import notify
-from .classify import STRONG_TARGET, classify
+from .classify import STRONG_TARGET, classify, country
 from .sources import FETCHERS, workday_posted
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -31,6 +31,7 @@ DASH_PATH = os.path.join(ROOT, "docs", "jobs.json")
 MISSING_BEFORE_CLOSED = 3     # scans in a row without the posting before we call it closed
 KEEP_CLOSED_DAYS = 30
 MAX_INSTANT = 10              # above this, new offers are grouped in one message
+SCHEMA = 2                    # bump when sources change a lot, to re-seed silently once
 
 
 def load_config():
@@ -77,7 +78,7 @@ def programme_status(programmes, jobs, companies, today, sources=None):
             status = "non surveillée"
         elif exp and exp >= today:
             status = "à venir"
-        elif (sources or {}).get(p["company"], {}).get("fails"):
+        elif any(v.get("fails") for k, v in (sources or {}).items() if k.split("#")[0] == p["company"]):
             status = "source indisponible"
         else:
             status = "en retard"
@@ -93,6 +94,15 @@ def load_state():
         with open(STATE_PATH, encoding="utf-8") as f:
             return json.load(f)
     return {"initialized": False, "jobs": {}, "sources": {}, "last_digest": None}
+
+
+def skey(c):
+    """One firm can have several sources (e.g. Evercore US on Oleeo + Evercore London on SmartRecruiters)."""
+    return f'{c["name"]}#{c["source"]}#{c.get("source_id") or c.get("source_url")}'
+
+
+def source_states(state, name):
+    return [v for k, v in state["sources"].items() if k.split("#")[0] == name]
 
 
 def fingerprint(state):
@@ -140,10 +150,22 @@ def scan():
     now = now_iso()
     jobs = state["jobs"]
     new = []
+    primary = {}
+    for c in companies:  # migrate old state keyed by firm name -> per-source key
+        k = skey(c)
+        primary.setdefault(c["name"], k)
+        if k not in state["sources"] and primary[c["name"]] == k and c["name"] in state["sources"]:
+            state["sources"][k] = state["sources"].pop(c["name"])
+            state["sources"][k].pop("ever_ok", None)  # re-seed silently on its next successful scan
+
+    # When sources change a lot (new boards, new sites), the first scan would flag old offers as new:
+    # add them silently instead of flooding Telegram.
+    reseed = state.get("schema") != SCHEMA
+    state["schema"] = SCHEMA
 
     for c, ok, payload, secs in fetch_all(companies):
-        name = c["name"]
-        src = state["sources"].setdefault(name, {"fails": 0})
+        name, sk = c["name"], skey(c)
+        src = state["sources"].setdefault(sk, {"fails": 0})
         if not ok:
             src["fails"] = min(src.get("fails", 0) + 1, 99)
             src["error"] = payload
@@ -156,7 +178,7 @@ def scan():
             print(f"  ? {name:40s} {len(payload)} offres au lieu de ~{prev}, scan ignoré")
             continue
         src.pop("suspect", None)
-        seeding = first_run or not src.get("ever_ok")
+        seeding = first_run or reseed or not src.get("ever_ok")
         src.update({"fails": 0, "error": None, "ever_ok": True, "last_ok": now, "raw": len(payload)})
         seen_now = set()
         for r in payload:
@@ -168,7 +190,7 @@ def scan():
             if jid in jobs:
                 j = jobs[jid]
                 j.update({"title": r["title"], "url": r["url"], "location": r.get("location", ""),
-                          "level": level, "cycle": cycle, "region": region, "missing": 0})
+                          "level": level, "cycle": cycle, "region": region, "missing": 0, "skey": sk})
                 for k in ("deadline", "event"):
                     if r.get(k):
                         j[k] = r[k]
@@ -180,7 +202,7 @@ def scan():
                 "id": jid, "company": name, "category": c["category"], "tier": c["tier"], "hq": c.get("hq", ""),
                 "title": r["title"], "location": r.get("location", ""), "url": r["url"], "posted": r.get("posted"),
                 "level": level, "cycle": cycle, "region": region, "source": c["source"],
-                "first_seen": now, "seed": seeding, "missing": 0,
+                "first_seen": now, "seed": seeding, "missing": 0, "skey": sk,
             }
             for k in ("deadline", "event"):
                 if r.get(k):
@@ -188,7 +210,7 @@ def scan():
             if not seeding:
                 new.append(jobs[jid])
         for j in jobs.values():
-            if j["company"] == name and j["id"] not in seen_now and not j.get("closed"):
+            if j.get("skey", primary.get(j["company"])) == sk and j["id"] not in seen_now and not j.get("closed"):
                 j["missing"] = j.get("missing", 0) + 1
                 if j["missing"] >= MISSING_BEFORE_CLOSED:
                     j["closed"] = now
@@ -199,9 +221,9 @@ def scan():
     cutoff = (datetime.now(timezone.utc) - timedelta(days=KEEP_CLOSED_DAYS)).isoformat()
     for jid in [k for k, j in jobs.items() if j.get("closed") and j["closed"] < cutoff]:
         del jobs[jid]
-    known = {c["name"] for c in companies}
-    for name in [n for n in state["sources"] if n not in known]:
-        del state["sources"][name]
+    known = {skey(c) for c in companies}
+    for k in [k for k in state["sources"] if k not in known]:
+        del state["sources"][k]
 
     if first_run:
         welcome(cfg, jobs)
@@ -341,7 +363,7 @@ def digest(cfg, state, companies):
     if soon:
         msg += "\n\n<b>Deadlines & ouvertures attendues</b>\n" + "\n".join(s for _, s in sorted(soon)[:20])
 
-    broken = sorted(n for n, s in state["sources"].items() if s.get("fails", 0) >= 4)
+    broken = sorted({k.split("#")[0] for k, s in state["sources"].items() if s.get("fails", 0) >= 4})
     if broken:
         msg += f"\n\n⚠️ {len(broken)} source(s) en panne : " + notify.esc(", ".join(broken[:12])) + ("…" if len(broken) > 12 else "")
     notify.send(msg + dash_link(cfg))
@@ -355,20 +377,29 @@ def save(state, companies, cfg):
         json.dump(state, f, ensure_ascii=False, indent=0, sort_keys=True)
     recent = (datetime.now(timezone.utc) - timedelta(days=14)).isoformat()
     jobs = [j for j in state["jobs"].values() if not j.get("closed") or j["closed"] >= recent]
-    comp = []
+    comp, by_name = [], {}
     for c in companies:
-        s = state["sources"].get(c["name"], {})
+        s = state["sources"].get(skey(c), {})
         status = ("manuel" if c.get("source") not in FETCHERS else
                   "ok" if s.get("ever_ok") and not s.get("fails") else
                   "en panne" if s.get("fails") else "en attente")
-        comp.append({"name": c["name"], "category": c["category"], "tier": c["tier"], "hq": c.get("hq", ""),
-                     "source": c.get("source", ""), "careers_url": c.get("careers_url", ""), "status": status,
-                     "error": s.get("error"),
-                     "open": sum(1 for j in jobs if j["company"] == c["name"] and not j.get("closed"))})
+        if c["name"] in by_name:  # second source of the same firm
+            e = by_name[c["name"]]
+            e["source"] += " + " + c["source"]
+            if status == "en panne" or e["status"] == "manuel":
+                e["status"], e["error"] = status, s.get("error") or e["error"]
+            continue
+        e = {"name": c["name"], "category": c["category"], "tier": c["tier"], "hq": c.get("hq", ""),
+             "source": c.get("source", ""), "careers_url": c.get("careers_url", ""), "status": status,
+             "error": s.get("error"), "country": country(c.get("hq", "")),
+             "open": sum(1 for j in jobs if j["company"] == c["name"] and not j.get("closed"))}
+        by_name[c["name"]] = e
+        comp.append(e)
     out = []
     for j in jobs:
-        j = {k: v for k, v in j.items() if k not in ("missing", "posted_tried", "source")}
+        j = {k: v for k, v in j.items() if k not in ("missing", "posted_tried", "source", "skey")}
         j["score"] = relevance(j)
+        j["country"] = country(j.get("location", ""), j["title"])
         # Publication date: the site's own date if known, else when the radar first saw it (unknown for launch-day offers).
         j["published"] = j.get("posted") or (None if j.get("seed") else j["first_seen"][:10])
         out.append(j)

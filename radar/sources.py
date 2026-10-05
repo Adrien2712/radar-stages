@@ -168,10 +168,14 @@ def ashby(src):
 
 
 def smartrecruiters(src):
-    slug, out, offset = src["source_id"], [], 0
+    """source_id: company slug, or "Board|Firm" for agency boards (e.g. "Wiser|Evercore")."""
+    slug, _, only = src["source_id"].partition("|")
+    out, offset = [], 0
     while True:
         d = get_json(f"https://api.smartrecruiters.com/v1/companies/{slug}/postings?limit=100&offset={offset}")
         for j in d["content"]:
+            if only and only.lower() not in json.dumps(j).lower():
+                continue
             loc = j.get("location") or {}
             out.append({"key": j["id"], "title": j["name"], "location": ", ".join(x for x in [loc.get("city"), loc.get("country", "").upper()] if x),
                         "url": f"https://jobs.smartrecruiters.com/{slug}/{j['id']}", "posted": _date(j.get("releasedDate"))})
@@ -277,9 +281,9 @@ def beesite(src):
 
 def oleeo(src):
     """Oleeo / TalentLink boards (*.tal.net) used by Morgan Stanley, Evercore, Jefferies...
-    Board 1 = vacancies, board 2 = (often) campus events / insight days."""
+    Each site has several boards (events, students, experienced hires...): read boards 1 to 6."""
     out = {}
-    for board in (1, 2):
+    for board in range(1, 7):
         base = f"https://{src['source_id']}.tal.net/vx/candidate/jobboard/vacancy/{board}/adv/"
         start = 0
         while start < 500:
@@ -295,11 +299,15 @@ def oleeo(src):
                 raise ValueError("page Oleeo inattendue")
             time.sleep(1)  # be gentle: Oleeo shows a bot check when hit too fast
             fresh = 0
-            for block in re.split(r'<li class="[^"]*opp-container', html)[1:]:
+            for block in re.split(r'<(?:li|tr)\b[^>]*class="[^"]*(?:opp-container|opp_\d+)', html)[1:]:  # list or table layout
                 m = re.search(r'<a class="subject" href="([^"]+)"[^>]*>(.*?)</a>', block, re.S)
                 if not m:
                     continue
                 href, title = m.groups()
+                title = _clean(title)
+                slug = re.search(r"/opp/\d+-([^/]+)", href)
+                if slug and len(slug.group(1)) > len(title) + 5:  # table layouts show a shortened title
+                    title = slug.group(1).replace("-", " ")
                 key = re.search(r"/opp/(\d+)", href)
                 key = key.group(1) if key else href
                 if key in out:
@@ -309,7 +317,7 @@ def oleeo(src):
                           re.findall(r'candidate-opp-field-label">([^<]+)</span>(.*?)</div>', block, re.S)}
                 deadline = _dmy(fields.get("application deadline") or fields.get("registration deadline") or fields.get("closing date"))
                 url = re.sub(r"/xf-[0-9a-f]+", "", href)  # drop the per-session token so the URL is stable
-                out[key] = {"key": key, "title": _clean(title), "location": fields.get("location", ""), "url": url,
+                out[key] = {"key": key, "title": title, "location": fields.get("location", ""), "url": url,
                             "posted": None, "deadline": deadline, "event": _dmy(fields.get("event date"))}
             if not fresh or 'href="?start=' + str(start + 50) not in html:
                 break
