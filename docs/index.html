@@ -329,7 +329,7 @@ const PREFERRED = {"Paris / France": 2, "London / UK": 2, "New York / US": 2, "S
 const STRONG = /m ?& ?a\b|mergers|private equity|investment bank|leveraged finance|restructuring|private (credit|debt)|corporate finance|\bibd\b/i;
 const PAGE = 40;
 let DATA = {jobs: [], companies: [], programmes: []};
-let TAB = "home", EXP = {}, SORT = {key: "published", dir: -1}, SPRING_FILTER = "", TABLE_LIMIT = 100;
+let TAB = "home", EXP = {}, SORT = {key: "seen", dir: -1}, SPRING_FILTER = "", TABLE_LIMIT = 100;
 
 const norm = s => {  // anciens statuts avec emoji ("✅ Postulé") -> "Postulé"
   const t = String(s || "").replace(/[^\p{L}\s]/gu, "").trim().toLowerCase();
@@ -523,9 +523,9 @@ function renderNews() {
 
 /* ---------- Tableau ---------- */
 const COLS = [["company", "Boîte"], ["title", "Programme"], ["location", "Lieu"], ["country", "Pays"], ["cycle", "Cycle"],
-              ["published", "Publiée"], ["deadline", "Deadline"], ["elig", "Éligibilité"], ["open", "Statut"], ["mine", "Ma candidature"], ["", ""]];
+              ["seen", "Repérée"], ["deadline", "Deadline"], ["elig", "Éligibilité"], ["open", "Statut"], ["mine", "Ma candidature"], ["", ""]];
 function renderTable() {
-  const val = (j, k) => k === "open" ? (j.closed ? "b" : "a") : k === "mine" ? statusOf(j.id) : k === "elig" ? ({eligible: "a", check: "b", no: "c"})[eligOf(j)] : (j[k] || "");
+  const val = (j, k) => k === "seen" ? seenAt(j) : k === "open" ? (j.closed ? "b" : "a") : k === "mine" ? statusOf(j.id) : k === "elig" ? ({eligible: "a", check: "b", no: "c"})[eligOf(j)] : (j[k] || "");
   const list = filtered().sort((a, b) => {
     const A = val(a, SORT.key), B = val(b, SORT.key);
     if (!A && B) return 1; if (A && !B) return -1;  // vides à la fin
@@ -537,7 +537,8 @@ function renderTable() {
     <td>${esc(j.location || "")}</td>
     <td style="white-space:nowrap">${esc(j.country || "")}</td>
     <td style="white-space:nowrap">${esc(j.cycle || "")}</td>
-    <td class="num">${j.published ? fmt(j.published, true) : '<span class="sub">—</span>'}</td>
+    <td class="num">${!j.seed && j.first_seen ? `${fmt(j.first_seen.slice(0, 10))} · ${hhmm(new Date(j.first_seen))}${j.posted && j.posted !== j.first_seen.slice(0, 10) ? `<span class="sub">publiée le ${fmt(j.posted)}</span>` : ""}`
+      : j.published ? `${fmt(j.published, true)}<span class="sub">publiée</span>` : '<span class="sub">—</span>'}</td>
     <td class="num">${j.deadline ? deadlineHtml(j) : '<span class="sub">—</span>'}</td>
     <td>${j.manual ? '<span class="badge b-info">Ajoutée</span>' : eligBadge(j)}</td>
     <td>${j.closed ? '<span class="badge b-bad">Fermée</span>' : isNew(j) ? '<span class="badge b-warn">Nouvelle</span>' : '<span class="badge b-ok">Ouverte</span>'}</td>
@@ -875,7 +876,7 @@ document.addEventListener("click", e => {
   if (e.target.closest("[data-export]")) { exportData(); return; }
   const m = e.target.closest("[data-exp]"); if (m) { EXP[m.dataset.exp] = true; render(); return; }
   const s = e.target.closest("th[data-sort]");
-  if (s) { const k = s.dataset.sort; SORT = {key: k, dir: SORT.key === k ? -SORT.dir : (k === "published" ? -1 : 1)}; render(); return; }
+  if (s) { const k = s.dataset.sort; SORT = {key: k, dir: SORT.key === k ? -SORT.dir : (k === "seen" ? -1 : 1)}; render(); return; }
   if (e.target.closest("[data-more-table]")) { TABLE_LIMIT += 200; render(); return; }
   const c = e.target.closest("[data-sf]"); if (c) { SPRING_FILTER = SPRING_FILTER === c.dataset.sf ? "" : c.dataset.sf; render(); return; }
   const pf = e.target.closest("[data-pf]"); if (pf) { PAGE_FILTER = PAGE_FILTER === pf.dataset.pf ? "" : pf.dataset.pf; render(); return; }
