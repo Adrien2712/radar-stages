@@ -174,6 +174,7 @@
 },
 "01334df0792dae61": {
 "category": "Transaction Services",
+"closed": "2026-10-05T15:46:38+00:00",
 "company": "PwC",
 "cycle": "Stage",
 "first_seen": "2026-10-05T13:00:23+00:00",
@@ -181,7 +182,7 @@
 "id": "01334df0792dae61",
 "level": "B",
 "location": "Turin",
-"missing": 2,
+"missing": 3,
 "posted": "2026-09-05",
 "region": "Autre / NC",
 "seed": false,
@@ -4302,7 +4303,7 @@
 "id": "1f42877019a9e572",
 "level": "B",
 "location": "Singapore",
-"missing": 1,
+"missing": 2,
 "posted": "2026-09-05",
 "region": "Corée / Asie",
 "seed": true,
@@ -10299,6 +10300,18 @@
 "category": "Private Equity",
 "company": "KKR",
 "cycle": "Stage",
+"details": {
+"documents": [
+"CV",
+"Relevés de notes"
+],
+"duration": "3 mois",
+"languages": [
+"chinois",
+"mandarin"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "4d516af55526de20",
@@ -10319,6 +10332,11 @@
 "category": "Boutique M&A",
 "company": "Rothschild & Co",
 "cycle": "Off-cycle",
+"details": {
+"duration": "6 mois",
+"start": "2027-01"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Paris",
 "id": "4e10c9649b88eab7",
@@ -10359,6 +10377,13 @@
 "category": "Dette Privée",
 "company": "Barings",
 "cycle": "Summer",
+"details": {
+"duration": "10 sem.",
+"grad_years": [
+2028
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Charlotte",
 "id": "4e2fbedc0891d4f3",
@@ -10460,6 +10485,15 @@
 "category": "Boutique M&A",
 "company": "Lazard",
 "cycle": "Stage",
+"details": {
+"duration": "6 mois",
+"start": "2027-03",
+"study": [
+"dernière année",
+"césure / gap year"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "4ec3cfdba3b0efda",
@@ -10566,6 +10600,11 @@
 "category": "Boutique M&A",
 "company": "Lazard",
 "cycle": "Off-cycle",
+"details": {
+"duration": "6 mois",
+"start": "2027-01"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "4f147691cfb84901",
@@ -10586,6 +10625,21 @@
 "category": "Banque BB",
 "company": "J.P. Morgan",
 "cycle": "Summer",
+"details": {
+"documents": [
+"CV",
+"Questions"
+],
+"grad_years": [
+2027,
+2028
+],
+"tests": [
+"HireVue",
+"Entretien vidéo"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "4f4ac77fae3169eb",
@@ -10727,6 +10781,13 @@
 "category": "Private Equity",
 "company": "StepStone Group",
 "cycle": "Summer",
+"details": {
+"grad_years": [
+2027,
+2028
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "50501844c40c3eea",
@@ -10788,6 +10849,10 @@
 "category": "M&A Mid-Market",
 "company": "Alantra",
 "cycle": "Stage",
+"details": {
+"duration": "6 mois"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Madrid",
 "id": "5106bcea47bc80a4",
@@ -10868,6 +10933,20 @@
 "category": "Banque BB",
 "company": "Jefferies",
 "cycle": "Spring / Insight",
+"details": {
+"grad_years": [
+2029
+],
+"rolling": true,
+"start": "2027-02",
+"study": [
+"1re année"
+],
+"tests": [
+"Tests en ligne"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "52281668e5db7152",
@@ -10993,6 +11072,11 @@
 "category": "Banque BB",
 "company": "Jefferies",
 "cycle": "Off-cycle",
+"details": {
+"duration": "4 mois",
+"start": "2027-01"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "53793831700a67e3",
@@ -11214,6 +11298,15 @@
 "category": "Banque BB",
 "company": "Barclays",
 "cycle": "Off-cycle",
+"details": {
+"duration": "3–6 mois",
+"start": "2027-03",
+"study": [
+"année pénultième",
+"dernière année"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "London",
 "id": "5582dcd0225861ec",
@@ -11334,6 +11427,13 @@
 "category": "Transaction Services",
 "company": "PwC",
 "cycle": "Off-cycle",
+"details": {
+"documents": [
+"CV",
+"Relevés de notes"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "London",
 "id": "55f6c983145d2986",
@@ -11354,6 +11454,12 @@
 "category": "Banque BB",
 "company": "Citi",
 "cycle": "Stage",
+"details": {
+"convention": true,
+"duration": "6 mois",
+"start": "2027-01"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "560c19725648c6bd",
@@ -11374,6 +11480,8 @@
 "category": "Banque BB",
 "company": "Deutsche Bank",
 "cycle": "Stage",
+"details": {},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Frankfurt",
 "id": "5650c30f5fca1b30",
@@ -11600,6 +11708,11 @@
 "category": "Boutique M&A",
 "company": "Rothschild & Co",
 "cycle": "Off-cycle",
+"details": {
+"duration": "6 mois",
+"start": "2027-01"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Paris",
 "id": "585ca442ac0ead4f",
@@ -11640,6 +11753,21 @@
 "category": "Boutique M&A",
 "company": "Houlihan Lokey",
 "cycle": "Off-cycle",
+"details": {
+"documents": [
+"Relevés de notes"
+],
+"duration": "4–6 mois",
+"languages": [
+"allemand"
+],
+"study": [
+"1re année",
+"année pénultième",
+"dernière année"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Los Angeles",
 "id": "58c368cc9db8c893",
@@ -11759,6 +11887,17 @@
 "category": "Banque BB",
 "company": "Citi",
 "cycle": "Stage",
+"details": {
+"duration": "4–6 mois",
+"languages": [
+"allemand"
+],
+"start": "2027-01",
+"study": [
+"dernière année"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "598eb1de410a1975",
@@ -11822,6 +11961,10 @@
 "category": "M&A Mid-Market",
 "company": "Raymond James",
 "cycle": "Summer",
+"details": {
+"duration": "4–6 mois"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "St. Petersburg",
 "id": "5a476a60284b4003",
@@ -11861,6 +12004,10 @@
 "category": "Banque BB",
 "company": "Crédit Agricole CIB",
 "cycle": "Off-cycle",
+"details": {
+"duration": "6 mois"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Paris",
 "id": "5a7154a32a29bd80",
@@ -11970,6 +12117,8 @@
 "category": "Private Equity",
 "company": "StepStone Group",
 "cycle": "Stage",
+"details": {},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "5bc0c0329fa92f52",
@@ -12030,6 +12179,13 @@
 "category": "Private Equity",
 "company": "Ardian",
 "cycle": "Stage",
+"details": {
+"languages": [
+"espagnol"
+],
+"start": "2027-01"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Paris",
 "id": "5c582b27b39b3232",
@@ -12171,6 +12327,15 @@
 "category": "Boutique M&A",
 "company": "Lazard",
 "cycle": "Stage",
+"details": {
+"duration": "6 mois",
+"start": "2027-07",
+"study": [
+"dernière année",
+"césure / gap year"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "5d551a3b97686723",
@@ -12236,6 +12401,14 @@
 "category": "M&A Mid-Market",
 "company": "KeyBanc Capital Markets",
 "cycle": "Summer",
+"details": {
+"duration": "5 sem.",
+"grad_years": [
+2028
+],
+"work_auth_mentioned": true
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Cleveland",
 "id": "5dfc03ebb2751bf9",
@@ -12360,6 +12533,23 @@
 "category": "Banque BB",
 "company": "J.P. Morgan",
 "cycle": "Off-cycle",
+"details": {
+"documents": [
+"CV",
+"Questions"
+],
+"grad_years": [
+2026,
+2027
+],
+"rolling": true,
+"start": "2026-07",
+"tests": [
+"HireVue",
+"Entretien vidéo"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "5ecacdcb22cd033a",
@@ -12420,6 +12610,8 @@
 "category": "Banque BB",
 "company": "Deutsche Bank",
 "cycle": "Stage",
+"details": {},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Frankfurt",
 "id": "5fc0e6dccbcb2702",
@@ -12440,6 +12632,10 @@
 "category": "Boutique M&A",
 "company": "Rothschild & Co",
 "cycle": "Stage",
+"details": {
+"start": "2027-01"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Paris",
 "id": "6043e007fa5c5fcc",
@@ -12529,6 +12725,14 @@
 "company": "Evercore",
 "cycle": "Off-cycle",
 "deadline": "2026-11-01",
+"details": {
+"documents": [
+"Relevés de notes"
+],
+"duration": "6 mois",
+"start": "2027-01"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "60d70f1edab7d0c1",
@@ -12589,6 +12793,8 @@
 "category": "Banque BB",
 "company": "Deutsche Bank",
 "cycle": "Stage",
+"details": {},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Frankfurt",
 "id": "60f193934ac51625",
@@ -12650,6 +12856,10 @@
 "category": "Boutique M&A",
 "company": "Rothschild & Co",
 "cycle": "Off-cycle",
+"details": {
+"start": "2027-03"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Paris",
 "id": "6137f3833a00c8f6",
@@ -12781,6 +12991,10 @@
 "category": "Private Equity",
 "company": "Ardian",
 "cycle": "Summer",
+"details": {
+"start": "2027-03"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Paris",
 "id": "624ad089664a5264",
@@ -12801,6 +13015,10 @@
 "category": "Boutique M&A",
 "company": "Rothschild & Co",
 "cycle": "Off-cycle",
+"details": {
+"start": "2027-01"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Paris",
 "id": "62556b1283a87b58",
@@ -12921,6 +13139,17 @@
 "category": "Private Equity",
 "company": "Blackstone",
 "cycle": "Summer",
+"details": {
+"documents": [
+"CV"
+],
+"duration": "10 sem.",
+"start": "2027-03",
+"study": [
+"césure / gap year"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "632a9d4762a07571",
@@ -13191,6 +13420,13 @@
 "category": "Boutique M&A",
 "company": "Houlihan Lokey",
 "cycle": "Off-cycle",
+"details": {
+"study": [
+"1re année",
+"dernière année"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Los Angeles",
 "id": "662a6daac76840ae",
@@ -13273,6 +13509,10 @@
 "category": "Banque BB",
 "company": "Citi",
 "cycle": "Stage",
+"details": {
+"start": "2027-03"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "67ccbdd7abbdada8",
@@ -13293,6 +13533,13 @@
 "category": "Transaction Services",
 "company": "PwC",
 "cycle": "Stage",
+"details": {
+"duration": "3 mois",
+"languages": [
+"russe"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "London",
 "id": "67f27f9e22ec5c80",
@@ -13313,6 +13560,10 @@
 "category": "Private Equity",
 "company": "Ardian",
 "cycle": "Stage",
+"details": {
+"start": "2027-01"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Paris",
 "id": "681d49182cd44ce8",
@@ -13495,6 +13746,14 @@
 "category": "Boutique M&A",
 "company": "Lazard",
 "cycle": "Off-cycle",
+"details": {
+"documents": [
+"CV"
+],
+"duration": "6 mois",
+"start": "2027-01"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "6902ee611995e523",
@@ -13616,6 +13875,15 @@
 "category": "Banque BB",
 "company": "Citi",
 "cycle": "Stage",
+"details": {
+"duration": "6 mois",
+"rolling": true,
+"start": "2027-07",
+"study": [
+"dernière année"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "69b680303f6c99cd",
@@ -13677,6 +13945,15 @@
 "category": "Boutique M&A",
 "company": "Lazard",
 "cycle": "Stage",
+"details": {
+"duration": "6 mois",
+"start": "2027-04",
+"study": [
+"dernière année",
+"césure / gap year"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "6a176fcd9b9bd754",
@@ -13718,6 +13995,18 @@
 "company": "Evercore",
 "cycle": "Summer",
 "deadline": "2026-11-15",
+"details": {
+"documents": [
+"Relevés de notes"
+],
+"duration": "10 sem.",
+"grad_years": [
+2028,
+2029
+],
+"rolling": true
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "6a461ac8c94d83c0",
@@ -13858,6 +14147,12 @@
 "category": "Banque BB",
 "company": "Citi",
 "cycle": "Stage",
+"details": {
+"convention": true,
+"duration": "6 mois",
+"start": "2027-01"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "6c0ce593152550b7",
@@ -13998,6 +14293,11 @@
 "category": "Boutique M&A",
 "company": "Rothschild & Co",
 "cycle": "Off-cycle",
+"details": {
+"duration": "6 mois",
+"start": "2027-01"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Paris",
 "id": "6d59de253179930c",
@@ -14038,6 +14338,26 @@
 "category": "Banque BB",
 "company": "J.P. Morgan",
 "cycle": "Off-cycle",
+"details": {
+"documents": [
+"CV",
+"Questions"
+],
+"grad_years": [
+2025,
+2026,
+2027
+],
+"languages": [
+"espagnol"
+],
+"rolling": true,
+"tests": [
+"HireVue",
+"Entretien vidéo"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "6db8858314be7ab7",
@@ -14079,6 +14399,15 @@
 "category": "Private Equity",
 "company": "Ardian",
 "cycle": "Off-cycle",
+"details": {
+"convention": true,
+"duration": "6 mois",
+"start": "2027-03",
+"study": [
+"césure / gap year"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Paris",
 "id": "6e1f3af8a884ba0d",
@@ -14220,6 +14549,14 @@
 "company": "Evercore",
 "cycle": "Off-cycle",
 "deadline": "2026-11-30",
+"details": {
+"documents": [
+"Relevés de notes"
+],
+"duration": "6 mois",
+"start": "2027-01"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "6f4a4dde51bd475a",
@@ -14340,6 +14677,14 @@
 "category": "M&A Mid-Market",
 "company": "KeyBanc Capital Markets",
 "cycle": "Summer",
+"details": {
+"duration": "5 sem.",
+"grad_years": [
+2029
+],
+"work_auth_mentioned": true
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Cleveland",
 "id": "7028eb02dbf71ce9",
@@ -14381,6 +14726,21 @@
 "category": "Private Equity",
 "company": "Blackstone",
 "cycle": "Off-cycle",
+"details": {
+"documents": [
+"CV"
+],
+"duration": "6 mois",
+"grad_years": [
+2026,
+2027
+],
+"start": "2027-07",
+"study": [
+"césure / gap year"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "704470bef6ba85f7",
@@ -14422,6 +14782,25 @@
 "category": "Banque BB",
 "company": "J.P. Morgan",
 "cycle": "Off-cycle",
+"details": {
+"documents": [
+"CV",
+"Questions"
+],
+"grad_years": [
+2027,
+2028
+],
+"languages": [
+"espagnol"
+],
+"rolling": true,
+"tests": [
+"HireVue",
+"Entretien vidéo"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "70e2441b6aa6a209",
@@ -14482,6 +14861,13 @@
 "category": "Banque BB",
 "company": "Jefferies",
 "cycle": "Stage",
+"details": {
+"duration": "3 mois",
+"languages": [
+"allemand"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "71223ada94efbd2c",
@@ -14522,6 +14908,16 @@
 "category": "Private Equity",
 "company": "Blackstone",
 "cycle": "Summer",
+"details": {
+"documents": [
+"CV"
+],
+"duration": "10 sem.",
+"study": [
+"césure / gap year"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "721adf3250ce015f",
@@ -14603,6 +14999,14 @@
 "category": "Private Equity",
 "company": "Triton Partners",
 "cycle": "Stage",
+"details": {
+"duration": "3 mois",
+"languages": [
+"allemand"
+],
+"start": "2027-04"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Frankfurt",
 "id": "72946280f0a62861",
@@ -14917,6 +15321,16 @@
 "category": "Private Equity",
 "company": "Ardian",
 "cycle": "Off-cycle",
+"details": {
+"convention": true,
+"duration": "6 mois",
+"start": "2027-03",
+"study": [
+"dernière année",
+"césure / gap year"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Paris",
 "id": "7522a3a7365d3bc0",
@@ -15018,6 +15432,10 @@
 "category": "Private Equity",
 "company": "Ardian",
 "cycle": "Stage",
+"details": {
+"start": "2027-03"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Paris",
 "id": "75bfecd93133e358",
@@ -15036,6 +15454,7 @@
 },
 "75c263c8842f4f95": {
 "category": "Transaction Services",
+"closed": "2026-10-05T15:46:38+00:00",
 "company": "Grant Thornton",
 "cycle": "Off-cycle",
 "first_seen": "2026-10-05T11:47:54+00:00",
@@ -15043,7 +15462,7 @@
 "id": "75c263c8842f4f95",
 "level": "B",
 "location": "Neuilly-sur-Seine, Île-de-France, France",
-"missing": 2,
+"missing": 3,
 "posted": "2026-02-26",
 "region": "Paris / France",
 "seed": true,
@@ -15197,6 +15616,14 @@
 "category": "Banque BB",
 "company": "Jefferies",
 "cycle": "Off-cycle",
+"details": {
+"duration": "3 mois",
+"languages": [
+"néerlandais"
+],
+"start": "2027-04"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "772a1c4ad7831e1c",
@@ -15359,6 +15786,14 @@
 "category": "Private Equity",
 "company": "Neuberger Berman",
 "cycle": "Stage",
+"details": {
+"documents": [
+"CV",
+"Lettre de motivation"
+],
+"work_auth_mentioned": true
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "77cd1c7cb7df3d67",
@@ -15400,6 +15835,11 @@
 "category": "Boutique M&A",
 "company": "Rothschild & Co",
 "cycle": "Off-cycle",
+"details": {
+"duration": "6 mois",
+"start": "2027-01"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Paris",
 "id": "7866afa1f93c3a02",
@@ -15521,6 +15961,11 @@
 "category": "Banque BB",
 "company": "Jefferies",
 "cycle": "Off-cycle",
+"details": {
+"duration": "6 mois",
+"start": "2027-02"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "791514409dfc6c87",
@@ -15602,6 +16047,8 @@
 "category": "Banque BB",
 "company": "Deutsche Bank",
 "cycle": "Off-cycle",
+"details": {},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Frankfurt",
 "id": "79901268d1ca0988",
@@ -15622,6 +16069,19 @@
 "category": "Private Equity",
 "company": "Blackstone",
 "cycle": "Summer",
+"details": {
+"documents": [
+"CV"
+],
+"duration": "10 sem.",
+"grad_years": [
+2028
+],
+"study": [
+"césure / gap year"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "79b48debc89c0230",
@@ -15784,6 +16244,20 @@
 "category": "Banque BB",
 "company": "Jefferies",
 "cycle": "Summer",
+"details": {
+"duration": "10 sem.",
+"grad_years": [
+2027,
+2028
+],
+"languages": [
+"japonais"
+],
+"study": [
+"année pénultième"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "7b3c76c74d3102ad",
@@ -15904,6 +16378,8 @@
 "category": "Transaction Services",
 "company": "PwC",
 "cycle": "Stage",
+"details": {},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "London",
 "id": "7cef565950e1dd93",
@@ -15924,6 +16400,14 @@
 "category": "Banque BB",
 "company": "ING",
 "cycle": "Off-cycle",
+"details": {
+"duration": "6 mois",
+"start": "2027-01",
+"study": [
+"césure / gap year"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Amsterdam",
 "id": "7d04cba3cea414c6",
@@ -15944,6 +16428,25 @@
 "category": "Banque BB",
 "company": "J.P. Morgan",
 "cycle": "Summer",
+"details": {
+"documents": [
+"CV",
+"Questions"
+],
+"grad_years": [
+2027,
+2028
+],
+"languages": [
+"japonais"
+],
+"rolling": true,
+"tests": [
+"HireVue",
+"Entretien vidéo"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "7d055e16cfcac1b8",
@@ -16065,6 +16568,23 @@
 "category": "Banque BB",
 "company": "J.P. Morgan",
 "cycle": "Summer",
+"details": {
+"documents": [
+"CV",
+"Questions"
+],
+"grad_years": [
+2028
+],
+"languages": [
+"néerlandais"
+],
+"tests": [
+"HireVue",
+"Entretien vidéo"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "7e5803542085705f",
@@ -16185,6 +16705,11 @@
 "category": "Banque BB",
 "company": "ING",
 "cycle": "Stage",
+"details": {
+"duration": "6 mois",
+"start": "2027-01"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Amsterdam",
 "id": "8046673dfe8b9640",
@@ -16266,6 +16791,20 @@
 "category": "Banque BB",
 "company": "ING",
 "cycle": "Stage",
+"details": {
+"documents": [
+"CV",
+"Lettre de motivation"
+],
+"duration": "3–6 mois",
+"languages": [
+"néerlandais"
+],
+"study": [
+"dernière année"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Amsterdam",
 "id": "80f9ddb81bf91b97",
@@ -16287,6 +16826,16 @@
 "company": "Evercore",
 "cycle": "Summer",
 "deadline": "2026-11-15",
+"details": {
+"duration": "10 sem.",
+"grad_years": [
+2028,
+2029
+],
+"rolling": true,
+"start": "2028-03"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "8133284e06023238",
@@ -16432,6 +16981,10 @@
 "category": "M&A Mid-Market",
 "company": "Alantra",
 "cycle": "Stage",
+"details": {
+"start": "2025-10"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Madrid",
 "id": "838c43ba0d4042b1",
@@ -16473,6 +17026,11 @@
 "category": "Boutique M&A",
 "company": "Lazard",
 "cycle": "Stage",
+"details": {
+"duration": "6 mois",
+"start": "2027-07"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "83f0cf8526131c98",
@@ -16533,6 +17091,19 @@
 "category": "Banque BB",
 "company": "TD Securities",
 "cycle": "Summer",
+"details": {
+"documents": [
+"CV",
+"Lettre de motivation"
+],
+"duration": "10 sem.",
+"grad_years": [
+2027,
+2028
+],
+"work_auth_mentioned": true
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Toronto",
 "id": "8422b9b0c117b6a6",
@@ -16593,6 +17164,18 @@
 "category": "Boutique M&A",
 "company": "Houlihan Lokey",
 "cycle": "Off-cycle",
+"details": {
+"duration": "3 mois",
+"languages": [
+"néerlandais"
+],
+"start": "2027-03",
+"study": [
+"1re année",
+"dernière année"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Los Angeles",
 "id": "849464a2f2b2a087",
@@ -16763,6 +17346,17 @@
 "category": "Banque BB",
 "company": "Jefferies",
 "cycle": "Summer",
+"details": {
+"grad_years": [
+2028
+],
+"rolling": true,
+"start": "2027-06",
+"study": [
+"année pénultième"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "863eb82b113ec937",
@@ -17004,6 +17598,13 @@
 "category": "Boutique M&A",
 "company": "Houlihan Lokey",
 "cycle": "Off-cycle",
+"details": {
+"duration": "6 mois",
+"study": [
+"1re année"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Los Angeles",
 "id": "88a7e6f47f7ff4f0",
@@ -17044,6 +17645,13 @@
 "category": "Boutique M&A",
 "company": "Lazard",
 "cycle": "Stage",
+"details": {
+"duration": "4 mois",
+"languages": [
+"néerlandais"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "88ce15c71c949445",
@@ -17222,6 +17830,15 @@
 "category": "Private Equity",
 "company": "StepStone Group",
 "cycle": "Summer",
+"details": {
+"grad_years": [
+2027,
+2028
+],
+"rolling": true,
+"start": "2027-12"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "898d833c20cf362b",
@@ -17342,6 +17959,14 @@
 "category": "Private Equity",
 "company": "Triton Partners",
 "cycle": "Stage",
+"details": {
+"duration": "6 mois",
+"languages": [
+"suédois"
+],
+"start": "2027-01"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Frankfurt",
 "id": "8a72b017dfa5c48d",
@@ -17525,6 +18150,11 @@
 "category": "Private Equity",
 "company": "Ardian",
 "cycle": "Stage",
+"details": {
+"start": "2027-01",
+"work_auth_mentioned": true
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Paris",
 "id": "8cdede9e6d414a04",
@@ -17605,6 +18235,10 @@
 "category": "Boutique M&A",
 "company": "Lazard",
 "cycle": "Stage",
+"details": {
+"duration": "3 mois"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "8dc7f356c6f265a7",
@@ -17712,6 +18346,28 @@
 "category": "Banque BB",
 "company": "J.P. Morgan",
 "cycle": "Off-cycle",
+"details": {
+"documents": [
+"CV",
+"Questions"
+],
+"grad_years": [
+2026,
+2027,
+2028,
+2029
+],
+"languages": [
+"danois",
+"finnois"
+],
+"rolling": true,
+"tests": [
+"HireVue",
+"Entretien vidéo"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "8e9e952f36b2d092",
@@ -17861,6 +18517,14 @@
 "category": "Boutique M&A",
 "company": "Lazard",
 "cycle": "Stage",
+"details": {
+"duration": "6 mois",
+"languages": [
+"polonais"
+],
+"start": "2027-07"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "8f335fb4b5a62699",
@@ -17941,6 +18605,20 @@
 "category": "Banque BB",
 "company": "J.P. Morgan",
 "cycle": "Summer",
+"details": {
+"documents": [
+"CV",
+"Questions"
+],
+"grad_years": [
+2028
+],
+"tests": [
+"HireVue",
+"Entretien vidéo"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "8fa91d8df0d497b6",
@@ -18121,6 +18799,12 @@
 "category": "Banque BB",
 "company": "J.P. Morgan",
 "cycle": "Summer",
+"details": {
+"grad_years": [
+2028
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "91094bc59044d7f9",
@@ -18201,6 +18885,11 @@
 "category": "Banque BB",
 "company": "Jefferies",
 "cycle": "Off-cycle",
+"details": {
+"duration": "3 mois",
+"start": "2027-02"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "9132baed47dc8d0a",
@@ -18241,6 +18930,15 @@
 "category": "Banque BB",
 "company": "Citi",
 "cycle": "Stage",
+"details": {
+"duration": "6 mois",
+"rolling": true,
+"start": "2027-01",
+"study": [
+"année pénultième"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "91d3062724aec8d3",
@@ -18341,6 +19039,15 @@
 "category": "Private Equity",
 "company": "KKR",
 "cycle": "Stage",
+"details": {
+"documents": [
+"CV",
+"Lettre de motivation"
+],
+"duration": "6 mois",
+"start": "2027-01"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "92d4a9089a7cd4ad",
@@ -18361,6 +19068,13 @@
 "category": "Banque BB",
 "company": "Citi",
 "cycle": "Stage",
+"details": {
+"convention": true,
+"duration": "6 mois",
+"rolling": true,
+"start": "2027-01"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "92ec9be99d7d2a8f",
@@ -18381,6 +19095,14 @@
 "category": "Private Equity",
 "company": "StepStone Group",
 "cycle": "Stage",
+"details": {
+"grad_years": [
+2027,
+2028
+],
+"start": "2027-01"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "92ecd5092e634497",
@@ -18401,6 +19123,11 @@
 "category": "Boutique M&A",
 "company": "Houlihan Lokey",
 "cycle": "Off-cycle",
+"details": {
+"duration": "6 mois",
+"start": "2027-01"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Los Angeles",
 "id": "9318737cf6a1e256",
@@ -18501,6 +19228,12 @@
 "category": "Transaction Services",
 "company": "PwC",
 "cycle": "Stage",
+"details": {
+"study": [
+"dernière année"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "London",
 "id": "93bc7a00babf3ab8",
@@ -18601,6 +19334,11 @@
 "category": "Boutique M&A",
 "company": "Rothschild & Co",
 "cycle": "Off-cycle",
+"details": {
+"duration": "6 mois",
+"start": "2027-01"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Paris",
 "id": "940e14cd1c26e20f",
@@ -18621,6 +19359,12 @@
 "category": "Private Equity",
 "company": "3i",
 "cycle": "Stage",
+"details": {
+"documents": [
+"CV"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "London",
 "id": "941e08c4fbb478a1",
@@ -18702,6 +19446,8 @@
 "category": "Private Equity",
 "company": "Brookfield",
 "cycle": "Stage",
+"details": {},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Toronto",
 "id": "94b82b7dd64bf0a7",
@@ -18723,6 +19469,23 @@
 "category": "Banque BB",
 "company": "TD Securities",
 "cycle": "Summer",
+"details": {
+"documents": [
+"CV",
+"Lettre de motivation"
+],
+"duration": "10 sem.",
+"grad_years": [
+2027,
+2028
+],
+"start": "2027-03",
+"study": [
+"dernière année"
+],
+"work_auth_mentioned": true
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Toronto",
 "id": "94dbf0bd1f41d2c6",
@@ -18743,6 +19506,15 @@
 "category": "Banque BB",
 "company": "Citi",
 "cycle": "Stage",
+"details": {
+"documents": [
+"CV",
+"Relevés de notes"
+],
+"duration": "3 mois",
+"rolling": true
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "95044307b926bf7a",
@@ -18803,6 +19575,14 @@
 "category": "M&A Mid-Market",
 "company": "Lincoln International",
 "cycle": "Stage",
+"details": {
+"duration": "3–5 mois",
+"languages": [
+"néerlandais"
+],
+"start": "2027-02"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Chicago",
 "id": "95b14fe44de83d44",
@@ -18843,6 +19623,8 @@
 "category": "Investisseur institutionnel",
 "company": "CDPQ",
 "cycle": "Stage",
+"details": {},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Montreal",
 "id": "9660f3a116d0faa6",
@@ -18864,6 +19646,18 @@
 "company": "Evercore",
 "cycle": "Summer",
 "deadline": "2026-11-15",
+"details": {
+"documents": [
+"Relevés de notes"
+],
+"duration": "10 sem.",
+"grad_years": [
+2028,
+2029
+],
+"rolling": true
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "967fa938a5352ab8",
@@ -18904,6 +19698,15 @@
 "category": "M&A Mid-Market",
 "company": "Lincoln International",
 "cycle": "Stage",
+"details": {
+"documents": [
+"CV",
+"Lettre de motivation",
+"Relevés de notes"
+],
+"start": "2027-01"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Chicago",
 "id": "96bb97e2f240ff18",
@@ -19078,6 +19881,8 @@
 "category": "Banque BB",
 "company": "Deutsche Bank",
 "cycle": "Off-cycle",
+"details": {},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Frankfurt",
 "id": "97d4c73f238ac11b",
@@ -19098,6 +19903,14 @@
 "category": "M&A Mid-Market",
 "company": "KeyBanc Capital Markets",
 "cycle": "Summer",
+"details": {
+"duration": "5 sem.",
+"grad_years": [
+2029
+],
+"work_auth_mentioned": true
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Cleveland",
 "id": "985cebc7fddbfc31",
@@ -19159,6 +19972,25 @@
 "category": "Banque BB",
 "company": "Jefferies",
 "cycle": "Summer",
+"details": {
+"duration": "10 sem.",
+"grad_years": [
+2028
+],
+"languages": [
+"allemand",
+"néerlandais"
+],
+"rolling": true,
+"start": "2027-06",
+"study": [
+"année pénultième"
+],
+"tests": [
+"Tests en ligne"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "99129a3e06199d72",
@@ -19327,6 +20159,14 @@
 "category": "Boutique M&A",
 "company": "Houlihan Lokey",
 "cycle": "Stage",
+"details": {
+"duration": "3 mois",
+"start": "2027-07",
+"study": [
+"1re année"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Los Angeles",
 "id": "99fb25ea70d56fd8",
@@ -19509,6 +20349,15 @@
 "category": "Boutique M&A",
 "company": "Lazard",
 "cycle": "Stage",
+"details": {
+"duration": "6 mois",
+"start": "2027-07",
+"study": [
+"dernière année",
+"césure / gap year"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "9b20ffbf090414e5",
@@ -19529,6 +20378,14 @@
 "category": "Banque BB",
 "company": "ING",
 "cycle": "Off-cycle",
+"details": {
+"duration": "6 mois",
+"start": "2024-07",
+"study": [
+"césure / gap year"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Amsterdam",
 "id": "9b2bd03a676cca52",
@@ -19741,6 +20598,23 @@
 "category": "Banque BB",
 "company": "TD Securities",
 "cycle": "Summer",
+"details": {
+"documents": [
+"CV",
+"Lettre de motivation"
+],
+"duration": "10 sem.",
+"grad_years": [
+2027,
+2028
+],
+"start": "2027-03",
+"study": [
+"dernière année"
+],
+"work_auth_mentioned": true
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Toronto",
 "id": "9c65f7c270775720",
@@ -19822,6 +20696,16 @@
 "category": "Boutique M&A",
 "company": "Lazard",
 "cycle": "Summer",
+"details": {
+"duration": "10 sem.",
+"grad_years": [
+2029
+],
+"no_sponsorship": true,
+"rolling": true,
+"start": "2027-06"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "9cebe9c42865105c",
@@ -19954,6 +20838,17 @@
 "category": "Banque BB",
 "company": "Jefferies",
 "cycle": "Summer",
+"details": {
+"duration": "10 sem.",
+"grad_years": [
+2027,
+2028
+],
+"study": [
+"année pénultième"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "9d761740b5e80d42",
@@ -20027,6 +20922,8 @@
 "category": "M&A Mid-Market",
 "company": "Raymond James",
 "cycle": "Summer",
+"details": {},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "St. Petersburg",
 "id": "9de8d83ab8cd8e6f",
@@ -20086,6 +20983,18 @@
 "category": "Banque BB",
 "company": "Citi",
 "cycle": "Stage",
+"details": {
+"convention": true,
+"documents": [
+"CV"
+],
+"duration": "6 mois",
+"languages": [
+"italien"
+],
+"start": "2027-01"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "9e720f8d36d7d412",
@@ -20106,6 +21015,12 @@
 "category": "Private Equity",
 "company": "3i",
 "cycle": "Stage",
+"details": {
+"documents": [
+"CV"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "London",
 "id": "9e78b37ef3f16277",
@@ -20146,6 +21061,12 @@
 "category": "Private Equity",
 "company": "3i",
 "cycle": "Stage",
+"details": {
+"documents": [
+"CV"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "London",
 "id": "9e8ff882f169ae83",
@@ -20206,6 +21127,13 @@
 "category": "M&A Mid-Market",
 "company": "Piper Sandler",
 "cycle": "Summer",
+"details": {
+"grad_years": [
+2027,
+2028
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Minneapolis",
 "id": "9f835ea13ab40531",
@@ -20266,6 +21194,18 @@
 "category": "Banque BB",
 "company": "Jefferies",
 "cycle": "Summer",
+"details": {
+"duration": "10 sem.",
+"grad_years": [
+2027,
+2028
+],
+"study": [
+"année pénultième"
+],
+"work_auth_mentioned": true
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "9fadb0093b9e977a",
@@ -20327,6 +21267,16 @@
 "category": "Banque BB",
 "company": "Citi",
 "cycle": "Summer",
+"details": {
+"duration": "10 sem.",
+"rolling": true,
+"start": "2027-06",
+"study": [
+"année pénultième",
+"dernière année"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "9ff90cd91a582713",
@@ -20367,6 +21317,13 @@
 "category": "M&A Mid-Market",
 "company": "Alantra",
 "cycle": "Stage",
+"details": {
+"languages": [
+"portugais"
+],
+"start": "2023-07"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Madrid",
 "id": "a0b5332dd5675640",
@@ -20510,6 +21467,19 @@
 "company": "Evercore",
 "cycle": "Stage",
 "deadline": "2026-11-30",
+"details": {
+"documents": [
+"CV",
+"Lettre de motivation",
+"Relevés de notes"
+],
+"duration": "3 mois",
+"languages": [
+"allemand"
+],
+"start": "2027-10"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "a14c68015d47ec29",
@@ -20591,6 +21561,14 @@
 "category": "M&A Mid-Market",
 "company": "KeyBanc Capital Markets",
 "cycle": "Summer",
+"details": {
+"duration": "12 mois",
+"grad_years": [
+2028
+],
+"work_auth_mentioned": true
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Cleveland",
 "id": "a2d3c9a80ae50e97",
@@ -20612,6 +21590,15 @@
 "company": "Evercore",
 "cycle": "Summer",
 "deadline": "2026-11-15",
+"details": {
+"duration": "10 sem.",
+"grad_years": [
+2028,
+2029
+],
+"rolling": true
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "a31952ce53066ce4",
@@ -20739,6 +21726,14 @@
 "category": "Boutique M&A",
 "company": "Lazard",
 "cycle": "Stage",
+"details": {
+"duration": "10–12 sem.",
+"languages": [
+"allemand"
+],
+"start": "2027-07"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "a3d9bc3c10f993bf",
@@ -20908,6 +21903,21 @@
 "category": "Private Equity",
 "company": "Blackstone",
 "cycle": "Off-cycle",
+"details": {
+"documents": [
+"CV"
+],
+"duration": "4–6 mois",
+"grad_years": [
+2026,
+2027
+],
+"start": "2026-10",
+"study": [
+"césure / gap year"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "a5aed85ca26796b7",
@@ -21031,6 +22041,26 @@
 "category": "Banque BB",
 "company": "J.P. Morgan",
 "cycle": "Summer",
+"details": {
+"documents": [
+"CV",
+"Questions"
+],
+"grad_years": [
+2027,
+2028
+],
+"languages": [
+"japonais"
+],
+"rolling": true,
+"start": "2027-03",
+"tests": [
+"HireVue",
+"Entretien vidéo"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "a63069894e6dd604",
@@ -21093,6 +22123,14 @@
 "category": "Banque BB",
 "company": "ING",
 "cycle": "Off-cycle",
+"details": {
+"duration": "6 mois",
+"start": "2023-07",
+"study": [
+"césure / gap year"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Amsterdam",
 "id": "a68d3bef4c0a131f",
@@ -21133,6 +22171,16 @@
 "category": "Private Equity",
 "company": "Ardian",
 "cycle": "Off-cycle",
+"details": {
+"convention": true,
+"duration": "6 mois",
+"start": "2027-03",
+"study": [
+"dernière année",
+"césure / gap year"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Paris",
 "id": "a6bb1fc2a785a956",
@@ -21193,6 +22241,8 @@
 "category": "Banque BB",
 "company": "Deutsche Bank",
 "cycle": "Stage",
+"details": {},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Frankfurt",
 "id": "a6eb1952f7e74dbc",
@@ -21233,6 +22283,15 @@
 "category": "Banque BB",
 "company": "Citi",
 "cycle": "Summer",
+"details": {
+"duration": "10 sem.",
+"rolling": true,
+"study": [
+"année pénultième",
+"dernière année"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "a72fc1226e5b75c8",
@@ -21254,6 +22313,16 @@
 "company": "Evercore",
 "cycle": "Summer",
 "deadline": "2026-11-15",
+"details": {
+"duration": "10 sem.",
+"grad_years": [
+2028,
+2029
+],
+"rolling": true,
+"start": "2028-03"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "a80c1198a9e59e33",
@@ -21418,6 +22487,16 @@
 "company": "Perella Weinberg Partners",
 "cycle": "Off-cycle",
 "deadline": "2026-11-08",
+"details": {
+"grad_years": [
+2027,
+2028
+],
+"languages": [
+"allemand"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "a9151b372683f39d",
@@ -21517,6 +22596,14 @@
 "category": "M&A Mid-Market",
 "company": "KeyBanc Capital Markets",
 "cycle": "Summer",
+"details": {
+"duration": "5 sem.",
+"grad_years": [
+2029
+],
+"work_auth_mentioned": true
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Cleveland",
 "id": "a9bab9bf3127b52b",
@@ -21577,6 +22664,21 @@
 "category": "Banque BB",
 "company": "J.P. Morgan",
 "cycle": "Summer",
+"details": {
+"documents": [
+"CV"
+],
+"grad_years": [
+2028
+],
+"rolling": true,
+"tests": [
+"HireVue",
+"Entretien vidéo",
+"Superday"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "aa22c09bb585815f",
@@ -21597,6 +22699,15 @@
 "category": "Boutique M&A",
 "company": "Lazard",
 "cycle": "Stage",
+"details": {
+"duration": "6 mois",
+"start": "2027-03",
+"study": [
+"dernière année",
+"césure / gap year"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "aa4655ddea81c1ae",
@@ -22007,6 +23118,14 @@
 "category": "M&A Mid-Market",
 "company": "KeyBanc Capital Markets",
 "cycle": "Summer",
+"details": {
+"duration": "12 mois",
+"grad_years": [
+2028
+],
+"work_auth_mentioned": true
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Cleveland",
 "id": "ae7ab1a65fe5f15d",
@@ -22067,6 +23186,8 @@
 "category": "Boutique M&A",
 "company": "Rothschild & Co",
 "cycle": "Stage",
+"details": {},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Paris",
 "id": "af0f8d30fbffb14a",
@@ -22148,6 +23269,10 @@
 "category": "Boutique M&A",
 "company": "Houlihan Lokey",
 "cycle": "Off-cycle",
+"details": {
+"start": "2027-01"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Los Angeles",
 "id": "b0e952d6b25eb410",
@@ -22270,6 +23395,26 @@
 "category": "Banque BB",
 "company": "J.P. Morgan",
 "cycle": "Off-cycle",
+"details": {
+"documents": [
+"CV",
+"Questions"
+],
+"grad_years": [
+2025,
+2026,
+2027
+],
+"languages": [
+"arabe"
+],
+"rolling": true,
+"tests": [
+"HireVue",
+"Entretien vidéo"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "b1cbc60584fc5463",
@@ -22390,6 +23535,14 @@
 "category": "M&A Mid-Market",
 "company": "Alantra",
 "cycle": "Stage",
+"details": {
+"documents": [
+"CV",
+"Lettre de motivation"
+],
+"duration": "6 mois"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Madrid",
 "id": "b28a996ccd65cec4",
@@ -22490,6 +23643,22 @@
 "category": "Private Equity",
 "company": "Ardian",
 "cycle": "Stage",
+"details": {
+"documents": [
+"CV",
+"Lettre de motivation",
+"Relevés de notes"
+],
+"languages": [
+"allemand"
+],
+"start": "2027-01",
+"study": [
+"dernière année"
+],
+"work_auth_mentioned": true
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Paris",
 "id": "b32f010665f73523",
@@ -22591,6 +23760,12 @@
 "category": "Private Equity",
 "company": "Carlyle",
 "cycle": "Stage",
+"details": {
+"languages": [
+"espagnol"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Washington",
 "id": "b44e1f60d9d2ca8a",
@@ -22853,6 +24028,11 @@
 "category": "Banque BB",
 "company": "Jefferies",
 "cycle": "Off-cycle",
+"details": {
+"rolling": true,
+"start": "2027-01"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "b5b4fd90a8abe0f2",
@@ -22873,6 +24053,21 @@
 "category": "Private Equity",
 "company": "Ardian",
 "cycle": "Stage",
+"details": {
+"documents": [
+"CV",
+"Lettre de motivation"
+],
+"duration": "3–6 mois",
+"languages": [
+"allemand"
+],
+"start": "2027-01",
+"study": [
+"dernière année"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Paris",
 "id": "b5bb925c027d314f",
@@ -22893,6 +24088,11 @@
 "category": "Boutique M&A",
 "company": "Rothschild & Co",
 "cycle": "Stage",
+"details": {
+"duration": "6 mois",
+"start": "2026-11"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Paris",
 "id": "b5de9ad10d3ce2dd",
@@ -22913,6 +24113,14 @@
 "category": "Boutique M&A",
 "company": "Lazard",
 "cycle": "Stage",
+"details": {
+"documents": [
+"Lettre de motivation"
+],
+"duration": "6 mois",
+"start": "2027-03"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "b5e83f8b85cd3134",
@@ -23041,6 +24249,14 @@
 "category": "M&A Mid-Market",
 "company": "Piper Sandler",
 "cycle": "Summer",
+"details": {
+"duration": "10 sem.",
+"grad_years": [
+2027,
+2028
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Minneapolis",
 "id": "b6fd60fa21f6a14c",
@@ -23142,6 +24358,14 @@
 "category": "M&A Mid-Market",
 "company": "KeyBanc Capital Markets",
 "cycle": "Summer",
+"details": {
+"duration": "5 sem.",
+"grad_years": [
+2029
+],
+"work_auth_mentioned": true
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Cleveland",
 "id": "b75fdb772f0188d1",
@@ -23182,6 +24406,17 @@
 "category": "Boutique M&A",
 "company": "Lazard",
 "cycle": "Stage",
+"details": {
+"documents": [
+"CV"
+],
+"duration": "6 mois",
+"start": "2027-07",
+"tests": [
+"Tests en ligne"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "b7a8aeac3e14a3d2",
@@ -23202,6 +24437,20 @@
 "category": "Boutique M&A",
 "company": "Houlihan Lokey",
 "cycle": "Off-cycle",
+"details": {
+"documents": [
+"Relevés de notes"
+],
+"duration": "6 mois",
+"languages": [
+"suédois"
+],
+"study": [
+"1re année",
+"dernière année"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Los Angeles",
 "id": "b7c5c3e0382d7188",
@@ -23272,6 +24521,14 @@
 "category": "Private Equity",
 "company": "Triton Partners",
 "cycle": "Stage",
+"details": {
+"duration": "3 mois",
+"languages": [
+"allemand"
+],
+"start": "2027-07"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Frankfurt",
 "id": "b814e6280abb4ed8",
@@ -23333,6 +24590,18 @@
 "category": "Boutique M&A",
 "company": "Houlihan Lokey",
 "cycle": "Off-cycle",
+"details": {
+"duration": "3 mois",
+"languages": [
+"néerlandais"
+],
+"start": "2026-12",
+"study": [
+"1re année",
+"dernière année"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Los Angeles",
 "id": "b89fa3fc7a39c1e1",
@@ -23353,6 +24622,8 @@
 "category": "Transaction Services",
 "company": "PwC",
 "cycle": "Stage",
+"details": {},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "London",
 "id": "b8b6d7d530758213",
@@ -23701,6 +24972,8 @@
 "category": "Banque BB",
 "company": "Deutsche Bank",
 "cycle": "Stage",
+"details": {},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "Frankfurt",
 "id": "bb5358162cb1d26a",
@@ -23761,6 +25034,11 @@
 "category": "Boutique M&A",
 "company": "Lazard",
 "cycle": "Stage",
+"details": {
+"duration": "6 mois",
+"start": "2027-01"
+},
+"details_tried": true,
 "first_seen": "2026-10-05T11:47:54+00:00",
 "hq": "New York",
 "id": "bb63d8ef842bb366",
@@ -25214,6 +26492,7 @@
 },
 "c6f9e8ff69e1e9af": {
 "category": "Boutique M&A",
+"closed": "2026-10-05T15:46:38+00:00",
 "company": "Lazard",
 "cycle": "Stage",
 "first_seen": "2026-10-05T11:47:54+00:00",
@@ -25221,7 +26500,7 @@
 "id": "c6f9e8ff69e1e9af",
 "level": "A",
 "location": "France",
-"missing": 2,
+"missing": 3,
 "posted": "2026-07-20",
 "region": "Paris / France",
 "seed": true,
@@ -32245,9 +33524,17 @@
 "highlights": [
 "Application Form"
 ],
-"history": [],
+"history": [
+{
+"added": [],
+"at": "2026-10-05T15:46:38+00:00",
+"removed": [
+"Centerview as financial advisor to AAR in its acquisition of a controlling interest in MRO Holdings"
+]
+}
+],
+"last_change": "2026-10-05T15:46:38+00:00",
 "lines": [
-"Centerview as financial advisor to AAR in its acquisition of a controlling interest in MRO Holdings",
 "Application Form",
 "Undergraduate interested in Summer Internship"
 ],
@@ -32674,677 +33961,677 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 5
 },
 "AXA IM Alts#watch#https://www.bnpparibas-am.com/en/": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 0
 },
 "AXA#html#/jobs/\\d+/[^/\\\"']+/job": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 0
 },
 "Abenex#watch#https://www.abenex.com/fr": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 0
 },
 "Adams Street Partners#greenhouse#adamsstreetpartners": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 22
 },
 "Advent International#workday#adventinternational.wd12/AdventCareers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 1
 },
 "Alantra#workday#alantra.wd3/Alantra": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 49
 },
 "Alcentra (Franklin)#watch#https://www.bspcredit.com/international/": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 0
 },
 "Alvarez & Marsal#workday#alvarezandmarsal.wd1/alvarezandmarsal": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 0
 },
 "Antares Capital#workday#antares.wd5/antares": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 18
 },
 "Antin Infrastructure Partners#teamtailor#antininfrastructurepartners-1655458195": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 0
 },
 "Apax Partners#lever#apax": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 1
 },
 "Apollo#workday#athene.wd5/Apollo_Careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 66
 },
 "Ardian#workday#ardian.wd103/ArdianCareers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 75
 },
 "Ares Management#workday#aresmgmt.wd1/External": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 260
 },
 "BBVA CIB#workday#bbva.wd3/BBVA": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 111
 },
 "BMO Capital Markets#workday#bmo.wd3/Campus": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 45
 },
 "Bain Capital#workday#baincapital.wd1/External_Public": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 31
 },
 "Bank of America#workday#ghr.wd1/lateral-emea|Lateral-US": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 417
 },
 "Barclays#workday#barclays.wd3/External_Career_Site_Barclays": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 302
 },
 "Barings#workday#barings.wd1/Early_Talent|Barings": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 43
 },
 "Benefit Street Partners#watch#https://www.bspcredit.com/international/": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 0
 },
 "BlackRock#oleeo#blackrock": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 39
 },
 "Blackstone#workday#blackstone.wd1/Blackstone_Campus_Careers|Blackstone_Careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 195
 },
 "Blue Owl#workday#blueowl.wd1/blueowl": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 52
 },
 "Brookfield#workday#brookfield.wd5/brookfield": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 130
 },
 "Bryan Garnier & Co#watch#https://stifelinstitutional.com/global-coverage/europe/": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 0
 },
 "CDPQ#workday#cdpq.wd10/CDPQ|CDPQ-recrutement-universitaire": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 36
 },
 "CPP Investments#workday#cppib.wd10/cppinvestments": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 43
 },
 "Canaccord Genuity#workday#cgf.wd10/CG": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 37
 },
 "Capvis#watch#https://www.capvis.com/en/": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 0
 },
 "Capza#smartrecruiters#capza": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 1
 },
 "Carlyle#workday#carlyle.wd1/Carlyle": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 71
 },
 "Centerview Partners#watch#https://www.centerviewpartners.com/careers.aspx": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 1
 },
 "Cerberus Capital#workday#cerberus.wd1/CerberusCareers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 3
 },
 "Cinven#pinpoint#cinven": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 1
 },
 "Citi#workday#citi.wd5/2": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 595
 },
 "Clipperton#workable#clipperton": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 5
 },
 "Coller Capital#teamtailor#collercapital-1660725598": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 0
 },
 "Crédit Agricole CIB#html#/offre-de-emploi/emploi-[a-z0-9-]+_\\d+\\.aspx": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 100
 },
 "Davidson Kempner#greenhouse#1456754456yhgbhfg": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 1
 },
 "Degroof Petercam#watch#https://www.degroofpetercam.com/en-be": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 0
 },
 "Deloitte#watch#https://www.deloitte.com/fr/fr.html": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 0
 },
 "Deutsche Bank#beesite#api-deutschebank.beesite.de": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 371
 },
 "Ducera Partners#greenhouse#ducerapartners|ducerapartnerscampus": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 6
 },
 "EQT#greenhouse#eqtpartners": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 21
 },
 "EY#watch#https://www.ey.com/fr_fr": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 0
 },
 "Equistone#watch#https://www.equistonepe.com/home": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 0
 },
 "Eurazeo#watch#https://www.eurazeo.com/en": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 0
 },
 "Evelyn Partners#smartrecruiters#EvelynPartners": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 22
 },
 "Evercore#oleeo#evercore": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 118
 },
 "Evercore#smartrecruiters#Wiser|Evercore": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 8
 },
 "FTI Consulting#watch#https://www.fticonsulting.com/fr-fr/france": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 0
 },
 "Fortress Investment Group#workday#fortress.wd503/Careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 9
 },
 "Forvis Mazars#greenhouse#forvismazars": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 161
 },
 "GBL / Sienna#watch#https://www.gbl.com/en": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 0
 },
 "General Atlantic#greenhouse#generalatlantic": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 10
 },
 "Goldman Sachs#goldman#": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 243
 },
 "Grant Thornton#recruitee#grantthornton": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 63
 },
 "Guggenheim Partners#workday#guggenheim.wd1/Guggenheim_Careers_Campus|Guggenheim_Undergraduate_Programs|Guggenheim_Careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 43
 },
 "Gunvor#workday#gunvor.wd3/Gunvor_Careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 32
 },
 "HPS Investment Partners#greenhouse#hpsinvestmentpartners": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 1
 },
 "HSBC#html#/external/(?:JobDetail|PipelineDetail)/[^\\\"']+/\\d+": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 6
 },
 "Hamilton Lane#workday#hamiltonlane.wd108/Search": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 42
 },
 "HarbourVest#workday#harbourvest.wd5/HVP": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 63
 },
 "Harris Williams#workday#pnc.wd5/HarrisWilliams": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 17
 },
 "Houlihan Lokey#workday#hl.wd1/Campus|Corporate": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 58
 },
 "ICG#workday#icg.wd3/external_careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 11
 },
 "IK Partners#recruitee#ikpartners": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 3
 },
 "ING#workday#ing.wd3/ICSGBLCOR|ICSFRADIR": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 308
 },
 "J.P. Morgan#oracle#jpmc.fa.oraclecloud.com/CX_1001": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 1009
 },
 "Jefferies#oleeo#jefferies": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 58
 },
 "KKR#greenhouse#staged": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 17
 },
 "KPMG#watch#https://kpmg.com/xx/en.html": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 0
 },
 "Kepler Cheuvreux#teamtailor#keplercheuvreux": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 7
 },
 "Kering#workday#kering.wd3/Kering": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 0
 },
 "KeyBanc Capital Markets#workday#keybank.wd5/External_Career_Site": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 226
 },
 "Kroll#watch#https://www.kroll.com/en": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 0
 },
 "L Catterton#workday#lcatterton.wd501/External_Career_Site": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 0
 },
 "L'Oréal#watch#https://careers.loreal.com/en": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 3
 },
 "LVMH#watch#https://www.lvmh.com/en": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 1
 },
 "Lazard Asset Management#watch#https://www.lazardassetmanagement.com/entry?relTargetURL=home": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 0
 },
 "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardProfessionalCareers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 122
 },
 "Lincoln International#greenhouse#lincolninternational": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 38
 },
 "LionTree#greenhouse#liontree": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 1
 },
 "Lombard Odier#workday#lombardodier.wd3/Lombard_Odier_Careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 61
 },
 "MUFG#workday#mufgub.wd3/MUFG-Careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 317
 },
 "Macquarie#watch#https://www.macquarie.com/fr/en.html": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 1
 },
 "Mirabaud#watch#https://www.mirabaud.com/en/": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 0
 },
 "Mirova#watch#https://www.mirova.com/fr": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 0
 },
 "Mizuho#workday#mizuho.wd1/mizuhoamericas": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 121
 },
 "Moelis & Company#workday#moelis.wd1/University-Hires|Experienced-Hires": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 35
 },
 "Morgan Stanley#oleeo#morganstanley": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 133
 },
 "Mubadala#watch#https://www.mubadala.com/en": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 0
 },
 "Muzinich & Co#workday#muzinich.wd5/muzinichcareers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 1
 },
 "Neuberger Berman#workday#nb.wd1/NBCareers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 88
 },
 "Nomura#oleeo#nomuracampus": {
 "error": "ValueError: vérification anti-robot Oleeo (réessai au prochain scan)",
-"fails": 11,
+"fails": 12,
 "last_ok": "2026-10-05T12:05:22+00:00",
 "raw": 0
 },
@@ -33352,144 +34639,144 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 0
 },
 "Oaklins#watch#https://www.oaklins.com/fr/en/": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 0
 },
 "Oaktree Capital#workday#oaktree.wd1/Oaktree": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 49
 },
 "Oddo BHF#watch#https://www.oddo-bhf.com/fr/": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 0
 },
 "Ontario Teachers' (OTPP)#workday#otppb.wd3/OntarioTeachers_Careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 30
 },
 "PAG#watch#https://www.pag.com/en/": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 0
 },
 "PAI Partners#recruitee#paipartners": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 9
 },
 "PATRIZIA#watch#https://www.patrizia.ag/en": {
 "error": "HTTPError: HTTP Error 403: Forbidden",
-"fails": 14
+"fails": 15
 },
 "PJT Partners#workday#pjtpartners.wd1/Careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 52
 },
 "PSP Investments#workday#investpsp.wd3/psp_careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 41
 },
 "Partners Group#watch#https://www.partnersgroup.com/en/careers/open-positions": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 0
 },
 "Pemberton Asset Management#ashby#Pemberton": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 3
 },
 "Perella Weinberg Partners#oleeo#pwpcareers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 12
 },
 "Permira#greenhouse#permiraexternalprivate": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 8
 },
 "Pictet#watch#https://www.pictet.com/fr/fr/careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 0
 },
 "Piper Sandler#workday#pipersandler.wd501/Piper_Sandler_Careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 53
 },
 "PwC#workday#pwc.wd3/Global_Campus_Careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 399
 },
 "QIA#oracle#fa-esgr-saasfaprod1.fa.ocs.oraclecloud.com/CX_1": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 2
 },
 "Qualium Investissement#watch#https://qualium-investissement.com/en/homepage/": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 0
 },
 "RBC Capital Markets#workday#rbc.wd3/RBCEARLYTALENT1": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 34
 },
 "Raine Group#lever#raine": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 2
 },
 "Raymond James#workday#raymondjames.wd1/RaymondJamesEarlyCareers": {
@@ -33498,174 +34785,174 @@
 "fails": 0,
 "last_ok": "2026-10-05T15:08:33+00:00",
 "raw": 21,
-"suspect": 2
+"suspect": 3
 },
 "Rothschild & Co#oleeo#rothschildandco": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 28
 },
 "Rothschild & Co#workday#rothschildandco.wd3/Rothschildandco_Interns|Rothschildandco_Lateral": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 119
 },
 "SMBC#watch#https://www.smbcgroup.com/emea/careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 2
 },
 "Santander CIB#workday#santander.wd3/SantanderCareers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 185
 },
 "Scotiabank#rss#https://jobs.scotiabank.com/services/rss/job/?locale=en_US&keywords=intern": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 20
 },
 "Seven2#watch#https://www.seven2.eu/en/": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 0
 },
 "Sixth Street#workday#sixthstreet.wd1/sixthstreetcareers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 20
 },
 "Sofina#watch#https://www.sofinagroup.com/en": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 0
 },
 "Solomon Partners#greenhouse#solomonpartnersprofessionals": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 3
 },
 "Standard Chartered#rss#https://jobs.standardchartered.com/services/rss/job/?locale=en_GB&keywords=intern": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 20
 },
 "StepStone Group#greenhouse#stepstone": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 58
 },
 "Stifel#html#/jobs/\\d+/[^/\\\"']+/job": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 4
 },
 "TD Securities#workday#td.wd3/TD_Bank_Careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 472
 },
 "TPG#greenhouse#tpgcareers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 15
 },
 "TotalEnergies#watch#https://totalenergies.com/careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 1
 },
 "Trafigura#workday#trafigura.wd3/TrafiguraCareerSite": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 82
 },
 "Triton Partners#workday#tritonpartners.wd3/External": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 7
 },
 "UniCredit#watch#https://www.unicreditgroup.eu/en.html": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 2
 },
 "Union Bancaire Privée#watch#https://www.ubp.com/en": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 0
 },
 "Vista Equity Partners#html#/jobs/\\d+/[^/\\\"']+/job": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 4
 },
 "Vitol#smartrecruiters#Vitol": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 29
 },
 "Vitruvian Partners#workday#vitruvian.wd108/vitruviancareers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 134
 },
 "Warburg Pincus#greenhouse#warburgpincusllc": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 5
 },
 "Wells Fargo#oleeo#wellsfargo": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-05T15:43:52+00:00",
+"last_ok": "2026-10-05T15:46:38+00:00",
 "raw": 0
 }
 }
