@@ -270,13 +270,13 @@ dialog p.d{margin:0 0 16px;color:var(--muted);font-size:12.5px}
 
   <section id="v-offres" hidden>
     <div class="subnav">
-      <button class="sub on" data-sub="prio">Priorités</button>
-      <button class="sub" data-sub="news">Nouveautés</button>
+      <button class="sub on" data-sub="news">Nouveautés</button>
+      <button class="sub" data-sub="prio">Priorités</button>
       <button class="sub" data-sub="table">Tableau récapitulatif</button>
     </div>
     <div class="filters">
       <input type="search" id="q" placeholder="Rechercher une boîte, un poste, une ville…">
-      <select id="level"><option value="A">Offres ciblées</option><option value="">Tous les stages</option></select>
+      <select id="level"><option value="">Tous les stages</option><option value="A">Offres ciblées</option></select>
       <select id="elig"><option value="">Toutes éligibilités</option><option value="eligible">Éligibles pour moi</option><option value="eligible,check">Éligibles + à vérifier</option></select>
       <select id="cycle"><option value="">Tous les cycles</option></select>
       <select id="country"><option value="">Tous les pays</option></select>
@@ -284,8 +284,8 @@ dialog p.d{margin:0 0 16px;color:var(--muted);font-size:12.5px}
       <label class="check"><input type="checkbox" id="hideDone" checked> Masquer mes candidatures</label>
       <button class="btn" id="addBtn" type="button">+ Ajouter une offre</button>
     </div>
-    <div id="v-prio"></div>
-    <div id="v-news" hidden></div>
+    <div id="v-news"></div>
+    <div id="v-prio" hidden></div>
     <div id="v-table" hidden></div>
   </section>
 
@@ -373,7 +373,15 @@ const pubLabel = j => {
   const d = -daysFrom(j.published);
   return "Publiée " + (d <= 0 ? "aujourd'hui" : d === 1 ? "hier" : d < 7 ? `il y a ${d} j` : "le " + fmt(j.published, toDate(j.published).getFullYear() !== TODAY.getFullYear()));
 };
-const isNew = j => j.published && -daysFrom(j.published) <= 1;
+const seenAt = j => (!j.seed && j.first_seen) ? j.first_seen : (j.published || "");
+const isNew = j => (!j.seed && j.first_seen && Date.now() - new Date(j.first_seen) < 36 * 36e5) || (j.published && -daysFrom(j.published) <= 1);
+function seenLabel(j) {  // "Repérée aujourd'hui à 18h04 · publiée le 2 oct."
+  if (j.seed || !j.first_seen) return pubLabel(j);
+  const d = new Date(j.first_seen), t0 = new Date(); t0.setHours(0, 0, 0, 0);
+  const day = d >= t0 ? "aujourd'hui" : d >= new Date(t0 - 864e5) ? "hier" : "le " + d.toLocaleDateString("fr-FR", {day: "numeric", month: "short"});
+  const pub = j.posted && j.posted !== j.first_seen.slice(0, 10) ? ` · publiée le ${fmt(j.posted)}` : "";
+  return `Repérée ${day} à ${hhmm(d)}${pub}`;
+}
 const score = j => typeof j.score === "number" ? j.score : 0;
 const COUNTRY_PREF = {"France": 2, "Royaume-Uni": 2, "États-Unis": 2, "Suisse": 1, "Corée du Sud": 1};
 function manualJobs() {
@@ -468,14 +476,14 @@ function row(j, why) {
     <div style="min-width:0">
       <div class="r-top"><span class="r-co">${esc(j.company)}</span>${j.tier === "1" ? '<span class="tier" title="Boîte prioritaire">★</span>' : ""}
         ${isNew(j) ? '<span class="badge b-warn">Nouvelle</span>' : ""}${j.closed ? '<span class="badge b-bad">Fermée</span>' : ""}
-        ${j.manual ? '<span class="badge b-info">Ajoutée par toi</span>' : eligBadge(j)}
+        ${j.manual ? '<span class="badge b-info">Ajoutée par toi</span>' : eligBadge(j)}${j.level === "A" && !j.manual ? '<span class="badge b-brand b-plain">Ciblée</span>' : ""}
         ${r.map(x => `<span class="badge b-grey b-plain">${esc(x)}</span>`).join("")}</div>
       <a class="r-title" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
       <div class="r-meta"><span>${esc([j.location, j.country && !(j.location || "").includes(j.country) ? j.country : ""].filter(Boolean).join(" · ") || "Lieu non précisé")}</span>${j.cycle ? `<span>${esc(j.cycle)}</span>` : ""}<span>${esc(j.category || "")}</span></div>
       ${factsHtml(j)}${whyHtml(j)}
     </div>
     <div class="r-side">
-      <div class="r-dates"><b>${pubLabel(j)}</b><br>${deadlineHtml(j) || '<span class="sub">Pas de deadline affichée</span>'}</div>
+      <div class="r-dates"><b>${seenLabel(j)}</b><br>${deadlineHtml(j) || '<span class="sub">Pas de deadline affichée</span>'}</div>
       ${statusSelect(j.id)}
       <a class="btn" href="${esc(j.url)}" target="_blank" rel="noopener">Postuler</a>
       ${j.manual ? `<button class="icon-btn" data-del="${j.id}" title="Supprimer cette offre ajoutée">✕</button>` : ""}
@@ -498,17 +506,18 @@ function renderPrio() {
     + block("lo", "Autres offres", lo, "", true)) || NONE;
 }
 function renderNews() {
-  const list = filtered().sort((a, b) => (b.published || "").localeCompare(a.published || "") || score(b) - score(a));
-  const known = list.filter(j => j.published), unknown = list.filter(j => !j.published).sort((a, b) => score(b) - score(a));
+  const list = filtered().sort((a, b) => seenAt(b).localeCompare(seenAt(a)) || score(b) - score(a));
+  const age = j => { const k = seenAt(j); return k ? Math.floor((TODAY - toDate(k.slice(0, 10))) / 864e5) : null; };
+  const known = list.filter(j => seenAt(j)), unknown = list.filter(j => !seenAt(j)).sort((a, b) => score(b) - score(a));
   const buckets = [["d0", "Aujourd'hui", d => d <= 0], ["d1", "Hier", d => d === 1], ["d7", "Cette semaine", d => d < 7],
                    ["d30", "Ces 30 derniers jours", d => d < 30], ["old", "Plus ancien", () => true]];
   let rest = known, html = "";
   for (const [key, title, test] of buckets) {
-    const g = rest.filter(j => test(-daysFrom(j.published)));
-    rest = rest.filter(j => !test(-daysFrom(j.published)));
-    html += block(key, title, g, "", false);
+    const g = rest.filter(j => test(age(j)));
+    rest = rest.filter(j => !test(age(j)));
+    html += block(key, title, g, key === "d0" ? "Les plus récentes en haut · le site se met à jour tout seul" : "", false);
   }
-  html += block("unk", "Date de publication inconnue", unknown, "Le site n'affiche pas de date — offres déjà en ligne au lancement du radar", false);
+  html += block("unk", "Date de publication inconnue", unknown, "Déjà en ligne au lancement du radar, sans date affichée", false);
   $("v-news").innerHTML = html || NONE;
 }
 
@@ -737,13 +746,11 @@ function jBadge(d) {
 function renderHome() {
   const S = stats();
   const kpi = (v, l, go, cls = "") => `<div class="kpi go" data-go="${go}"><div class="v ${cls}">${v}</div><div class="l">${l}</div></div>`;
-  // À ne pas rater : offres ciblées récentes, éligibles d'abord
-  const rank = {eligible: 0, check: 1, no: 2};
-  const fresh = S.a.filter(j => eligOf(j) !== "no" && statusOf(j.id) === "" && j.published && -daysFrom(j.published) <= 14)
-    .sort((x, y) => rank[eligOf(x)] - rank[eligOf(y)] || (y.published || "").localeCompare(x.published || "") || score(y) - score(x))
-    .filter((j, i, arr) => arr.slice(0, i).filter(k => k.company === j.company).length < 2).slice(0, 6);  // 2 max par boîte
+  // Dernières offres : tous les stages, les plus récents d'abord (ce qui compte pour le rolling basis)
+  const fresh = S.open.filter(j => seenAt(j) && statusOf(j.id) !== "Ignorer")
+    .sort((x, y) => seenAt(y).localeCompare(seenAt(x)) || score(y) - score(x)).slice(0, 8);
   const miniJob = j => `<div class="mini">${mono(j.company)}<div class="t"><b>${esc(j.company)}</b><a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a></div>
-    <div class="r">${eligBadge(j)}<span>${pubLabel(j).replace("Publiée ", "")}</span><a class="btn sm" href="${esc(j.url)}" target="_blank" rel="noopener">Postuler</a></div></div>`;
+    <div class="r">${j.level === "A" ? '<span class="badge b-brand b-plain">Ciblée</span>' : ""}${eligBadge(j)}<span>${(j.seed || !j.first_seen) ? pubLabel(j).replace("Publiée ", "") : seenLabel(j).replace("Repérée ", "").split(" · ")[0]}</span><a class="btn sm" href="${esc(j.url)}" target="_blank" rel="noopener">Postuler</a></div></div>`;
   // Deadlines
   const dls = [];
   S.a.filter(j => j.deadline && daysFrom(j.deadline) >= 0 && eligOf(j) !== "no" && !["Postulé", "Entretien", "Offre", "Refus", "Ignorer"].includes(statusOf(j.id)))
@@ -770,8 +777,8 @@ function renderHome() {
       ${kpi(`${S.springsOpen.length}/${S.P.length}`, "springs déjà ouvertes", "springs")}
     </div>
     <div class="home-grid">
-      <div class="card wide"><div class="card-h"><h3>À ne pas rater</h3><span class="c">offres ciblées des 14 derniers jours, éligibles d'abord</span><a data-go="offres:news">Tout voir →</a></div>
-        ${fresh.length ? fresh.map(miniJob).join("") : `<div class="empty">Rien de nouveau ces 14 derniers jours.</div>`}</div>
+      <div class="card wide"><div class="card-h"><h3>Dernières offres</h3><span class="c">tous les stages, les plus récents en haut</span><a data-go="offres:news">Tout voir →</a></div>
+        ${fresh.length ? fresh.map(miniJob).join("") : `<div class="empty">Pas encore d'offres.</div>`}</div>
       <div class="card"><div class="card-h"><h3>Prochaines deadlines</h3><a data-go="cal">Calendrier →</a></div>
         ${dls.length ? dls.slice(0, 5).map(x => `<div class="mini">${jBadge(x.d)}<div class="t"><b>${esc(x.co)}</b><a href="${esc(x.url || "#")}" target="_blank" rel="noopener">${esc(x.t)}</a></div></div>`).join("")
           : `<div class="empty">Aucune deadline connue à venir.</div>`}</div>
@@ -821,7 +828,7 @@ function renderInfo() {
 }
 
 /* ---------- routing ---------- */
-let SUB = "prio";
+let SUB = "news";
 function renderCounts() {
   const S = stats();
   $("n-offres").textContent = S.week.length || "";
@@ -844,7 +851,7 @@ function go(target) {  // "offres:prio:eligible", "springs", "cal"...
   const [tab, sub, elig] = target.split(":");
   TAB = tab;
   if (sub) SUB = sub;
-  if (tab === "offres") $("elig").value = elig || "";
+  if (tab === "offres") { $("elig").value = elig || ""; $("level").value = SUB === "prio" ? "A" : ""; }
   document.querySelectorAll(".tab").forEach(x => x.classList.toggle("on", x.dataset.tab === TAB));
   try { localStorage.setItem("radar-tab", TAB); localStorage.setItem("radar-sub", SUB); } catch (e) {}
   EXP = {}; render(); window.scrollTo({top: 0});
@@ -932,7 +939,7 @@ document.addEventListener("change", async e => {
 
 /* ---------- boot ---------- */
 TAB = "home";
-try { const sb = localStorage.getItem("radar-sub"); if (["prio", "news", "table"].includes(sb)) SUB = sb; } catch (e) {}
+
 const fill = (sel, vals) => [...new Set(vals)].filter(Boolean).sort().forEach(v => $(sel).insertAdjacentHTML("beforeend", `<option>${esc(v)}</option>`));
 /* ---------- heure du dernier scan ---------- */
 let LAST_SCAN = null, SCANNING = false;
@@ -967,6 +974,9 @@ async function fetchLastScan() {
 }
 setInterval(showUpdated, 30e3);
 setInterval(() => { fetchLastScan(); loadData(true); }, 5 * 60e3);  // rafraîchit tout seul toutes les 5 min
+document.addEventListener("visibilitychange", () => {  // retour sur l'onglet / l'app : on recharge tout de suite
+  if (document.visibilityState === "visible" && DATA.updated) { fetchLastScan(); loadData(true); }
+});
 
 function loadData(refresh) {
   return fetch("jobs.json?" + Date.now()).then(r => r.json()).then(d => {
