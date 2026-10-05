@@ -1,0 +1,43 @@
+name: Radar Stages
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"   # toutes les 15 min (GitHub peut décaler de quelques minutes)
+  workflow_dispatch: {}       # bouton "Run workflow" pour lancer à la main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Scanner les sites carrières
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python -m radar scan
+
+      - name: Sauvegarder les résultats
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add data docs/jobs.json
+          if git diff --cached --quiet; then
+            echo "Rien à sauvegarder."
+          else
+            git commit -m "radar: mise à jour des offres" -q
+            git pull --rebase -q || true
+            git push -q
+          fi

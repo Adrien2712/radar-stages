@@ -1,0 +1,1578 @@
+[
+ {
+  "name": "J.P. Morgan",
+  "homepage": "https://careers.jpmorgan.com/",
+  "final": "https://www.jpmorganchase.com/careers?redirect=careers_jpm",
+  "ok": true,
+  "found": {},
+  "visited": 15
+ },
+ {
+  "name": "Deutsche Bank",
+  "homepage": "https://careers.db.com/",
+  "final": "https://careers.db.com/",
+  "ok": true,
+  "found": {},
+  "visited": 26
+ },
+ {
+  "name": "UBS",
+  "homepage": "https://www.ubs.com/",
+  "final": "https://www.ubs.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "HSBC",
+  "homepage": "https://www.hsbc.com/",
+  "final": "https://www.hsbc.com/",
+  "ok": true,
+  "found": {},
+  "visited": 26
+ },
+ {
+  "name": "Wells Fargo",
+  "homepage": "https://www.wellsfargojobs.com/",
+  "final": "https://www.wellsfargojobs.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "BNP Paribas",
+  "homepage": "https://group.bnpparibas/",
+  "final": "https://group.bnpparibas/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Crédit Agricole CIB",
+  "homepage": "https://www.ca-cib.com/",
+  "final": "https://www.ca-cib.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Natixis CIB",
+  "homepage": "https://www.natixis.com/",
+  "final": "https://www.natixis.com/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Nomura",
+  "homepage": "https://www.nomura.com/",
+  "final": "https://www.nomura.com/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Scotiabank",
+  "homepage": "https://jobs.scotiabank.com/",
+  "final": "https://jobs.scotiabank.com/",
+  "ok": true,
+  "found": {
+   "successfactors": [
+    "rmk-map-17.jobs2web.com"
+   ]
+  },
+  "visited": 17
+ },
+ {
+  "name": "Jefferies",
+  "homepage": "https://www.jefferies.com/",
+  "final": "https://www.jefferies.com/",
+  "ok": true,
+  "found": {},
+  "visited": 9
+ },
+ {
+  "name": "ING",
+  "homepage": "https://www.ing.jobs/",
+  "final": "https://careers.ing.com/en",
+  "ok": true,
+  "found": {},
+  "visited": 26
+ },
+ {
+  "name": "Macquarie",
+  "homepage": "https://www.macquarie.com/",
+  "final": "https://www.macquarie.com/fr/en.html",
+  "ok": true,
+  "found": {},
+  "visited": 15
+ },
+ {
+  "name": "UniCredit",
+  "homepage": "https://www.unicreditgroup.eu/",
+  "final": "https://www.unicreditgroup.eu/en.html",
+  "ok": true,
+  "found": {},
+  "visited": 9
+ },
+ {
+  "name": "Commerzbank",
+  "homepage": "https://www.commerzbank.de/",
+  "final": "https://www.commerzbank.de/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Rothschild & Co",
+  "homepage": "https://www.rothschildandco.com/",
+  "final": "https://www.rothschildandco.com/en-fr/",
+  "ok": true,
+  "found": {
+   "workday": [
+    "rothschildandco|wd3|RothschildAndCo_Lateral"
+   ]
+  },
+  "visited": 4
+ },
+ {
+  "name": "Evercore",
+  "homepage": "https://www.evercore.com/",
+  "final": "https://www.evercore.com/",
+  "ok": true,
+  "found": {},
+  "visited": 6
+ },
+ {
+  "name": "Centerview Partners",
+  "homepage": "https://www.centerviewpartners.com/",
+  "final": "https://www.centerviewpartners.com/",
+  "ok": true,
+  "found": {},
+  "visited": 3
+ },
+ {
+  "name": "Perella Weinberg Partners",
+  "homepage": "https://pwpartners.com/",
+  "final": "https://pwpartners.com/",
+  "ok": true,
+  "found": {},
+  "visited": 2
+ },
+ {
+  "name": "Qatalyst Partners",
+  "homepage": "https://www.qatalyst.com/",
+  "final": "https://qatalyst.com/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Houlihan Lokey",
+  "homepage": "https://hl.com/",
+  "final": "https://hl.com/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "LionTree",
+  "homepage": "https://www.liontree.com/",
+  "final": "https://liontree.com/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Robey Warshaw",
+  "homepage": "https://www.robeywarshaw.com/",
+  "final": "https://www.robeywarshaw.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Raine Group",
+  "homepage": "https://raine.com/",
+  "final": "https://raine.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Ondra Partners",
+  "homepage": "https://www.ondra.com/",
+  "final": "https://www.ondra.com/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Arma Partners",
+  "homepage": "https://www.armapartners.com/",
+  "final": "https://www.armapartners.com/",
+  "ok": true,
+  "found": {},
+  "visited": 3
+ },
+ {
+  "name": "Allen & Company",
+  "homepage": "https://www.allenco.com/",
+  "final": "https://www.allenco.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Messier & Associés",
+  "homepage": "https://www.messierassocies.com/",
+  "final": "https://www.messierassocies.com/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Edmond de Rothschild Corporate Finance",
+  "homepage": "https://www.edmond-de-rothschild.com/",
+  "final": "https://www.edmond-de-rothschild.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Natixis Partners",
+  "homepage": "https://www.natixispartners.com/",
+  "final": "https://www.natixispartners.com/",
+  "ok": true,
+  "found": {},
+  "visited": 2
+ },
+ {
+  "name": "Lincoln International",
+  "homepage": "https://www.lincolninternational.com/",
+  "final": "https://www.lincolninternational.com/",
+  "ok": true,
+  "found": {},
+  "visited": 5
+ },
+ {
+  "name": "Baird",
+  "homepage": "https://www.rwbaird.com/",
+  "final": "https://www.rwbaird.com/",
+  "ok": true,
+  "found": {},
+  "visited": 9
+ },
+ {
+  "name": "Raymond James",
+  "homepage": "https://www.raymondjames.com/",
+  "final": "https://www.raymondjames.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "KeyBanc Capital Markets",
+  "homepage": "https://www.key.com/",
+  "final": "https://www.key.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "DC Advisory",
+  "homepage": "https://www.dcadvisory.com/",
+  "final": "https://www.dcadvisory.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Clearwater International",
+  "homepage": "https://www.clearwaterinternational.com/",
+  "final": "https://www.clearwaterinternational.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Oaklins",
+  "homepage": "https://www.oaklins.com/",
+  "final": "https://www.oaklins.com/fr/en/",
+  "ok": true,
+  "found": {},
+  "visited": 3
+ },
+ {
+  "name": "Oddo BHF",
+  "homepage": "https://www.oddo-bhf.com/",
+  "final": "https://www.oddo-bhf.com/fr/",
+  "ok": true,
+  "found": {},
+  "visited": 5
+ },
+ {
+  "name": "Cambon Partners",
+  "homepage": "https://www.cambon-partners.com/",
+  "final": "https://www.cambon-partners.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Capitalmind Investec",
+  "homepage": "https://www.capitalmind.com/",
+  "final": "https://www.capitalmind.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Aelios Finance",
+  "homepage": "https://www.aelios-finance.com/",
+  "final": "https://www.aelios-finance.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "In Extenso Finance & Transmission",
+  "homepage": "https://www.inextenso-finance.fr/",
+  "final": "https://finance.inextenso.fr/",
+  "ok": true,
+  "found": {},
+  "visited": 5
+ },
+ {
+  "name": "Degroof Petercam",
+  "homepage": "https://www.degroofpetercam.com/",
+  "final": "https://www.degroofpetercam.com/en-be",
+  "ok": true,
+  "found": {},
+  "visited": 2
+ },
+ {
+  "name": "Kepler Cheuvreux",
+  "homepage": "https://www.keplercheuvreux.com/",
+  "final": "https://www.keplercheuvreux.com/en/",
+  "ok": true,
+  "found": {
+   "teamtailor": [
+    "keplercheuvreux"
+   ]
+  },
+  "visited": 1
+ },
+ {
+  "name": "Portzamparc (BNP)",
+  "homepage": "https://www.portzamparc.fr/",
+  "final": "https://portzamparc.bnpparibas/",
+  "ok": true,
+  "found": {},
+  "visited": 2
+ },
+ {
+  "name": "Investec",
+  "homepage": "https://www.investec.com/",
+  "final": "https://www.investec.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Numis (Deutsche)",
+  "homepage": "https://www.numis.com/",
+  "final": "https://country.db.com:443/uk/dedicatedtotheuki/raisedinlondon/",
+  "ok": true,
+  "found": {},
+  "visited": 2
+ },
+ {
+  "name": "Cavendish",
+  "homepage": "https://www.cavendish.com/",
+  "final": "https://www.cavendish.com/",
+  "ok": true,
+  "found": {},
+  "visited": 2
+ },
+ {
+  "name": "Peel Hunt",
+  "homepage": "https://www.peelhunt.com/",
+  "final": "https://www.peelhunt.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Mediobanca",
+  "homepage": "https://www.mediobanca.com/",
+  "final": "https://www.mediobanca.com/",
+  "ok": true,
+  "found": {},
+  "visited": 14
+ },
+ {
+  "name": "Eight Advisory",
+  "homepage": "https://www.8advisory.com/",
+  "final": "https://www.8advisory.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Accuracy",
+  "homepage": "https://www.accuracy.com/",
+  "final": "https://www.accuracy.com/",
+  "ok": true,
+  "found": {},
+  "visited": 5
+ },
+ {
+  "name": "Deloitte",
+  "homepage": "https://www2.deloitte.com/",
+  "final": "https://www.deloitte.com/fr/fr.html",
+  "ok": true,
+  "found": {},
+  "visited": 17
+ },
+ {
+  "name": "EY",
+  "homepage": "https://www.ey.com/",
+  "final": "https://www.ey.com/fr_fr",
+  "ok": true,
+  "found": {
+   "successfactors": [
+    "career5.successfactors.eu"
+   ]
+  },
+  "visited": 9
+ },
+ {
+  "name": "KPMG",
+  "homepage": "https://kpmg.com/",
+  "final": "https://kpmg.com/xx/en.html",
+  "ok": true,
+  "found": {},
+  "visited": 4
+ },
+ {
+  "name": "PwC",
+  "homepage": "https://www.pwc.com/",
+  "final": "https://www.pwc.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Forvis Mazars",
+  "homepage": "https://www.forvismazars.com/",
+  "final": "https://www.forvismazars.com/group/en",
+  "ok": true,
+  "found": {},
+  "visited": 3
+ },
+ {
+  "name": "Grant Thornton",
+  "homepage": "https://www.grantthornton.global/",
+  "final": "https://www.grantthornton.global/en/",
+  "ok": true,
+  "found": {},
+  "visited": 3
+ },
+ {
+  "name": "Alvarez & Marsal",
+  "homepage": "https://www.alvarezandmarsal.com/",
+  "final": "https://www.alvarezandmarsal.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "FTI Consulting",
+  "homepage": "https://www.fticonsulting.com/",
+  "final": "https://www.fticonsulting.com/fr-fr/france",
+  "ok": true,
+  "found": {
+   "taleo": [
+    "fticonsult"
+   ]
+  },
+  "visited": 3
+ },
+ {
+  "name": "Kroll",
+  "homepage": "https://www.kroll.com/",
+  "final": "https://www.kroll.com/en",
+  "ok": true,
+  "found": {},
+  "visited": 2
+ },
+ {
+  "name": "Advention",
+  "homepage": "https://www.advention.com/",
+  "final": "https://www.advention.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Blackstone",
+  "homepage": "https://www.blackstone.com/",
+  "final": "https://www.blackstone.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Carlyle",
+  "homepage": "https://www.carlyle.com/",
+  "final": "https://www.carlyle.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Warburg Pincus",
+  "homepage": "https://warburgpincus.com/",
+  "final": "https://warburgpincus.com/",
+  "ok": true,
+  "found": {},
+  "visited": 2
+ },
+ {
+  "name": "Advent International",
+  "homepage": "https://www.adventinternational.com/",
+  "final": "https://www.adventinternational.com/",
+  "ok": true,
+  "found": {},
+  "visited": 2
+ },
+ {
+  "name": "CVC Capital Partners",
+  "homepage": "https://www.cvc.com/",
+  "final": "https://www.cvc.com/",
+  "ok": true,
+  "found": {},
+  "visited": 3
+ },
+ {
+  "name": "EQT",
+  "homepage": "https://eqtgroup.com/",
+  "final": "https://eqtgroup.com/",
+  "ok": true,
+  "found": {
+   "greenhouse": [
+    "eqtpartners"
+   ]
+  },
+  "visited": 3
+ },
+ {
+  "name": "Permira",
+  "homepage": "https://www.permira.com/",
+  "final": "https://www.permira.com/",
+  "ok": true,
+  "found": {},
+  "visited": 2
+ },
+ {
+  "name": "Cinven",
+  "homepage": "https://www.cinven.com/",
+  "final": "https://www.cinven.com/",
+  "ok": true,
+  "found": {
+   "pinpoint": [
+    "cinven"
+   ]
+  },
+  "visited": 1
+ },
+ {
+  "name": "BC Partners",
+  "homepage": "https://www.bcpartners.com/",
+  "final": "https://www.bcpartners.com/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Apax Partners",
+  "homepage": "https://www.apax.com/",
+  "final": "https://www.apax.com/",
+  "ok": true,
+  "found": {
+   "lever": [
+    "apax"
+   ]
+  },
+  "visited": 2
+ },
+ {
+  "name": "Hellman & Friedman",
+  "homepage": "https://hf.com/",
+  "final": "https://hf.com/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Silver Lake",
+  "homepage": "https://www.silverlake.com/",
+  "final": "https://www.silverlake.com/",
+  "ok": true,
+  "found": {},
+  "visited": 3
+ },
+ {
+  "name": "Thoma Bravo",
+  "homepage": "https://www.thomabravo.com/",
+  "final": "https://www.thomabravo.com/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "General Atlantic",
+  "homepage": "https://www.generalatlantic.com/",
+  "final": "https://www.generalatlantic.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Clayton Dubilier & Rice",
+  "homepage": "https://www.cdr-inc.com/",
+  "final": "https://www.cdr.com/",
+  "ok": true,
+  "found": {},
+  "visited": 3
+ },
+ {
+  "name": "Leonard Green & Partners",
+  "homepage": "https://www.leonardgreen.com/",
+  "final": "https://www.leonardgreen.com/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Ardian",
+  "homepage": "https://www.ardian.com/",
+  "final": "https://www.ardian.com/",
+  "ok": true,
+  "found": {
+   "workday": [
+    "ardian|wd103|ArdianCareers"
+   ]
+  },
+  "visited": 3
+ },
+ {
+  "name": "3i",
+  "homepage": "https://www.3i.com/",
+  "final": "https://www.3i.com/",
+  "ok": true,
+  "found": {},
+  "visited": 6
+ },
+ {
+  "name": "Bridgepoint",
+  "homepage": "https://www.bridgepoint.eu/",
+  "final": "https://www.bridgepoint.eu/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Nordic Capital",
+  "homepage": "https://www.nordiccapital.com/",
+  "final": "https://www.nordiccapital.com/",
+  "ok": true,
+  "found": {
+   "teamtailor": [
+    "www"
+   ]
+  },
+  "visited": 4
+ },
+ {
+  "name": "Hg",
+  "homepage": "https://hgcapital.com/",
+  "final": "https://hgcapital.com/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Montagu",
+  "homepage": "https://www.montagu.com/",
+  "final": "https://montagu.com/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Charterhouse Capital Partners",
+  "homepage": "https://www.charterhouse.co.uk/",
+  "final": "https://www.charterhouse.co.uk/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Equistone",
+  "homepage": "https://www.equistonepe.com/",
+  "final": "https://www.equistonepe.com/home",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Inflexion",
+  "homepage": "https://www.inflexion.com/",
+  "final": "https://www.inflexion.com/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Exponent",
+  "homepage": "https://www.exponentpe.com/",
+  "final": "https://www.exponentpe.com/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Vitruvian Partners",
+  "homepage": "https://www.vitruvianpartners.com/",
+  "final": "https://www.vitruvianpartners.com/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Searchlight Capital",
+  "homepage": "https://www.searchlightcap.com/",
+  "final": "https://searchlightcap.com/",
+  "ok": true,
+  "found": {},
+  "visited": 2
+ },
+ {
+  "name": "PAI Partners",
+  "homepage": "https://www.paipartners.com/",
+  "final": "https://www.paipartners.com/",
+  "ok": true,
+  "found": {
+   "recruitee": [
+    "paipartners"
+   ]
+  },
+  "visited": 1
+ },
+ {
+  "name": "Eurazeo",
+  "homepage": "https://www.eurazeo.com/",
+  "final": "https://www.eurazeo.com/en",
+  "ok": true,
+  "found": {},
+  "visited": 2
+ },
+ {
+  "name": "Wendel",
+  "homepage": "https://www.wendelgroup.com/",
+  "final": "https://www.wendelgroup.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Tikehau Capital",
+  "homepage": "https://www.tikehaucapital.com/",
+  "final": "https://www.tikehaucapital.com/",
+  "ok": true,
+  "found": {},
+  "visited": 4
+ },
+ {
+  "name": "Astorg",
+  "homepage": "https://www.astorg.com/",
+  "final": "https://www.astorg.com/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Seven2",
+  "homepage": "https://www.seven2.eu/",
+  "final": "https://www.seven2.eu/en/",
+  "ok": true,
+  "found": {},
+  "visited": 2
+ },
+ {
+  "name": "Keensight Capital",
+  "homepage": "https://www.keensightcapital.com/",
+  "final": "https://keensight.com/",
+  "ok": true,
+  "found": {},
+  "visited": 2
+ },
+ {
+  "name": "Montefiore Investment",
+  "homepage": "https://www.montefiore.eu/",
+  "final": "https://montefiore.eu/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Abenex",
+  "homepage": "https://www.abenex.com/",
+  "final": "https://www.abenex.com/fr",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Andera Partners",
+  "homepage": "https://www.anderapartners.com/",
+  "final": "https://www.anderapartners.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Bpifrance",
+  "homepage": "https://www.bpifrance.fr/",
+  "final": "https://www.bpifrance.fr/",
+  "ok": true,
+  "found": {},
+  "visited": 3
+ },
+ {
+  "name": "Capza",
+  "homepage": "https://www.capza.co/",
+  "final": "https://capza.co/",
+  "ok": true,
+  "found": {},
+  "visited": 3
+ },
+ {
+  "name": "Naxicap Partners",
+  "homepage": "https://www.naxicap.fr/",
+  "final": "https://naxicap.com/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Weinberg Capital Partners",
+  "homepage": "https://www.weinbergcapital.com/",
+  "final": "https://www.weinbergcapital.com/",
+  "ok": true,
+  "found": {},
+  "visited": 2
+ },
+ {
+  "name": "LBO France",
+  "homepage": "https://www.lbofrance.com/",
+  "final": "https://www.lbofrance.com/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Cathay Capital",
+  "homepage": "https://www.cathay.fr/",
+  "final": "https://www.cathaycapital.com/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Omnes Capital",
+  "homepage": "https://www.omnescapital.com/",
+  "final": "https://www.omnescapital.com/",
+  "ok": true,
+  "found": {},
+  "visited": 2
+ },
+ {
+  "name": "Qualium Investissement",
+  "homepage": "https://www.qualium-investissement.com/",
+  "final": "https://qualium-investissement.com/en/homepage/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Parquest Capital",
+  "homepage": "https://www.parquest.com/",
+  "final": "https://www.parquest.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Argos Wityu",
+  "homepage": "https://www.argos.wityu.fund/",
+  "final": "https://www.argos.wityu.fund/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Chequers Capital",
+  "homepage": "https://www.chequerscapital.com/",
+  "final": "https://www.chequerscapital.com/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Eurazeo PME",
+  "homepage": "https://www.eurazeo.com/",
+  "final": "https://www.eurazeo.com/en",
+  "ok": true,
+  "found": {},
+  "visited": 2
+ },
+ {
+  "name": "Ardian Buyout",
+  "homepage": "https://www.ardian.com/",
+  "final": "https://www.ardian.com/",
+  "ok": true,
+  "found": {
+   "workday": [
+    "ardian|wd103|ArdianCareers"
+   ]
+  },
+  "visited": 3
+ },
+ {
+  "name": "Latour Capital",
+  "homepage": "https://www.latour-capital.com/",
+  "final": "https://www.latour-capital.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Activa Capital",
+  "homepage": "https://www.activacapital.com/",
+  "final": "https://activa.fr/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Mérieux Equity Partners",
+  "homepage": "https://www.merieux-partners.com/",
+  "final": "https://merieux-partners.com/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Edmond de Rothschild Private Equity",
+  "homepage": "https://www.edmond-de-rothschild.com/",
+  "final": "https://www.edmond-de-rothschild.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Cobepa",
+  "homepage": "https://www.cobepa.com/",
+  "final": "https://www.cobepa.com/",
+  "ok": true,
+  "found": {},
+  "visited": 2
+ },
+ {
+  "name": "GBL / Sienna",
+  "homepage": "https://www.gbl.com/",
+  "final": "https://www.gbl.com/en",
+  "ok": true,
+  "found": {},
+  "visited": 2
+ },
+ {
+  "name": "Sofina",
+  "homepage": "https://www.sofinagroup.com/",
+  "final": "https://www.sofinagroup.com/en",
+  "ok": true,
+  "found": {},
+  "visited": 2
+ },
+ {
+  "name": "Investindustrial",
+  "homepage": "https://www.investindustrial.com/",
+  "final": "https://www.investindustrial.com/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Platinum Equity",
+  "homepage": "https://www.platinumequity.com/",
+  "final": "https://www.platinumequity.com/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Stonepeak",
+  "homepage": "https://stonepeak.com/",
+  "final": "https://stonepeak.com/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Global Infrastructure Partners",
+  "homepage": "https://www.global-infra.com/",
+  "final": "https://www.global-infra.com/",
+  "ok": true,
+  "found": {},
+  "visited": 2
+ },
+ {
+  "name": "Macquarie Asset Management",
+  "homepage": "https://www.macquarie.com/",
+  "final": "https://www.macquarie.com/fr/en.html",
+  "ok": true,
+  "found": {},
+  "visited": 15
+ },
+ {
+  "name": "Meridiam",
+  "homepage": "https://www.meridiam.com/",
+  "final": "https://www.meridiam.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "InfraVia Capital Partners",
+  "homepage": "https://www.infraviacapital.com/",
+  "final": "https://infraviacapital.com/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Mirova",
+  "homepage": "https://www.mirova.com/",
+  "final": "https://www.mirova.com/fr",
+  "ok": true,
+  "found": {},
+  "visited": 2
+ },
+ {
+  "name": "Blackstone Real Estate",
+  "homepage": "https://www.blackstone.com/",
+  "final": "https://www.blackstone.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "PATRIZIA",
+  "homepage": "https://www.patrizia.ag/",
+  "final": "https://www.patrizia.ag/en",
+  "ok": true,
+  "found": {},
+  "visited": 11
+ },
+ {
+  "name": "AXA IM Alts",
+  "homepage": "https://www.axa-im.com/",
+  "final": "https://www.bnpparibas-am.com/en/",
+  "ok": true,
+  "found": {},
+  "visited": 2
+ },
+ {
+  "name": "BauMont Real Estate Capital",
+  "homepage": "https://www.baumont.com/",
+  "final": "https://www.baumont.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Tishman Speyer",
+  "homepage": "https://www.tishmanspeyer.com/",
+  "final": "https://www.tishmanspeyer.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Ares Management",
+  "homepage": "https://www.aresmgmt.com/",
+  "final": "https://www.aresmgmt.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "HPS Investment Partners",
+  "homepage": "https://www.hpspartners.com/",
+  "final": "https://www.hpspartners.com/",
+  "ok": true,
+  "found": {},
+  "visited": 2
+ },
+ {
+  "name": "Golub Capital",
+  "homepage": "https://golubcapital.com/",
+  "final": "https://golubcapital.com/",
+  "ok": true,
+  "found": {},
+  "visited": 4
+ },
+ {
+  "name": "Arcmont Asset Management",
+  "homepage": "https://www.arcmont.com/",
+  "final": "https://arcmont.com/",
+  "ok": true,
+  "found": {},
+  "visited": 3
+ },
+ {
+  "name": "Hayfin Capital Management",
+  "homepage": "https://www.hayfin.com/",
+  "final": "https://www.hayfin.com/",
+  "ok": true,
+  "found": {},
+  "visited": 3
+ },
+ {
+  "name": "Kartesia",
+  "homepage": "https://www.kartesia.com/",
+  "final": "https://kartesia.com/",
+  "ok": true,
+  "found": {},
+  "visited": 3
+ },
+ {
+  "name": "Muzinich & Co",
+  "homepage": "https://www.muzinich.com/",
+  "final": "https://www.muzinich.com/",
+  "ok": true,
+  "found": {
+   "workday": [
+    "muzinich|wd5|muzinichcareers"
+   ]
+  },
+  "visited": 2
+ },
+ {
+  "name": "Barings",
+  "homepage": "https://www.barings.com/",
+  "final": "https://www.barings.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Crescent Capital",
+  "homepage": "https://www.crescentcap.com/",
+  "final": "https://www.crescentcap.com/",
+  "ok": true,
+  "found": {},
+  "visited": 2
+ },
+ {
+  "name": "Churchill Asset Management",
+  "homepage": "https://www.churchillam.com/",
+  "final": "https://www.churchillam.com/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Benefit Street Partners",
+  "homepage": "https://www.benefitstreetpartners.com/",
+  "final": "https://www.bspcredit.com/international/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Monroe Capital",
+  "homepage": "https://www.monroecap.com/",
+  "final": "https://monroecap.com/",
+  "ok": true,
+  "found": {},
+  "visited": 2
+ },
+ {
+  "name": "BlueBay (RBC)",
+  "homepage": "https://www.bluebay.com/",
+  "final": "https://www.bluebay.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Alcentra (Franklin)",
+  "homepage": "https://www.alcentra.com/",
+  "final": "https://www.bspcredit.com/international/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Eurazeo Private Debt",
+  "homepage": "https://www.eurazeo.com/",
+  "final": "https://www.eurazeo.com/en",
+  "ok": true,
+  "found": {},
+  "visited": 2
+ },
+ {
+  "name": "Elliott Management",
+  "homepage": "https://www.elliottmgmt.com/",
+  "final": "https://www.elliottmgmt.com/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Centerbridge Partners",
+  "homepage": "https://www.centerbridge.com/",
+  "final": "https://www.centerbridge.com/",
+  "ok": true,
+  "found": {},
+  "visited": 2
+ },
+ {
+  "name": "CPP Investments",
+  "homepage": "https://www.cppinvestments.com/",
+  "final": "https://www.cppinvestments.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "PSP Investments",
+  "homepage": "https://www.investpsp.com/",
+  "final": "https://www.investpsp.com/en/",
+  "ok": true,
+  "found": {
+   "workday": [
+    "investpsp|wd3|psp_careers"
+   ]
+  },
+  "visited": 2
+ },
+ {
+  "name": "Temasek",
+  "homepage": "https://www.temasek.com.sg/",
+  "final": "https://www.temasek.com.sg/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "GIC",
+  "homepage": "https://www.gic.com.sg/",
+  "final": "https://www.gic.com.sg/",
+  "ok": true,
+  "found": {
+   "successfactors": [
+    "career10.successfactors.com"
+   ]
+  },
+  "visited": 2
+ },
+ {
+  "name": "ADIA",
+  "homepage": "https://www.adia.ae/",
+  "final": "https://www.adia.ae/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Mubadala",
+  "homepage": "https://www.mubadala.com/",
+  "final": "https://www.mubadala.com/en",
+  "ok": true,
+  "found": {},
+  "visited": 3
+ },
+ {
+  "name": "PIF",
+  "homepage": "https://www.pif.gov.sa/",
+  "final": "https://www.pif.gov.sa/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "QIA",
+  "homepage": "https://www.qia.qa/",
+  "final": "https://www.qia.qa/en/pages/default.aspx",
+  "ok": true,
+  "found": {
+   "oracle": [
+    "fa-esgr-saasfaprod1.fa.ocs.oraclecloud.com|CX_1"
+   ]
+  },
+  "visited": 3
+ },
+ {
+  "name": "Norges Bank Investment Management",
+  "homepage": "https://www.nbim.no/",
+  "final": "https://www.nbim.no/",
+  "ok": true,
+  "found": {},
+  "visited": 2
+ },
+ {
+  "name": "MBK Partners",
+  "homepage": "https://www.mbkpartnersltd.com/",
+  "final": "https://www.mbkpartnersltd.com/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "IMM Private Equity",
+  "homepage": "https://www.imm.co.kr/",
+  "final": "https://www.imm.co.kr/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Hahn & Co",
+  "homepage": "https://www.hahnco.com/",
+  "final": "https://www.hahnco.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Affinity Equity Partners",
+  "homepage": "https://www.affinityequity.com/",
+  "final": "https://www.affinityequity.com/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "PAG",
+  "homepage": "https://www.pag.com/",
+  "final": "https://www.pag.com/en/",
+  "ok": true,
+  "found": {},
+  "visited": 2
+ },
+ {
+  "name": "Hillhouse Investment",
+  "homepage": "https://www.hillhouseinvestment.com/",
+  "final": "https://www.hillhouseinvestment.com/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Korea Investment Corporation",
+  "homepage": "https://www.kic.kr/",
+  "final": "https://www.kic.kr/",
+  "ok": true,
+  "found": {},
+  "visited": 3
+ },
+ {
+  "name": "Mirae Asset Securities",
+  "homepage": "https://securities.miraeasset.com/",
+  "final": "https://securities.miraeasset.com/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Samsung Securities",
+  "homepage": "https://www.samsungpop.com/",
+  "final": "https://www.samsungpop.com/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "KDB Korea Development Bank",
+  "homepage": "https://www.kdb.co.kr/",
+  "final": "https://www.kdb.co.kr/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Lombard Odier",
+  "homepage": "https://www.lombardodier.com/",
+  "final": "https://www.lombardodier.com/home.html",
+  "ok": true,
+  "found": {
+   "workday": [
+    "lombardodier|wd3|Lombard_Odier_Careers"
+   ]
+  },
+  "visited": 1
+ },
+ {
+  "name": "Union Bancaire Privée",
+  "homepage": "https://www.ubp.com/",
+  "final": "https://www.ubp.com/en",
+  "ok": true,
+  "found": {},
+  "visited": 4
+ },
+ {
+  "name": "Mirabaud",
+  "homepage": "https://www.mirabaud.com/",
+  "final": "https://www.mirabaud.com/en/",
+  "ok": true,
+  "found": {},
+  "visited": 3
+ },
+ {
+  "name": "Unigestion",
+  "homepage": "https://www.unigestion.com/",
+  "final": "https://unigestion.com/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Capvis",
+  "homepage": "https://www.capvis.com/",
+  "final": "https://www.capvis.com/en/",
+  "ok": true,
+  "found": {},
+  "visited": 2
+ },
+ {
+  "name": "LVMH",
+  "homepage": "https://www.lvmh.com/",
+  "final": "https://www.lvmh.com/en",
+  "ok": true,
+  "found": {},
+  "visited": 9
+ },
+ {
+  "name": "L'Oréal",
+  "homepage": "https://careers.loreal.com/",
+  "final": "https://careers.loreal.com/en",
+  "ok": true,
+  "found": {},
+  "visited": 26
+ },
+ {
+  "name": "Kering",
+  "homepage": "https://www.kering.com/",
+  "final": "https://www.kering.com/en/",
+  "ok": true,
+  "found": {
+   "workday": [
+    "kering|wd3|Kering"
+   ]
+  },
+  "visited": 3
+ },
+ {
+  "name": "Engie",
+  "homepage": "https://www.engie.com/",
+  "final": "https://www.engie.com/",
+  "ok": true,
+  "found": {},
+  "visited": 2
+ },
+ {
+  "name": "Schneider Electric",
+  "homepage": "https://www.se.com/",
+  "final": "https://www.se.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Amundi",
+  "homepage": "https://about.amundi.com/",
+  "final": "https://about.amundi.com/",
+  "ok": true,
+  "found": {},
+  "visited": 4
+ },
+ {
+  "name": "AXA",
+  "homepage": "https://www.axa.com/",
+  "final": "https://www.axa.com/",
+  "ok": true,
+  "found": {
+   "icims": [
+    "careers-en-axa.icims.com"
+   ]
+  },
+  "visited": 2
+ },
+ {
+  "name": "Lazard Asset Management",
+  "homepage": "https://www.lazardassetmanagement.com/",
+  "final": "https://www.lazardassetmanagement.com/entry?relTargetURL=home",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Neuberger Berman",
+  "homepage": "https://www.nb.com/",
+  "final": "https://www.nb.com/",
+  "ok": false,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "StepStone Group",
+  "homepage": "https://www.stepstonegroup.com/",
+  "final": "https://www.stepstonegroup.com/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Lexington Partners",
+  "homepage": "https://www.lexingtonpartners.com/",
+  "final": "https://www.lexingtonpartners.com/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "L Catterton",
+  "homepage": "https://www.lcatterton.com/",
+  "final": "https://www.lcatterton.com/",
+  "ok": true,
+  "found": {},
+  "visited": 1
+ },
+ {
+  "name": "Ardian Private Debt",
+  "homepage": "https://www.ardian.com/",
+  "final": "https://www.ardian.com/",
+  "ok": true,
+  "found": {
+   "workday": [
+    "ardian|wd103|ArdianCareers"
+   ]
+  },
+  "visited": 3
+ }
+]
