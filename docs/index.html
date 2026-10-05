@@ -183,6 +183,47 @@ dialog p.d{margin:0 0 16px;color:var(--muted);font-size:12.5px}
 .agenda .d{font-size:12px;font-weight:600;color:var(--ink-2);margin:14px 0 6px;text-transform:capitalize}
 .agenda .ev{white-space:normal;font-size:12.5px;padding:6px 10px;margin-bottom:4px}
 @media (max-width:700px){.cal{display:none}.pages{grid-template-columns:1fr}}
+.hero{margin:26px 0 4px}
+.hero h1{font-size:24px;letter-spacing:-.02em;margin:0}
+.hero p{margin:4px 0 0;color:var(--muted)}
+.kpi.go{cursor:pointer;transition:border-color .15s,transform .15s}
+.kpi.go:hover{border-color:var(--brand-2);transform:translateY(-1px)}
+.kpi .v.ok{color:var(--ok)}.kpi .v.bad{color:var(--bad)}
+.home-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-bottom:40px}
+.home-grid .wide{grid-column:1/-1}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
+.card-h{display:flex;align-items:center;gap:8px;padding:12px 16px;border-bottom:1px solid var(--line)}
+.card-h h3{margin:0;font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--ink-2)}
+.card-h .c{font-size:12px;color:var(--muted)}
+.card-h a{margin-left:auto;font-size:12.5px;font-weight:600;cursor:pointer}
+.mini{display:flex;align-items:center;gap:12px;padding:10px 16px;border-top:1px solid var(--line)}
+.mini:first-child{border-top:0}
+.mini .mono{width:32px;height:32px;font-size:11.5px;border-radius:8px;flex:none}
+.mini .t{flex:1;min-width:0}
+.mini .t b{display:block;font-size:13px}
+.mini .t a,.mini .t span.l{display:block;color:var(--ink);font-size:12.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mini .r{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--muted);white-space:nowrap}
+.mini .j{min-width:44px;text-align:center;font-weight:700;font-size:12px;border-radius:8px;padding:4px 0}
+.card .empty{padding:24px 16px}
+.pipe-mini{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;padding:14px 16px}
+.pipe-mini div{background:var(--surface-2);border-radius:10px;padding:8px 10px;text-align:center}
+.pipe-mini b{display:block;font-size:20px;font-variant-numeric:tabular-nums}
+.pipe-mini span{font-size:11px;color:var(--muted)}
+.subnav{display:inline-flex;gap:4px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:4px;margin:20px 0 14px}
+.sub{border:0;background:none;padding:7px 14px;border-radius:7px;font-weight:600;color:var(--muted);cursor:pointer;white-space:nowrap}
+.sub.on{background:var(--brand);color:#fff}
+:root[data-theme="dark"] .sub.on{color:#0c0f14}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .sub.on{color:#0c0f14}}
+.page-title{display:flex;align-items:baseline;gap:12px;margin:24px 0 14px}
+.page-title h1{font-size:20px;margin:0;letter-spacing:-.02em}
+.page-title p{margin:0;color:var(--muted);font-size:13px}
+.info-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-bottom:24px}
+.info-grid .card{padding:0}
+.info-body{padding:12px 16px;font-size:13px;color:var(--ink-2);display:flex;flex-direction:column;gap:8px}
+.info-body .k{display:flex;justify-content:space-between;gap:10px}
+.info-body .k b{color:var(--ink);font-variant-numeric:tabular-nums}
+@media (max-width:900px){.home-grid,.info-grid{grid-template-columns:1fr}.subnav{display:flex;overflow-x:auto}}
+@media (max-width:640px){.card-h .c{display:none}.pipe-mini{grid-template-columns:repeat(3,minmax(0,1fr))}.hero h1{font-size:20px}.mini .r .btn{display:none}}
 .tools{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:18px 0 48px;color:var(--muted);font-size:12px}
 
 @media (max-width:900px){
@@ -213,46 +254,46 @@ dialog p.d{margin:0 0 16px;color:var(--muted);font-size:12.5px}
       <div class="live"><i class="dot"></i><span id="updated">Chargement…</span></div>
     </div>
     <nav class="tabs">
-      <button class="tab on" data-tab="prio">Priorités<span class="n" id="n-prio"></span></button>
-      <button class="tab" data-tab="news">Nouveautés<span class="n" id="n-news"></span></button>
-      <button class="tab" data-tab="table">Tableau</button>
+      <button class="tab on" data-tab="home">Accueil</button>
+      <button class="tab" data-tab="offres">Offres<span class="n" id="n-offres"></span></button>
       <button class="tab" data-tab="springs">Springs 2027<span class="n" id="n-springs"></span></button>
       <button class="tab" data-tab="pages">Pages étudiantes<span class="n" id="n-pages"></span></button>
       <button class="tab" data-tab="cal">Calendrier</button>
       <button class="tab" data-tab="mine">Candidatures<span class="n" id="n-mine"></span></button>
-      <button class="tab" data-tab="firms">Boîtes</button>
+      <button class="tab" data-tab="info">Infos générales</button>
     </nav>
   </div>
 </header>
 
 <main class="wrap">
-  <div class="kpis" id="kpis"></div>
+  <section id="v-home"></section>
 
-  <div class="filters">
-    <input type="search" id="q" placeholder="Rechercher une boîte, un poste, une ville…">
-    <select id="level"><option value="A">Offres ciblées</option><option value="">Tous les stages</option></select>
-    <select id="elig"><option value="">Toutes éligibilités</option><option value="eligible">Éligibles pour moi</option><option value="eligible,check">Éligibles + à vérifier</option></select>
-    <select id="cycle"><option value="">Tous les cycles</option></select>
-    <select id="country"><option value="">Tous les pays</option></select>
-    <select id="category"><option value="">Toutes les catégories</option></select>
-    <label class="check"><input type="checkbox" id="hideDone" checked> Masquer mes candidatures</label>
-    <button class="btn" id="addBtn" type="button">+ Ajouter une offre</button>
-  </div>
+  <section id="v-offres" hidden>
+    <div class="subnav">
+      <button class="sub on" data-sub="prio">Priorités</button>
+      <button class="sub" data-sub="news">Nouveautés</button>
+      <button class="sub" data-sub="table">Tableau récapitulatif</button>
+    </div>
+    <div class="filters">
+      <input type="search" id="q" placeholder="Rechercher une boîte, un poste, une ville…">
+      <select id="level"><option value="A">Offres ciblées</option><option value="">Tous les stages</option></select>
+      <select id="elig"><option value="">Toutes éligibilités</option><option value="eligible">Éligibles pour moi</option><option value="eligible,check">Éligibles + à vérifier</option></select>
+      <select id="cycle"><option value="">Tous les cycles</option></select>
+      <select id="country"><option value="">Tous les pays</option></select>
+      <select id="category"><option value="">Toutes les catégories</option></select>
+      <label class="check"><input type="checkbox" id="hideDone" checked> Masquer mes candidatures</label>
+      <button class="btn" id="addBtn" type="button">+ Ajouter une offre</button>
+    </div>
+    <div id="v-prio"></div>
+    <div id="v-news" hidden></div>
+    <div id="v-table" hidden></div>
+  </section>
 
-  <section id="v-prio"></section>
-  <section id="v-news" hidden></section>
-  <section id="v-table" hidden></section>
   <section id="v-springs" hidden></section>
   <section id="v-pages" hidden></section>
   <section id="v-cal" hidden></section>
   <section id="v-mine" hidden></section>
-  <section id="v-firms" hidden></section>
-
-  <div class="tools" id="tools">
-    <button class="btn ghost" id="export">Exporter mes données</button>
-    <label class="btn ghost">Importer<input type="file" id="import" accept=".json" hidden></label>
-    <span>Tes candidatures et les offres que tu ajoutes sont enregistrées dans ce navigateur (exporte puis importe pour passer du Mac au téléphone).</span>
-  </div>
+  <section id="v-info" hidden></section>
 </main>
 
 <dialog id="dlg">
@@ -288,7 +329,7 @@ const PREFERRED = {"Paris / France": 2, "London / UK": 2, "New York / US": 2, "S
 const STRONG = /m ?& ?a\b|mergers|private equity|investment bank|leveraged finance|restructuring|private (credit|debt)|corporate finance|\bibd\b/i;
 const PAGE = 40;
 let DATA = {jobs: [], companies: [], programmes: []};
-let TAB = "prio", EXP = {}, SORT = {key: "published", dir: -1}, SPRING_FILTER = "", TABLE_LIMIT = 100;
+let TAB = "home", EXP = {}, SORT = {key: "published", dir: -1}, SPRING_FILTER = "", TABLE_LIMIT = 100;
 
 const norm = s => {  // anciens statuts avec emoji ("✅ Postulé") -> "Postulé"
   const t = String(s || "").replace(/[^\p{L}\s]/gu, "").trim().toLowerCase();
@@ -519,7 +560,7 @@ function effectivePrograms() {
 }
 function renderSprings() {
   const P = effectivePrograms();
-  const q = $("q").value.trim().toLowerCase();
+  const q = "";
   const count = s => P.filter(p => p.status === s).length;
   const order = {"ouverte": 0, "à venir": 1, "en retard": 2, "vérifiée": 3, "source indisponible": 4, "non surveillée": 5};
   const list = P.filter(p => (!SPRING_FILTER || p.status === SPRING_FILTER) && (!q || `${p.company} ${p.program}`.toLowerCase().includes(q)))
@@ -546,7 +587,7 @@ function renderSprings() {
         ${p.status === "vérifiée" || p.manualOpen ? `<button class="icon-btn" data-uncheck="${esc(progKey(p))}" title="Annuler">↺</button>` : ""}</div></td>
     </tr>`;
   }).join("");
-  $("v-springs").innerHTML = `
+  $("v-springs").innerHTML = `<div class="page-title"><h1>Springs 2027</h1><p>Les programmes attendus cette saison, et ceux déjà ouverts</p></div>
     <div class="summary">${chip("", "programmes suivis")}${chip("ouverte", "ouvertes")}${chip("à venir", "à venir")}${chip("en retard", "date passée, pas encore repérées")}${chip("vérifiée", "vérifiées par toi")}${chip("non surveillée", "à vérifier à la main")}</div>
     <p class="note">Date attendue = date d'ouverture du même programme l'an dernier (source : TrackR). Le statut « Ouverte » est détecté automatiquement sur le site de la boîte. Pour celles à vérifier à la main : « J'ai vu l'offre » l'ajoute au site, « Pas encore » note ta vérification.</p>
     <div class="panel"><div class="tablewrap"><table>
@@ -558,7 +599,7 @@ function renderSprings() {
 let PAGE_FILTER = "";
 const PSTAT = {ouvert: ["b-ok", "Candidatures ouvertes"], "bientôt": ["b-brand", "Bientôt / s'inscrire"], "fermé": ["b-bad", "Fermé"], "": ["b-grey", "Pas d'info claire"]};
 function renderPages() {
-  const all = DATA.pages || [], q = $("q").value.trim().toLowerCase();
+  const all = DATA.pages || [], q = "";
   const recent = p => p.last_change && (Date.now() - new Date(p.last_change)) < 7 * 864e5;
   const list = all.filter(p => (!q || `${p.company} ${p.label} ${(p.highlights || []).join(" ")}`.toLowerCase().includes(q))
       && (!PAGE_FILTER || (PAGE_FILTER === "recent" ? recent(p) : PAGE_FILTER === "ko" ? !p.ok : p.status === PAGE_FILTER)))
@@ -576,7 +617,8 @@ function renderPages() {
       <div><a class="btn sm ghost" href="${esc(p.url)}" target="_blank" rel="noopener">Ouvrir la page ↗</a></div>
     </div>`;
   }).join("");
-  $("v-pages").innerHTML = `<div class="summary">${chip("", "pages suivies", all.length)}${chip("recent", "changées cette semaine", all.filter(recent).length)}
+  $("v-pages").innerHTML = `<div class="page-title"><h1>Pages étudiantes</h1><p>Ce que disent les pages « Students & Graduates », et quand elles changent</p></div>
+    <div class="summary">${chip("", "pages suivies", all.length)}${chip("recent", "changées cette semaine", all.filter(recent).length)}
       ${chip("ouvert", "candidatures ouvertes", all.filter(p => p.status === "ouvert").length)}${chip("bientôt", "bientôt", all.filter(p => p.status === "bientôt").length)}${chip("ko", "illisibles", all.filter(p => !p.ok).length)}</div>
     <p class="note">Le radar relit ces pages à chaque scan et te prévient sur Telegram dès qu'une phrase sur les candidatures change (« Applications open », dates, deadlines…). Liste modifiable dans <code>pages.csv</code>.</p>
     ${list.length ? `<div class="pages">${cards}</div>` : `<div class="panel empty">Aucune page.</div>`}`;
@@ -621,7 +663,7 @@ function renderCal() {
   const upcoming = evs.filter(e => e.d >= iso(TODAY) && daysFrom(e.d) <= 45).sort((a, b) => a.d.localeCompare(b.d));
   const days = [...new Set(upcoming.map(e => e.d))];
   const tchip = (t, label) => `<button class="chip ${CAL_TYPES.has(t) ? "on" : ""}" data-ct="${t}">${label}</button>`;
-  $("v-cal").innerHTML = `<div class="cal-head">
+  $("v-cal").innerHTML = `<div class="page-title"><h1>Calendrier</h1><p>Deadlines, ouvertures attendues et tes candidatures</p></div><div class="cal-head">
       <button class="btn sm ghost" data-cal="-1">‹</button><h2>${CAL_MONTH.toLocaleDateString("fr-FR", {month: "long", year: "numeric"})}</h2><button class="btn sm ghost" data-cal="1">›</button>
       <button class="btn sm ghost" data-cal="0">Aujourd'hui</button><span class="spacer"></span>
       ${tchip("dl", "Deadlines")}${tchip("exp", "Ouvertures attendues")}${tchip("open", "Springs ouvertes")}${tchip("me", "Mes candidatures")}</div>
@@ -635,15 +677,15 @@ function renderCal() {
 /* ---------- Candidatures ---------- */
 function renderMine() {
   const byId = Object.fromEntries(allJobs().map(j => [j.id, j]));
-  const q = $("q").value.trim().toLowerCase();
+  const q = "";
   const mine = Object.entries(ST).filter(([, v]) => v.s && v.s !== "Ignorer")
     .map(([id, v]) => byId[id] || {id, ...(v.job || {company: "?", title: "Offre retirée"}), closed: true})
     .filter(j => !q || `${j.company} ${j.title}`.toLowerCase().includes(q));
   if (!mine.length) {
-    $("v-mine").innerHTML = `<div class="panel empty">Aucune candidature suivie pour l'instant.<br>Sur n'importe quelle offre, choisis un statut dans « Suivre… » (À postuler, Postulé, Entretien…) pour la retrouver ici.</div>`;
+    $("v-mine").innerHTML = `<div class="page-title"><h1>Candidatures</h1></div><div class="panel empty">Aucune candidature suivie pour l'instant.<br>Sur n'importe quelle offre, choisis un statut dans « Suivre… » (À postuler, Postulé, Entretien…) pour la retrouver ici.</div>`;
     return;
   }
-  $("v-mine").innerHTML = `<div class="board">${PIPE.map(s => {
+  $("v-mine").innerHTML = `<div class="page-title"><h1>Candidatures</h1><p>Change le statut d'une carte pour la déplacer</p></div><div class="board">${PIPE.map(s => {
     const g = mine.filter(j => statusOf(j.id) === s).sort((a, b) => (ST[b.id].d || "").localeCompare(ST[a.id].d || ""));
     return `<div class="col"><h3><span class="badge ${PIPE_STYLE[s]}">${s}</span><span class="c">${g.length}</span></h3>
       ${g.map(j => `<div class="kcard"><div class="co">${esc(j.company)}</div>
@@ -655,14 +697,14 @@ function renderMine() {
 
 /* ---------- Boîtes ---------- */
 function renderFirms() {
-  const q = $("q").value.trim().toLowerCase();
+  const q = ($("fq") || {value: ""}).value.trim().toLowerCase();
   const order = {"en panne": 0, "ok": 1, "en attente": 2, "manuel": 3};
   const rows = DATA.companies.filter(c => !q || `${c.name} ${c.category} ${c.hq}`.toLowerCase().includes(q))
     .sort((a, b) => a.tier.localeCompare(b.tier) || order[a.status] - order[b.status] || a.name.localeCompare(b.name));
   const pill = c => c.status === "ok" ? `<span class="badge b-ok">Automatique</span>`
     : c.status === "en panne" ? `<span class="badge b-bad" title="${esc(c.error)}">Illisible en ce moment</span>`
     : c.status === "manuel" ? `<span class="badge b-grey">À la main</span>` : `<span class="badge b-brand">En attente</span>`;
-  $("v-firms").innerHTML = `<div class="panel"><div class="tablewrap"><table>
+  $("firms-box").innerHTML = `<div class="panel"><div class="tablewrap"><table>
     <thead><tr><th>Boîte</th><th>Catégorie</th><th>Siège</th><th>Pays</th><th>Suivi</th><th>Offres ouvertes</th><th></th></tr></thead>
     <tbody>${rows.map(c => {
       const chk = MAN.checks["firm|" + c.name], added = MAN.offers.filter(o => o.company === c.name).length;
@@ -677,31 +719,135 @@ function renderFirms() {
 }
 
 /* ---------- KPIs & routing ---------- */
-function renderKpis() {
+/* ---------- Accueil ---------- */
+function stats() {
   const open = allJobs().filter(j => !j.closed), a = open.filter(j => j.level === "A");
-  const week = a.filter(j => j.published && -daysFrom(j.published) < 7);
-  const soon = a.filter(j => j.deadline && daysFrom(j.deadline) >= 0 && daysFrom(j.deadline) <= 7);
-  const P = effectivePrograms(), springsOpen = P.filter(p => p.status === "ouverte").length;
-  const applied = Object.values(ST).filter(v => ["Postulé", "Entretien", "Offre", "Refus"].includes(v.s)).length;
-  const elig = a.filter(j => eligOf(j) === "eligible").length;
-  $("kpis").innerHTML = [[a.length, "offres ciblées ouvertes"], [elig, "éligibles pour toi"], [week.length, "publiées cette semaine"],
-    [soon.length, "deadlines sous 7 jours"], [`${springsOpen}/${P.length}`, "springs déjà ouvertes"]]
-    .map(([v, l]) => `<div class="kpi"><div class="v">${v}</div><div class="l">${l}</div></div>`).join("");
-  $("n-prio").textContent = filtered().filter(j => !j.closed && score(j) >= 7).length || "";
-  $("n-news").textContent = week.length || "";
-  $("n-springs").textContent = springsOpen || "";
-  $("n-pages").textContent = (DATA.pages || []).filter(p => p.last_change && (Date.now() - new Date(p.last_change)) < 7 * 864e5).length || "";
+  const P = effectivePrograms();
+  return {open, a, P,
+    elig: a.filter(j => eligOf(j) === "eligible"),
+    week: a.filter(j => j.published && -daysFrom(j.published) < 7),
+    soon: a.filter(j => j.deadline && daysFrom(j.deadline) >= 0 && daysFrom(j.deadline) <= 7 && eligOf(j) !== "no"),
+    springsOpen: P.filter(p => p.status === "ouverte"),
+    pagesChanged: (DATA.pages || []).filter(p => p.last_change && (Date.now() - new Date(p.last_change)) < 7 * 864e5)};
+}
+function jBadge(d) {
+  const cls = d <= 3 ? "b-bad" : d <= 7 ? "b-warn" : "b-grey";
+  return `<span class="j badge b-plain ${cls}">${d === 0 ? "Auj." : "J-" + d}</span>`;
+}
+function renderHome() {
+  const S = stats();
+  const kpi = (v, l, go, cls = "") => `<div class="kpi go" data-go="${go}"><div class="v ${cls}">${v}</div><div class="l">${l}</div></div>`;
+  // À ne pas rater : offres ciblées récentes, éligibles d'abord
+  const rank = {eligible: 0, check: 1, no: 2};
+  const fresh = S.a.filter(j => eligOf(j) !== "no" && statusOf(j.id) === "" && j.published && -daysFrom(j.published) <= 14)
+    .sort((x, y) => rank[eligOf(x)] - rank[eligOf(y)] || (y.published || "").localeCompare(x.published || "") || score(y) - score(x))
+    .filter((j, i, arr) => arr.slice(0, i).filter(k => k.company === j.company).length < 2).slice(0, 6);  // 2 max par boîte
+  const miniJob = j => `<div class="mini">${mono(j.company)}<div class="t"><b>${esc(j.company)}</b><a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a></div>
+    <div class="r">${eligBadge(j)}<span>${pubLabel(j).replace("Publiée ", "")}</span><a class="btn sm" href="${esc(j.url)}" target="_blank" rel="noopener">Postuler</a></div></div>`;
+  // Deadlines
+  const dls = [];
+  S.a.filter(j => j.deadline && daysFrom(j.deadline) >= 0 && eligOf(j) !== "no" && !["Postulé", "Entretien", "Offre", "Refus", "Ignorer"].includes(statusOf(j.id)))
+    .forEach(j => dls.push({d: daysFrom(j.deadline), co: j.company, t: j.title, url: j.url}));
+  S.P.filter(p => p.closes && daysFrom(p.closes) >= 0).forEach(p => dls.push({d: daysFrom(p.closes), co: p.company, t: p.program, url: p.job_url || p.url}));
+  dls.sort((x, y) => x.d - y.d);
+  // Springs
+  const sOpen = S.springsOpen.slice().sort((x, y) => (y.opened || "").localeCompare(x.opened || "")).slice(0, 3);
+  const sNext = S.P.filter(p => p.status === "à venir").sort((x, y) => x.expected_open.localeCompare(y.expected_open)).slice(0, 3);
+  // Pages
+  const pages = (DATA.pages || []).filter(p => p.last_change).sort((x, y) => y.last_change.localeCompare(x.last_change)).slice(0, 4);
+  // Candidatures
+  const mine = Object.values(ST).filter(v => v.s && v.s !== "Ignorer");
+  const count = s => mine.filter(v => v.s === s).length;
+  const now = new Date();
+  $("v-home").innerHTML = `
+    <div class="hero"><h1>Bonjour Adrien</h1>
+      <p>${now.toLocaleDateString("fr-FR", {weekday: "long", day: "numeric", month: "long"})} · ${S.week.length} nouvelle${S.week.length > 1 ? "s" : ""} offre${S.week.length > 1 ? "s" : ""} ciblée${S.week.length > 1 ? "s" : ""} cette semaine${S.soon.length ? `, ${S.soon.length} deadline${S.soon.length > 1 ? "s" : ""} dans les 7 jours` : ""}.</p></div>
+    <div class="kpis">
+      ${kpi(S.a.length, "offres ciblées ouvertes", "offres:prio")}
+      ${kpi(S.elig.length, "éligibles pour toi", "offres:prio:eligible", "ok")}
+      ${kpi(S.week.length, "publiées cette semaine", "offres:news")}
+      ${kpi(S.soon.length, "deadlines sous 7 jours", "cal", S.soon.length ? "bad" : "")}
+      ${kpi(`${S.springsOpen.length}/${S.P.length}`, "springs déjà ouvertes", "springs")}
+    </div>
+    <div class="home-grid">
+      <div class="card wide"><div class="card-h"><h3>À ne pas rater</h3><span class="c">offres ciblées des 14 derniers jours, éligibles d'abord</span><a data-go="offres:news">Tout voir →</a></div>
+        ${fresh.length ? fresh.map(miniJob).join("") : `<div class="empty">Rien de nouveau ces 14 derniers jours.</div>`}</div>
+      <div class="card"><div class="card-h"><h3>Prochaines deadlines</h3><a data-go="cal">Calendrier →</a></div>
+        ${dls.length ? dls.slice(0, 5).map(x => `<div class="mini">${jBadge(x.d)}<div class="t"><b>${esc(x.co)}</b><a href="${esc(x.url || "#")}" target="_blank" rel="noopener">${esc(x.t)}</a></div></div>`).join("")
+          : `<div class="empty">Aucune deadline connue à venir.</div>`}</div>
+      <div class="card"><div class="card-h"><h3>Springs</h3><span class="c">${S.springsOpen.length} ouvertes</span><a data-go="springs">Tout voir →</a></div>
+        ${sOpen.map(p => `<div class="mini">${mono(p.company)}<div class="t"><b>${esc(p.company)}</b><span class="l">${esc(p.program)}</span></div><div class="r"><span class="badge b-ok">Ouverte</span><a class="btn sm" href="${esc(p.job_url || p.url)}" target="_blank" rel="noopener">Postuler</a></div></div>`).join("")}
+        ${sNext.map(p => `<div class="mini">${mono(p.company)}<div class="t"><b>${esc(p.company)}</b><span class="l">${esc(p.program)}</span></div><div class="r"><span class="badge b-brand">${p.days === 0 ? "Attendue auj." : "Dans " + p.days + " j"}</span></div></div>`).join("")}</div>
+      <div class="card"><div class="card-h"><h3>Pages étudiantes</h3><span class="c">${S.pagesChanged.length} changée${S.pagesChanged.length > 1 ? "s" : ""} cette semaine</span><a data-go="pages">Tout voir →</a></div>
+        ${pages.length ? pages.map(p => { const h = p.history[0] || {added: [], removed: []}; const line = h.added[0] ? "+ " + h.added[0] : "− " + (h.removed[0] || "");
+          return `<div class="mini">${mono(p.company)}<div class="t"><b>${esc(p.company)} <span class="sub" style="display:inline">· ${ago(p.last_change)}</span></b><span class="l">${esc(line)}</span></div><div class="r"><a class="btn sm ghost" href="${esc(p.url)}" target="_blank" rel="noopener">Voir</a></div></div>`; }).join("")
+          : `<div class="empty">Aucun changement repéré pour l'instant.</div>`}</div>
+      <div class="card"><div class="card-h"><h3>Mes candidatures</h3><a data-go="mine">Tout voir →</a></div>
+        <div class="pipe-mini">${PIPE.map(s => `<div><b>${count(s)}</b><span>${s}</span></div>`).join("")}</div>
+        ${count("À postuler") ? `<div class="mini"><div class="t"><span class="l">${count("À postuler")} offre${count("À postuler") > 1 ? "s" : ""} en attente d'envoi</span></div><div class="r"><a class="btn sm ghost" data-go="mine">Y aller</a></div></div>`
+          : `<div class="empty" style="padding:4px 16px 16px;text-align:left">Marque une offre « À postuler » pour la retrouver ici.</div>`}</div>
+    </div>`;
+}
+
+/* ---------- Infos générales ---------- */
+function renderInfo() {
+  const comps = DATA.companies || [], pages = DATA.pages || [];
+  const auto = comps.filter(c => c.status === "ok").length, ko = comps.filter(c => c.status === "en panne"), manual = comps.filter(c => c.status === "manuel").length;
+  const A = DATA.jobs.filter(j => j.level === "A" && !j.closed), read = A.filter(j => j.details).length;
+  $("v-info").innerHTML = `<div class="page-title"><h1>Infos générales</h1><p>L'état du radar, tes données et la liste des boîtes</p></div>
+    <div class="info-grid">
+      <div class="card"><div class="card-h"><h3>État du radar</h3></div><div class="info-body">
+        <div class="k"><span>Dernier scan</span><b>${LAST_SCAN ? when(LAST_SCAN) : (DATA.updated ? when(new Date(DATA.updated)) : "—")}</b></div>
+        <div class="k"><span>Boîtes lues automatiquement</span><b>${auto} / ${comps.length}</b></div>
+        <div class="k"><span>Boîtes à vérifier à la main</span><b>${manual}</b></div>
+        <div class="k"><span>Sites illisibles en ce moment</span><b>${ko.length}</b></div>
+        ${ko.length ? `<span class="sub">${esc(ko.map(c => c.name).join(", "))}</span>` : ""}
+        <div class="k"><span>Pages étudiantes lisibles</span><b>${pages.filter(p => p.ok).length} / ${pages.length}</b></div>
+        <div class="k"><span>Offres ciblées analysées</span><b>${read} / ${A.length}</b></div></div></div>
+      <div class="card"><div class="card-h"><h3>Mes données</h3></div><div class="info-body">
+        <span>Tes candidatures, les offres que tu ajoutes et tes vérifications sont enregistrées <b>dans ce navigateur</b>. Exporte-les pour les passer sur ton téléphone ou les sauvegarder.</span>
+        <div class="acts"><button class="btn sm" data-export>Exporter</button><label class="btn sm ghost">Importer<input type="file" data-import accept=".json" hidden></label></div></div></div>
+      <div class="card"><div class="card-h"><h3>Légende</h3></div><div class="info-body">
+        <span><span class="badge b-ok">Éligible</span> l'offre correspond à ton profil (diplôme 2029, dispo juin 2027 – août 2028)</span>
+        <span><span class="badge b-warn">À vérifier</span> pas assez d'infos dans l'offre, ou un point à confirmer</span>
+        <span><span class="badge b-bad">Non éligible</span> mauvaise année de diplôme, dates hors césure ou langue exigée</span>
+        <span><span class="tier">★</span> boîte prioritaire · <span class="fact warn">Visa à prévoir</span> reste éligible</span></div></div>
+    </div>
+    <div class="section-head"><h2>Les boîtes suivies</h2><span class="c">${comps.length}</span></div>
+    <div class="filters"><input type="search" id="fq" placeholder="Rechercher une boîte, une catégorie, une ville…"></div>
+    <div id="firms-box"></div>`;
+  $("fq").addEventListener("input", renderFirms);
+  renderFirms();
+}
+
+/* ---------- routing ---------- */
+let SUB = "prio";
+function renderCounts() {
+  const S = stats();
+  $("n-offres").textContent = S.week.length || "";
+  $("n-springs").textContent = S.springsOpen.length || "";
+  $("n-pages").textContent = S.pagesChanged.length || "";
   $("n-mine").textContent = Object.values(ST).filter(v => v.s && v.s !== "Ignorer").length || "";
 }
 function render() {
-  ["prio", "news", "table", "springs", "pages", "cal", "mine", "firms"].forEach(t => $("v-" + t).hidden = t !== TAB);
-  const jobFilters = ["prio", "news", "table"].includes(TAB);
-  ["level", "elig", "cycle", "country", "category"].forEach(id => $(id).hidden = !jobFilters);
-  $("hideDone").parentElement.hidden = !jobFilters;
-  $("tools").hidden = !["prio", "news", "table", "mine"].includes(TAB);
-  $("q").parentElement.hidden = TAB === "cal";
-  ({prio: renderPrio, news: renderNews, table: renderTable, springs: renderSprings, pages: renderPages, cal: renderCal, mine: renderMine, firms: renderFirms})[TAB]();
-  renderKpis();
+  ["home", "offres", "springs", "pages", "cal", "mine", "info"].forEach(t => $("v-" + t).hidden = t !== TAB);
+  if (TAB === "offres") {
+    ["prio", "news", "table"].forEach(t => $("v-" + t).hidden = t !== SUB);
+    document.querySelectorAll(".sub").forEach(b => b.classList.toggle("on", b.dataset.sub === SUB));
+    ({prio: renderPrio, news: renderNews, table: renderTable})[SUB]();
+  } else {
+    ({home: renderHome, springs: renderSprings, pages: renderPages, cal: renderCal, mine: renderMine, info: renderInfo})[TAB]();
+  }
+  renderCounts();
+}
+function go(target) {  // "offres:prio:eligible", "springs", "cal"...
+  const [tab, sub, elig] = target.split(":");
+  TAB = tab;
+  if (sub) SUB = sub;
+  if (tab === "offres") $("elig").value = elig || "";
+  document.querySelectorAll(".tab").forEach(x => x.classList.toggle("on", x.dataset.tab === TAB));
+  try { localStorage.setItem("radar-tab", TAB); localStorage.setItem("radar-sub", SUB); } catch (e) {}
+  EXP = {}; render(); window.scrollTo({top: 0});
 }
 
 /* ---------- events ---------- */
@@ -716,9 +862,10 @@ document.addEventListener("change", e => {
   save(); render();
 });
 document.addEventListener("click", e => {
-  const t = e.target.closest(".tab");
-  if (t) { TAB = t.dataset.tab; EXP = {}; document.querySelectorAll(".tab").forEach(x => x.classList.toggle("on", x === t));
-           try { localStorage.setItem("radar-tab", TAB); } catch (err) {} render(); window.scrollTo({top: 0}); return; }
+  const t = e.target.closest(".tab"); if (t) { go(t.dataset.tab); return; }
+  const sb = e.target.closest(".sub"); if (sb) { go("offres:" + sb.dataset.sub + ":" + $("elig").value); return; }
+  const g = e.target.closest("[data-go]"); if (g) { go(g.dataset.go); return; }
+  if (e.target.closest("[data-export]")) { exportData(); return; }
   const m = e.target.closest("[data-exp]"); if (m) { EXP[m.dataset.exp] = true; render(); return; }
   const s = e.target.closest("th[data-sort]");
   if (s) { const k = s.dataset.sort; SORT = {key: k, dir: SORT.key === k ? -SORT.dir : (k === "published" ? -1 : 1)}; render(); return; }
@@ -761,15 +908,16 @@ $("dlg").addEventListener("close", () => {
   saveMan(); render();
 });
 ["q", "level", "elig", "cycle", "country", "category", "hideDone"].forEach(id => $(id).addEventListener("input", () => { EXP = {}; TABLE_LIMIT = 100; render(); }));
-$("export").addEventListener("click", () => {
+function exportData() {
   const a = document.createElement("a");
   a.href = URL.createObjectURL(new Blob([JSON.stringify({version: 3, candidatures: ST, manuel: MAN}, null, 1)], {type: "application/json"}));
-  a.download = "radar-candidatures.json"; a.click();
-});
-$("import").addEventListener("change", async e => {
+  a.download = "radar-mes-donnees.json"; a.click();
+}
+document.addEventListener("change", async e => {
+  if (!e.target.matches("input[data-import]")) return;
   try {
     const data = JSON.parse(await e.target.files[0].text());
-    if (data.manuel) {  // nouveau format : candidatures + offres ajoutées + vérifications
+    if (data.manuel) {  // candidatures + offres ajoutées + vérifications
       const ids = new Set(MAN.offers.map(o => o.id));
       MAN.offers.push(...(data.manuel.offers || []).filter(o => !ids.has(o.id)));
       Object.assign(MAN.checks, data.manuel.checks || {}); saveMan();
@@ -778,12 +926,13 @@ $("import").addEventListener("change", async e => {
       const s = norm(typeof v === "string" ? v : v.s);
       if (s) ST[id] = typeof v === "string" ? {s, d: new Date().toISOString()} : {...v, s};
     }
-    save(); render();
+    save(); render(); alert("Données importées.");
   } catch (err) { alert("Fichier invalide"); }
 });
 
 /* ---------- boot ---------- */
-try { const t = localStorage.getItem("radar-tab"); if (t && $("v-" + t)) { TAB = t; document.querySelectorAll(".tab").forEach(x => x.classList.toggle("on", x.dataset.tab === t)); } } catch (e) {}
+TAB = "home";
+try { const sb = localStorage.getItem("radar-sub"); if (["prio", "news", "table"].includes(sb)) SUB = sb; } catch (e) {}
 const fill = (sel, vals) => [...new Set(vals)].filter(Boolean).sort().forEach(v => $(sel).insertAdjacentHTML("beforeend", `<option>${esc(v)}</option>`));
 /* ---------- heure du dernier scan ---------- */
 let LAST_SCAN = null, SCANNING = false;
@@ -836,7 +985,7 @@ loadData(false).then(d => {
   fetchLastScan();
 }).catch(() => {
   $("updated").textContent = "En attente du premier scan";
-  $("v-prio").innerHTML = `<div class="panel empty">Pas encore de données : le premier scan n'a pas encore tourné.</div>`;
+  $("v-home").innerHTML = `<div class="panel empty" style="margin-top:24px">Pas encore de données : le premier scan n'a pas encore tourné.</div>`;
 });
 </script>
 </body>
