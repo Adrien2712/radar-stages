@@ -1,6 +1,19 @@
 {
   "timezone": "Europe/Paris",
   "digest_hour": 7,
-  "instant_levels": ["A"],
-  "dashboard_url": ""
+  "instant_levels": [
+    "A"
+  ],
+  "dashboard_url": "",
+  "profile": {
+    "graduation_year": 2029,
+    "available_from": "2027-06",
+    "available_to": "2028-08",
+    "nationality": "FR",
+    "languages": {
+      "français": "native",
+      "anglais": "fluent",
+      "espagnol": "intermediate"
+    }
+  }
 }

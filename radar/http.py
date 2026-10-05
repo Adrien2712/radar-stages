@@ -3,6 +3,7 @@ import gzip
 import json
 import time
 from urllib.error import HTTPError
+from urllib.parse import urljoin
 from urllib.request import Request, urlopen
 
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
@@ -27,6 +28,9 @@ def _request(url, data=None, headers=None, method=None, retries=2):
             return raw.decode(r.headers.get_content_charset() or "utf-8", "replace")
         except HTTPError as e:
             last = e
+            if e.code == 308 and e.headers.get("Location") and data is None:  # Python 3.9 doesn't follow 308
+                url = urljoin(url, e.headers["Location"])
+                continue
             if e.code in (400, 401, 403, 404, 405, 410, 422):
                 break  # no point retrying
         except Exception as e:  # timeouts, resets...

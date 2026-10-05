@@ -22,6 +22,8 @@ except ImportError:  # pragma: no cover
     ZoneInfo = None
 
 from . import notify
+from .details import analyze, evaluate, fill_details
+from .pages import for_dashboard, scan_pages
 from .classify import STRONG_TARGET, classify, country
 from .sources import FETCHERS, workday_posted
 
@@ -189,8 +191,10 @@ def scan():
             seen_now.add(jid)
             if jid in jobs:
                 j = jobs[jid]
-                j.update({"title": r["title"], "url": r["url"], "location": r.get("location", ""),
+                j.update({"title": r["title"], "url": r["url"], "location": r.get("location", ""), "key": r["key"],
                           "level": level, "cycle": cycle, "region": region, "missing": 0, "skey": sk})
+                if r.get("description") and "details" not in j:
+                    j["details"] = analyze(clean_html(r["description"]), r["title"])
                 for k in ("deadline", "event"):
                     if r.get(k):
                         j[k] = r[k]
@@ -202,8 +206,10 @@ def scan():
                 "id": jid, "company": name, "category": c["category"], "tier": c["tier"], "hq": c.get("hq", ""),
                 "title": r["title"], "location": r.get("location", ""), "url": r["url"], "posted": r.get("posted"),
                 "level": level, "cycle": cycle, "region": region, "source": c["source"],
-                "first_seen": now, "seed": seeding, "missing": 0, "skey": sk,
+                "first_seen": now, "seed": seeding, "missing": 0, "skey": sk, "key": r["key"],
             }
+            if r.get("description"):
+                jobs[jid]["details"] = analyze(clean_html(r["description"]), r["title"])
             for k in ("deadline", "event"):
                 if r.get(k):
                     jobs[jid][k] = r[k]
@@ -217,6 +223,8 @@ def scan():
         print(f"  ✓ {name:40s} {len(payload):4d} offres lues, {len(seen_now):3d} stages ({secs}s)")
 
     fill_posted_dates(jobs)
+    fill_details(jobs)
+    page_changes = scan_pages(state, now)
 
     cutoff = (datetime.now(timezone.utc) - timedelta(days=KEEP_CLOSED_DAYS)).isoformat()
     for jid in [k for k, j in jobs.items() if j.get("closed") and j["closed"] < cutoff]:
@@ -230,6 +238,7 @@ def scan():
         state["initialized"] = True
     else:
         instant(cfg, [j for j in new if j["level"] in cfg.get("instant_levels", ["A"])])
+        notify_pages(cfg, page_changes)
 
     lt = local_now(cfg)
     if lt.hour >= cfg.get("digest_hour", 7) and state.get("last_digest") != lt.date().isoformat():
@@ -241,6 +250,24 @@ def scan():
         print(f"État mis à jour ({len(new)} nouvelles offres).")
     else:
         print("Aucun changement.")
+
+
+def clean_html(s):
+    from .details import clean
+    return clean(s)
+
+
+def notify_pages(cfg, changes):
+    if not changes:
+        return
+    blocks = []
+    for c in changes[:8]:
+        lines = "\n".join("➕ " + notify.esc(l[:160]) for l in c["added"][:3])
+        if not lines:
+            lines = "➖ " + notify.esc(c["removed"][0][:160])
+        badge = {"ouvert": " · 🟢 candidatures ouvertes", "bientôt": " · 🟡 bientôt", "fermé": " · 🔴 fermé"}.get(c.get("status"), "")
+        blocks.append(f'📄 <b>{notify.esc(c["company"])}</b> — <a href="{notify.esc(c["url"])}">{notify.esc(c["label"])}</a>{badge}\n{lines}')
+    notify.send("<b>Page étudiants modifiée</b>\n\n" + "\n\n".join(blocks) + dash_link(cfg))
 
 
 def fill_posted_dates(jobs, budget=300):
@@ -397,9 +424,10 @@ def save(state, companies, cfg):
         comp.append(e)
     out = []
     for j in jobs:
-        j = {k: v for k, v in j.items() if k not in ("missing", "posted_tried", "source", "skey")}
+        j = {k: v for k, v in j.items() if k not in ("missing", "posted_tried", "details_tried", "source", "skey", "key")}
         j["score"] = relevance(j)
         j["country"] = country(j.get("location", ""), j["title"])
+        j["elig"] = evaluate(j, cfg.get("profile", {}))
         # Publication date: the site's own date if known, else when the radar first saw it (unknown for launch-day offers).
         j["published"] = j.get("posted") or (None if j.get("seed") else j["first_seen"][:10])
         out.append(j)
@@ -407,7 +435,8 @@ def save(state, companies, cfg):
     today = local_now(cfg).date()
     with open(DASH_PATH, "w", encoding="utf-8") as f:
         json.dump({"updated": now_iso(), "jobs": out, "companies": comp,
-                   "programmes": programme_status(load_programmes(), state["jobs"], companies, today, state["sources"])},
+                   "programmes": programme_status(load_programmes(), state["jobs"], companies, today, state["sources"]),
+                   "pages": for_dashboard(state)},
                   f, ensure_ascii=False, separators=(",", ":"))
 
 

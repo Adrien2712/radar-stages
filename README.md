@@ -4,7 +4,9 @@ Surveille toutes les 15 minutes les sites carrières de ~240 banques, boutiques 
 
 - 🔥 **Notification instantanée** pour chaque nouvelle offre ciblée
 - ☀️ **Récap chaque matin à 7h** : nouveautés des dernières 24h + deadlines proches + springs attendues + sources en panne
-- 📊 **Tableau de bord en ligne** : Priorités, Nouveautés (par date de publication réelle), Tableau façon TrackR, Springs 2027 attendues, suivi de tes candidatures
+- 📊 **Tableau de bord en ligne** : Priorités, Nouveautés (par date de publication réelle), Tableau façon TrackR, Springs 2027 attendues, Pages étudiantes surveillées, Calendrier, suivi de tes candidatures
+- ✅ **Éligibilité** : chaque offre ciblée est lue (année de diplôme demandée, dates, langues, visa…) et marquée Éligible / À vérifier / Non éligible selon ton profil (`config.json` → `profile`)
+- 📄 **Pages étudiantes** : ~35 pages « Students & Graduates » relues à chaque scan, alerte Telegram dès qu'une phrase sur les candidatures change (`pages.csv`)
 - 💸 **0 €** : tourne gratuitement sur GitHub (pas besoin que ton Mac soit allumé)
 
 ---
@@ -63,6 +65,8 @@ Après ~2 minutes tu reçois le message « 📡 Radar Stages activé ! » avec l
 | Ajouter / retirer une boîte | Modifier `companies.csv` (Excel/Numbers ou directement sur github.com). Une ligne `source = manuel` apparaît dans le tableau de bord mais n'est pas scannée. |
 | Ajouter une spring / un programme à surveiller | Ajouter une ligne à `programmes.csv` (date d'ouverture de l'an dernier, date attendue, deadline `closes` si connue, mots-clés). Rappel le matin quand l'ouverture approche et à J-14 → J-0 de la deadline. |
 | Changer l'heure du récap | `config.json` → `digest_hour` |
+| Mettre à jour mon profil (année de diplôme, dispo, langues) | `config.json` → `profile` |
+| Surveiller une nouvelle page étudiants | Ajouter une ligne à `pages.csv` (`company,label,url`) |
 | Être notifié aussi pour les stages « hors cible » | `config.json` → `"instant_levels": ["A", "B"]` |
 | Lancer un scan tout de suite | github.com → Actions → Radar Stages → Run workflow |
 | Tester en local | `python3 -m radar test` (toutes les sources) ou `python3 -m radar test Lazard KKR` |

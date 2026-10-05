@@ -147,6 +147,42 @@ dialog p.d{margin:0 0 16px;color:var(--muted);font-size:12.5px}
 .icon-btn:hover{background:var(--bad-soft);color:var(--bad)}
 .btn.sm{height:28px;padding:0 10px;font-size:12px}
 .acts{display:flex;gap:6px;flex-wrap:wrap}
+.facts{display:flex;flex-wrap:wrap;gap:4px 6px;margin-top:6px}
+.fact{font-size:11.5px;color:var(--ink-2);background:var(--surface-2);border:1px solid var(--line);border-radius:6px;padding:1px 7px}
+.fact.warn{color:var(--warn);background:var(--warn-soft);border-color:transparent}
+.why-l{font-size:12px;color:var(--muted);margin-top:4px}
+.pages{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:12px}
+.pcard{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:8px}
+.pcard.changed{border-color:var(--warn)}
+.pcard .h{display:flex;align-items:center;gap:10px}
+.pcard .h .t{flex:1;min-width:0}
+.pcard .h b{display:block}
+.pcard .h span{font-size:12px;color:var(--muted)}
+.pcard ul{margin:0;padding-left:16px;font-size:12.5px;color:var(--ink-2)}
+.pcard li{margin:2px 0}
+.diff{font-size:12px;border-top:1px dashed var(--line);padding-top:8px}
+.diff .a{color:var(--ok)}
+.diff .r{color:var(--bad);text-decoration:line-through;opacity:.8}
+.cal-head{display:flex;align-items:center;gap:10px;margin:4px 0 12px;flex-wrap:wrap}
+.cal-head h2{font-size:16px;margin:0;min-width:150px;text-transform:capitalize}
+.cal{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:var(--surface)}
+.cal .dow{background:var(--surface-2);font-size:11px;font-weight:600;color:var(--muted);text-transform:uppercase;padding:6px 8px;border-bottom:1px solid var(--line)}
+.cal .day{min-height:96px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);padding:4px 5px;display:flex;flex-direction:column;gap:3px}
+.cal .day:nth-child(7n){border-right:0}
+.cal .day.out{background:var(--surface-2);opacity:.55}
+.cal .day.today{box-shadow:inset 0 0 0 2px var(--brand-2)}
+.cal .num{font-size:11.5px;color:var(--muted);font-weight:600}
+.ev{display:block;font-size:11px;line-height:1.3;padding:2px 5px;border-radius:5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--ink);text-decoration:none}
+.ev:hover{text-decoration:none;filter:brightness(.97)}
+.ev.dl{background:var(--bad-soft);color:var(--bad)}
+.ev.exp{background:var(--brand-soft);color:var(--brand)}
+.ev.open{background:var(--ok-soft);color:var(--ok)}
+.ev.me{background:var(--info-soft);color:var(--info)}
+.ev.more{background:none;color:var(--muted)}
+.agenda{margin-top:18px}
+.agenda .d{font-size:12px;font-weight:600;color:var(--ink-2);margin:14px 0 6px;text-transform:capitalize}
+.agenda .ev{white-space:normal;font-size:12.5px;padding:6px 10px;margin-bottom:4px}
+@media (max-width:700px){.cal{display:none}.pages{grid-template-columns:1fr}}
 .tools{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:18px 0 48px;color:var(--muted);font-size:12px}
 
 @media (max-width:900px){
@@ -181,6 +217,8 @@ dialog p.d{margin:0 0 16px;color:var(--muted);font-size:12.5px}
       <button class="tab" data-tab="news">Nouveautés<span class="n" id="n-news"></span></button>
       <button class="tab" data-tab="table">Tableau</button>
       <button class="tab" data-tab="springs">Springs 2027<span class="n" id="n-springs"></span></button>
+      <button class="tab" data-tab="pages">Pages étudiantes<span class="n" id="n-pages"></span></button>
+      <button class="tab" data-tab="cal">Calendrier</button>
       <button class="tab" data-tab="mine">Candidatures<span class="n" id="n-mine"></span></button>
       <button class="tab" data-tab="firms">Boîtes</button>
     </nav>
@@ -193,6 +231,7 @@ dialog p.d{margin:0 0 16px;color:var(--muted);font-size:12.5px}
   <div class="filters">
     <input type="search" id="q" placeholder="Rechercher une boîte, un poste, une ville…">
     <select id="level"><option value="A">Offres ciblées</option><option value="">Tous les stages</option></select>
+    <select id="elig"><option value="">Toutes éligibilités</option><option value="eligible">Éligibles pour moi</option><option value="eligible,check">Éligibles + à vérifier</option></select>
     <select id="cycle"><option value="">Tous les cycles</option></select>
     <select id="country"><option value="">Tous les pays</option></select>
     <select id="category"><option value="">Toutes les catégories</option></select>
@@ -204,6 +243,8 @@ dialog p.d{margin:0 0 16px;color:var(--muted);font-size:12.5px}
   <section id="v-news" hidden></section>
   <section id="v-table" hidden></section>
   <section id="v-springs" hidden></section>
+  <section id="v-pages" hidden></section>
+  <section id="v-cal" hidden></section>
   <section id="v-mine" hidden></section>
   <section id="v-firms" hidden></section>
 
@@ -324,6 +365,31 @@ const reasons = j => {
   if (j.cycle === "Spring / Insight") r.push("Spring");
   return r;
 };
+const ELIG = {eligible: ["b-ok", "Éligible"], check: ["b-warn", "À vérifier"], no: ["b-bad", "Non éligible"]};
+const eligOf = j => j.manual ? "eligible" : ((j.elig || {}).status || "check");
+function eligBadge(j) {
+  if (j.manual) return "";
+  const [cls, label] = ELIG[eligOf(j)];
+  return `<span class="badge ${cls}" title="${esc(((j.elig || {}).reasons || []).join(" · "))}">${label}</span>`;
+}
+const MOIS = ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."];
+const ym = s => s ? `${MOIS[+s.slice(5, 7) - 1]} ${s.slice(0, 4)}` : "";
+function factsHtml(j) {
+  const d = j.details || {}, f = [];
+  if (d.duration) f.push(d.duration);
+  if (d.start) f.push("Début " + ym(d.start));
+  if (d.grad_years) f.push("Diplôme " + (d.grad_years.length > 1 ? `${d.grad_years[0]}–${d.grad_years[d.grad_years.length - 1]}` : d.grad_years[0]));
+  (d.documents || []).forEach(x => f.push(x));
+  (d.tests || []).forEach(x => f.push(x));
+  if (d.rolling) f.push("Rolling basis");
+  const warn = [...((j.elig || {}).flags || []), ...(d.languages || []).map(l => l[0].toUpperCase() + l.slice(1) + " exigé")];
+  if (!f.length && !warn.length) return "";
+  return `<div class="facts">${f.map(x => `<span class="fact">${esc(x)}</span>`).join("")}${warn.map(x => `<span class="fact warn">${esc(x)}</span>`).join("")}</div>`;
+}
+function whyHtml(j) {
+  const r = (j.elig || {}).reasons || [];
+  return r.length && eligOf(j) !== "eligible" ? `<div class="why-l">${esc(r.slice(0, 2).join(" · "))}</div>` : "";
+}
 function deadlineHtml(j) {
   if (!j.deadline) return "";
   const d = daysFrom(j.deadline);
@@ -338,12 +404,13 @@ function statusSelect(id) {
 /* ---------- filters ---------- */
 function filtered() {
   const q = $("q").value.trim().toLowerCase();
-  const f = {level: $("level").value, cycle: $("cycle").value, country: $("country").value, category: $("category").value};
+  const f = {level: $("level").value, cycle: $("cycle").value, country: $("country").value, category: $("category").value, elig: $("elig").value};
   return allJobs().filter(j => {
     const st = statusOf(j.id);
     if (st === "Ignorer") return false;
     if ($("hideDone").checked && st && st !== "À postuler") return false;
     if (f.level && j.level !== f.level) return false;
+    if (f.elig && !f.elig.split(",").includes(eligOf(j))) return false;
     if (f.cycle && j.cycle !== f.cycle) return false;
     if (f.country && j.country !== f.country) return false;
     if (f.category && j.category !== f.category) return false;
@@ -360,10 +427,11 @@ function row(j, why) {
     <div style="min-width:0">
       <div class="r-top"><span class="r-co">${esc(j.company)}</span>${j.tier === "1" ? '<span class="tier" title="Boîte prioritaire">★</span>' : ""}
         ${isNew(j) ? '<span class="badge b-warn">Nouvelle</span>' : ""}${j.closed ? '<span class="badge b-bad">Fermée</span>' : ""}
-        ${j.manual ? '<span class="badge b-info">Ajoutée par toi</span>' : ""}
+        ${j.manual ? '<span class="badge b-info">Ajoutée par toi</span>' : eligBadge(j)}
         ${r.map(x => `<span class="badge b-grey b-plain">${esc(x)}</span>`).join("")}</div>
       <a class="r-title" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
       <div class="r-meta"><span>${esc([j.location, j.country && !(j.location || "").includes(j.country) ? j.country : ""].filter(Boolean).join(" · ") || "Lieu non précisé")}</span>${j.cycle ? `<span>${esc(j.cycle)}</span>` : ""}<span>${esc(j.category || "")}</span></div>
+      ${factsHtml(j)}${whyHtml(j)}
     </div>
     <div class="r-side">
       <div class="r-dates"><b>${pubLabel(j)}</b><br>${deadlineHtml(j) || '<span class="sub">Pas de deadline affichée</span>'}</div>
@@ -405,9 +473,9 @@ function renderNews() {
 
 /* ---------- Tableau ---------- */
 const COLS = [["company", "Boîte"], ["title", "Programme"], ["location", "Lieu"], ["country", "Pays"], ["cycle", "Cycle"],
-              ["published", "Publiée"], ["deadline", "Deadline"], ["open", "Statut"], ["mine", "Ma candidature"], ["", ""]];
+              ["published", "Publiée"], ["deadline", "Deadline"], ["elig", "Éligibilité"], ["open", "Statut"], ["mine", "Ma candidature"], ["", ""]];
 function renderTable() {
-  const val = (j, k) => k === "open" ? (j.closed ? "b" : "a") : k === "mine" ? statusOf(j.id) : (j[k] || "");
+  const val = (j, k) => k === "open" ? (j.closed ? "b" : "a") : k === "mine" ? statusOf(j.id) : k === "elig" ? ({eligible: "a", check: "b", no: "c"})[eligOf(j)] : (j[k] || "");
   const list = filtered().sort((a, b) => {
     const A = val(a, SORT.key), B = val(b, SORT.key);
     if (!A && B) return 1; if (A && !B) return -1;  // vides à la fin
@@ -421,13 +489,14 @@ function renderTable() {
     <td style="white-space:nowrap">${esc(j.cycle || "")}</td>
     <td class="num">${j.published ? fmt(j.published, true) : '<span class="sub">—</span>'}</td>
     <td class="num">${j.deadline ? deadlineHtml(j) : '<span class="sub">—</span>'}</td>
+    <td>${j.manual ? '<span class="badge b-info">Ajoutée</span>' : eligBadge(j)}</td>
     <td>${j.closed ? '<span class="badge b-bad">Fermée</span>' : isNew(j) ? '<span class="badge b-warn">Nouvelle</span>' : '<span class="badge b-ok">Ouverte</span>'}</td>
     <td>${statusSelect(j.id)}</td>
     <td><div class="acts"><a class="btn" href="${esc(j.url)}" target="_blank" rel="noopener">Postuler</a>${j.manual ? `<button class="icon-btn" data-del="${j.id}" title="Supprimer">✕</button>` : ""}</div></td>
   </tr>`).join("");
   $("v-table").innerHTML = `<div class="panel"><div class="tablewrap"><table>
     <thead><tr>${COLS.map(([k, l]) => k ? `<th class="sort" data-sort="${k}">${l}${SORT.key === k ? `<span class="arr">${SORT.dir > 0 ? "↑" : "↓"}</span>` : ""}</th>` : "<th></th>").join("")}</tr></thead>
-    <tbody>${rows || `<tr><td colspan="10" class="empty">Aucune offre ne correspond à ces filtres.</td></tr>`}</tbody></table></div>
+    <tbody>${rows || `<tr><td colspan="11" class="empty">Aucune offre ne correspond à ces filtres.</td></tr>`}</tbody></table></div>
     ${list.length > TABLE_LIMIT ? `<button class="more" data-more-table>Afficher plus (${list.length - TABLE_LIMIT} restantes)</button>` : ""}</div>`;
 }
 
@@ -485,6 +554,84 @@ function renderSprings() {
       <tbody>${rows || `<tr><td colspan="7" class="empty">Aucun programme.</td></tr>`}</tbody></table></div></div>`;
 }
 
+/* ---------- Pages étudiantes ---------- */
+let PAGE_FILTER = "";
+const PSTAT = {ouvert: ["b-ok", "Candidatures ouvertes"], "bientôt": ["b-brand", "Bientôt / s'inscrire"], "fermé": ["b-bad", "Fermé"], "": ["b-grey", "Pas d'info claire"]};
+function renderPages() {
+  const all = DATA.pages || [], q = $("q").value.trim().toLowerCase();
+  const recent = p => p.last_change && (Date.now() - new Date(p.last_change)) < 7 * 864e5;
+  const list = all.filter(p => (!q || `${p.company} ${p.label} ${(p.highlights || []).join(" ")}`.toLowerCase().includes(q))
+      && (!PAGE_FILTER || (PAGE_FILTER === "recent" ? recent(p) : PAGE_FILTER === "ko" ? !p.ok : p.status === PAGE_FILTER)))
+    .sort((a, b) => (b.last_change || "").localeCompare(a.last_change || "") || a.company.localeCompare(b.company));
+  const chip = (f, label, n) => `<button class="chip ${PAGE_FILTER === f ? "on" : ""}" data-pf="${f}"><b>${n}</b>${label}</button>`;
+  const cards = list.map(p => {
+    const [cls, label] = PSTAT[p.status] || PSTAT[""];
+    const h = (p.history || [])[0];
+    return `<div class="pcard ${recent(p) ? "changed" : ""}">
+      <div class="h">${mono(p.company)}<div class="t"><b>${esc(p.company)}</b><span>${esc(p.label)}</span></div>
+        ${p.ok ? `<span class="badge ${cls}">${label}</span>` : `<span class="badge b-grey" title="${esc(p.error)}">Illisible</span>`}</div>
+      ${(p.highlights || []).length ? `<ul>${p.highlights.slice(0, 5).map(l => `<li>${esc(l)}</li>`).join("")}</ul>` : `<span class="sub">Aucune phrase sur les candidatures pour l'instant.</span>`}
+      ${h ? `<div class="diff"><b>Changement ${ago(h.at)}</b>${h.added.slice(0, 4).map(l => `<div class="a">+ ${esc(l)}</div>`).join("")}${h.removed.slice(0, 3).map(l => `<div class="r">− ${esc(l)}</div>`).join("")}</div>`
+           : `<span class="sub">Aucun changement depuis ${p.since ? fmt(p.since.slice(0, 10)) : "le début de la surveillance"}.</span>`}
+      <div><a class="btn sm ghost" href="${esc(p.url)}" target="_blank" rel="noopener">Ouvrir la page ↗</a></div>
+    </div>`;
+  }).join("");
+  $("v-pages").innerHTML = `<div class="summary">${chip("", "pages suivies", all.length)}${chip("recent", "changées cette semaine", all.filter(recent).length)}
+      ${chip("ouvert", "candidatures ouvertes", all.filter(p => p.status === "ouvert").length)}${chip("bientôt", "bientôt", all.filter(p => p.status === "bientôt").length)}${chip("ko", "illisibles", all.filter(p => !p.ok).length)}</div>
+    <p class="note">Le radar relit ces pages à chaque scan et te prévient sur Telegram dès qu'une phrase sur les candidatures change (« Applications open », dates, deadlines…). Liste modifiable dans <code>pages.csv</code>.</p>
+    ${list.length ? `<div class="pages">${cards}</div>` : `<div class="panel empty">Aucune page.</div>`}`;
+}
+
+/* ---------- Calendrier ---------- */
+let CAL_MONTH = new Date(TODAY.getFullYear(), TODAY.getMonth(), 1), CAL_TYPES = new Set(["dl", "exp", "open", "me"]);
+function calEvents() {
+  const ev = [];
+  for (const j of allJobs()) {
+    if (j.deadline && !j.closed && j.level === "A" && eligOf(j) !== "no") ev.push({d: j.deadline, t: "dl", label: `${j.company} — ${j.title}`, url: j.url, pre: "Deadline"});
+  }
+  for (const p of effectivePrograms()) {
+    if (p.closes) ev.push({d: p.closes, t: "dl", label: `${p.company} — ${p.program}`, url: p.job_url || p.url, pre: "Deadline"});
+    if (p.status === "ouverte" && p.opened) ev.push({d: p.opened.slice(0, 10), t: "open", label: `${p.company} — ${p.program}`, url: p.job_url || p.url, pre: "Ouverte"});
+    else if (p.status !== "ouverte" && p.expected_open) ev.push({d: p.expected_open, t: "exp", label: `${p.company} — ${p.program}`, url: p.url, pre: "Attendue"});
+  }
+  const byId = Object.fromEntries(allJobs().map(j => [j.id, j]));
+  for (const [id, v] of Object.entries(ST)) {
+    if (!v.s || v.s === "Ignorer" || !v.d) continue;
+    const j = byId[id] || v.job || {};
+    ev.push({d: v.d.slice(0, 10), t: "me", label: `${j.company || "?"} — ${v.s}`, url: j.url, pre: v.s});
+    if (v.s === "À postuler" && j.deadline) ev.push({d: j.deadline, t: "me", label: `${j.company} — à envoyer avant la deadline`, url: j.url, pre: "À envoyer"});
+  }
+  return ev.filter(e => CAL_TYPES.has(e.t));
+}
+function renderCal() {
+  const evs = calEvents(), byDay = {};
+  evs.forEach(e => (byDay[e.d] = byDay[e.d] || []).push(e));
+  const y = CAL_MONTH.getFullYear(), m = CAL_MONTH.getMonth();
+  const start = new Date(y, m, 1 - ((new Date(y, m, 1).getDay() + 6) % 7));  // lundi
+  const iso = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+  let cells = ["Lun", "Mar", "Mer", "Jeu", "Ven", "Sam", "Dim"].map(x => `<div class="dow">${x}</div>`).join("");
+  for (let i = 0; i < 42; i++) {
+    const d = new Date(start); d.setDate(start.getDate() + i);
+    const k = iso(d), list = byDay[k] || [];
+    cells += `<div class="day ${d.getMonth() !== m ? "out" : ""} ${k === iso(TODAY) ? "today" : ""}"><span class="num">${d.getDate()}</span>
+      ${list.slice(0, 3).map(e => `<a class="ev ${e.t}" href="${esc(e.url || "#")}" target="_blank" rel="noopener" title="${esc(e.pre + " · " + e.label)}">${esc(e.label)}</a>`).join("")}
+      ${list.length > 3 ? `<span class="ev more">+${list.length - 3} autres</span>` : ""}</div>`;
+    if (i === 34 && new Date(start.getTime() + 35 * 864e5).getMonth() !== m) break;
+  }
+  const upcoming = evs.filter(e => e.d >= iso(TODAY) && daysFrom(e.d) <= 45).sort((a, b) => a.d.localeCompare(b.d));
+  const days = [...new Set(upcoming.map(e => e.d))];
+  const tchip = (t, label) => `<button class="chip ${CAL_TYPES.has(t) ? "on" : ""}" data-ct="${t}">${label}</button>`;
+  $("v-cal").innerHTML = `<div class="cal-head">
+      <button class="btn sm ghost" data-cal="-1">‹</button><h2>${CAL_MONTH.toLocaleDateString("fr-FR", {month: "long", year: "numeric"})}</h2><button class="btn sm ghost" data-cal="1">›</button>
+      <button class="btn sm ghost" data-cal="0">Aujourd'hui</button><span class="spacer"></span>
+      ${tchip("dl", "Deadlines")}${tchip("exp", "Ouvertures attendues")}${tchip("open", "Springs ouvertes")}${tchip("me", "Mes candidatures")}</div>
+    <div class="cal">${cells}</div>
+    <div class="agenda"><div class="section-head"><h2>Les 45 prochains jours</h2><span class="c">${upcoming.length}</span></div>
+      ${days.length ? days.map(d => `<div class="d">${toDate(d).toLocaleDateString("fr-FR", {weekday: "long", day: "numeric", month: "long"})}</div>
+        ${upcoming.filter(e => e.d === d).map(e => `<a class="ev ${e.t}" href="${esc(e.url || "#")}" target="_blank" rel="noopener"><b>${esc(e.pre)}</b> · ${esc(e.label)}</a>`).join("")}`).join("")
+        : `<div class="panel empty">Rien de prévu dans les 45 prochains jours pour ces catégories.</div>`}</div>`;
+}
+
 /* ---------- Candidatures ---------- */
 function renderMine() {
   const byId = Object.fromEntries(allJobs().map(j => [j.id, j]));
@@ -536,21 +683,24 @@ function renderKpis() {
   const soon = a.filter(j => j.deadline && daysFrom(j.deadline) >= 0 && daysFrom(j.deadline) <= 7);
   const P = effectivePrograms(), springsOpen = P.filter(p => p.status === "ouverte").length;
   const applied = Object.values(ST).filter(v => ["Postulé", "Entretien", "Offre", "Refus"].includes(v.s)).length;
-  $("kpis").innerHTML = [[a.length, "offres ciblées ouvertes"], [week.length, "publiées cette semaine"], [soon.length, "deadlines sous 7 jours"],
-    [`${springsOpen}/${P.length}`, "springs déjà ouvertes"], [applied, "candidatures envoyées"]]
+  const elig = a.filter(j => eligOf(j) === "eligible").length;
+  $("kpis").innerHTML = [[a.length, "offres ciblées ouvertes"], [elig, "éligibles pour toi"], [week.length, "publiées cette semaine"],
+    [soon.length, "deadlines sous 7 jours"], [`${springsOpen}/${P.length}`, "springs déjà ouvertes"]]
     .map(([v, l]) => `<div class="kpi"><div class="v">${v}</div><div class="l">${l}</div></div>`).join("");
   $("n-prio").textContent = filtered().filter(j => !j.closed && score(j) >= 7).length || "";
   $("n-news").textContent = week.length || "";
   $("n-springs").textContent = springsOpen || "";
+  $("n-pages").textContent = (DATA.pages || []).filter(p => p.last_change && (Date.now() - new Date(p.last_change)) < 7 * 864e5).length || "";
   $("n-mine").textContent = Object.values(ST).filter(v => v.s && v.s !== "Ignorer").length || "";
 }
 function render() {
-  ["prio", "news", "table", "springs", "mine", "firms"].forEach(t => $("v-" + t).hidden = t !== TAB);
+  ["prio", "news", "table", "springs", "pages", "cal", "mine", "firms"].forEach(t => $("v-" + t).hidden = t !== TAB);
   const jobFilters = ["prio", "news", "table"].includes(TAB);
-  ["level", "cycle", "country", "category"].forEach(id => $(id).hidden = !jobFilters);
+  ["level", "elig", "cycle", "country", "category"].forEach(id => $(id).hidden = !jobFilters);
   $("hideDone").parentElement.hidden = !jobFilters;
   $("tools").hidden = !["prio", "news", "table", "mine"].includes(TAB);
-  ({prio: renderPrio, news: renderNews, table: renderTable, springs: renderSprings, mine: renderMine, firms: renderFirms})[TAB]();
+  $("q").parentElement.hidden = TAB === "cal";
+  ({prio: renderPrio, news: renderNews, table: renderTable, springs: renderSprings, pages: renderPages, cal: renderCal, mine: renderMine, firms: renderFirms})[TAB]();
   renderKpis();
 }
 
@@ -574,6 +724,10 @@ document.addEventListener("click", e => {
   if (s) { const k = s.dataset.sort; SORT = {key: k, dir: SORT.key === k ? -SORT.dir : (k === "published" ? -1 : 1)}; render(); return; }
   if (e.target.closest("[data-more-table]")) { TABLE_LIMIT += 200; render(); return; }
   const c = e.target.closest("[data-sf]"); if (c) { SPRING_FILTER = SPRING_FILTER === c.dataset.sf ? "" : c.dataset.sf; render(); return; }
+  const pf = e.target.closest("[data-pf]"); if (pf) { PAGE_FILTER = PAGE_FILTER === pf.dataset.pf ? "" : pf.dataset.pf; render(); return; }
+  const cm = e.target.closest("[data-cal]");
+  if (cm) { const k = +cm.dataset.cal; CAL_MONTH = k ? new Date(CAL_MONTH.getFullYear(), CAL_MONTH.getMonth() + k, 1) : new Date(TODAY.getFullYear(), TODAY.getMonth(), 1); render(); return; }
+  const ct = e.target.closest("[data-ct]"); if (ct) { CAL_TYPES.has(ct.dataset.ct) ? CAL_TYPES.delete(ct.dataset.ct) : CAL_TYPES.add(ct.dataset.ct); render(); return; }
   const seen = e.target.closest("[data-seen]");
   if (seen) { const p = (DATA.programmes || []).find(x => progKey(x) === seen.dataset.seen);
               openAdd({company: p.company, title: p.program, country: p.country || "", cycle: p.type === "Summer" ? "Summer" : "Spring / Insight", url: p.url, prog: progKey(p)}); return; }
@@ -606,7 +760,7 @@ $("dlg").addEventListener("close", () => {
                    deadline: v.deadline || null, prog: v.prog || null, first_seen: new Date().toISOString()});
   saveMan(); render();
 });
-["q", "level", "cycle", "country", "category", "hideDone"].forEach(id => $(id).addEventListener("input", () => { EXP = {}; TABLE_LIMIT = 100; render(); }));
+["q", "level", "elig", "cycle", "country", "category", "hideDone"].forEach(id => $(id).addEventListener("input", () => { EXP = {}; TABLE_LIMIT = 100; render(); }));
 $("export").addEventListener("click", () => {
   const a = document.createElement("a");
   a.href = URL.createObjectURL(new Blob([JSON.stringify({version: 3, candidatures: ST, manuel: MAN}, null, 1)], {type: "application/json"}));

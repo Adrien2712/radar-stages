@@ -157,7 +157,8 @@ def greenhouse(src):
 
 def lever(src):
     return [{"key": j["id"], "title": j["text"], "location": (j.get("categories") or {}).get("location", ""),
-             "url": j["hostedUrl"], "posted": _iso_from_ms(j.get("createdAt"))}
+             "url": j["hostedUrl"], "posted": _iso_from_ms(j.get("createdAt")),
+             "description": (j.get("descriptionPlain") or "") + "\n" + " ".join(x.get("content", "") for x in j.get("lists", []))}
             for j in get_json(f"https://api.lever.co/v0/postings/{src['source_id']}?mode=json")]
 
 
@@ -187,7 +188,8 @@ def smartrecruiters(src):
 def recruitee(src):
     d = get_json(f"https://{src['source_id']}.recruitee.com/api/offers/")
     return [{"key": str(j["id"]), "title": j["title"], "location": j.get("location") or j.get("city", ""),
-             "url": j["careers_url"], "posted": _date(j.get("published_at"))} for j in d["offers"]]
+             "url": j["careers_url"], "posted": _date(j.get("published_at")),
+             "description": (j.get("description") or "") + (j.get("requirements") or "")} for j in d["offers"]]
 
 
 def workable(src):
@@ -221,7 +223,7 @@ def rss(src):
 
 # ---------------------------------------------------------------- Bespoke APIs
 GS_QUERY = ("query GetCampusRoles($searchQueryInput: RoleSearchQueryInput!) { roleSearch(searchQueryInput: $searchQueryInput) "
-            "{ totalCount items { roleId jobTitle locations { city country } } } }")
+            "{ totalCount items { roleId jobTitle descriptionHtml locations { city country } } } }")
 
 
 def goldman(src):
@@ -237,7 +239,7 @@ def goldman(src):
             num = r["roleId"].split("_")[0]
             locs = ", ".join(sorted({(l.get("city") or l.get("country") or "") for l in r.get("locations") or []} - {""}))
             out.append({"key": r["roleId"], "title": r["jobTitle"], "location": locs,
-                        "url": f"https://higher.gs.com/roles/{num}", "posted": None})
+                        "url": f"https://higher.gs.com/roles/{num}", "posted": None, "description": r.get("descriptionHtml") or ""})
         page += 1
         if page * 100 >= d["totalCount"] or not d["items"]:
             return out
