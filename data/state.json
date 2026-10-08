@@ -195,7 +195,6 @@
 },
 "01334df0792dae61": {
 "category": "Transaction Services",
-"closed": "2026-10-07T14:13:23+00:00",
 "company": "PwC",
 "cycle": "Stage",
 "first_seen": "2026-10-05T13:00:23+00:00",
@@ -204,7 +203,7 @@
 "key": "/job/Turin/Internship---Microsoft-Dynamics-365-Business-Central---Torino--ADV-_729085WD",
 "level": "B",
 "location": "Turin",
-"missing": 3,
+"missing": 0,
 "posted": "2026-09-05",
 "region": "Autre / NC",
 "seed": false,
@@ -1510,6 +1509,7 @@
 },
 "0a14c965b32fffbc": {
 "category": "Banque BB",
+"closed": "2026-10-08T09:28:06+00:00",
 "company": "Crédit Agricole CIB",
 "cycle": "Stage",
 "first_seen": "2026-10-05T11:47:54+00:00",
@@ -1518,7 +1518,7 @@
 "key": "https://jobs.ca-cib.com/offre-de-emploi/emploi-praktikant-in-im-bereich-global-markets-corporate-sales-m-w-d-_116005.aspx",
 "level": "B",
 "location": "",
-"missing": 2,
+"missing": 3,
 "posted": null,
 "region": "Autre / NC",
 "seed": true,
@@ -3662,7 +3662,6 @@
 },
 "18e0d35fd2f3f068": {
 "category": "Transaction Services",
-"closed": "2026-10-07T13:44:59+00:00",
 "company": "PwC",
 "cycle": "Stage",
 "details": {
@@ -3682,7 +3681,7 @@
 "key": "/job/Singapore---Marina-One/One-Deals-Year-End-Internship--Dec-26---Feb-27-_718679WD-1",
 "level": "A",
 "location": "Singapore - Marina One",
-"missing": 3,
+"missing": 0,
 "posted": "2026-09-05",
 "region": "Corée / Asie",
 "seed": true,
@@ -24932,7 +24931,7 @@
 "key": "/job/Neuilly-sur-Seine/Stagiaire-Auditeur-RSE---janvier-2027---F-H_747072WD",
 "level": "B",
 "location": "Neuilly-sur-Seine",
-"missing": 0,
+"missing": 1,
 "posted": "2026-10-05",
 "region": "Paris / France",
 "seed": false,
@@ -30650,6 +30649,26 @@
 "title": "2028 Evercore Equity Capital Markets Summer Analyst Coffee Chats - Cornell",
 "url": "https://evercore.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/3359-2028-Evercore-Equity-Capital-Markets-Summer-Analyst-Coffee-Chats-Cornell/en-GB"
 },
+"d27ea6fcdc47ca82": {
+"category": "Private Equity",
+"company": "Ardian",
+"cycle": "Stage",
+"first_seen": "2026-10-08T09:28:06+00:00",
+"hq": "Paris",
+"id": "d27ea6fcdc47ca82",
+"key": "/job/Milan/Real-Estate-Intern---December-2026I-Milan--M-F-_JR1002261",
+"level": "B",
+"location": "Milan",
+"missing": 0,
+"posted": "2026-10-08",
+"region": "Europe (autre)",
+"seed": false,
+"skey": "Ardian#workday#ardian.wd103/ArdianCareers",
+"source": "workday",
+"tier": "1",
+"title": "Real Estate Intern - December 2026I Milan (M/F)",
+"url": "https://ardian.wd103.myworkdayjobs.com/en-US/ArdianCareers/job/Milan/Real-Estate-Intern---December-2026I-Milan--M-F-_JR1002261"
+},
 "d363d23b548dbe12": {
 "category": "Investisseur institutionnel",
 "company": "Lombard Odier",
@@ -31580,6 +31599,7 @@
 },
 "d8ede8dd39d6ddb1": {
 "category": "Banque BB",
+"closed": "2026-10-08T09:28:06+00:00",
 "company": "Goldman Sachs",
 "cycle": "Summer",
 "details": {},
@@ -31589,7 +31609,7 @@
 "key": "170824_GS_CAMPUS",
 "level": "B",
 "location": "Hong Kong",
-"missing": 2,
+"missing": 3,
 "posted": null,
 "region": "Corée / Asie",
 "seed": true,
@@ -31831,7 +31851,7 @@
 "key": "53353d3f-1684-43ca-9dd6-8070bc0a6537",
 "level": "B",
 "location": "",
-"missing": 1,
+"missing": 2,
 "posted": null,
 "region": "Autre / NC",
 "seed": false,
@@ -36095,6 +36115,7 @@
 },
 "fa5d7ba241028697": {
 "category": "Banque BB",
+"closed": "2026-10-08T09:28:06+00:00",
 "company": "Goldman Sachs",
 "cycle": "Summer",
 "details": {
@@ -36106,7 +36127,7 @@
 "key": "170823_GS_CAMPUS",
 "level": "B",
 "location": "Hong Kong",
-"missing": 2,
+"missing": 3,
 "posted": null,
 "region": "Corée / Asie",
 "seed": true,
@@ -37245,6 +37266,29 @@
 "error": null,
 "fails": 0,
 "highlights": [
+"Investor Relations Intern - October 2026 I Tokyo (M/F)",
+"Audit Interne Stage - Septembre 2026 I Paris (H/F)",
+"Sustainability Non Controlling Stage - Janvier 2027 I Paris (H/F)",
+"HR Learning Stage - Janvier 2027 I Paris (M/F)",
+"Infrastructure Intern - November 2026 | London",
+"Secondaries & Primaries Intern - April 2027 / Frankfurt (M/F)",
+"Infrastructure Nature-Based Solutions Stage - Janvier 2027 I Paris (M/F)",
+"Fund Finance Secondaries & Primaries Intern - February 2027 I Zurich (M/F)"
+],
+"history": [
+{
+"added": [
+"Infrastructure Nature-Based Solutions Stage - Janvier 2027 I Paris (M/F)",
+"Fund Finance Secondaries & Primaries Intern - starting now - Frankfurt (M/F)",
+"Fund Finance Secondaries & Primaries Intern - February 2027 I Zurich (M/F)",
+"Group Finance Treasury Stage - Mars 2027 I Paris (H/F)",
+"Legal Intern - January 2027 | Luxembourg (M/F)",
+"Private Equity Expansion Stage - Mars 2027 | Paris (H/F)",
+"Foudation Engagement & Communication Stage - Janvier 2027 I Paris (M/F)",
+"Infrastructure Intern – February 2027 I NYC"
+],
+"at": "2026-10-08T09:28:06+00:00",
+"removed": [
 "Secondaries & Primaries Intern – September 2026 I NYC",
 "Group Risk Management Stage - Janvier 2027 I Paris (M/F)",
 "Private Equity Real Estate Stage - Mars 2027 I Paris (M/F)",
@@ -37253,8 +37297,8 @@
 "Sustainability Stage - Mars 2027 I Paris (M/F)",
 "Buyout Intern - November 2026 | London",
 "Fund Finance Intern - November 2026 | London"
-],
-"history": [
+]
+},
 {
 "added": [
 "Secondaries & Primaries Intern – September 2026 I NYC",
@@ -37415,49 +37459,26 @@
 "Legal-Structuration Stage - Juillet 2027 I Paris (H/F)",
 "Private Equity Growth Stage - Mars 2027 | Paris (M/F)"
 ]
-},
-{
-"added": [
-"Compliance Analyst Intern - January 2027 | Luxembourg (M/F)",
-"Corporate Finance Intern - January 2027 I Luxembourg (M/F)",
-"Investor Relations Intern - January 2027 I Zurich",
-"Fund Finance Growth Stage - Janvier 2027 I Paris (H/F)",
-"Sales Intern - 4 Jan 2027 I Singapore (M/F)",
-"Secondaries & Primaries IT Project Management Intern - September 2026 | London",
-"Legal-Structuration Stage - Juillet 2027 I Paris (H/F)",
-"Private Equity Growth Stage - Mars 2027 | Paris (M/F)"
-],
-"at": "2026-10-07T16:33:06+00:00",
-"removed": [
-"Secondaries & Primaries Intern – September 2026 I NYC",
-"Group Risk Management Stage - Janvier 2027 I Paris (M/F)",
-"Private Equity Real Estate Stage - Mars 2027 I Paris (M/F)",
-"Secondaries & Primaries Intern - January 2027 I Zurich",
-"Fund Finance Infrastructure Stage - Mars 2027 I Paris (H/F)",
-"Sustainability Stage - Mars 2027 I Paris (M/F)",
-"Buyout Intern - November 2026 | London",
-"Fund Finance Intern - November 2026 | London"
-]
 }
 ],
-"last_change": "2026-10-08T09:06:08+00:00",
+"last_change": "2026-10-08T09:28:06+00:00",
 "lines": [
 "Openings at Ardian",
 "Follow Ardian Jobs & Internships",
-"Secondaries & Primaries Intern – September 2026 I NYC",
-"Group Risk Management Stage - Janvier 2027 I Paris (M/F)",
-"Private Equity Real Estate Stage - Mars 2027 I Paris (M/F)",
-"Secondaries & Primaries Intern - January 2027 I Zurich",
-"Fund Finance Infrastructure Stage - Mars 2027 I Paris (H/F)",
-"Sustainability Stage - Mars 2027 I Paris (M/F)",
-"Buyout Intern - November 2026 | London",
-"Fund Finance Intern - November 2026 | London",
 "Investor Relations Intern - October 2026 I Tokyo (M/F)",
 "Audit Interne Stage - Septembre 2026 I Paris (H/F)",
 "Sustainability Non Controlling Stage - Janvier 2027 I Paris (H/F)",
 "HR Learning Stage - Janvier 2027 I Paris (M/F)",
 "Infrastructure Intern - November 2026 | London",
 "Secondaries & Primaries Intern - April 2027 / Frankfurt (M/F)",
+"Infrastructure Nature-Based Solutions Stage - Janvier 2027 I Paris (M/F)",
+"Fund Finance Secondaries & Primaries Intern - starting now - Frankfurt (M/F)",
+"Fund Finance Secondaries & Primaries Intern - February 2027 I Zurich (M/F)",
+"Group Finance Treasury Stage - Mars 2027 I Paris (H/F)",
+"Legal Intern - January 2027 | Luxembourg (M/F)",
+"Private Equity Expansion Stage - Mars 2027 | Paris (H/F)",
+"Foudation Engagement & Communication Stage - Janvier 2027 I Paris (M/F)",
+"Infrastructure Intern – February 2027 I NYC",
 "Manage or create my candidate space",
 "My Candidate Space",
 "All news & insights",
@@ -37509,6 +37530,13 @@
 ],
 "history": [
 {
+"added": [
+"Centerview as financial advisor to AAR in its acquisition of a controlling interest in MRO Holdings"
+],
+"at": "2026-10-08T09:28:06+00:00",
+"removed": []
+},
+{
 "added": [],
 "at": "2026-10-08T03:57:00+00:00",
 "removed": [
@@ -37556,17 +37584,11 @@
 "removed": [
 "Centerview as financial advisor to AAR in its acquisition of a controlling interest in MRO Holdings"
 ]
-},
-{
-"added": [
-"Centerview as financial advisor to AAR in its acquisition of a controlling interest in MRO Holdings"
-],
-"at": "2026-10-07T19:51:57+00:00",
-"removed": []
 }
 ],
-"last_change": "2026-10-08T03:57:00+00:00",
+"last_change": "2026-10-08T09:28:06+00:00",
 "lines": [
+"Centerview as financial advisor to AAR in its acquisition of a controlling interest in MRO Holdings",
 "Application Form",
 "Undergraduate interested in Summer Internship"
 ],
@@ -37993,678 +38015,678 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 5
 },
 "AXA IM Alts#watch#https://www.bnpparibas-am.com/en/": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 0
 },
 "AXA#html#/jobs/\\d+/[^/\\\"']+/job": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 0
 },
 "Abenex#watch#https://www.abenex.com/fr": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 0
 },
 "Adams Street Partners#greenhouse#adamsstreetpartners": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 22
 },
 "Advent International#workday#adventinternational.wd12/AdventCareers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 1
 },
 "Alantra#workday#alantra.wd3/Alantra": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 49
 },
 "Alcentra (Franklin)#watch#https://www.bspcredit.com/international/": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 0
 },
 "Alvarez & Marsal#workday#alvarezandmarsal.wd1/alvarezandmarsal": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 0
 },
 "Antares Capital#workday#antares.wd5/antares": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 18
 },
 "Antin Infrastructure Partners#teamtailor#antininfrastructurepartners-1655458195": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 0
 },
 "Apax Partners#lever#apax": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 1
 },
 "Apollo#workday#athene.wd5/Apollo_Careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 64
 },
 "Ardian#workday#ardian.wd103/ArdianCareers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
-"raw": 76
+"last_ok": "2026-10-08T09:28:06+00:00",
+"raw": 77
 },
 "Ares Management#workday#aresmgmt.wd1/External": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 248
 },
 "BBVA CIB#workday#bbva.wd3/BBVA": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 117
 },
 "BMO Capital Markets#workday#bmo.wd3/Campus": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 47
 },
 "Bain Capital#workday#baincapital.wd1/External_Public": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 32
 },
 "Bank of America#workday#ghr.wd1/lateral-emea|Lateral-US": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 392
 },
 "Barclays#workday#barclays.wd3/External_Career_Site_Barclays": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 306
 },
 "Barings#workday#barings.wd1/Early_Talent|Barings": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 46
 },
 "Benefit Street Partners#watch#https://www.bspcredit.com/international/": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 0
 },
 "BlackRock#oleeo#blackrock": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 39
 },
 "Blackstone#workday#blackstone.wd1/Blackstone_Campus_Careers|Blackstone_Careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 202
 },
 "Blue Owl#workday#blueowl.wd1/blueowl": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 47
 },
 "Brookfield#workday#brookfield.wd5/brookfield": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 132
 },
 "Bryan Garnier & Co#watch#https://stifelinstitutional.com/global-coverage/europe/": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 0
 },
 "CDPQ#workday#cdpq.wd10/CDPQ|CDPQ-recrutement-universitaire": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 38
 },
 "CPP Investments#workday#cppib.wd10/cppinvestments": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 45
 },
 "Canaccord Genuity#workday#cgf.wd10/CG": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 39
 },
 "Capvis#watch#https://www.capvis.com/en/": {
-"error": "URLError: <urlopen error timed out>",
+"error": null,
 "ever_ok": true,
-"fails": 1,
-"last_ok": "2026-10-08T08:46:17+00:00",
+"fails": 0,
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 0
 },
 "Capza#smartrecruiters#capza": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 1
 },
 "Carlyle#workday#carlyle.wd1/Carlyle": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 72
 },
 "Centerview Partners#watch#https://www.centerviewpartners.com/careers.aspx": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 1
 },
 "Cerberus Capital#workday#cerberus.wd1/CerberusCareers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 3
 },
 "Cinven#pinpoint#cinven": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 1
 },
 "Citi#workday#citi.wd5/2": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 598
 },
 "Clipperton#workable#clipperton": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 5
 },
 "Coller Capital#teamtailor#collercapital-1660725598": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 0
 },
 "Crédit Agricole CIB#html#/offre-de-emploi/emploi-[a-z0-9-]+_\\d+\\.aspx": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 100
 },
 "Davidson Kempner#greenhouse#1456754456yhgbhfg": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 1
 },
 "Degroof Petercam#watch#https://www.degroofpetercam.com/en-be": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 0
 },
 "Deloitte#watch#https://www.deloitte.com/fr/fr.html": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 0
 },
 "Deutsche Bank#beesite#api-deutschebank.beesite.de": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 378
 },
 "Ducera Partners#greenhouse#ducerapartners|ducerapartnerscampus": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 6
 },
 "EQT#greenhouse#eqtpartners": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 19
 },
 "EY#watch#https://www.ey.com/fr_fr": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 0
 },
 "Equistone#watch#https://www.equistonepe.com/home": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 0
 },
 "Eurazeo#watch#https://www.eurazeo.com/en": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 0
 },
 "Evelyn Partners#smartrecruiters#EvelynPartners": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 25
 },
 "Evercore#oleeo#evercore": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 120
 },
 "Evercore#smartrecruiters#Wiser|Evercore": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 9
 },
 "FTI Consulting#watch#https://www.fticonsulting.com/fr-fr/france": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 0
 },
 "Fortress Investment Group#workday#fortress.wd503/Careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 8
 },
 "Forvis Mazars#greenhouse#forvismazars": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 160
 },
 "GBL / Sienna#watch#https://www.gbl.com/en": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 0
 },
 "General Atlantic#greenhouse#generalatlantic": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 12
 },
 "Goldman Sachs#goldman#": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 239
 },
 "Grant Thornton#recruitee#grantthornton": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
-"raw": 61
+"last_ok": "2026-10-08T09:28:06+00:00",
+"raw": 63
 },
 "Guggenheim Partners#workday#guggenheim.wd1/Guggenheim_Careers_Campus|Guggenheim_Undergraduate_Programs|Guggenheim_Careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 43
 },
 "Gunvor#workday#gunvor.wd3/Gunvor_Careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 33
 },
 "HPS Investment Partners#greenhouse#hpsinvestmentpartners": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 1
 },
 "HSBC#html#/external/(?:JobDetail|PipelineDetail)/[^\\\"']+/\\d+": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 6
 },
 "Hamilton Lane#workday#hamiltonlane.wd108/Search": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 44
 },
 "HarbourVest#workday#harbourvest.wd5/HVP": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 60
 },
 "Harris Williams#workday#pnc.wd5/HarrisWilliams": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 17
 },
 "Houlihan Lokey#workday#hl.wd1/Campus|Corporate": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 57
 },
 "ICG#workday#icg.wd3/external_careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 11
 },
 "IK Partners#recruitee#ikpartners": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 3
 },
 "ING#workday#ing.wd3/ICSGBLCOR|ICSFRADIR": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 299
 },
 "J.P. Morgan#oracle#jpmc.fa.oraclecloud.com/CX_1001": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 1016
 },
 "Jefferies#oleeo#jefferies": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 59
 },
 "KKR#greenhouse#staged": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 18
 },
 "KPMG#watch#https://kpmg.com/xx/en.html": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 0
 },
 "Kepler Cheuvreux#teamtailor#keplercheuvreux": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 6
 },
 "Kering#workday#kering.wd3/Kering": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 0
 },
 "KeyBanc Capital Markets#workday#keybank.wd5/External_Career_Site": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 226
 },
 "Kroll#watch#https://www.kroll.com/en": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 0
 },
 "L Catterton#workday#lcatterton.wd501/External_Career_Site": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 0
 },
 "L'Oréal#watch#https://careers.loreal.com/en": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 3
 },
 "LVMH#watch#https://www.lvmh.com/en": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 1
 },
 "Lazard Asset Management#watch#https://www.lazardassetmanagement.com/entry?relTargetURL=home": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 0
 },
 "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardProfessionalCareers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 125
 },
 "Lincoln International#greenhouse#lincolninternational": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 43
 },
 "LionTree#greenhouse#liontree": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 1
 },
 "Lombard Odier#workday#lombardodier.wd3/Lombard_Odier_Careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 67
 },
 "MUFG#workday#mufgub.wd3/MUFG-Careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
-"raw": 325
+"last_ok": "2026-10-08T09:28:06+00:00",
+"raw": 313
 },
 "Macquarie#watch#https://www.macquarie.com/fr/en.html": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 1
 },
 "Mirabaud#watch#https://www.mirabaud.com/en/": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 0
 },
 "Mirova#watch#https://www.mirova.com/fr": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 0
 },
 "Mizuho#workday#mizuho.wd1/mizuhoamericas": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 122
 },
 "Moelis & Company#workday#moelis.wd1/University-Hires|Experienced-Hires": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 33
 },
 "Morgan Stanley#oleeo#morganstanley": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 132
 },
 "Mubadala#watch#https://www.mubadala.com/en": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 0
 },
 "Muzinich & Co#workday#muzinich.wd5/muzinichcareers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 1
 },
 "Neuberger Berman#workday#nb.wd1/NBCareers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 87
 },
 "Nomura#oleeo#nomuracampus": {
 "error": "ValueError: vérification anti-robot Oleeo (réessai au prochain scan)",
 "ever_ok": true,
-"fails": 6,
+"fails": 7,
 "last_ok": "2026-10-08T07:00:24+00:00",
 "raw": 37
 },
@@ -38672,49 +38694,49 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 0
 },
 "Oaklins#watch#https://www.oaklins.com/fr/en/": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 0
 },
 "Oaktree Capital#workday#oaktree.wd1/Oaktree": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 49
 },
 "Oddo BHF#watch#https://www.oddo-bhf.com/fr/": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 0
 },
 "Ontario Teachers' (OTPP)#workday#otppb.wd3/OntarioTeachers_Careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 33
 },
 "PAG#watch#https://www.pag.com/en/": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 0
 },
 "PAI Partners#recruitee#paipartners": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 9
 },
 "PATRIZIA#watch#https://www.patrizia.ag/en": {
@@ -38725,266 +38747,266 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 51
 },
 "PSP Investments#workday#investpsp.wd3/psp_careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 40
 },
 "Partners Group#watch#https://www.partnersgroup.com/en/careers/open-positions": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 0
 },
 "Pemberton Asset Management#ashby#Pemberton": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 2
 },
 "Perella Weinberg Partners#oleeo#pwpcareers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 12
 },
 "Permira#greenhouse#permiraexternalprivate": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 8
 },
 "Pictet#watch#https://www.pictet.com/fr/fr/careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 0
 },
 "Piper Sandler#workday#pipersandler.wd501/Piper_Sandler_Careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 50
 },
 "PwC#workday#pwc.wd3/Global_Campus_Careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
-"raw": 390
+"last_ok": "2026-10-08T09:28:06+00:00",
+"raw": 392
 },
 "QIA#oracle#fa-esgr-saasfaprod1.fa.ocs.oraclecloud.com/CX_1": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 2
 },
 "Qualium Investissement#watch#https://qualium-investissement.com/en/homepage/": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 0
 },
 "RBC Capital Markets#workday#rbc.wd3/RBCEARLYTALENT1": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 34
 },
 "Raine Group#lever#raine": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 2
 },
 "Raymond James#workday#raymondjames.wd1/RaymondJamesEarlyCareers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 5
 },
 "Rothschild & Co#oleeo#rothschildandco": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 30
 },
 "Rothschild & Co#workday#rothschildandco.wd3/Rothschildandco_Interns|Rothschildandco_Lateral": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 118
 },
 "SMBC#watch#https://www.smbcgroup.com/emea/careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 2
 },
 "Santander CIB#workday#santander.wd3/SantanderCareers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
-"raw": 185
+"last_ok": "2026-10-08T09:28:06+00:00",
+"raw": 181
 },
 "Scotiabank#rss#https://jobs.scotiabank.com/services/rss/job/?locale=en_US&keywords=intern": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 20
 },
 "Seven2#watch#https://www.seven2.eu/en/": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 0
 },
 "Sixth Street#workday#sixthstreet.wd1/sixthstreetcareers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 20
 },
 "Sofina#watch#https://www.sofinagroup.com/en": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 0
 },
 "Solomon Partners#greenhouse#solomonpartnersprofessionals": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 3
 },
 "Standard Chartered#rss#https://jobs.standardchartered.com/services/rss/job/?locale=en_GB&keywords=intern": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 20
 },
 "StepStone Group#greenhouse#stepstone": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 53
 },
 "Stifel#html#/jobs/\\d+/[^/\\\"']+/job": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 4
 },
 "TD Securities#workday#td.wd3/TD_Bank_Careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
-"raw": 498
+"last_ok": "2026-10-08T09:28:06+00:00",
+"raw": 497
 },
 "TPG#greenhouse#tpgcareers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 16
 },
 "TotalEnergies#watch#https://totalenergies.com/careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 1
 },
 "Trafigura#workday#trafigura.wd3/TrafiguraCareerSite": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 79
 },
 "Triton Partners#workday#tritonpartners.wd3/External": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 6
 },
 "UniCredit#watch#https://www.unicreditgroup.eu/en.html": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 2
 },
 "Union Bancaire Privée#watch#https://www.ubp.com/en": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 0
 },
 "Vista Equity Partners#html#/jobs/\\d+/[^/\\\"']+/job": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 6
 },
 "Vitol#smartrecruiters#Vitol": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 31
 },
 "Vitruvian Partners#workday#vitruvian.wd108/vitruviancareers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 138
 },
 "Warburg Pincus#greenhouse#warburgpincusllc": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 5
 },
 "Wells Fargo#oleeo#wellsfargo": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-08T09:06:08+00:00",
+"last_ok": "2026-10-08T09:28:06+00:00",
 "raw": 0
 }
 }
