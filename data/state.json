@@ -278,6 +278,7 @@
 },
 "004aa67e4874ab04": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "J.P. Morgan",
 "cycle": "Summer",
 "details": {
@@ -306,7 +307,7 @@
 "key": "210766900",
 "level": "A",
 "location": "Tokyo-To, Japan",
-"missing": 1,
+"missing": 2,
 "posted": "2026-07-31",
 "region": "Corée / Asie",
 "seed": true,
@@ -1097,11 +1098,11 @@
 "posted": "2026-06-29",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Stage H/F - Assistant de Gestion Fixed Income – Janvier 2027",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6316"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6316"
 },
 "0375f6d2c2d2dc23": {
 "category": "Banque BB",
@@ -1171,7 +1172,7 @@
 "key": "/job/Singapore--Singapore/Banking---Commercial-Banking--Summer-Analyst--Singapore---APAC--2027_26985457",
 "level": "A",
 "location": "Singapore  Singapore",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Corée / Asie",
 "seed": true,
@@ -1722,7 +1723,7 @@
 "key": "/job/Paris--France/Banking--Corporate-Banking--Placement-Analyst-Internship--Paris--France-2026_25908794",
 "level": "B",
 "location": "Paris  France",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Paris / France",
 "seed": true,
@@ -2269,6 +2270,7 @@
 "category": "Autre (agrégateur)",
 "company": "SouthState Bank",
 "cycle": "Summer",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "08b3a292055a131a",
@@ -2300,11 +2302,11 @@
 "posted": "2026-06-30",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Stage H/F - Assistant Juridique en Asset Management – Juillet 2027",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6347"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6347"
 },
 "08d4f0a41b9bc230": {
 "category": "Banque BB",
@@ -2394,6 +2396,15 @@
 "category": "Autre (agrégateur)",
 "company": "Altman Solon",
 "cycle": "Off-cycle",
+"details": {
+"documents": [
+"CV"
+],
+"tests": [
+"Case study"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "090128befa196c7b",
@@ -2876,6 +2887,7 @@
 "category": "Transaction Services",
 "company": "PwC",
 "cycle": "Summer",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "London",
 "id": "0a7dc24bf4b8f420",
@@ -2937,11 +2949,15 @@
 "category": "Transaction Services",
 "company": "PwC",
 "cycle": "Stage",
+"details": {
+"team": "Restructuring"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "London",
 "id": "0a9e2bb672d32892",
 "key": "/job/Zrich/Praktikum-in-der-Steuerberatung--6-Monate-_620660WD",
-"level": "B",
+"level": "A",
 "location": "Zürich",
 "missing": 0,
 "posted": "2026-09-09",
@@ -2951,6 +2967,7 @@
 "source": "workday",
 "tier": "2",
 "title": "Praktikum in der Steuerberatung (6 Monate)",
+"upgraded": true,
 "url": "https://pwc.wd3.myworkdayjobs.com/en-US/Global_Campus_Careers/job/Zrich/Praktikum-in-der-Steuerberatung--6-Monate-_620660WD"
 },
 "0ab18097233402fe": {
@@ -3402,6 +3419,7 @@
 "category": "Autre (agrégateur)",
 "company": "Wellington Management",
 "cycle": "Summer",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "0cb18af8081b369b",
@@ -3451,6 +3469,7 @@
 "category": "Autre (agrégateur)",
 "company": "Fidelity Investments Campus",
 "cycle": "Off-cycle",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "0cc2087098d52e20",
@@ -3483,7 +3502,7 @@
 "key": "/job/Sao-Paulo-Sao-Paulo-Brazil/Estgio-Exclusivo-PCD---Markets--Internship--So-Paulo---Brazil--2026_26977986",
 "level": "B",
 "location": "Sao Paulo Sao Paulo Brazil",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Autre / NC",
 "seed": true,
@@ -3518,6 +3537,7 @@
 "category": "Autre (agrégateur)",
 "company": "Rabobank",
 "cycle": "Summer",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "0d2412263129bfe5",
@@ -3642,7 +3662,7 @@
 "key": "/job/Kowloon--Hong-Kong/Banking---Commercial-Banking--Summer-Analyst--Hong-Kong---APAC--2027_26985455",
 "level": "B",
 "location": "Kowloon  Hong Kong",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Corée / Asie",
 "seed": true,
@@ -3656,6 +3676,7 @@
 "category": "Autre (agrégateur)",
 "company": "Disruptive AI",
 "cycle": "Summer",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "0deb4b37670c33bf",
@@ -3675,6 +3696,7 @@
 },
 "0e14e54fad7a2f95": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "J.P. Morgan",
 "cycle": "Summer",
 "details": {
@@ -3701,7 +3723,7 @@
 "key": "210765276",
 "level": "A",
 "location": "Columbus, OH, United States",
-"missing": 1,
+"missing": 2,
 "posted": "2026-07-07",
 "region": "New York / US",
 "seed": true,
@@ -3770,6 +3792,7 @@
 },
 "0e50336487da6bf3": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "J.P. Morgan",
 "cycle": "Summer",
 "details": {
@@ -3794,7 +3817,7 @@
 "key": "210765772",
 "level": "B",
 "location": "Newark, DE, United States",
-"missing": 1,
+"missing": 2,
 "posted": "2026-07-08",
 "region": "New York / US",
 "seed": true,
@@ -4053,6 +4076,18 @@
 "category": "Banque BB",
 "company": "Bank of America",
 "cycle": "Off-cycle",
+"details": {
+"country": "Suisse",
+"languages": [
+"allemand"
+],
+"rolling": true,
+"start": "2027-01",
+"tests": [
+"Entretien vidéo"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "New York",
 "id": "0f25f1cab8b2157f",
@@ -4095,6 +4130,8 @@
 "category": "Autre (agrégateur)",
 "company": "Worldline",
 "cycle": "Off-cycle",
+"details": {},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "0f59f6386fafefce",
@@ -4116,6 +4153,7 @@
 "category": "Autre (agrégateur)",
 "company": "Swiss Life Asset Managers",
 "cycle": "Stage",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "0f70d7c29e89d2d5",
@@ -4412,7 +4450,7 @@
 "key": "/job/Taipei-Taipei-City-Taiwan/Banking---Investment-Banking--Summer-Analyst--Taiwan---APAC--2027_26985504",
 "level": "A",
 "location": "Taipei Taipei City Taiwan",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Autre / NC",
 "seed": true,
@@ -4588,6 +4626,13 @@
 "category": "Autre (agrégateur)",
 "company": "Van Oers",
 "cycle": "Stage",
+"details": {
+"documents": [
+"CV"
+],
+"start_asap": true
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "1182bb551b1a8eb0",
@@ -4628,7 +4673,7 @@
 "key": "/job/Hong-Kong--Hong-Kong/Banking---Investment-Banking--Summer-Analyst--Hong-Kong---APAC--2027_26984799",
 "level": "A",
 "location": "Hong Kong  Hong Kong",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Corée / Asie",
 "seed": true,
@@ -4662,6 +4707,13 @@
 "category": "Transaction Services",
 "company": "PwC",
 "cycle": "Off-cycle",
+"details": {
+"start": "2027-01",
+"tests": [
+"Case study"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "London",
 "id": "11c82dfa0e2e32b0",
@@ -4734,11 +4786,21 @@
 "category": "Autre (agrégateur)",
 "company": "Freestone Capital Management",
 "cycle": "Summer",
+"details": {
+"documents": [
+"CV",
+"Lettre de motivation"
+],
+"duration": "9 sem.",
+"start": "2027-06",
+"team": "Private Equity"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "12458adc35774c52",
 "key": "https://job-boards.greenhouse.io/freestonecapitalmanagement/jobs/5425292008",
-"level": "B",
+"level": "A",
 "location": "Seattle, WA",
 "missing": 0,
 "posted": null,
@@ -4748,6 +4810,7 @@
 "source": "aggregator",
 "tier": "3",
 "title": "Alternative Investments Intern - Summer 2027",
+"upgraded": true,
 "url": "https://job-boards.greenhouse.io/freestonecapitalmanagement/jobs/5425292008",
 "via": "YourFinanceJob · Summer internships"
 },
@@ -4956,6 +5019,7 @@
 "category": "Autre (agrégateur)",
 "company": "Binance",
 "cycle": "Off-cycle",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "1425b886f6d308a3",
@@ -5035,6 +5099,36 @@
 "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Entry_Level_Careers/job/OH-Cleveland/Cleveland---Tax-JD---Intern---Summer-2027_612265EIB-1",
 "via": "YourFinanceJob · Summer internships"
 },
+"1471ff8ce9bf72c9": {
+"category": "Boutique M&A",
+"company": "Evercore",
+"cycle": "Off-cycle",
+"details": {
+"country": "France",
+"duration": "6 mois",
+"start": "2027-01",
+"study": [
+"année pénultième"
+],
+"team": "M&A / IBD"
+},
+"details_tried": true,
+"first_seen": "2026-10-09T14:59:00+00:00",
+"hq": "New York",
+"id": "1471ff8ce9bf72c9",
+"key": "3419",
+"level": "A",
+"location": "",
+"missing": 0,
+"posted": null,
+"region": "Paris / France",
+"seed": false,
+"skey": "Evercore#oleeo#evercore",
+"source": "oleeo",
+"tier": "1",
+"title": "2027 Paris Off-Cycle Internship - Industrials Team (January 2027 start)",
+"url": "https://evercore.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-6/candidate/so/pm/1/pl/2/opp/3419-2027-Paris-Off-Cycle-Internship-Industrials-Team-January-2027-start/en-GB"
+},
 "147308d3b952f178": {
 "category": "Banque BB",
 "company": "Jefferies",
@@ -5078,16 +5172,26 @@
 "posted": "2026-07-21",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "January 2027 - M&A internship - LazardNext - Paris",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6393"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6393"
 },
 "14a740d24d181380": {
 "category": "Autre (agrégateur)",
 "company": "ZS Associates",
 "cycle": "Off-cycle",
+"details": {
+"documents": [
+"CV",
+"Lettre de motivation",
+"Relevés de notes"
+],
+"duration": "12 mois",
+"work_auth_mentioned": true
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "14a740d24d181380",
@@ -5107,6 +5211,7 @@
 },
 "14aa9318fdeffb16": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "J.P. Morgan",
 "cycle": "Summer",
 "first_seen": "2026-10-05T11:47:54+00:00",
@@ -5115,7 +5220,7 @@
 "key": "210765547",
 "level": "B",
 "location": "Jersey City, NJ, United States",
-"missing": 1,
+"missing": 2,
 "posted": "2026-07-08",
 "region": "New York / US",
 "seed": true,
@@ -5248,7 +5353,7 @@
 "key": "/job/Neuilly-sur-Seine/Stagiaire-Ingnieur-Auditeur-Financier---Septembre-2027---F-H_767106WD",
 "level": "B",
 "location": "11 Locations",
-"missing": 1,
+"missing": 0,
 "posted": "2026-10-09",
 "region": "Autre / NC",
 "seed": false,
@@ -5355,6 +5460,8 @@
 "category": "Autre (agrégateur)",
 "company": "Coface",
 "cycle": "Off-cycle",
+"details": {},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "1547c4c9bf8144bf",
@@ -5469,6 +5576,7 @@
 "category": "Autre (agrégateur)",
 "company": "Compass Lexecon",
 "cycle": "Off-cycle",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "15824862d3d3083f",
@@ -5620,6 +5728,7 @@
 "15da7fc0e7e4541d": {
 "category": "M&A Mid-Market",
 "close_checked": true,
+"closed": "2026-10-09T14:59:00+00:00",
 "company": "Clipperton",
 "cycle": "Stage",
 "first_seen": "2026-10-05T11:47:54+00:00",
@@ -5628,7 +5737,7 @@
 "key": "E398F06FC2",
 "level": "B",
 "location": "Paris, France",
-"missing": 2,
+"missing": 3,
 "posted": "2026-06-30",
 "region": "Paris / France",
 "seed": true,
@@ -5705,7 +5814,7 @@
 "key": "/job/Chiyoda-ku-Tokyo-Japan/Corporate-Banking---Summer-Internship-Program--Tokyo---Japan--2027_26982664",
 "level": "A",
 "location": "Chiyoda-ku Tokyo Japan",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Corée / Asie",
 "seed": true,
@@ -6039,7 +6148,7 @@
 "key": "/job/New-York-New-York-United-States/Services---Summer-Analyst-Program--New-York-City---US--2027_26945311",
 "level": "B",
 "location": "New York New York United States",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "New York / US",
 "seed": true,
@@ -6289,6 +6398,11 @@
 "category": "Autre (agrégateur)",
 "company": "Boston Consulting Group",
 "cycle": "Off-cycle",
+"details": {
+"start": "2027-01",
+"team": "Research"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "1846f8a0702cf8e4",
@@ -6350,7 +6464,7 @@
 "key": "/job/Chiyoda-ku-Tokyo-Japan/Investment-Banking---Summer-Internship-Program--Tokyo---Japan--2027_26982662",
 "level": "A",
 "location": "Chiyoda-ku Tokyo Japan",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Corée / Asie",
 "seed": true,
@@ -6437,11 +6551,11 @@
 "posted": "2026-06-30",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Stage H/F - Analyste ESG/ISR (Gestion Obligataire) – Janvier 2027",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6320"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6320"
 },
 "18e0d35fd2f3f068": {
 "category": "Transaction Services",
@@ -6478,6 +6592,7 @@
 "category": "Autre (agrégateur)",
 "company": "SouthState Bank",
 "cycle": "Summer",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "18f6d4261c3ba8af",
@@ -6636,11 +6751,11 @@
 "posted": "2026-07-31",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Stage H/F – IA Manager au sein de l’équipe Finance – Septembre 2026",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6452"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6452"
 },
 "199bec2e776b85c8": {
 "category": "Banque BB",
@@ -6653,7 +6768,7 @@
 "key": "/job/New-York-New-York-United-States/Markets---Sales-and-Trading--Summer-Analyst--New-York-City---US--2027_25928736",
 "level": "B",
 "location": "New York New York United States",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "New York / US",
 "seed": true,
@@ -6667,6 +6782,10 @@
 "category": "Investisseur institutionnel",
 "company": "Temasek",
 "cycle": "Off-cycle",
+"details": {
+"start": "2027-01"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "Singapore",
 "id": "19a7ce83034a38a0",
@@ -6749,6 +6868,7 @@
 "category": "Autre (agrégateur)",
 "company": "SouthState Bank",
 "cycle": "Summer",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "19e266d1041d3565",
@@ -6982,11 +7102,20 @@
 "category": "Banque BB",
 "company": "Goldman Sachs",
 "cycle": "Summer",
+"details": {
+"rolling": true,
+"study": [
+"année pénultième",
+"dernière année"
+],
+"team": "M&A / IBD"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "New York",
 "id": "1ab8a5a9d8964d80",
 "key": "https://www.goldmansachs.com/careers/students/programs-and-internships/emea/summer-analyst-programme",
-"level": "B",
+"level": "A",
 "location": "Location TBD",
 "missing": 0,
 "posted": null,
@@ -6996,6 +7125,7 @@
 "source": "aggregator",
 "tier": "1",
 "title": "2027 Summer Analyst Programme",
+"upgraded": true,
 "url": "https://www.goldmansachs.com/careers/students/programs-and-internships/emea/summer-analyst-programme",
 "via": "YourFinanceJob · Summer internships"
 },
@@ -7174,6 +7304,7 @@
 "category": "Transaction Services",
 "company": "PwC",
 "cycle": "Summer",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "London",
 "id": "1b7d062341d5e983",
@@ -7385,11 +7516,11 @@
 "posted": "2026-09-23",
 "region": "London / UK",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "2027 M&A Internship - Denmark",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6647"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6647"
 },
 "1c08ae2eaaed0d08": {
 "category": "Autre (agrégateur)",
@@ -7620,6 +7751,7 @@
 "category": "Autre (agrégateur)",
 "company": "Fidelity Investments Campus",
 "cycle": "Off-cycle",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "1d0c3d3fa85008b1",
@@ -8094,11 +8226,25 @@
 "category": "Autre (agrégateur)",
 "company": "Oak Hill Advisors",
 "cycle": "Summer",
+"details": {
+"country": "États-Unis",
+"documents": [
+"CV",
+"Lettre de motivation"
+],
+"duration": "10 sem.",
+"grad_years": [
+2028,
+2029
+],
+"team": "Private Credit"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "1f4c1c64498b6c76",
 "key": "https://job-boards.greenhouse.io/oakhilladvisors/jobs/4385083009",
-"level": "B",
+"level": "A",
 "location": "New York, NY, USA",
 "missing": 0,
 "posted": null,
@@ -8108,6 +8254,7 @@
 "source": "aggregator",
 "tier": "3",
 "title": "Fall Interest Form - Internship Program Summer 2028",
+"upgraded": true,
 "url": "https://job-boards.greenhouse.io/oakhilladvisors/jobs/4385083009",
 "via": "YourFinanceJob · Private equity"
 },
@@ -8264,11 +8411,11 @@
 "posted": "2026-10-01",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "July 2027 - M&A Internship - Telecom, Media & Entertainment team - Paris",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6675"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6675"
 },
 "1fbe502433d38f29": {
 "category": "Banque BB",
@@ -8477,6 +8624,7 @@
 "category": "Autre (agrégateur)",
 "company": "Euronext",
 "cycle": "Off-cycle",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "20e6d65a57a46784",
@@ -8587,6 +8735,7 @@
 "category": "Banque BB",
 "company": "TD Securities",
 "cycle": "Off-cycle",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "Toronto",
 "id": "2155d41868c164e5",
@@ -8736,11 +8885,11 @@
 "posted": "2026-09-23",
 "region": "Moyen-Orient",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "2027 M&A Internship - Abu Dhabi",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6653"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6653"
 },
 "221f8601c6d24a1b": {
 "category": "M&A Mid-Market",
@@ -8982,11 +9131,11 @@
 "posted": "2026-09-22",
 "region": "London / UK",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "2027-2028 London Financial Advisory Industrial Placement",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6638"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6638"
 },
 "232aa6ac43a94981": {
 "category": "Private Equity",
@@ -9141,11 +9290,15 @@
 "category": "Autre (agrégateur)",
 "company": "Coface",
 "cycle": "Off-cycle",
+"details": {
+"team": "Real Estate"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "23a6c422c925190d",
 "key": "https://jobs.smartrecruiters.com/coface/f79432ed-86bf-46f7-b0b6-0879d49523b5",
-"level": "B",
+"level": "A",
 "location": "Bois-Colombes, IDF, France",
 "missing": 0,
 "posted": null,
@@ -9155,6 +9308,7 @@
 "source": "aggregator",
 "tier": "3",
 "title": "Stage - Acheteur junior Groupe (H/F)",
+"upgraded": true,
 "url": "https://jobs.smartrecruiters.com/coface/f79432ed-86bf-46f7-b0b6-0879d49523b5",
 "via": "YourFinanceJob · France"
 },
@@ -9274,6 +9428,16 @@
 "category": "Autre (agrégateur)",
 "company": "Sycomore Asset Management",
 "cycle": "Off-cycle",
+"details": {
+"documents": [
+"CV",
+"Lettre de motivation"
+],
+"duration": "6 mois",
+"start": "2026-10",
+"team": "Markets"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "240e2846b1431e6e",
@@ -9357,11 +9521,11 @@
 "posted": "2026-06-29",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Stage H/F - Private Equity – Janvier 2027",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6317"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6317"
 },
 "24502e4b4a61a00a": {
 "category": "Boutique M&A",
@@ -9377,11 +9541,11 @@
 "posted": "2026-09-21",
 "region": "New York / US",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "2027 Data Scientist Summer Internship",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6604"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6604"
 },
 "2453ae3127f9fff5": {
 "category": "M&A Mid-Market",
@@ -9415,6 +9579,7 @@
 "category": "Autre (agrégateur)",
 "company": "Huron Consulting Group",
 "cycle": "Summer",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "2454915eb076814f",
@@ -9587,6 +9752,15 @@
 "category": "Transaction Services",
 "company": "PwC",
 "cycle": "Stage",
+"details": {
+"documents": [
+"CV",
+"Relevés de notes"
+],
+"duration": "3–4 mois",
+"start": "2026-06"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "London",
 "id": "25445022f4a1bdaa",
@@ -9800,6 +9974,8 @@
 "category": "Banque BB",
 "company": "Bank of America",
 "cycle": "Off-cycle",
+"details": {},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "New York",
 "id": "26b9bc2d57eb847c",
@@ -9840,6 +10016,8 @@
 "category": "Autre (agrégateur)",
 "company": "Coface",
 "cycle": "Off-cycle",
+"details": {},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "270ac6e735a2eae6",
@@ -10260,6 +10438,7 @@
 "category": "Transaction Services",
 "company": "PwC",
 "cycle": "Summer",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "London",
 "id": "292bf9905f7d66ec",
@@ -10710,7 +10889,7 @@
 "key": "/job/Seoul--Korea-Republic-Of/Banking---Commercial-Banking--Summer-Analyst--Korea--Republic-of---APAC--2027_26985211",
 "level": "B",
 "location": "Seoul  Korea, Republic Of",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Corée / Asie",
 "seed": true,
@@ -10785,6 +10964,7 @@
 "category": "Autre (agrégateur)",
 "company": "SouthState Bank",
 "cycle": "Summer",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "2afa9e296dba860d",
@@ -10887,6 +11067,16 @@
 "category": "Investisseur institutionnel",
 "company": "Temasek",
 "cycle": "Off-cycle",
+"details": {
+"grad_years": [
+2027,
+2028
+],
+"rolling": true,
+"start": "2027-01",
+"work_auth_mentioned": true
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "Singapore",
 "id": "2ba86b5ae944bc2d",
@@ -10926,6 +11116,7 @@
 },
 "2bdfb52be54d533d": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "J.P. Morgan",
 "cycle": "Summer",
 "first_seen": "2026-10-05T11:47:54+00:00",
@@ -10934,7 +11125,7 @@
 "key": "210766280",
 "level": "B",
 "location": "New York, NY, United States",
-"missing": 1,
+"missing": 2,
 "posted": "2026-07-06",
 "region": "New York / US",
 "seed": true,
@@ -11084,6 +11275,7 @@
 "category": "Autre (agrégateur)",
 "company": "Equinor",
 "cycle": "Summer",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "2ca2cbd9eaa1ada9",
@@ -11146,6 +11338,8 @@
 "category": "Banque BB",
 "company": "Bank of America",
 "cycle": "Off-cycle",
+"details": {},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "New York",
 "id": "2d62af3975cf639f",
@@ -11309,7 +11503,7 @@
 "key": "/job/Singapore--Singapore/Wealth---Private-Bank--Summer-Analyst---Singapore--2027_26988484",
 "level": "B",
 "location": "Singapore  Singapore",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Corée / Asie",
 "seed": true,
@@ -11342,11 +11536,11 @@
 "posted": "2026-10-01",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "July 2027 - M&A internship – Financial Institution Group (FIG) - Paris",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6685"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6685"
 },
 "2e73810228d2e178": {
 "category": "Banque BB",
@@ -11544,11 +11738,15 @@
 "category": "Autre (agrégateur)",
 "company": "Coface",
 "cycle": "Off-cycle",
+"details": {
+"team": "Valuation"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "2f729ea6db17732e",
 "key": "https://jobs.smartrecruiters.com/coface/d823c291-485b-4126-b616-d710df845c40",
-"level": "B",
+"level": "A",
 "location": "Bois-Colombes, IDF, France",
 "missing": 0,
 "posted": null,
@@ -11558,6 +11756,7 @@
 "source": "aggregator",
 "tier": "3",
 "title": "Stage - Analyste crédit junior - secteur agroalimentaire distribution (H/F)",
+"upgraded": true,
 "url": "https://jobs.smartrecruiters.com/coface/d823c291-485b-4126-b616-d710df845c40",
 "via": "YourFinanceJob · France"
 },
@@ -11624,6 +11823,7 @@
 },
 "2fa0e3d63435d6d9": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "J.P. Morgan",
 "cycle": "Summer",
 "details": {
@@ -11648,7 +11848,7 @@
 "key": "210775320",
 "level": "A",
 "location": "LONDON, LONDON, United Kingdom",
-"missing": 0,
+"missing": 1,
 "posted": "2026-08-31",
 "region": "London / UK",
 "seed": true,
@@ -11663,6 +11863,13 @@
 "category": "Autre (agrégateur)",
 "company": "Van Oers",
 "cycle": "Stage",
+"details": {
+"documents": [
+"CV"
+],
+"start_asap": true
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "2fbc1b845530d8a0",
@@ -12144,11 +12351,15 @@
 "category": "Banque BB",
 "company": "Bank of America",
 "cycle": "Off-cycle",
+"details": {
+"team": "M&A / IBD"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "New York",
 "id": "317d26749cdc9cc8",
 "key": "/job/Mercer-Island/Financial-Solutions-Advisor-Stage-II---Registration-Candidate--Evergreen-_24043384",
-"level": "B",
+"level": "A",
 "location": "Mercer Island",
 "missing": 0,
 "posted": "2026-09-09",
@@ -12158,6 +12369,7 @@
 "source": "workday",
 "tier": "1",
 "title": "Financial Solutions Advisor Stage II - Registration Candidate (Evergreen)",
+"upgraded": true,
 "url": "https://ghr.wd1.myworkdayjobs.com/en-US/Lateral-US/job/Mercer-Island/Financial-Solutions-Advisor-Stage-II---Registration-Candidate--Evergreen-_24043384"
 },
 "317d2b479d08b56f": {
@@ -12434,6 +12646,7 @@
 "category": "Autre (agrégateur)",
 "company": "Rivean Capital",
 "cycle": "Off-cycle",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "32239b7af13943c3",
@@ -12698,6 +12911,7 @@
 "category": "Autre (agrégateur)",
 "company": "JLL",
 "cycle": "Summer",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "32ea53b8afb8da94",
@@ -12739,6 +12953,7 @@
 "category": "Autre (agrégateur)",
 "company": "Fidelity Investments Campus",
 "cycle": "Off-cycle",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "33122f683192ffee",
@@ -12808,6 +13023,7 @@
 "category": "Autre (agrégateur)",
 "company": "Van Oers",
 "cycle": "Stage",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "334bd395892b4a3d",
@@ -12954,11 +13170,11 @@
 "posted": "2026-06-29",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Stage H/F - Suport Sales en Gestion Institutionnelle – Janvier 2027",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6325"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6325"
 },
 "3405de45659401d3": {
 "category": "M&A Mid-Market",
@@ -13256,11 +13472,11 @@
 "posted": "2026-06-30",
 "region": "Europe (autre)",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Stage H/F - Assistant de Gestion Privée – Bruxelles – Mars 2027",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6344"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6344"
 },
 "35ac4a37770a59d8": {
 "category": "Banque BB",
@@ -13474,6 +13690,8 @@
 "category": "Autre (agrégateur)",
 "company": "Coface",
 "cycle": "Off-cycle",
+"details": {},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "37181d7fc0696e13",
@@ -13623,11 +13841,11 @@
 "posted": "2026-06-30",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Stage H/F - Développement Gestion Privée – Paris – Janvier 2027",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6321"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6321"
 },
 "37f780864c2214de": {
 "category": "Banque BB",
@@ -13834,11 +14052,11 @@
 "posted": "2026-09-21",
 "region": "New York / US",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "2027 Emerging Markets Equity Research Summer Internship",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6611"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6611"
 },
 "39041269143e679c": {
 "category": "Investisseur institutionnel",
@@ -13885,11 +14103,16 @@
 "category": "Autre (agrégateur)",
 "company": "LBBW",
 "cycle": "Off-cycle",
+"details": {
+"start": "2026-05",
+"team": "Private Equity"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "392d2f18bbe628ca",
 "key": "https://karriere.lbbw.de/job/Stuttgart-Praktikant-%28mwd%29-Produktmanagement-70173/974308301/",
-"level": "B",
+"level": "A",
 "location": "Stuttgart, DE, 70173",
 "missing": 0,
 "posted": null,
@@ -13899,6 +14122,7 @@
 "source": "aggregator",
 "tier": "3",
 "title": "Praktikant (m/w/d) Produktmanagement",
+"upgraded": true,
 "url": "https://karriere.lbbw.de/job/Stuttgart-Praktikant-%28mwd%29-Produktmanagement-70173/974308301/",
 "via": "YourFinanceJob · Student & graduate"
 },
@@ -14026,6 +14250,7 @@
 },
 "39feee61f3b569c3": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "J.P. Morgan",
 "cycle": "Summer",
 "first_seen": "2026-10-05T11:47:54+00:00",
@@ -14034,7 +14259,7 @@
 "key": "210765224",
 "level": "B",
 "location": "Plano, TX, United States",
-"missing": 1,
+"missing": 2,
 "posted": "2026-07-06",
 "region": "New York / US",
 "seed": true,
@@ -14252,6 +14477,8 @@
 "category": "Transaction Services",
 "company": "PwC",
 "cycle": "Off-cycle",
+"details": {},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "London",
 "id": "3b0517eb1cc51eae",
@@ -14340,6 +14567,7 @@
 "category": "Banque BB",
 "company": "RBC Capital Markets",
 "cycle": "Off-cycle",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "Toronto",
 "id": "3b61955627dbf39e",
@@ -14485,7 +14713,7 @@
 "key": "/job/Paris--France/Banking--Financing--Debt-Capital-Markets--Placement-Analyst-Internship--Paris---France-2027_26992465",
 "level": "A",
 "location": "Paris  France",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-07",
 "region": "Paris / France",
 "seed": true,
@@ -14663,6 +14891,8 @@
 "category": "Autre (agrégateur)",
 "company": "Nordea",
 "cycle": "Summer",
+"details": {},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "3c6dc9c695ab5b14",
@@ -14738,11 +14968,15 @@
 "category": "Banque BB",
 "company": "Bank of America",
 "cycle": "Off-cycle",
+"details": {
+"team": "M&A / IBD"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "New York",
 "id": "3ca16be7ebb5cdea",
 "key": "/job/Portland/Financial-Solutions-Advisor-Stage-II---Registration-Candidate---Portland-Metro_24044847-2",
-"level": "B",
+"level": "A",
 "location": "Portland",
 "missing": 0,
 "posted": "2026-09-09",
@@ -14752,6 +14986,7 @@
 "source": "workday",
 "tier": "1",
 "title": "Financial Solutions Advisor Stage II - Registration Candidate - Portland Metro",
+"upgraded": true,
 "url": "https://ghr.wd1.myworkdayjobs.com/en-US/Lateral-US/job/Portland/Financial-Solutions-Advisor-Stage-II---Registration-Candidate---Portland-Metro_24044847-2"
 },
 "3cb49b7935d62ccb": {
@@ -14811,6 +15046,7 @@
 "category": "Autre (agrégateur)",
 "company": "Euronext",
 "cycle": "Off-cycle",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "3cbac15d6167603b",
@@ -14923,6 +15159,8 @@
 "category": "Autre (agrégateur)",
 "company": "TenneT",
 "cycle": "Stage",
+"details": {},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "3d4ad1896e908b35",
@@ -15081,6 +15319,7 @@
 "category": "Autre (agrégateur)",
 "company": "SCOR",
 "cycle": "Off-cycle",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "3e5d4f2bbb41edb4",
@@ -15353,11 +15592,11 @@
 "posted": "2026-09-29",
 "region": "London / UK",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "2027 London Asset Management Sales & Marketing Internship",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6673"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6673"
 },
 "3f9949a4a0a12374": {
 "category": "Boutique M&A",
@@ -15436,6 +15675,7 @@
 "category": "Autre (agrégateur)",
 "company": "SouthState Bank",
 "cycle": "Summer",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "3ffcf5b97aa19348",
@@ -15477,6 +15717,15 @@
 "category": "Transaction Services",
 "company": "PwC",
 "cycle": "Off-cycle",
+"details": {
+"documents": [
+"CV",
+"Relevés de notes"
+],
+"start": "2026-05",
+"team": "M&A / IBD"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "London",
 "id": "4040c9310266074d",
@@ -15808,6 +16057,7 @@
 "category": "Autre (agrégateur)",
 "company": "BNY",
 "cycle": "Summer",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "4175b14e9662e12d",
@@ -15887,6 +16137,7 @@
 "category": "Transaction Services",
 "company": "PwC",
 "cycle": "Summer",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "London",
 "id": "41e44f734fc6eafe",
@@ -16125,6 +16376,11 @@
 "category": "Transaction Services",
 "company": "PwC",
 "cycle": "Stage",
+"details": {
+"start": "2026-10",
+"team": "Research"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "London",
 "id": "4349b56426369982",
@@ -16287,6 +16543,7 @@
 "category": "Autre (agrégateur)",
 "company": "Marsh McLennan",
 "cycle": "Off-cycle",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "443fd69a1f64cf4a",
@@ -16308,6 +16565,10 @@
 "category": "Autre (agrégateur)",
 "company": "Aflac",
 "cycle": "Summer",
+"details": {
+"team": "Markets"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "445348684552afa7",
@@ -16420,11 +16681,11 @@
 "posted": "2026-06-30",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Stage H/F – Juriste Corporate - Juillet 2027",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6348"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6348"
 },
 "451446d56ff04768": {
 "category": "Autre (agrégateur)",
@@ -16604,6 +16865,7 @@
 },
 "45fa0b2c9ef03b02": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "J.P. Morgan",
 "cycle": "Summer",
 "details": {
@@ -16631,7 +16893,7 @@
 "key": "210766058",
 "level": "B",
 "location": "Thailand",
-"missing": 1,
+"missing": 2,
 "posted": "2026-07-31",
 "region": "Autre / NC",
 "seed": true,
@@ -16666,11 +16928,23 @@
 "category": "Transaction Services",
 "company": "PwC",
 "cycle": "Stage",
+"details": {
+"documents": [
+"CV",
+"Relevés de notes"
+],
+"start": "2026-12",
+"study": [
+"année pénultième"
+],
+"team": "M&A / IBD"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "London",
 "id": "463288ed877de4cc",
 "key": "/job/Singapore/Consulting---SAP-Year-End-Internship--Dec-26---Feb-27-_740985WD",
-"level": "B",
+"level": "A",
 "location": "Singapore",
 "missing": 0,
 "posted": "2026-09-09",
@@ -16680,6 +16954,7 @@
 "source": "workday",
 "tier": "2",
 "title": "Consulting - SAP Year-End Internship (Dec 26 - Feb 27)",
+"upgraded": true,
 "url": "https://pwc.wd3.myworkdayjobs.com/en-US/Global_Campus_Careers/job/Singapore/Consulting---SAP-Year-End-Internship--Dec-26---Feb-27-_740985WD"
 },
 "4665ddc497c26fe0": {
@@ -17103,6 +17378,7 @@
 },
 "47911306cd568cc6": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "J.P. Morgan",
 "cycle": "Summer",
 "details": {
@@ -17131,7 +17407,7 @@
 "key": "210766905",
 "level": "A",
 "location": "Tokyo-To, Japan",
-"missing": 1,
+"missing": 2,
 "posted": "2026-07-31",
 "region": "Corée / Asie",
 "seed": true,
@@ -17331,6 +17607,16 @@
 "category": "Autre (agrégateur)",
 "company": "Principal Financial Group",
 "cycle": "Off-cycle",
+"details": {
+"documents": [
+"CV",
+"Lettre de motivation",
+"Relevés de notes"
+],
+"duration": "12 mois",
+"work_auth_mentioned": true
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "48886515f0bb7978",
@@ -17565,6 +17851,20 @@
 "category": "Autre (agrégateur)",
 "company": "Tourmaline Oil",
 "cycle": "Summer",
+"details": {
+"country": "Canada",
+"documents": [
+"CV",
+"Lettre de motivation",
+"Relevés de notes"
+],
+"start": "2027-05",
+"study": [
+"1re année"
+],
+"work_auth_mentioned": true
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "494397ecd2fc2c77",
@@ -17596,11 +17896,11 @@
 "posted": "2026-06-30",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Stage H/F - Analyste Produits Structurés et Alternatifs – Mars 2027",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6341"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6341"
 },
 "499902062501d2c0": {
 "category": "Boutique M&A",
@@ -17763,6 +18063,8 @@
 "category": "Transaction Services",
 "company": "PwC",
 "cycle": "Stage",
+"details": {},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "London",
 "id": "4a6ad9c9f092248f",
@@ -17783,6 +18085,16 @@
 "category": "Investisseur institutionnel",
 "company": "AXA",
 "cycle": "Off-cycle",
+"details": {
+"documents": [
+"CV",
+"Lettre de motivation",
+"Relevés de notes"
+],
+"duration": "26 sem.",
+"work_auth_mentioned": true
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "Paris",
 "id": "4a74b1f7157f63bc",
@@ -18010,11 +18322,11 @@
 "posted": "2026-06-29",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Stage H/F - Analyste ESG (Direction ESG) – Janvier 2027",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6318"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6318"
 },
 "4b5eb1ac1e24118a": {
 "category": "Banque BB",
@@ -18290,11 +18602,15 @@
 "category": "Banque BB",
 "company": "Bank of America",
 "cycle": "Off-cycle",
+"details": {
+"team": "M&A / IBD"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "New York",
 "id": "4c29ded7142f6865",
 "key": "/job/Seattle/Financial-Solutions-Advisor-Stage-II---Registration-Candidate---Seattle-South_24044842",
-"level": "B",
+"level": "A",
 "location": "Seattle",
 "missing": 0,
 "posted": "2026-09-09",
@@ -18304,6 +18620,7 @@
 "source": "workday",
 "tier": "1",
 "title": "Financial Solutions Advisor Stage II - Registration Candidate - Seattle South",
+"upgraded": true,
 "url": "https://ghr.wd1.myworkdayjobs.com/en-US/Lateral-US/job/Seattle/Financial-Solutions-Advisor-Stage-II---Registration-Candidate---Seattle-South_24044842"
 },
 "4c640c33a27d1c1b": {
@@ -18350,6 +18667,7 @@
 "category": "Autre (agrégateur)",
 "company": "Rabobank",
 "cycle": "Summer",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "4caa51c921b76e48",
@@ -18460,6 +18778,7 @@
 "category": "Banque BB",
 "company": "Goldman Sachs",
 "cycle": "Stage",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "New York",
 "id": "4cfdd4896c57d5e2",
@@ -18521,11 +18840,11 @@
 "posted": "2026-06-30",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Stage H/F - Analyste ESG/ISR (Gestion Actions) - Janvier 2027",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6319"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6319"
 },
 "4d254bfe44d4d3de": {
 "category": "Autre (agrégateur)",
@@ -19496,6 +19815,15 @@
 "category": "Autre (agrégateur)",
 "company": "Capital Fund Management (CFM)",
 "cycle": "Off-cycle",
+"details": {
+"country": "France",
+"start": "2026-09",
+"study": [
+"césure / gap year"
+],
+"team": "Asset Management"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "510195e9d4f1cf95",
@@ -19725,11 +20053,11 @@
 "posted": "2026-06-29",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Stage H/F – Chargé d’Appels d’Offres (Gestion Institutionnelle) – Janvier 2027",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6326"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6326"
 },
 "521e58280d3600d3": {
 "category": "Banque BB",
@@ -19853,6 +20181,7 @@
 },
 "5281d3bf40386cc6": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "J.P. Morgan",
 "cycle": "Summer",
 "first_seen": "2026-10-05T11:47:54+00:00",
@@ -19861,7 +20190,7 @@
 "key": "210774061",
 "level": "B",
 "location": "New York, NY, United States",
-"missing": 1,
+"missing": 2,
 "posted": "2026-08-04",
 "region": "New York / US",
 "seed": true,
@@ -19895,6 +20224,13 @@
 "category": "Transaction Services",
 "company": "PwC",
 "cycle": "Stage",
+"details": {
+"documents": [
+"CV"
+],
+"start": "2027-08"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "London",
 "id": "52c440b776d18681",
@@ -20000,7 +20336,7 @@
 "key": "/job/TAURUS/Banking--Corporate-Banking--Placement-Analyst-Internship--Frankfurt---Germany-2027_26992089",
 "level": "A",
 "location": "TAURUS",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Europe (autre)",
 "seed": true,
@@ -20015,6 +20351,7 @@
 "category": "Autre (agrégateur)",
 "company": "Euronext",
 "cycle": "Off-cycle",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "53a6d40c2fdcf480",
@@ -20123,11 +20460,11 @@
 "posted": "2026-06-30",
 "region": "Europe (autre)",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Stage H/F - Développement Gestion Privée – Luxembourg – Mars 2027",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6343"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6343"
 },
 "53e2a2b848f6cd6b": {
 "category": "Investisseur institutionnel",
@@ -20153,6 +20490,7 @@
 "category": "Transaction Services",
 "company": "PwC",
 "cycle": "Summer",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "London",
 "id": "54114a5a663ba24c",
@@ -20214,11 +20552,15 @@
 "category": "Autre (agrégateur)",
 "company": "SumUp",
 "cycle": "Off-cycle",
+"details": {
+"team": "Private Equity"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "54696592d9f7b7f6",
 "key": "https://sumup.com/careers/positions/8682458002?gh_jid=8682458002",
-"level": "B",
+"level": "A",
 "location": "Santiago, Chile; São Paulo, Brazil",
 "missing": 0,
 "posted": null,
@@ -20228,6 +20570,7 @@
 "source": "aggregator",
 "tier": "3",
 "title": "FP&A Strategy Intern",
+"upgraded": true,
 "url": "https://sumup.com/careers/positions/8682458002?gh_jid=8682458002",
 "via": "YourFinanceJob · Student & graduate"
 },
@@ -20416,6 +20759,7 @@
 "category": "Autre (agrégateur)",
 "company": "Rivean Capital",
 "cycle": "Off-cycle",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "558275bdb86e8b76",
@@ -20659,7 +21003,7 @@
 "key": "/job/Paris--France/Banking--Financing--Equity-Capital-Markets--Placement-Analyst-Internship--Paris---France-2027_26992452",
 "level": "A",
 "location": "Paris  France",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-07",
 "region": "Paris / France",
 "seed": true,
@@ -20736,6 +21080,7 @@
 "category": "Autre (agrégateur)",
 "company": "Panmure Liberum",
 "cycle": "Summer",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "56951af291b16621",
@@ -20757,6 +21102,7 @@
 "category": "Autre (agrégateur)",
 "company": "Land O'Lakes",
 "cycle": "Summer",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "56b6f55779761311",
@@ -20776,6 +21122,7 @@
 },
 "56c628f11663f012": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "J.P. Morgan",
 "cycle": "Summer",
 "details": {
@@ -20802,7 +21149,7 @@
 "key": "210765289",
 "level": "A",
 "location": "New York, NY, United States",
-"missing": 1,
+"missing": 2,
 "posted": "2026-07-07",
 "region": "New York / US",
 "seed": true,
@@ -20881,6 +21228,7 @@
 },
 "5743c256f11f7d7f": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "J.P. Morgan",
 "cycle": "Summer",
 "details": {
@@ -20908,7 +21256,7 @@
 "key": "210766057",
 "level": "B",
 "location": "Malaysia",
-"missing": 1,
+"missing": 2,
 "posted": "2026-07-31",
 "region": "Autre / NC",
 "seed": true,
@@ -20948,6 +21296,18 @@
 "category": "Autre (agrégateur)",
 "company": "EDP",
 "cycle": "Summer",
+"details": {
+"documents": [
+"CV"
+],
+"study": [
+"1re année"
+],
+"tests": [
+"Tests en ligne"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "57adfde6add536a3",
@@ -20991,6 +21351,13 @@
 "category": "Autre (agrégateur)",
 "company": "Tide",
 "cycle": "Stage",
+"details": {
+"documents": [
+"CV",
+"Lettre de motivation"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "57daab42638ee850",
@@ -21084,11 +21451,11 @@
 "posted": "2026-09-29",
 "region": "London / UK",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "2027 London Asset Management Equity Research Internship",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6674"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6674"
 },
 "5809314d0ea5f822": {
 "category": "Banque BB",
@@ -21218,11 +21585,11 @@
 "posted": "2026-08-23",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Stage H/F - Assistant Commercial & Administratif en Gestion Institutionnelle – Septembre 2026",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6461"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6461"
 },
 "5854d7201483c9bd": {
 "category": "Transaction Services",
@@ -21812,6 +22179,8 @@
 "category": "Autre (agrégateur)",
 "company": "TenneT",
 "cycle": "Stage",
+"details": {},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "5ad85d20e28af2b5",
@@ -22027,11 +22396,18 @@
 "category": "Banque BB",
 "company": "ING",
 "cycle": "Stage",
+"details": {
+"study": [
+"césure / gap year"
+],
+"team": "M&A / IBD"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "Amsterdam",
 "id": "5c0ccaaf21dd4327",
 "key": "/job/Frankfurt/Praktikant-Digitale-Vermgensverwaltung--w-m-d-_REQ-10100751",
-"level": "B",
+"level": "A",
 "location": "Frankfurt",
 "missing": 0,
 "posted": "2026-09-09",
@@ -22041,6 +22417,7 @@
 "source": "workday",
 "tier": "3",
 "title": "Praktikant Digitale Vermögensverwaltung (w/m/d)",
+"upgraded": true,
 "url": "https://ing.wd3.myworkdayjobs.com/en-US/ICSGBLCOR/job/Frankfurt/Praktikant-Digitale-Vermgensverwaltung--w-m-d-_REQ-10100751"
 },
 "5c1621cc3a2e9d3f": {
@@ -22230,7 +22607,7 @@
 "key": "/job/Paris--France/Banking--Corporate-Banking--Placement-Analyst-Internship--Paris---France-2027_26992458",
 "level": "A",
 "location": "Paris  France",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-07",
 "region": "Paris / France",
 "seed": true,
@@ -22313,11 +22690,11 @@
 "posted": "2026-09-24",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "July 2027 - M&A Internship - Generalist team - Paris",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6656"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6656"
 },
 "5dc0ef287e6b9070": {
 "category": "Boutique M&A",
@@ -22970,6 +23347,8 @@
 "category": "Transaction Services",
 "company": "PwC",
 "cycle": "Stage",
+"details": {},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "London",
 "id": "601c30704a8108d5",
@@ -23012,6 +23391,7 @@
 },
 "6057c2ae3637cf8b": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "J.P. Morgan",
 "cycle": "Summer",
 "details": {
@@ -23039,7 +23419,7 @@
 "key": "210753819",
 "level": "B",
 "location": "Hong Kong",
-"missing": 1,
+"missing": 2,
 "posted": "2026-06-30",
 "region": "Corée / Asie",
 "seed": true,
@@ -23456,6 +23836,16 @@
 "category": "Investisseur institutionnel",
 "company": "AXA",
 "cycle": "Off-cycle",
+"details": {
+"documents": [
+"CV",
+"Lettre de motivation",
+"Relevés de notes"
+],
+"duration": "26 sem.",
+"work_auth_mentioned": true
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "Paris",
 "id": "61ceffdc4a116d26",
@@ -23528,11 +23918,11 @@
 "posted": "2026-10-02",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Stage H/F - Assistant Gestion de Portefeuilles Obligataires – Janvier 2027",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6687"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6687"
 },
 "621d2176bf90c928": {
 "category": "Transaction Services",
@@ -23741,6 +24131,8 @@
 "category": "Transaction Services",
 "company": "PwC",
 "cycle": "Stage",
+"details": {},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "London",
 "id": "62dd6ae9ea94ec6a",
@@ -23788,7 +24180,7 @@
 "key": "/job/Bogota--Colombia/Markets---Sales-and-Trading--Internship--Bogot---Colombia--2026_25907844",
 "level": "B",
 "location": "Bogota  Colombia",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Autre / NC",
 "seed": true,
@@ -23960,6 +24352,10 @@
 "category": "Investisseur institutionnel",
 "company": "Temasek",
 "cycle": "Off-cycle",
+"details": {
+"start": "2027-01"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "Singapore",
 "id": "6366a6023faeb4d0",
@@ -24376,6 +24772,7 @@
 },
 "65cbc17d03a3515e": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "J.P. Morgan",
 "cycle": "Summer",
 "details": {
@@ -24403,7 +24800,7 @@
 "key": "210766489",
 "level": "B",
 "location": "Philippines",
-"missing": 1,
+"missing": 2,
 "posted": "2026-07-31",
 "region": "Autre / NC",
 "seed": true,
@@ -24579,6 +24976,16 @@
 "category": "Investisseur institutionnel",
 "company": "AXA",
 "cycle": "Off-cycle",
+"details": {
+"documents": [
+"CV",
+"Lettre de motivation",
+"Relevés de notes"
+],
+"duration": "26 sem.",
+"work_auth_mentioned": true
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "Paris",
 "id": "6748f30df73f5d9a",
@@ -24652,7 +25059,7 @@
 "key": "/job/TAURUS/Banking--Financing--Equity-Capital-Markets-Placement-Analyst-Internship--Frankfurt---Germany-2027_26992449",
 "level": "A",
 "location": "TAURUS",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Europe (autre)",
 "seed": true,
@@ -24758,11 +25165,21 @@
 "category": "Transaction Services",
 "company": "PwC",
 "cycle": "Off-cycle",
+"details": {
+"documents": [
+"CV"
+],
+"study": [
+"dernière année"
+],
+"team": "Private Equity"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "London",
 "id": "682a51b4062355a9",
 "key": "/job/Marseille/Stage-en-Transformation-des-organisations-et-Accompagnement-du-Changement---Marseille---F-H_729783WD",
-"level": "B",
+"level": "A",
 "location": "Marseille",
 "missing": 0,
 "posted": "2026-09-09",
@@ -24772,6 +25189,7 @@
 "source": "workday",
 "tier": "2",
 "title": "Stage en Transformation des organisations et Accompagnement du Changement - Marseille - F/H",
+"upgraded": true,
 "url": "https://pwc.wd3.myworkdayjobs.com/en-US/Global_Campus_Careers/job/Marseille/Stage-en-Transformation-des-organisations-et-Accompagnement-du-Changement---Marseille---F-H_729783WD"
 },
 "6851a2881816ee5f": {
@@ -25070,11 +25488,11 @@
 "posted": "2026-06-29",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Stage H/F - Développement Commercial Distribution – Janvier 2027",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6330"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6330"
 },
 "6905c303f3316c93": {
 "category": "Transaction Services",
@@ -25358,11 +25776,11 @@
 "posted": "2026-09-02",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "April 2027 - M&A Internship - Generalist team - Paris",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6483"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6483"
 },
 "6a1b4c30b972b1c6": {
 "category": "Banque BB",
@@ -25426,7 +25844,7 @@
 "key": "/job/Hong-Kong--Hong-Kong/Services---Summer-Analyst--Hong-Kong--2027_26978589",
 "level": "B",
 "location": "Hong Kong  Hong Kong",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Corée / Asie",
 "seed": true,
@@ -25514,6 +25932,10 @@
 "category": "Transaction Services",
 "company": "PwC",
 "cycle": "Stage",
+"details": {
+"start": "2027-01"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "London",
 "id": "6a8ee59b7557b21b",
@@ -25651,7 +26073,7 @@
 "key": "/job/Bogota--Colombia/Banking---Corporate-Baking--Internship--Bogot---Colombia--2026_25909660",
 "level": "B",
 "location": "Bogota  Colombia",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Autre / NC",
 "seed": true,
@@ -26021,6 +26443,7 @@
 "category": "Autre (agrégateur)",
 "company": "Marsh McLennan",
 "cycle": "Summer",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "6cbab986274e58c4",
@@ -26092,6 +26515,8 @@
 "category": "Autre (agrégateur)",
 "company": "ABN AMRO",
 "cycle": "Off-cycle",
+"details": {},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "6d5bb35bc16d351e",
@@ -26133,6 +26558,7 @@
 "category": "Autre (agrégateur)",
 "company": "Alan",
 "cycle": "Off-cycle",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "6d7ad0456a4db0cc",
@@ -26304,7 +26730,7 @@
 "key": "/job/Shanghai-Shanghai-China/Banking---Commercial-Banking--Summer-Analyst--China---APAC--2027_26983682",
 "level": "B",
 "location": "Shanghai Shanghai China",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Corée / Asie",
 "seed": true,
@@ -26387,6 +26813,7 @@
 "category": "Autre (agrégateur)",
 "company": "Rabobank",
 "cycle": "Summer",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "6ea201a4cd8f1854",
@@ -26450,7 +26877,7 @@
 "key": "/job/Taipei-Taipei-City-Taiwan/Banking---Corporate-Banking--Summer-Analyst--Taiwan---APAC--2027_26985501",
 "level": "A",
 "location": "Taipei Taipei City Taiwan",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Autre / NC",
 "seed": true,
@@ -26655,6 +27082,7 @@
 "category": "Autre (agrégateur)",
 "company": "CM.com",
 "cycle": "Off-cycle",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "6f96b7d68f36cdbf",
@@ -26813,6 +27241,8 @@
 "category": "Banque BB",
 "company": "Scotiabank",
 "cycle": "Off-cycle",
+"details": {},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "Toronto",
 "id": "703129ec3cd7c24d",
@@ -26997,11 +27427,15 @@
 "category": "Transaction Services",
 "company": "PwC",
 "cycle": "Stage",
+"details": {
+"team": "Restructuring"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "London",
 "id": "716f5c041970a0c8",
 "key": "/job/Tashkent/Intern--Trainee_731911WD",
-"level": "B",
+"level": "A",
 "location": "Tashkent",
 "missing": 0,
 "posted": "2026-09-09",
@@ -27011,12 +27445,14 @@
 "source": "workday",
 "tier": "2",
 "title": "Intern/ Trainee",
+"upgraded": true,
 "url": "https://pwc.wd3.myworkdayjobs.com/en-US/Global_Campus_Careers/job/Tashkent/Intern--Trainee_731911WD"
 },
 "71738f085c49148e": {
 "category": "Autre (agrégateur)",
 "company": "MeDirect",
 "cycle": "Off-cycle",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "71738f085c49148e",
@@ -27033,6 +27469,26 @@
 "title": "Internship Programme",
 "url": "https://medirect.bamboohr.com/careers/63",
 "via": "YourFinanceJob · Student & graduate"
+},
+"71973c128ab141ce": {
+"category": "Banque BB",
+"company": "Citi",
+"cycle": "Summer",
+"first_seen": "2026-10-09T14:59:00+00:00",
+"hq": "New York",
+"id": "71973c128ab141ce",
+"key": "/job/London--United-Kingdom/Client---Citi-Research--Summer-Analyst--London---United-Kingdom--2027_26994966",
+"level": "B",
+"location": "London  United Kingdom",
+"missing": 0,
+"posted": "2026-10-09",
+"region": "London / UK",
+"seed": false,
+"skey": "Citi#workday#citi.wd5/2",
+"source": "workday",
+"tier": "1",
+"title": "Client - Citi Research, Summer Analyst, London - United Kingdom, 2027",
+"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/London--United-Kingdom/Client---Citi-Research--Summer-Analyst--London---United-Kingdom--2027_26994966"
 },
 "719d580cb06da63d": {
 "category": "Autre (agrégateur)",
@@ -27248,6 +27704,7 @@
 },
 "726ccc3ccad2f4b3": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "J.P. Morgan",
 "cycle": "Summer",
 "details": {
@@ -27272,7 +27729,7 @@
 "key": "210765753",
 "level": "B",
 "location": "Columbus, OH, United States",
-"missing": 1,
+"missing": 2,
 "posted": "2026-07-08",
 "region": "New York / US",
 "seed": true,
@@ -27416,6 +27873,8 @@
 "category": "Autre (agrégateur)",
 "company": "Verition Fund Management",
 "cycle": "Off-cycle",
+"details": {},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "72b1ad3a208a0ebe",
@@ -27512,6 +27971,10 @@
 "category": "Transaction Services",
 "company": "PwC",
 "cycle": "Stage",
+"details": {
+"team": "Research"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "London",
 "id": "735262ace3e64cff",
@@ -27618,6 +28081,8 @@
 "category": "Transaction Services",
 "company": "PwC",
 "cycle": "Off-cycle",
+"details": {},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "London",
 "id": "73d80f93baf6c91e",
@@ -27672,11 +28137,11 @@
 "posted": "2026-06-29",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Stage H/F – Cross Asset Sales - Pôle International – Janvier 2027",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6328"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6328"
 },
 "7424fc7374518509": {
 "category": "Transaction Services",
@@ -27707,6 +28172,13 @@
 "category": "Transaction Services",
 "company": "PwC",
 "cycle": "Stage",
+"details": {
+"documents": [
+"CV"
+],
+"start": "2027-08"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "London",
 "id": "7468feaa618c8056",
@@ -27725,6 +28197,7 @@
 },
 "747da188af8f73cf": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "J.P. Morgan",
 "cycle": "Summer",
 "first_seen": "2026-10-05T11:47:54+00:00",
@@ -27733,7 +28206,7 @@
 "key": "210765577",
 "level": "B",
 "location": "Newark, DE, United States",
-"missing": 1,
+"missing": 2,
 "posted": "2026-07-07",
 "region": "New York / US",
 "seed": true,
@@ -27868,6 +28341,7 @@
 },
 "751b6adaeac38772": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "J.P. Morgan",
 "cycle": "Summer",
 "details": {
@@ -27893,7 +28367,7 @@
 "key": "210768182",
 "level": "B",
 "location": "Tempe, AZ, United States",
-"missing": 1,
+"missing": 2,
 "posted": "2026-07-09",
 "region": "New York / US",
 "seed": true,
@@ -27982,11 +28456,16 @@
 "category": "Autre (agrégateur)",
 "company": "Aurora Energy Research",
 "cycle": "Off-cycle",
+"details": {
+"country": "Brésil",
+"team": "M&A / IBD"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "75382b8ea9b8c8ec",
 "key": "https://careers.auroraer.com/postings/a55bdd2f-4511-4c41-97dd-aef1b096953b",
-"level": "B",
+"level": "A",
 "location": "São Paulo",
 "missing": 0,
 "posted": null,
@@ -27996,6 +28475,7 @@
 "source": "aggregator",
 "tier": "3",
 "title": "Energy Modelling Intern (with preference for women)",
+"upgraded": true,
 "url": "https://careers.auroraer.com/postings/a55bdd2f-4511-4c41-97dd-aef1b096953b",
 "via": "YourFinanceJob · Spring weeks & insight days"
 },
@@ -28039,6 +28519,12 @@
 "category": "Banque BB",
 "company": "Morgan Stanley",
 "cycle": "Off-cycle",
+"details": {
+"documents": [
+"CV"
+]
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "New York",
 "id": "755d50572f864bd4",
@@ -28105,6 +28591,17 @@
 "category": "Autre (agrégateur)",
 "company": "Datadog",
 "cycle": "Off-cycle",
+"details": {
+"documents": [
+"CV"
+],
+"duration": "6 mois",
+"grad_years": [
+2027
+],
+"team": "Markets"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "758ce9bdeebd76a2",
@@ -28300,6 +28797,7 @@
 "category": "Banque BB",
 "company": "TD Securities",
 "cycle": "Off-cycle",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "Toronto",
 "id": "76907892a9edf4f2",
@@ -28331,11 +28829,11 @@
 "posted": "2026-06-29",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Stage H/F – Chargé de Marketing en Gestion d’Actifs – Janvier 2027",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6333"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6333"
 },
 "76ae01ccfb2e4837": {
 "category": "Banque BB",
@@ -28466,6 +28964,7 @@
 "category": "Autre (agrégateur)",
 "company": "BNY",
 "cycle": "Summer",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "7733da73b1261de8",
@@ -28514,7 +29013,7 @@
 "key": "/job/Irving-Texas-United-States/Functions---Risk-Management--Summer-Analyst--Irving---USA--2027_26955971",
 "level": "B",
 "location": "Irving Texas United States",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "New York / US",
 "seed": true,
@@ -28549,6 +29048,7 @@
 "category": "Autre (agrégateur)",
 "company": "Capital Power",
 "cycle": "Summer",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "77582a11ad83df0a",
@@ -29050,7 +29550,7 @@
 "key": "/job/Houston-Texas-United-States/Banking---Corporate-Banking--Summer-Analyst--Houston---US--2027_25926650",
 "level": "A",
 "location": "Houston Texas United States",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "New York / US",
 "seed": true,
@@ -29375,11 +29875,15 @@
 "category": "Transaction Services",
 "company": "PwC",
 "cycle": "Stage",
+"details": {
+"team": "M&A / IBD"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "London",
 "id": "7b0e845d5de7aa97",
 "key": "/job/Shanghai/FY22-Junior-Business-Analyst-temp-intern---ORCL-WD-temp-BA-intern-SH-_292646WD",
-"level": "B",
+"level": "A",
 "location": "Shanghai",
 "missing": 0,
 "posted": "2026-09-09",
@@ -29389,6 +29893,7 @@
 "source": "workday",
 "tier": "2",
 "title": "FY22 Junior Business Analyst temp intern  (ORCL&WD+temp BA intern+SH)",
+"upgraded": true,
 "url": "https://pwc.wd3.myworkdayjobs.com/en-US/Global_Campus_Careers/job/Shanghai/FY22-Junior-Business-Analyst-temp-intern---ORCL-WD-temp-BA-intern-SH-_292646WD"
 },
 "7b15362f4fac915d": {
@@ -29477,6 +29982,17 @@
 "category": "Investisseur institutionnel",
 "company": "AXA",
 "cycle": "Off-cycle",
+"details": {
+"documents": [
+"CV",
+"Lettre de motivation",
+"Relevés de notes"
+],
+"duration": "26 sem.",
+"start": "2027-07",
+"work_auth_mentioned": true
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "Paris",
 "id": "7b440128fba3c6ad",
@@ -29691,6 +30207,13 @@
 "category": "Autre (agrégateur)",
 "company": "Van Oers",
 "cycle": "Stage",
+"details": {
+"documents": [
+"CV"
+],
+"start_asap": true
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "7cefadfb78349c6a",
@@ -29771,6 +30294,7 @@
 },
 "7d055e16cfcac1b8": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "J.P. Morgan",
 "cycle": "Summer",
 "details": {
@@ -29798,7 +30322,7 @@
 "key": "210766897",
 "level": "A",
 "location": "Tokyo-To, Japan",
-"missing": 1,
+"missing": 2,
 "posted": "2026-07-31",
 "region": "Corée / Asie",
 "seed": true,
@@ -29832,6 +30356,10 @@
 "category": "Autre (agrégateur)",
 "company": "Worldline",
 "cycle": "Stage",
+"details": {
+"country": "Allemagne"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "7d611124c0574aeb",
@@ -30190,6 +30718,15 @@
 "category": "Investisseur institutionnel",
 "company": "Temasek",
 "cycle": "Off-cycle",
+"details": {
+"documents": [
+"CV",
+"Lettre de motivation"
+],
+"duration": "20 sem.",
+"start": "2027-01"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "Singapore",
 "id": "7eaf668b856d1d8d",
@@ -30358,6 +30895,8 @@
 "category": "Autre (agrégateur)",
 "company": "Coface",
 "cycle": "Off-cycle",
+"details": {},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "7f2ad4d7a69cb919",
@@ -30483,6 +31022,7 @@
 "category": "Autre (agrégateur)",
 "company": "Western Alliance Bancorporation",
 "cycle": "Summer",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "7f819cf695acf103",
@@ -30556,16 +31096,23 @@
 "posted": "2026-06-29",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Stage H/F - Support commercial et appel d’offres – Janvier 2027",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6327"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6327"
 },
 "7fba0b017cad6a14": {
 "category": "Transaction Services",
 "company": "PwC",
 "cycle": "Stage",
+"details": {
+"documents": [
+"CV"
+],
+"start": "2027-08"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "London",
 "id": "7fba0b017cad6a14",
@@ -30782,7 +31329,7 @@
 "key": "/job/Singapore--Singapore/Services---Summer-Analyst--Singapore--2027_26978591",
 "level": "B",
 "location": "Singapore  Singapore",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Corée / Asie",
 "seed": true,
@@ -30796,6 +31343,16 @@
 "category": "Investisseur institutionnel",
 "company": "AXA",
 "cycle": "Off-cycle",
+"details": {
+"documents": [
+"CV",
+"Lettre de motivation",
+"Relevés de notes"
+],
+"duration": "12 mois",
+"work_auth_mentioned": true
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "Paris",
 "id": "80e8c2c5ed93f47c",
@@ -30924,6 +31481,7 @@
 "category": "Autre (agrégateur)",
 "company": "Marsh McLennan",
 "cycle": "Summer",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "813904f7b631b500",
@@ -30945,11 +31503,18 @@
 "category": "Transaction Services",
 "company": "PwC",
 "cycle": "Stage",
+"details": {
+"documents": [
+"Relevés de notes"
+],
+"team": "M&A / IBD"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "London",
 "id": "8171a700d5290f23",
 "key": "/job/Trento/Tester-Intern---Trento--DIG-_591164WD",
-"level": "B",
+"level": "A",
 "location": "Trento",
 "missing": 0,
 "posted": "2026-09-09",
@@ -30959,6 +31524,7 @@
 "source": "workday",
 "tier": "2",
 "title": "Tester Intern - Trento [DIG]",
+"upgraded": true,
 "url": "https://pwc.wd3.myworkdayjobs.com/en-US/Global_Campus_Careers/job/Trento/Tester-Intern---Trento--DIG-_591164WD"
 },
 "81cde5b457d6c1fd": {
@@ -31194,6 +31760,16 @@
 "category": "Autre (agrégateur)",
 "company": "Tourmaline Oil",
 "cycle": "Summer",
+"details": {
+"country": "Canada",
+"documents": [
+"CV",
+"Lettre de motivation",
+"Relevés de notes"
+],
+"no_sponsorship": true
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "83882b6b2005d73e",
@@ -31296,11 +31872,11 @@
 "posted": "2026-10-01",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "July 2027 - Investment Banking - Equity Advisory Internship - Paris",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6679"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6679"
 },
 "83fa2cb64f0c9ead": {
 "category": "Autre (agrégateur)",
@@ -31376,6 +31952,7 @@
 },
 "841a7139423dfa75": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "J.P. Morgan",
 "cycle": "Summer",
 "first_seen": "2026-10-05T11:47:54+00:00",
@@ -31384,7 +31961,7 @@
 "key": "210773869",
 "level": "B",
 "location": "Chicago, IL, United States",
-"missing": 1,
+"missing": 2,
 "posted": "2026-08-24",
 "region": "New York / US",
 "seed": true,
@@ -31601,6 +32178,7 @@
 "category": "Autre (agrégateur)",
 "company": "Alan",
 "cycle": "Off-cycle",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "8501e57b4680884a",
@@ -31662,6 +32240,8 @@
 "category": "Banque BB",
 "company": "Bank of America",
 "cycle": "Off-cycle",
+"details": {},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "New York",
 "id": "852d0af9e35a8c86",
@@ -31682,6 +32262,17 @@
 "category": "Investisseur institutionnel",
 "company": "AXA",
 "cycle": "Off-cycle",
+"details": {
+"documents": [
+"CV",
+"Lettre de motivation",
+"Relevés de notes"
+],
+"duration": "26 sem.",
+"start": "2027-01",
+"work_auth_mentioned": true
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "Paris",
 "id": "855638d7dee9ea3c",
@@ -31748,6 +32339,7 @@
 "category": "Autre (agrégateur)",
 "company": "Huntington Bancshares",
 "cycle": "Summer",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "857cb68fa8ba3e37",
@@ -31790,6 +32382,7 @@
 "category": "Banque BB",
 "company": "RBC Capital Markets",
 "cycle": "Off-cycle",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "Toronto",
 "id": "85ba8e0b78fb6a91",
@@ -31851,6 +32444,7 @@
 "category": "Autre (agrégateur)",
 "company": "Chubb",
 "cycle": "Summer",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "85da007d5372ab0f",
@@ -32130,11 +32724,15 @@
 "category": "Transaction Services",
 "company": "PwC",
 "cycle": "Stage",
+"details": {
+"team": "M&A / IBD"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "London",
 "id": "86dc216d93603ce8",
 "key": "/job/Shanghai/FY20-Junior-Business-Analyst-Intern--TC-SFV-Intern-SH-_99205WD",
-"level": "B",
+"level": "A",
 "location": "Shanghai",
 "missing": 0,
 "posted": "2026-09-09",
@@ -32144,12 +32742,14 @@
 "source": "workday",
 "tier": "2",
 "title": "FY20 Junior Business Analyst Intern (TC+SFV+Intern+SH)",
+"upgraded": true,
 "url": "https://pwc.wd3.myworkdayjobs.com/en-US/Global_Campus_Careers/job/Shanghai/FY20-Junior-Business-Analyst-Intern--TC-SFV-Intern-SH-_99205WD"
 },
 "86f2e76af54b1b2a": {
 "category": "Banque BB",
 "company": "TD Securities",
 "cycle": "Off-cycle",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "Toronto",
 "id": "86f2e76af54b1b2a",
@@ -32171,11 +32771,15 @@
 "category": "Transaction Services",
 "company": "PwC",
 "cycle": "Stage",
+"details": {
+"team": "Restructuring"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "London",
 "id": "86f47cae7fc0114d",
 "key": "/job/Tashkent/Intern--Trainee_751301WD",
-"level": "B",
+"level": "A",
 "location": "Tashkent",
 "missing": 0,
 "posted": "2026-09-09",
@@ -32185,6 +32789,7 @@
 "source": "workday",
 "tier": "2",
 "title": "Intern/ Trainee",
+"upgraded": true,
 "url": "https://pwc.wd3.myworkdayjobs.com/en-US/Global_Campus_Careers/job/Tashkent/Intern--Trainee_751301WD"
 },
 "8714acfb0c298967": {
@@ -32218,7 +32823,7 @@
 "key": "/job/Brussels/School-Internship-in-Technology-Strategy---Transformation--2026-2027-_720943WD",
 "level": "B",
 "location": "Brussels",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-09",
 "region": "Europe (autre)",
 "seed": true,
@@ -32232,6 +32837,10 @@
 "category": "Investisseur institutionnel",
 "company": "Temasek",
 "cycle": "Off-cycle",
+"details": {
+"start": "2027-01"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "Singapore",
 "id": "87730a0ce0a9e654",
@@ -32364,11 +32973,11 @@
 "posted": "2026-09-21",
 "region": "New York / US",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "2027 Institutional Client Group Summer Internship",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6608"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6608"
 },
 "88a7e6f47f7ff4f0": {
 "category": "Boutique M&A",
@@ -32458,11 +33067,11 @@
 "posted": "2026-09-16",
 "region": "Europe (autre)",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "2027 - M&A Internship Brussels",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6525"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6525"
 },
 "88dcaa56c137bb5c": {
 "category": "Transaction Services",
@@ -32559,6 +33168,7 @@
 "category": "Autre (agrégateur)",
 "company": "JLL",
 "cycle": "Summer",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "89149476e9df79b7",
@@ -32580,6 +33190,7 @@
 "category": "Autre (agrégateur)",
 "company": "Compass Lexecon",
 "cycle": "Off-cycle",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "891c05778c6dbfa1",
@@ -32634,6 +33245,16 @@
 "category": "Autre (agrégateur)",
 "company": "Principal Financial Group",
 "cycle": "Summer",
+"details": {
+"documents": [
+"CV",
+"Lettre de motivation",
+"Relevés de notes"
+],
+"duration": "12 mois",
+"work_auth_mentioned": true
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "892755503ff76223",
@@ -32683,7 +33304,7 @@
 "key": "/job/New-York-New-York-United-States/Markets---Quantitative-Analysis--Summer-Analyst---New-York-City---US--2027_25928747",
 "level": "B",
 "location": "New York New York United States",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "New York / US",
 "seed": true,
@@ -32863,6 +33484,31 @@
 "tier": "3",
 "title": "Intern, Sustainable Solutions Group APAC",
 "url": "https://ing.wd3.myworkdayjobs.com/en-US/ICSGBLCOR/job/Singapore/Intern--Sustainable-Solutions-Group-APAC_REQ-10122371"
+},
+"8a1f34cceca465f5": {
+"category": "Investisseur institutionnel",
+"company": "Mirabaud",
+"cycle": "Off-cycle",
+"details": {
+"duration": "6 mois",
+"team": "Real Estate"
+},
+"details_tried": true,
+"first_seen": "2026-10-09T14:59:00+00:00",
+"hq": "Geneva",
+"id": "8a1f34cceca465f5",
+"key": "744000152601980",
+"level": "A",
+"location": "Paris, FR",
+"missing": 0,
+"posted": "2026-09-30",
+"region": "Paris / France",
+"seed": true,
+"skey": "Mirabaud#smartrecruiters#MirabaudCieSA",
+"source": "smartrecruiters",
+"tier": "3",
+"title": "Analyste Real Estate - Stage 6 mois",
+"url": "https://jobs.smartrecruiters.com/MirabaudCieSA/744000152601980"
 },
 "8a20114549cd2777": {
 "category": "Transaction Services",
@@ -33538,16 +34184,17 @@
 "posted": "2026-09-29",
 "region": "Europe (autre)",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "2027 M&A Internship - Amsterdam",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/4353"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/4353"
 },
 "8dd4510544bb4864": {
 "category": "Autre (agrégateur)",
 "company": "LaSalle",
 "cycle": "Summer",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "8dd4510544bb4864",
@@ -33603,6 +34250,7 @@
 "category": "Autre (agrégateur)",
 "company": "Schroders",
 "cycle": "Off-cycle",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "8e153cd104d5b2ff",
@@ -33986,11 +34634,11 @@
 "posted": "2026-10-01",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "July 2027 - Internship - Lazard Investment Banking Intern (Central Eastern Europe Team) - Paris",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6683"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6683"
 },
 "8f471a70e7051511": {
 "category": "Banque BB",
@@ -34245,11 +34893,11 @@
 "posted": "2026-06-29",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Stage H/F - Finance Operations EMEA - Janvier 2027",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6338"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6338"
 },
 "9011c31096bd1ef8": {
 "category": "Boutique M&A",
@@ -34585,11 +35233,11 @@
 "posted": "2026-06-30",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Stage H/F - Chargé de Projets - Intelligence Artificielle – Mars 2027",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6340"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6340"
 },
 "91cff64dcd6ea889": {
 "category": "Banque BB",
@@ -34817,6 +35465,8 @@
 "category": "Transaction Services",
 "company": "PwC",
 "cycle": "Stage",
+"details": {},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "London",
 "id": "929d22b91bbd2cdd",
@@ -34900,7 +35550,7 @@
 "key": "/job/Paris--France/Banking--Investment-Banking--Financial-Institution-Group--Placement-Analyst-Internship--Paris---France-2027_26992470",
 "level": "A",
 "location": "Paris  France",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-08",
 "region": "Paris / France",
 "seed": true,
@@ -35111,6 +35761,8 @@
 "category": "Transaction Services",
 "company": "Deloitte",
 "cycle": "Stage",
+"details": {},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "London",
 "id": "93b5e10e6b7b0564",
@@ -35210,11 +35862,11 @@
 "posted": "2026-10-07",
 "region": "New York / US",
 "seed": false,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "2027 Financial Institutions Group Summer Internship",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6610"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6610"
 },
 "93d9428232ae8c05": {
 "category": "Investisseur institutionnel",
@@ -35475,6 +36127,8 @@
 "category": "Autre (agrégateur)",
 "company": "TenneT",
 "cycle": "Stage",
+"details": {},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "94b52e5808f18bac",
@@ -35556,11 +36210,18 @@
 "category": "Autre (agrégateur)",
 "company": "Capstone",
 "cycle": "Summer",
+"details": {
+"documents": [
+"CV"
+],
+"team": "ECM"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "94e67a6f1b82821f",
 "key": "https://job-boards.greenhouse.io/capstoneinvestmentadvisors/jobs/8827973002",
-"level": "B",
+"level": "A",
 "location": "New York, New York",
 "missing": 0,
 "posted": null,
@@ -35570,6 +36231,7 @@
 "source": "aggregator",
 "tier": "3",
 "title": "Summer 2027 - Investment Internship NYC",
+"upgraded": true,
 "url": "https://job-boards.greenhouse.io/capstoneinvestmentadvisors/jobs/8827973002",
 "via": "YourFinanceJob · Summer internships"
 },
@@ -35852,11 +36514,11 @@
 "posted": "2026-06-29",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Stage H/F – Développement Gestion Privée (Nantes) – Janvier 2027",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6323"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6323"
 },
 "961882aaeb239b3b": {
 "category": "Banque BB",
@@ -36136,6 +36798,16 @@
 "category": "Investisseur institutionnel",
 "company": "AXA",
 "cycle": "Off-cycle",
+"details": {
+"documents": [
+"CV",
+"Lettre de motivation",
+"Relevés de notes"
+],
+"duration": "12 mois",
+"work_auth_mentioned": true
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "Paris",
 "id": "97436f6f7a3955b9",
@@ -36178,6 +36850,7 @@
 "category": "Autre (agrégateur)",
 "company": "LSEG",
 "cycle": "Summer",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "97554813cef960f4",
@@ -36199,6 +36872,16 @@
 "category": "Investisseur institutionnel",
 "company": "AXA",
 "cycle": "Off-cycle",
+"details": {
+"documents": [
+"CV",
+"Lettre de motivation",
+"Relevés de notes"
+],
+"duration": "12 mois",
+"work_auth_mentioned": true
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "Paris",
 "id": "976886e87bf134f8",
@@ -36557,6 +37240,8 @@
 "category": "Autre (agrégateur)",
 "company": "TenneT",
 "cycle": "Stage",
+"details": {},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "99200760280dba4a",
@@ -36832,6 +37517,7 @@
 },
 "9a339c29885a6a90": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "J.P. Morgan",
 "cycle": "Summer",
 "first_seen": "2026-10-05T11:47:54+00:00",
@@ -36840,7 +37526,7 @@
 "key": "210774074",
 "level": "B",
 "location": "New York, NY, United States",
-"missing": 1,
+"missing": 2,
 "posted": "2026-08-04",
 "region": "New York / US",
 "seed": true,
@@ -36854,6 +37540,7 @@
 "category": "Autre (agrégateur)",
 "company": "Rabobank",
 "cycle": "Summer",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "9a3b7fe2632e4816",
@@ -37200,11 +37887,11 @@
 "posted": "2026-10-01",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "July 2027 - M&A internship - LazardNext - Paris",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6677"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6677"
 },
 "9b2bd03a676cca52": {
 "category": "Banque BB",
@@ -37312,6 +37999,14 @@
 "category": "Transaction Services",
 "company": "PwC",
 "cycle": "Stage",
+"details": {
+"documents": [
+"CV",
+"Relevés de notes"
+],
+"start": "2026-10"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "London",
 "id": "9b698d40bb3d8650",
@@ -37454,6 +38149,10 @@
 "category": "Autre (agrégateur)",
 "company": "Worldline",
 "cycle": "Off-cycle",
+"details": {
+"country": "France"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "9be3936d35076634",
@@ -37495,6 +38194,13 @@
 "category": "Autre (agrégateur)",
 "company": "Broekman Logistics",
 "cycle": "Off-cycle",
+"details": {
+"documents": [
+"CV"
+],
+"team": "Markets"
+},
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "9c1ab1a007cd649c",
@@ -37668,6 +38374,7 @@
 "category": "Banque BB",
 "company": "RBC Capital Markets",
 "cycle": "Off-cycle",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "Toronto",
 "id": "9cb66f21f3357efb",
@@ -37750,11 +38457,11 @@
 "posted": "2026-09-23",
 "region": "New York / US",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "2027 Portfolio Manager Summer Internship",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6613"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6613"
 },
 "9d0249f222519469": {
 "category": "Banque BB",
@@ -37863,7 +38570,7 @@
 "key": "/job/Milan-Milano-Italy/Banking--Corporate-Banking--Relationship-Analyst--Placement-Analyst-Internship--Milan---Italy-2027_26992489",
 "level": "A",
 "location": "Milan Milano Italy",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Europe (autre)",
 "seed": true,
@@ -38058,11 +38765,11 @@
 "posted": "2026-06-28",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Stage H/F - Compliance Officer Junior – Janvier 2027",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/4226"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/4226"
 },
 "9dda09376075cdde": {
 "category": "Transaction Services",
@@ -38261,7 +38968,7 @@
 "key": "/job/Hong-Kong--Hong-Kong/Wealth---Private-Bank--Summer-Analyst--Hong-Kong--2027_26988478",
 "level": "B",
 "location": "Hong Kong  Hong Kong",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Corée / Asie",
 "seed": true,
@@ -38713,6 +39420,7 @@
 "category": "Autre (agrégateur)",
 "company": "CIBC",
 "cycle": "Summer",
+"details_tried": true,
 "first_seen": "2026-10-09T14:00:25+00:00",
 "hq": "",
 "id": "9fb966a67f4fe648",
@@ -38922,11 +39630,11 @@
 "posted": "2026-10-06",
 "region": "New York / US",
 "seed": false,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "2027 Global Fixed Income Summer Internship",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6614"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6614"
 },
 "a0b5332dd5675640": {
 "category": "M&A Mid-Market",
@@ -39551,11 +40259,11 @@
 "posted": "2026-09-23",
 "region": "Suisse",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "2027 Q2 or Q3 – M&A Internship – Zurich",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6641"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6641"
 },
 "a41788239512e13b": {
 "category": "Banque BB",
@@ -39760,11 +40468,11 @@
 "posted": "2026-06-29",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Stage H/F - Assistant Commercial & Administratif en Gestion Institutionnelle – Janvier 2027",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6331"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6331"
 },
 "a55117d7d63c0e43": {
 "category": "Private Equity",
@@ -40073,6 +40781,7 @@
 },
 "a63069894e6dd604": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "J.P. Morgan",
 "cycle": "Summer",
 "details": {
@@ -40101,7 +40810,7 @@
 "key": "210766907",
 "level": "A",
 "location": "Tokyo-To, Japan",
-"missing": 1,
+"missing": 2,
 "posted": "2026-07-31",
 "region": "Corée / Asie",
 "seed": true,
@@ -40300,7 +41009,7 @@
 "key": "/job/Seoul--Korea-Republic-Of/Banking---Corporate-Banking--Summer-Analyst--Korea--Republic-of---APAC--2027_26985125",
 "level": "A",
 "location": "Seoul  Korea, Republic Of",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Corée / Asie",
 "seed": true,
@@ -40393,7 +41102,7 @@
 "key": "/job/London--United-Kingdom/Banking--Investment-Banking--Summer-Analyst--London---United-Kingdom-2027_26992197",
 "level": "A",
 "location": "London  United Kingdom",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-07",
 "region": "London / UK",
 "seed": true,
@@ -40562,7 +41271,7 @@
 "key": "/job/Shanghai-Shanghai-China/Services---Summer-Analyst--China--2027_26978889",
 "level": "B",
 "location": "Shanghai Shanghai China",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Corée / Asie",
 "seed": true,
@@ -40676,6 +41385,7 @@
 },
 "a8d270215747eeec": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "J.P. Morgan",
 "cycle": "Summer",
 "first_seen": "2026-10-05T11:47:54+00:00",
@@ -40684,7 +41394,7 @@
 "key": "210765972",
 "level": "B",
 "location": "Newark, DE, United States",
-"missing": 1,
+"missing": 2,
 "posted": "2026-07-07",
 "region": "New York / US",
 "seed": true,
@@ -40724,6 +41434,7 @@
 },
 "a8f1e2e7c216b9c5": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "J.P. Morgan",
 "cycle": "Summer",
 "first_seen": "2026-10-05T11:47:54+00:00",
@@ -40732,7 +41443,7 @@
 "key": "210754425",
 "level": "B",
 "location": "Singapore",
-"missing": 1,
+"missing": 2,
 "posted": "2026-06-30",
 "region": "Corée / Asie",
 "seed": true,
@@ -40863,11 +41574,11 @@
 "posted": "2026-06-30",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Stage H/F - Développement Gestion Privée (Lyon) – Janvier 2027",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6322"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6322"
 },
 "a932c812a8e7af5a": {
 "category": "Transaction Services",
@@ -40948,11 +41659,11 @@
 "posted": "2026-09-21",
 "region": "New York / US",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "2027 Data Engineer Summer Internship",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6605"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6605"
 },
 "a9a3b9c732ee0343": {
 "category": "Autre (agrégateur)",
@@ -41178,11 +41889,11 @@
 "posted": "2026-07-06",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "March 2027 - M&A internship - LazardNext - Paris",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6358"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6358"
 },
 "aa5e96a5da226fe4": {
 "category": "Transaction Services",
@@ -41266,6 +41977,7 @@
 },
 "ab283ae3996a8260": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "J.P. Morgan",
 "cycle": "Summer",
 "details": {
@@ -41292,7 +42004,7 @@
 "key": "210768195",
 "level": "A",
 "location": "Columbus, OH, United States",
-"missing": 1,
+"missing": 2,
 "posted": "2026-07-09",
 "region": "New York / US",
 "seed": true,
@@ -41630,11 +42342,11 @@
 "posted": "2026-09-21",
 "region": "New York / US",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "2027 Quantitative Research Summer Internship",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6612"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6612"
 },
 "ade464110820e3c7": {
 "category": "Banque BB",
@@ -42786,11 +43498,11 @@
 "posted": "2026-09-24",
 "region": "New York / US",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "2027 Marketing Project Management Intern",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6664"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6664"
 },
 "b2389fe65552cab2": {
 "category": "Transaction Services",
@@ -42951,7 +43663,7 @@
 "key": "/job/Irving-Texas-United-States/Functions---Internal-Audit--Summer-Analyst--Dallas---USA--2027_26951372",
 "level": "B",
 "location": "Irving Texas United States",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "New York / US",
 "seed": true,
@@ -43222,11 +43934,11 @@
 "posted": "2026-06-29",
 "region": "Europe (autre)",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Stage H/F - Développement Gestion Privée – Bruxelles - Janvier 2027",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6324"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6324"
 },
 "b3a9d95afcf93916": {
 "category": "Banque BB",
@@ -43430,7 +44142,7 @@
 "key": "/job/Tampa-Florida-United-States/Functions---Risk-Management--Summer-Analyst--Tampa---USA--2027_26955732",
 "level": "B",
 "location": "Tampa Florida United States",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "New York / US",
 "seed": true,
@@ -43777,11 +44489,11 @@
 "posted": "2026-09-02",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "March 2027 – Internship offer - Sovereign Advisory Group – Paris",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6481"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6481"
 },
 "b6345faa8c79508c": {
 "category": "Boutique M&A",
@@ -44220,11 +44932,11 @@
 "posted": "2026-10-01",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "July 2027 - Intern – Restructuring & Debt Advisory - Paris",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6682"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6682"
 },
 "b7c5c3e0382d7188": {
 "category": "Boutique M&A",
@@ -44878,6 +45590,7 @@
 },
 "b9a57ba1a0c8ece5": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "J.P. Morgan",
 "cycle": "Summer",
 "details": {
@@ -44905,7 +45618,7 @@
 "key": "210766050",
 "level": "B",
 "location": "Indonesia",
-"missing": 1,
+"missing": 2,
 "posted": "2026-07-31",
 "region": "Autre / NC",
 "seed": true,
@@ -45087,7 +45800,7 @@
 "key": "/job/Hong-Kong--Hong-Kong/Banking---Corporate-Banking--Summer-Analyst--Hong-Kong---APAC--2027_26984793",
 "level": "A",
 "location": "Hong Kong  Hong Kong",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Corée / Asie",
 "seed": true,
@@ -45132,11 +45845,11 @@
 "posted": "2026-06-29",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Stage H/F - Analyste Financier Gestion Privée – Janvier 2027",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6315"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6315"
 },
 "ba9fe50b18d5cea8": {
 "category": "Banque BB",
@@ -45283,11 +45996,11 @@
 "posted": "2026-06-16",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "January 2027 - M&A Internship - Telecom, Media & Entertainment team - Paris",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6233"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6233"
 },
 "bb676185e3e78c3f": {
 "category": "Private Equity",
@@ -45355,11 +46068,11 @@
 "posted": "2026-06-30",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Stage H/F - Analyste Actions – Janvier 2027",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6313"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6313"
 },
 "bb8c65e0307c63f2": {
 "category": "Banque BB",
@@ -45773,7 +46486,7 @@
 "key": "/job/Houston-Texas-United-States/Banking---Commercial-Banking--Summer-Analyst--Houston---US--2027_25926681",
 "level": "A",
 "location": "Houston Texas United States",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "New York / US",
 "seed": true,
@@ -45942,7 +46655,7 @@
 "key": "/job/Neuilly-sur-Seine/Stagiaire-de-fin-d-tudes---Auditeur-Financier---Septembre-2027---F-H_767098WD",
 "level": "B",
 "location": "11 Locations",
-"missing": 1,
+"missing": 0,
 "posted": "2026-10-09",
 "region": "Autre / NC",
 "seed": false,
@@ -45987,11 +46700,11 @@
 "posted": "2026-06-30",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Stage H/F - Risk Management – Janvier 2027",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6336"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6336"
 },
 "be3754d1518181a8": {
 "category": "Banque BB",
@@ -46227,6 +46940,7 @@
 },
 "bf589451eb509bda": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "J.P. Morgan",
 "cycle": "Summer",
 "details": {
@@ -46254,7 +46968,7 @@
 "key": "210766911",
 "level": "A",
 "location": "Tokyo-To, Japan",
-"missing": 1,
+"missing": 2,
 "posted": "2026-07-31",
 "region": "Corée / Asie",
 "seed": true,
@@ -46404,7 +47118,7 @@
 "key": "/job/Taguig--Philippines/Enterprise-Operations---Technology--Summer-Analyst--Internship---Philippines_25855095-1",
 "level": "B",
 "location": "Taguig  Philippines",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Autre / NC",
 "seed": true,
@@ -46909,11 +47623,11 @@
 "posted": "2026-10-01",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "July 2027 - M&A Internship - Energy, Transport, and Infrastructure specialist team  - Paris",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6684"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6684"
 },
 "c3563fb2adc57865": {
 "category": "Autre (agrégateur)",
@@ -47433,11 +48147,11 @@
 "posted": "2026-06-30",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Stage H/F - Analyste Contrôleur des Risques – Janvier 2027",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6337"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6337"
 },
 "c5a00c1913e677ed": {
 "category": "Private Equity",
@@ -48766,11 +49480,11 @@
 "posted": "2026-07-16",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "March 2027 - M&A internship – Healthcare team – Paris",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6370"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6370"
 },
 "cb689d8424422c27": {
 "category": "Private Equity",
@@ -48869,7 +49583,7 @@
 "key": "/job/Taipei-Taipei-City-Taiwan/Banking---Commercial-Banking--Summer-Analyst--Taiwan---APAC--2027_26985506",
 "level": "B",
 "location": "Taipei Taipei City Taiwan",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Autre / NC",
 "seed": true,
@@ -49594,7 +50308,7 @@
 "key": "/job/London--United-Kingdom/Banking--Financing--Summer-Analyst--London---United-Kingdom-2027_26993182",
 "level": "A",
 "location": "London  United Kingdom",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-09",
 "region": "London / UK",
 "seed": true,
@@ -49670,7 +50384,7 @@
 "key": "/job/Shanghai-Shanghai-China/Banking---Corporate-Banking--Summer-Analyst--China---APAC--2027_26983683",
 "level": "A",
 "location": "Shanghai Shanghai China",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Corée / Asie",
 "seed": true,
@@ -49937,6 +50651,7 @@
 },
 "cf4f743cdf776188": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "J.P. Morgan",
 "cycle": "Summer",
 "first_seen": "2026-10-05T11:47:54+00:00",
@@ -49945,7 +50660,7 @@
 "key": "210773978",
 "level": "B",
 "location": "New York, NY, United States",
-"missing": 1,
+"missing": 2,
 "posted": "2026-08-03",
 "region": "New York / US",
 "seed": true,
@@ -50438,6 +51153,7 @@
 },
 "d1e76e3d66c46d4f": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "Citi",
 "cycle": "Summer",
 "first_seen": "2026-10-05T11:47:54+00:00",
@@ -50446,7 +51162,7 @@
 "key": "/job/Getzville-New-York-United-States/Functions---Risk-Management--Summer-Analyst--Buffalo---USA--2027_26955711",
 "level": "B",
 "location": "Getzville New York United States",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "New York / US",
 "seed": true,
@@ -50736,6 +51452,7 @@
 },
 "d3d1da8cd5ae7abd": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "Citi",
 "cycle": "Summer",
 "details": {
@@ -50755,7 +51472,7 @@
 "key": "/job/Chiyoda-ku-Tokyo-Japan/Markets---Summer-Internship-Program--Boston-Career-Forum-in-2026--Tokyo---Japan--2027_26976914",
 "level": "B",
 "location": "Chiyoda-ku Tokyo Japan",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Corée / Asie",
 "seed": true,
@@ -50879,6 +51596,7 @@
 },
 "d3f8ab7fa778f9b5": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "J.P. Morgan",
 "cycle": "Summer",
 "first_seen": "2026-10-05T11:47:54+00:00",
@@ -50887,7 +51605,7 @@
 "key": "210774038",
 "level": "B",
 "location": "New York, NY, United States",
-"missing": 1,
+"missing": 2,
 "posted": "2026-08-04",
 "region": "New York / US",
 "seed": true,
@@ -51189,6 +51907,7 @@
 },
 "d5d451bb8f6b3ef0": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "Citi",
 "cycle": "Stage",
 "first_seen": "2026-10-05T11:47:54+00:00",
@@ -51197,7 +51916,7 @@
 "key": "/job/THE-SUMMIT---CIUDAD-DE-MEXICO/Markets---Sales-and-Trading--Internship--Mexico-City--Mexico-2027_26983640",
 "level": "B",
 "location": "THE SUMMIT - CIUDAD DE MEXICO",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Autre / NC",
 "seed": true,
@@ -51319,11 +52038,11 @@
 "posted": "2026-09-24",
 "region": "Europe (autre)",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_1",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Intern M/F – Marketing and Sales Support – February 2027",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6657"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6657"
 },
 "d6195e8fabd235f4": {
 "category": "Private Equity",
@@ -51709,6 +52428,7 @@
 },
 "d8469c46bb87b455": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "J.P. Morgan",
 "cycle": "Summer",
 "first_seen": "2026-10-05T11:47:54+00:00",
@@ -51717,7 +52437,7 @@
 "key": "210773759",
 "level": "B",
 "location": "Chicago, IL, United States",
-"missing": 1,
+"missing": 2,
 "posted": "2026-08-03",
 "region": "New York / US",
 "seed": true,
@@ -51815,6 +52535,26 @@
 "title": "2027 Global Corporate Banking - Mid-Cap - Off-Cycle Internship Program – Zurich",
 "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210742448",
 "via": "YourFinanceJob · Suisse"
+},
+"d87e88f8bd7e1bad": {
+"category": "Investisseur institutionnel",
+"company": "Mirabaud",
+"cycle": "Off-cycle",
+"first_seen": "2026-10-09T14:59:00+00:00",
+"hq": "Geneva",
+"id": "d87e88f8bd7e1bad",
+"key": "744000151800527",
+"level": "B",
+"location": "Paris, FR",
+"missing": 0,
+"posted": "2026-09-25",
+"region": "Paris / France",
+"seed": true,
+"skey": "Mirabaud#smartrecruiters#MirabaudCieSA",
+"source": "smartrecruiters",
+"tier": "3",
+"title": "Stagiaire - Asset Management Sales (Stage conventionné - 6 mois)",
+"url": "https://jobs.smartrecruiters.com/MirabaudCieSA/744000151800527"
 },
 "d87ef5a75bb2ebd9": {
 "category": "Transaction Services",
@@ -52161,6 +52901,7 @@
 },
 "da1663e83647ac21": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "J.P. Morgan",
 "cycle": "Stage",
 "first_seen": "2026-10-05T11:47:54+00:00",
@@ -52169,7 +52910,7 @@
 "key": "210774454",
 "level": "B",
 "location": "Columbus, OH, United States",
-"missing": 1,
+"missing": 2,
 "posted": "2026-08-26",
 "region": "New York / US",
 "seed": true,
@@ -52503,6 +53244,7 @@
 },
 "dac32fc364333870": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "Citi",
 "cycle": "Summer",
 "first_seen": "2026-10-05T11:47:54+00:00",
@@ -52511,7 +53253,7 @@
 "key": "/job/Singapore--Singapore/Wealth---Citigold--Summer-Analyst--Singapore--2027_26988476",
 "level": "B",
 "location": "Singapore  Singapore",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Corée / Asie",
 "seed": true,
@@ -52682,11 +53424,11 @@
 "posted": "2026-09-16",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Stage H/F – Ingénieur IA Multi-Équipes – Dès que possible ou janvier 2027",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6584"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6584"
 },
 "dbd2cf2021cd470c": {
 "category": "Autre (agrégateur)",
@@ -52814,7 +53556,7 @@
 "key": "3348",
 "level": "A",
 "location": "",
-"missing": 0,
+"missing": 1,
 "posted": null,
 "region": "Autre / NC",
 "seed": true,
@@ -53125,6 +53867,7 @@
 },
 "ddc69c58aa55bd7d": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "Citi",
 "cycle": "Summer",
 "details": {
@@ -53146,7 +53889,7 @@
 "key": "/job/Hong-Kong--Hong-Kong/Banking---Capital-Markets--Summer-Analyst--Hong-Kong---APAC--2027_26984751",
 "level": "A",
 "location": "Hong Kong  Hong Kong",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Corée / Asie",
 "seed": true,
@@ -53210,11 +53953,11 @@
 "posted": "2026-06-29",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Stage H/F - Chargé de Marketing Distribution – Janvier 2027",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6332"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6332"
 },
 "de7226faba633173": {
 "category": "Investisseur institutionnel",
@@ -53699,6 +54442,7 @@
 },
 "e056f22a1c2c19aa": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "J.P. Morgan",
 "cycle": "Summer",
 "first_seen": "2026-10-05T11:47:54+00:00",
@@ -53707,7 +54451,7 @@
 "key": "210754294",
 "level": "B",
 "location": "Hong Kong",
-"missing": 1,
+"missing": 2,
 "posted": "2026-06-30",
 "region": "Corée / Asie",
 "seed": true,
@@ -54332,11 +55076,11 @@
 "posted": "2026-06-29",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Stage H/F - Assistant Sales Gestion Institutionnelle - Pôle Epargne Salariale et Retraite – Janvier 2027",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6329"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6329"
 },
 "e2e1bafb8d49a9e3": {
 "category": "Banque BB",
@@ -54631,6 +55375,7 @@
 },
 "e4b46439b2160d59": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "Citi",
 "cycle": "Summer",
 "details": {
@@ -54650,7 +55395,7 @@
 "key": "/job/Seoul--Korea-Republic-Of/Banking---Investment-Banking--Summer-Analyst--Korea--Republic-of---APAC--2027_26990264",
 "level": "A",
 "location": "Seoul  Korea, Republic Of",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Corée / Asie",
 "seed": true,
@@ -54755,11 +55500,11 @@
 "posted": "2026-09-24",
 "region": "New York / US",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "AI & Data Transformation Intern",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6650"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6650"
 },
 "e5199cbd71a644f1": {
 "category": "Banque BB",
@@ -55410,6 +56155,7 @@
 },
 "e810d6133226ed53": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "Citi",
 "cycle": "Stage",
 "details": {
@@ -55425,7 +56171,7 @@
 "key": "/job/Paris--France/Banking--Investment-Banking--Placement-Analyst-Internship--Paris---France-2027_26992441",
 "level": "A",
 "location": "Paris  France",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Paris / France",
 "seed": true,
@@ -55695,11 +56441,11 @@
 "posted": "2026-09-11",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "January 2027 - Internship Private Capital Advisory (PCA) - Secondaries – Paris",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6533"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6533"
 },
 "e916ca8409ebc135": {
 "category": "Transaction Services",
@@ -56505,11 +57251,11 @@
 "posted": "2026-07-20",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "March 2027 - M&A intern - Large Cap Generalist / Technology team - Paris",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6380"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6380"
 },
 "ec2f0d92a8d25d2d": {
 "category": "Transaction Services",
@@ -56806,6 +57552,26 @@
 "title": "UK Summer Internship Programme 2027",
 "url": "http://www.lincolninternational.com/greenhouse/?gh_jid=8177099"
 },
+"ed470a1c45d3ff2c": {
+"category": "Banque BB",
+"company": "TD Securities",
+"cycle": "Stage",
+"first_seen": "2026-10-09T14:59:00+00:00",
+"hq": "Toronto",
+"id": "ed470a1c45d3ff2c",
+"key": "/job/Toronto-Ontario/Equity-Research-Intern-Co-op_R_1515835",
+"level": "B",
+"location": "Toronto, Ontario",
+"missing": 0,
+"posted": "2026-10-09",
+"region": "Autre / NC",
+"seed": false,
+"skey": "TD Securities#workday#td.wd3/TD_Bank_Careers",
+"source": "workday",
+"tier": "3",
+"title": "Equity Research Intern/Co-op",
+"url": "https://td.wd3.myworkdayjobs.com/en-US/TD_Bank_Careers/job/Toronto-Ontario/Equity-Research-Intern-Co-op_R_1515835"
+},
 "ed6667d910f9776d": {
 "category": "Boutique M&A",
 "company": "Lazard",
@@ -56820,11 +57586,11 @@
 "posted": "2026-06-29",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Stage H/F – Middle Office en Gestion Privée – Janvier 2027",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6335"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6335"
 },
 "ed82bd89a25fe792": {
 "category": "Banque BB",
@@ -57587,11 +58353,11 @@
 "posted": "2026-10-02",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Stage – Contrôleur des Risques Bancaires – H/F - Janvier 2027",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6688"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6688"
 },
 "f105bddc4ce433f3": {
 "category": "Autre (agrégateur)",
@@ -58147,11 +58913,11 @@
 "posted": "2026-06-30",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Stage H/F - Support au Business Development de la Gestion Privée – Mars 2027",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6342"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6342"
 },
 "f3c72f71958301ec": {
 "category": "Transaction Services",
@@ -59716,6 +60482,7 @@
 },
 "fbbe595e36ffbea9": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "Citi",
 "cycle": "Summer",
 "details": {
@@ -59733,7 +60500,7 @@
 "key": "/job/Tampa-Florida-United-States/Functions---Chief-Operating-Office--Summer-Analyst--Tampa---USA--2027_26990422",
 "level": "B",
 "location": "Tampa Florida United States",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "New York / US",
 "seed": true,
@@ -60052,7 +60819,7 @@
 "key": "210754291",
 "level": "B",
 "location": "Singapore",
-"missing": 1,
+"missing": 2,
 "posted": "2026-06-30",
 "region": "Corée / Asie",
 "seed": true,
@@ -60524,6 +61291,7 @@
 },
 "ff09b5df865c4b5e": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "Citi",
 "cycle": "Summer",
 "first_seen": "2026-10-05T11:47:54+00:00",
@@ -60532,7 +61300,7 @@
 "key": "/job/Hong-Kong--Hong-Kong/Wealth---Citigold--Summer-Analyst--Hong-Kong--2027_26988474",
 "level": "B",
 "location": "Hong Kong  Hong Kong",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Corée / Asie",
 "seed": true,
@@ -60690,11 +61458,11 @@
 "posted": "2026-06-29",
 "region": "Paris / France",
 "seed": true,
-"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/CX_2",
+"skey": "Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers",
 "source": "oracle",
 "tier": "1",
 "title": "Stage H/F - Chargé de Marketing en Gestion Privée – Janvier 2027",
-"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6334"
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6334"
 },
 "ff664d56e54e4a14": {
 "category": "Transaction Services",
@@ -60927,9 +61695,9 @@
 }
 ]
 },
-"last_deep": "2026-10-09T14:00:25+00:00",
+"last_deep": "2026-10-09T14:59:00+00:00",
 "last_digest": "2026-10-09",
-"last_full": "2026-10-09T14:41:23+00:00",
+"last_full": "2026-10-09T14:59:00+00:00",
 "pages": {
 "https://careers.bankofamerica.com/en-us/students": {
 "ats": [
@@ -61201,6 +61969,16 @@
 "history": [
 {
 "added": [
+"Banking, Investment Banking, Full Time Analyst, London – United Kingdom 2027 - (Applicable for 2026 Citi Summer interns only)",
+"🔗 Nouveau lien : South Africa Learnership Graduate Program - TTS, South Africa - Johannesburg, 2026"
+],
+"at": "2026-10-09T14:59:00+00:00",
+"removed": [
+"Banking - Investment Banking, Summer Associate, New York (North America – 2027)"
+]
+},
+{
+"added": [
 "Banking - Investment Banking, Summer Associate, New York (North America – 2027)",
 "🔗 Nouveau lien : Banking - Investment Banking, Summer Associate, New York (North America – 2027)"
 ],
@@ -61283,22 +62061,13 @@
 "removed": [
 "Services - Summer Analyst, UAE - Dubai, 2027 (UAE Nationals ONLY)"
 ]
-},
-{
-"added": [
-"Services - Summer Analyst, UAE - Dubai, 2027 (UAE Nationals ONLY)"
-],
-"at": "2026-10-07T14:54:18+00:00",
-"removed": [
-"Chief Operating Office - Summer Analyst, UK - Belfast, 2027"
-]
 }
 ],
-"last_change": "2026-10-09T14:41:23+00:00",
+"last_change": "2026-10-09T14:59:00+00:00",
 "lines": [
+"Banking, Investment Banking, Full Time Analyst, London – United Kingdom 2027 - (Applicable for 2026 Citi Summer interns only)",
 "Banking - Investment Banking, Summer Associate, San Francisco Technology (North America – 2027)",
 "Banking - Investment Banking, Summer Associate, San Francisco Healthcare (North America – 2027)",
-"Banking - Investment Banking, Summer Associate, New York (North America – 2027)",
 "Explore our Early Career programs, job simulations, events and application process."
 ],
 "links": {
@@ -61313,7 +62082,7 @@
 "https://jobs.citi.com/events-preinternships": "Events",
 "https://jobs.citi.com/job/belfast/chief-operating-office-summer-analyst-uk-belfast-2027/287/101650054848": "Chief Operating Office - Summer Analyst, UK - Belfast, 2027",
 "https://jobs.citi.com/job/johannesburg/south-africa-learnership-graduate-program-market-south-africa-johannesburg-2026/287/100661738576": "South Africa Learnership Graduate Program - Market, South Africa - Johannesburg, 2026",
-"https://jobs.citi.com/job/new-york/banking-investment-banking-summer-associate-new-york-north-america-2027/287/101451410192": "Banking - Investment Banking, Summer Associate, New York (North America – 2027)",
+"https://jobs.citi.com/job/johannesburg/south-africa-learnership-graduate-program-tts-south-africa-johannesburg-2026/287/100756237136": "South Africa Learnership Graduate Program - TTS, South Africa - Johannesburg, 2026",
 "https://jobs.citi.com/job/san-francisco/banking-investment-banking-summer-associate-san-francisco-healthcare-north-america-2027/287/101451410208": "Banking - Investment Banking, Summer Associate, San Francisco Healthcare (North America – 2027)",
 "https://jobs.citi.com/job/san-francisco/banking-investment-banking-summer-associate-san-francisco-technology-north-america-2027/287/101451410256": "Banking - Investment Banking, Summer Associate, San Francisco Technology (North America – 2027)"
 },
@@ -62231,7 +63000,7 @@
 "https://www.oddo-bhf.com/fr/carrieres": {
 "ats": [],
 "error": "page vide (contenu chargé en JavaScript ?)",
-"fails": 3,
+"fails": 4,
 "highlights": [],
 "history": [],
 "since": "2026-10-05T15:43:52+00:00",
@@ -62454,7 +63223,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 5,
 "raw": 5
 },
@@ -62462,7 +63231,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -62470,7 +63239,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -62478,7 +63247,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -62486,7 +63255,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 21,
 "raw": 21
 },
@@ -62494,7 +63263,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -62502,7 +63271,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 48,
 "raw": 48
 },
@@ -62510,7 +63279,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -62518,7 +63287,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -62526,7 +63295,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 17,
 "raw": 17
 },
@@ -62534,7 +63303,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -62542,7 +63311,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -62550,7 +63319,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 63,
 "raw": 63
 },
@@ -62558,7 +63327,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 75,
 "raw": 75
 },
@@ -62566,7 +63335,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 250,
 "raw": 250
 },
@@ -62574,16 +63343,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:00:25+00:00",
-"max_raw": 614,
-"raw": 614,
-"suspect": 2
+"last_ok": "2026-10-09T14:59:00+00:00",
+"max_raw": 617,
+"raw": 617
 },
 "BMO Capital Markets#workday#bmo.wd3/Campus": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 47,
 "raw": 47
 },
@@ -62591,7 +63359,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 33,
 "raw": 33
 },
@@ -62599,7 +63367,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 125,
 "raw": 125
 },
@@ -62607,25 +63375,23 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:00:25+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 2047,
-"raw": 2047,
-"suspect": 2
+"raw": 2047
 },
 "Barclays#workday#barclays.wd3/External_Career_Site_Barclays": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:00:25+00:00",
-"max_raw": 781,
-"raw": 781,
-"suspect": 2
+"last_ok": "2026-10-09T14:59:00+00:00",
+"max_raw": 783,
+"raw": 783
 },
 "Barings#workday#barings.wd1/Early_Talent|Barings": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 48,
 "raw": 48
 },
@@ -62633,7 +63399,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -62641,7 +63407,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 39,
 "raw": 39
 },
@@ -62649,7 +63415,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 202,
 "raw": 202
 },
@@ -62657,7 +63423,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 46,
 "raw": 46
 },
@@ -62665,7 +63431,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 135,
 "raw": 135
 },
@@ -62673,7 +63439,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -62681,7 +63447,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 37,
 "raw": 37
 },
@@ -62689,7 +63455,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 45,
 "raw": 45
 },
@@ -62697,7 +63463,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 37,
 "raw": 37
 },
@@ -62705,7 +63471,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -62713,7 +63479,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -62721,7 +63487,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 70,
 "raw": 70
 },
@@ -62729,7 +63495,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -62737,7 +63503,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 3,
 "raw": 3
 },
@@ -62745,7 +63511,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -62753,15 +63519,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 1999,
-"raw": 1006
+"raw": 1999
 },
 "Clipperton#workable#clipperton": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 5,
 "raw": 4
 },
@@ -62769,7 +63535,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -62777,7 +63543,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 100,
 "raw": 100
 },
@@ -62785,7 +63551,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -62793,7 +63559,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -62801,7 +63567,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 712,
 "raw": 712
 },
@@ -62809,7 +63575,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -62817,7 +63583,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 552,
 "raw": 552
 },
@@ -62825,15 +63591,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
-"max_raw": 635,
-"raw": 635
+"last_ok": "2026-10-09T14:59:00+00:00",
+"max_raw": 1195,
+"raw": 1195
 },
 "Ducera Partners#greenhouse#ducerapartners|ducerapartnerscampus": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 7,
 "raw": 7
 },
@@ -62841,7 +63607,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 15,
 "raw": 15
 },
@@ -62849,7 +63615,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -62857,7 +63623,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -62865,7 +63631,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -62873,7 +63639,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 28,
 "raw": 28
 },
@@ -62881,7 +63647,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 123,
 "raw": 123
 },
@@ -62889,7 +63655,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 9,
 "raw": 9
 },
@@ -62897,7 +63663,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -62905,7 +63671,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 8,
 "raw": 8
 },
@@ -62913,7 +63679,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 147,
 "raw": 147
 },
@@ -62921,7 +63687,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -62929,7 +63695,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 11,
 "raw": 11
 },
@@ -62937,7 +63703,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 231,
 "raw": 231
 },
@@ -62945,7 +63711,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 33,
 "raw": 33
 },
@@ -62953,7 +63719,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 61,
 "raw": 61
 },
@@ -62961,7 +63727,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 43,
 "raw": 43
 },
@@ -62969,7 +63735,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 34,
 "raw": 34
 },
@@ -62977,7 +63743,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -62985,7 +63751,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 6,
 "raw": 6
 },
@@ -62993,7 +63759,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 45,
 "raw": 45
 },
@@ -63001,7 +63767,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 58,
 "raw": 58
 },
@@ -63009,7 +63775,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 17,
 "raw": 17
 },
@@ -63017,7 +63783,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 54,
 "raw": 53
 },
@@ -63025,7 +63791,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 12,
 "raw": 12
 },
@@ -63033,7 +63799,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 3,
 "raw": 3
 },
@@ -63041,24 +63807,23 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
-"max_raw": 764,
-"raw": 425
+"last_ok": "2026-10-09T14:59:00+00:00",
+"max_raw": 765,
+"raw": 765
 },
 "J.P. Morgan#oracle#jpmc.fa.oraclecloud.com/CX_1001": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:00:25+00:00",
-"max_raw": 4992,
-"raw": 4992,
-"suspect": 2
+"last_ok": "2026-10-09T14:59:00+00:00",
+"max_raw": 5000,
+"raw": 5000
 },
 "Jefferies#oleeo#jefferies": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 61,
 "raw": 61
 },
@@ -63066,7 +63831,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 19,
 "raw": 19
 },
@@ -63074,7 +63839,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 188,
 "raw": 188
 },
@@ -63082,7 +63847,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -63090,7 +63855,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 5,
 "raw": 5
 },
@@ -63098,7 +63863,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -63106,16 +63871,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:00:25+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 575,
-"raw": 575,
-"suspect": 2
+"raw": 575
 },
 "Kroll#watch#https://www.kroll.com/en": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -63123,7 +63887,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -63131,7 +63895,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 3,
 "raw": 3
 },
@@ -63139,7 +63903,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -63147,7 +63911,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -63155,7 +63919,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 52,
 "raw": 52
 },
@@ -63163,7 +63927,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 74,
 "raw": 74
 },
@@ -63171,7 +63935,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
+"max_raw": 126,
+"raw": 126
+},
+"Lazard#oracle#icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers": {
+"error": null,
+"ever_ok": true,
+"fails": 0,
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 126,
 "raw": 126
 },
@@ -63179,7 +63951,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 41,
 "raw": 41
 },
@@ -63187,7 +63959,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -63195,31 +63967,47 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 70,
 "raw": 70
+},
+"MUFG#smartrecruiters#mufginvestorservices": {
+"error": null,
+"ever_ok": true,
+"fails": 0,
+"last_ok": "2026-10-09T14:59:00+00:00",
+"max_raw": 106,
+"raw": 106
 },
 "MUFG#workday#mufgub.wd3/MUFG-Careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
-"max_raw": 694,
-"raw": 487
+"last_ok": "2026-10-09T14:59:00+00:00",
+"max_raw": 695,
+"raw": 695
 },
 "Macquarie#watch#https://www.macquarie.com/fr/en.html": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 1,
 "raw": 1
+},
+"Mirabaud#smartrecruiters#MirabaudCieSA": {
+"error": null,
+"ever_ok": true,
+"fails": 0,
+"last_ok": "2026-10-09T14:59:00+00:00",
+"max_raw": 10,
+"raw": 10
 },
 "Mirabaud#watch#https://www.mirabaud.com/en/": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -63227,7 +64015,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -63235,15 +64023,21 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 122,
 "raw": 122
+},
+"Moelis & Company#oleeo#moelis-careers": {
+"cooldown_until": "2026-10-09T15:48:19+00:00",
+"error": "ValueError: vérification anti-robot Oleeo (réessai au prochain scan)",
+"fail_since": "2026-10-09T14:59:00+00:00",
+"fails": 1
 },
 "Moelis & Company#workday#moelis.wd1/University-Hires|Experienced-Hires": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 33,
 "raw": 33
 },
@@ -63251,7 +64045,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 138,
 "raw": 138
 },
@@ -63259,7 +64053,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -63267,7 +64061,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -63275,16 +64069,16 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 86,
 "raw": 86
 },
 "Nomura#oleeo#nomuracampus": {
-"cooldown_until": "2026-10-09T14:47:40+00:00",
+"cooldown_until": "2026-10-09T15:48:19+00:00",
 "error": "ValueError: vérification anti-robot Oleeo (réessai au prochain scan)",
 "ever_ok": true,
 "fail_since": "2026-10-09T14:00:25+00:00",
-"fails": 19,
+"fails": 20,
 "last_ok": "2026-10-09T08:33:34+00:00",
 "raw": 37
 },
@@ -63292,7 +64086,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -63300,7 +64094,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -63308,7 +64102,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 52,
 "raw": 52
 },
@@ -63316,7 +64110,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -63324,7 +64118,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 35,
 "raw": 35
 },
@@ -63332,7 +64126,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -63340,20 +64134,20 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 9,
 "raw": 9
 },
 "PATRIZIA#watch#https://www.patrizia.ag/en": {
 "error": "HTTPError: HTTP Error 403: Forbidden",
 "fail_since": "2026-10-09T14:00:25+00:00",
-"fails": 102
+"fails": 103
 },
 "PJT Partners#workday#pjtpartners.wd1/Careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 51,
 "raw": 51
 },
@@ -63361,7 +64155,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 41,
 "raw": 41
 },
@@ -63369,7 +64163,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -63377,7 +64171,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 2,
 "raw": 2
 },
@@ -63385,7 +64179,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 13,
 "raw": 13
 },
@@ -63393,7 +64187,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 6,
 "raw": 6
 },
@@ -63401,7 +64195,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 8,
 "raw": 8
 },
@@ -63409,7 +64203,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -63417,7 +64211,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 48,
 "raw": 47
 },
@@ -63425,16 +64219,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:00:25+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 1367,
-"raw": 1367,
-"suspect": 2
+"raw": 1365
 },
 "PwC#workday#pwc.wd3/US_Entry_Level_Careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 69,
 "raw": 69
 },
@@ -63442,7 +64235,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 2,
 "raw": 2
 },
@@ -63450,7 +64243,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -63458,7 +64251,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 39,
 "raw": 39
 },
@@ -63466,15 +64259,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
-"max_raw": 560,
-"raw": 560
+"last_ok": "2026-10-09T14:59:00+00:00",
+"max_raw": 818,
+"raw": 818
 },
 "Raine Group#lever#raine": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 2,
 "raw": 2
 },
@@ -63482,7 +64275,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 6,
 "raw": 6
 },
@@ -63490,7 +64283,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 32,
 "raw": 32
 },
@@ -63498,15 +64291,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
-"max_raw": 118,
-"raw": 118
+"last_ok": "2026-10-09T14:59:00+00:00",
+"max_raw": 119,
+"raw": 119
 },
 "SMBC#watch#https://www.smbcgroup.com/emea/careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 2,
 "raw": 2
 },
@@ -63514,16 +64307,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:00:25+00:00",
-"max_raw": 1019,
-"raw": 1019,
-"suspect": 2
+"last_ok": "2026-10-09T14:59:00+00:00",
+"max_raw": 1029,
+"raw": 1029
 },
 "Scotiabank#rss#https://jobs.scotiabank.com/services/rss/job/?locale=en_US&keywords=intern": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 20,
 "raw": 20
 },
@@ -63531,7 +64323,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -63539,7 +64331,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 19,
 "raw": 19
 },
@@ -63547,7 +64339,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -63555,7 +64347,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 3,
 "raw": 3
 },
@@ -63563,7 +64355,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 20,
 "raw": 20
 },
@@ -63571,7 +64363,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 51,
 "raw": 51
 },
@@ -63579,7 +64371,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 107,
 "raw": 107
 },
@@ -63587,7 +64379,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 4,
 "raw": 4
 },
@@ -63595,16 +64387,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:00:25+00:00",
-"max_raw": 1639,
-"raw": 1639,
-"suspect": 2
+"last_ok": "2026-10-09T14:59:00+00:00",
+"max_raw": 1654,
+"raw": 1654
 },
 "TPG#greenhouse#tpgcareers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 16,
 "raw": 16
 },
@@ -63612,7 +64403,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -63620,7 +64411,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 76,
 "raw": 76
 },
@@ -63628,7 +64419,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 5,
 "raw": 5
 },
@@ -63636,7 +64427,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 2,
 "raw": 2
 },
@@ -63644,7 +64435,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -63652,7 +64443,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 6,
 "raw": 6
 },
@@ -63660,7 +64451,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 31,
 "raw": 31
 },
@@ -63668,15 +64459,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 410,
-"raw": 263
+"raw": 410
 },
 "Warburg Pincus#greenhouse#warburgpincusllc": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 4,
 "raw": 4
 },
@@ -63684,7 +64475,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -63692,15 +64483,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
-"max_raw": 528,
-"raw": 528
+"last_ok": "2026-10-09T14:59:00+00:00",
+"max_raw": 1584,
+"raw": 1584
 },
 "YourFinanceJob (agrégateur)#aggregator#spring-weeks-and-insight-days,summer-internships-list,student-and-graduate,investment-banks,boutique-advisory,private-equity-firms,france,switzerland,new-this-week": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-09T14:41:23+00:00",
+"last_ok": "2026-10-09T14:59:00+00:00",
 "max_raw": 1662,
 "raw": 1662
 }
