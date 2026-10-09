@@ -2,7 +2,7 @@ name: Radar Stages
 
 on:
   schedule:
-    - cron: "*/15 * * * *"   # toutes les 15 min (GitHub peut décaler de quelques minutes)
+    - cron: "*/5 * * * *"    # toutes les 5 min : boîtes ★ à chaque fois, tout le reste toutes les ~15 min, scan complet chaque heure
   workflow_dispatch: {}       # bouton "Run workflow" pour lancer à la main
 
 permissions:
@@ -15,7 +15,7 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 14
     steps:
       - uses: actions/checkout@v4
 

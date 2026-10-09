@@ -33,6 +33,8 @@ def _request(url, data=None, headers=None, method=None, retries=2):
                 continue
             if e.code in (400, 401, 403, 404, 405, 410, 422):
                 break  # no point retrying
+            if e.code == 429:  # rate limited: wait longer before the retry
+                time.sleep(4 * (attempt + 1))
         except Exception as e:  # timeouts, resets...
             last = e
         time.sleep(1.5 * (attempt + 1))

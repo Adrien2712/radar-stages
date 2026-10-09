@@ -15,6 +15,7 @@ import re
 import sys
 import time
 from datetime import date, datetime, timedelta, timezone
+from urllib.parse import parse_qs, urlparse
 
 try:
     from zoneinfo import ZoneInfo
@@ -24,7 +25,12 @@ except ImportError:  # pragma: no cover
 from . import notify
 from .details import analyze, evaluate, fill_details
 from .pages import for_dashboard, scan_pages
-from .classify import STRONG_TARGET, classify, country
+from .classify import NON_TARGET, STRONG_TARGET, classify, country
+from .details import TARGET_TEAMS, is_closed
+from .discover import candidates, ids_of, known_ids
+from .firms import FirmMatcher, compact
+from .pages import load_pages
+from .trackers import l3vlup_open, trackr_programmes
 from .sources import FETCHERS, workday_posted
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -33,7 +39,7 @@ DASH_PATH = os.path.join(ROOT, "docs", "jobs.json")
 MISSING_BEFORE_CLOSED = 3     # scans in a row without the posting before we call it closed
 KEEP_CLOSED_DAYS = 30
 MAX_INSTANT = 10              # above this, new offers are grouped in one message
-SCHEMA = 2                    # bump when sources change a lot, to re-seed silently once
+SCHEMA = 3                    # bump when sources change a lot, to re-seed silently once
 
 
 def load_config():
@@ -50,43 +56,76 @@ def load_companies():
         return [r for r in csv.DictReader(f) if r.get("name") and not r["name"].startswith("#")]
 
 
-def load_programmes():
-    """Programmes to expect (springs...), with last year's opening date. See programmes.csv."""
+def load_programmes(state=None, companies=None):
+    """Springs & programmes to expect: every programme of TrackR's public timeline (refreshed daily)
+    + the extra lines of programmes.csv. Each gets the tracked firm it belongs to (for detection)."""
+    rows = []
     path = os.path.join(ROOT, "programmes.csv")
-    if not os.path.exists(path):
-        return []
-    with open(path, encoding="utf-8") as f:
-        return [r for r in csv.DictReader(f) if r.get("company") and not r["company"].startswith("#")]
+    if os.path.exists(path):
+        with open(path, encoding="utf-8") as f:
+            rows = [dict(r, source="manuel", sectors=[]) for r in csv.DictReader(f) if r.get("company") and not r["company"].startswith("#")]
+    tr = ((state or {}).get("trackr") or {}).get("rows") or []
+    if tr:
+        mine = {(compact(r["company"]), norm_title(r["program"])) for r in tr}
+        rows = [dict(r, country=r.get("country") or "Royaume-Uni", type=_ptype(r["program"]), keywords="")
+                for r in tr] + [r for r in rows if (compact(r["company"]), norm_title(r["program"])) not in mine]
+    matcher = FirmMatcher([c["name"] for c in (companies or [])])
+    for r in rows:
+        r["firm"] = r["company"] if any(c["name"] == r["company"] for c in companies or []) else matcher.match(r["company"])
+    return rows
 
 
-def programme_status(programmes, jobs, companies, today, sources=None):
-    """Is each expected programme open (seen by the radar), coming, or late?"""
+def _ptype(prog):
+    p = prog.lower()
+    if "summer" in p:
+        return "Summer"
+    if re.search(r"intern(ship)?\b", p) and not re.search(r"spring|insight|discover|week", p):
+        return "Stage"
+    return "Spring"
+
+
+DEFAULT_PROG_WORDS = r"spring|insight|discover|immersion|future leaders|prep|explor|week|possibilit|academy|women|black|heritage|kickstart|open day"
+
+
+def programme_status(programmes, jobs, companies, today, sources=None, l3=None):
+    """Is each expected programme open (seen by the radar or by L3vlUp), coming, or late?"""
     watched = {c["name"] for c in companies if c.get("source") in FETCHERS}
+    open_l3 = l3 or []
     out = []
     for p in programmes:
-        rx = re.compile(p.get("keywords") or "spring|insight", re.I)
-        want = "Spring / Insight" if p.get("type", "Spring") == "Spring" else p.get("type")
+        rx = re.compile(p.get("keywords") or DEFAULT_PROG_WORDS, re.I)
+        want = {"Spring": "Spring / Insight", "Summer": "Summer"}.get(p.get("type", "Spring"), "Stage")
 
         def current_cycle(t):  # "2026 ... Insight Day" belongs to last year's cycle
             years = re.findall(r"20[2-3]\d", t)
             return not years or max(years) >= "2027"
 
-        hits = [j for j in jobs.values() if j["company"] == p["company"] and not j.get("closed") and rx.search(j["title"])
-                and current_cycle(j["title"]) and (j.get("cycle") == want or want == "Stage")]
+        names = {p.get("firm") or "", p["company"]} - {""}
+        cnames = {compact(n) for n in names}
+        hits = [j for j in jobs.values() if not j.get("closed") and (j["company"] in names or compact(j["company"]) in cnames)
+                and rx.search(j["title"]) and current_cycle(j["title"]) and (j.get("cycle") == want or want == "Stage")]
+        l3hit = next((x for x in open_l3 if compact(x["company"]) in cnames or compact(x["company"]) == compact(p.get("firm") or "")), None)
         exp = _d(p.get("expected_open", ""))
+        seen_by = []
         if hits:
-            status = "ouverte"
-        elif p["company"] not in watched:
+            status, seen_by = "ouverte", ["Radar"]
+        elif l3hit:
+            status, seen_by = "ouverte", ["L3vlUp"]
+        elif not (names & watched):
             status = "non surveillée"
         elif exp and exp >= today:
             status = "à venir"
-        elif any(v.get("fails") for k, v in (sources or {}).items() if k.split("#")[0] == p["company"]):
+        elif any(v.get("fails") for k, v in (sources or {}).items() if k.split("#")[0] in names):
             status = "source indisponible"
         else:
             status = "en retard"
+        if hits and l3hit:
+            seen_by.append("L3vlUp")
         best = sorted(hits, key=lambda j: j.get("posted") or j["first_seen"])[:1]
-        out.append(dict(p, status=status, days=(exp - today).days if exp else None,
-                        job_url=best[0]["url"] if best else "", job_title=best[0]["title"] if best else "",
+        closes = p.get("closes") or (l3hit or {}).get("closes") or (best[0].get("deadline") if best else "") or ""
+        out.append(dict(p, status=status, days=(exp - today).days if exp else None, seen_by=seen_by, closes=closes,
+                        job_url=best[0]["url"] if best else (l3hit or {}).get("url", ""),
+                        job_title=best[0]["title"] if best else ((l3hit or {}).get("program", "") if l3hit else ""),
                         opened=(best[0].get("posted") or (None if best[0].get("seed") else best[0]["first_seen"][:10])) if best else None))
     return out
 
@@ -113,6 +152,7 @@ def fingerprint(state):
         v.pop("last_ok", None)
         v.pop("raw", None)
         v.pop("suspect", None)
+        v.pop("max_raw", None)
     return hashlib.sha1(json.dumps(s, sort_keys=True).encode()).hexdigest()
 
 
@@ -138,12 +178,46 @@ def fetch_one(c):
 
 def fetch_all(companies):
     active = [c for c in companies if c.get("source") in FETCHERS]
-    with cf.ThreadPoolExecutor(16) as ex:
+    with cf.ThreadPoolExecutor(20) as ex:
         return list(ex.map(fetch_one, active))
 
 
 # ------------------------------------------------------------------ scan
-def scan():
+def iso_to_dt(s):
+    try:
+        return datetime.fromisoformat(s)
+    except Exception:
+        return None
+
+
+def minutes_since(s):
+    d = iso_to_dt(s) if s else None
+    return (datetime.now(timezone.utc) - d).total_seconds() / 60 if d else 1e9
+
+
+def norm_url(u):
+    """Same posting, different link (tracking params...): keep host + path + the job id params only."""
+    p = urlparse(u or "")
+    q = {k: v for k, v in parse_qs(p.query).items() if k in ("gh_jid", "id", "jobId", "job")}
+    return f"{p.netloc.lower().replace('www.', '')}{p.path.rstrip('/')}?{sorted(q.items())}"
+
+
+def norm_title(t):
+    return re.sub(r"[^a-z0-9]", "", (t or "").lower())
+
+
+def all_sources(companies, state):
+    rows = [dict(c) for c in companies]
+    for a in state.get("auto_sources", {}).values():
+        rows.append(dict(a, auto=True))
+    return rows
+
+
+INTERN_KINDS = {"Off-Cycle Internship", "Summer Internship", "Working Student"}
+
+
+def scan(force=None):
+    t0 = time.time()
     cfg = load_config()
     companies = load_companies()
     state = load_state()
@@ -151,43 +225,99 @@ def scan():
     first_run = not state["initialized"]
     now = now_iso()
     jobs = state["jobs"]
-    new = []
+    new, discovered_links = [], []
     primary = {}
     for c in companies:  # migrate old state keyed by firm name -> per-source key
         k = skey(c)
         primary.setdefault(c["name"], k)
         if k not in state["sources"] and primary[c["name"]] == k and c["name"] in state["sources"]:
             state["sources"][k] = state["sources"].pop(c["name"])
-            state["sources"][k].pop("ever_ok", None)  # re-seed silently on its next successful scan
+            state["sources"][k].pop("ever_ok", None)
 
-    # When sources change a lot (new boards, new sites), the first scan would flag old offers as new:
-    # add them silently instead of flooding Telegram.
     reseed = state.get("schema") != SCHEMA
     state["schema"] = SCHEMA
+    if reseed:  # page filters changed too: compare student pages from scratch, without alerts
+        for pg in state.get("pages", {}).values():
+            pg.pop("lines", None)
+            pg.pop("links", None)
 
-    for c, ok, payload, secs in fetch_all(companies):
+    # Mode: every 5 min the ★ firms only ("fast"); every ~15 min everything ("full"); every hour whole boards ("deep")
+    full = force == "full" or (force != "fast" and minutes_since(state.get("last_full")) >= 14)
+    deep = full and (force == "deep" or minutes_since(state.get("last_deep")) >= 55)
+    mode = "deep" if deep else "full" if full else "fast"
+    rows = all_sources(companies, state)
+    if not full:
+        rows = [r for r in rows if r.get("tier") == "1" and r["source"] != "aggregator"]
+    active = []
+    for r in rows:
+        if deep and r["source"] in ("workday", "oracle"):
+            r["deep"] = True
+        if not full:
+            r["fast"] = True
+        s = state["sources"].get(skey(r), {})
+        if s.get("cooldown_until", "") > now:  # backing off after an anti-robot check
+            continue
+        active.append(r)
+    print(f"Scan {mode} : {len(active)} sources")
+
+    firm_rows = {c["name"]: c for c in companies}
+    matcher = FirmMatcher(list(firm_rows))
+    open_jobs = [j for j in jobs.values() if not j.get("closed")]
+    url_index = {norm_url(j["url"]): j["id"] for j in open_jobs}
+    title_index = {(j["company"], norm_title(j["title"])): j["id"] for j in open_jobs}
+    to_check = []  # (job, counts_as_missing) to confirm closed by opening the posting
+
+    results = fetch_all(active)
+    results.sort(key=lambda x: x[0]["source"] == "aggregator")  # direct sources first: they win on duplicates
+    for c, ok, payload, secs in results:
         name, sk = c["name"], skey(c)
         src = state["sources"].setdefault(sk, {"fails": 0})
         if not ok:
-            src["fails"] = min(src.get("fails", 0) + 1, 99)
+            src["fails"] = min(src.get("fails", 0) + 1, 999)
             src["error"] = payload
+            src.setdefault("fail_since", now)
+            pause = 45 if "anti-robot" in payload else 10 if "429" in payload else 0
+            if pause:  # the site asks us to slow down: skip it for a while instead of insisting
+                src["cooldown_until"] = (datetime.now(timezone.utc) + timedelta(minutes=pause)).replace(microsecond=0).isoformat()
             print(f"  ✗ {name:40s} {payload}")
             continue
         prev = src.get("raw") or 0
-        if prev >= 10 and len(payload) < prev * 0.5 and src.get("suspect", 0) < 6:
-            # Sudden drop (rate limit, half-loaded page...): don't trust this scan, retry next time.
+        if prev >= 10 and len(payload) < prev * 0.5 and src.get("suspect", 0) < 6 and not c.get("deep"):
             src["suspect"] = src.get("suspect", 0) + 1
             print(f"  ? {name:40s} {len(payload)} offres au lieu de ~{prev}, scan ignoré")
             continue
         src.pop("suspect", None)
-        seeding = first_run or reseed or not src.get("ever_ok")
+        src.pop("cooldown_until", None)
+        src.pop("fail_since", None)
+        seeding = first_run or reseed or (not src.get("ever_ok") and not c.get("auto"))
         src.update({"fails": 0, "error": None, "ever_ok": True, "last_ok": now, "raw": len(payload)})
+        src["max_raw"] = max(src.get("max_raw", 0), len(payload))
+        if payload:
+            src.pop("zero_since", None)
+        elif src["max_raw"] > 0:
+            src.setdefault("zero_since", now)
+        aggregator = c["source"] == "aggregator"
         seen_now = set()
         for r in payload:
-            level, cycle, region = classify(r["title"], c["category"], r.get("location", ""))
+            company, cat, tier, hq = name, c["category"], c["tier"], c.get("hq", "")
+            title_cls = r["title"]
+            if aggregator:
+                firm = matcher.match(r.get("company", ""))
+                base = firm_rows.get(firm, {})
+                company = firm or r.get("company") or "?"
+                cat, tier, hq = base.get("category", "Autre (agrégateur)"), base.get("tier", "3"), base.get("hq", "")
+                if r.get("kind") in INTERN_KINDS:
+                    title_cls = f"{r['title']} ({r['kind']})"
+                if firm:
+                    discovered_links.append((firm, r["url"], r.get("via", "YourFinanceJob")))
+            level, cycle, region = classify(title_cls, cat, r.get("location", ""))
             if not level:
                 continue
-            jid = hashlib.sha1(f"{name}|{r['key']}".encode()).hexdigest()[:16]
+            jid = hashlib.sha1(f"{company}|{r['key']}".encode()).hexdigest()[:16]
+            if aggregator and jid not in jobs:
+                other = url_index.get(norm_url(r["url"])) or title_index.get((company, norm_title(r["title"])))
+                if other and other != jid:
+                    continue  # already watched through the firm's own site
             seen_now.add(jid)
             if jid in jobs:
                 j = jobs[jid]
@@ -202,34 +332,56 @@ def scan():
                     j["posted"] = r["posted"]
                 j.pop("closed", None)
                 continue
+            dup = title_index.get((company, norm_title(r["title"])))
+            if r.get("posted") and r["posted"] < (date.today() - timedelta(days=3)).isoformat():
+                dup = dup or "old"  # published days ago, just found now (new keyword, deep scan...): not "new"
             jobs[jid] = {
-                "id": jid, "company": name, "category": c["category"], "tier": c["tier"], "hq": c.get("hq", ""),
+                "id": jid, "company": company, "category": cat, "tier": tier, "hq": hq,
                 "title": r["title"], "location": r.get("location", ""), "url": r["url"], "posted": r.get("posted"),
-                "level": level, "cycle": cycle, "region": region, "source": c["source"],
-                "first_seen": now, "seed": seeding, "missing": 0, "skey": sk, "key": r["key"],
+                "level": level, "cycle": cycle, "region": region, "source": "aggregator" if aggregator else c["source"],
+                "first_seen": now, "seed": bool(seeding or dup), "missing": 0, "skey": sk, "key": r["key"],
             }
+            if aggregator:
+                jobs[jid]["via"] = r.get("via", "")
             if r.get("description"):
                 jobs[jid]["details"] = analyze(clean_html(r["description"]), r["title"])
             for k in ("deadline", "event"):
                 if r.get(k):
                     jobs[jid][k] = r[k]
-            if not seeding:
+            title_index[(company, norm_title(r["title"]))] = jid
+            url_index[norm_url(r["url"])] = jid
+            if not (seeding or dup):
                 new.append(jobs[jid])
+        # Postings that disappeared: confirm by opening them (big boards outside deep scans only count if confirmed)
+        partial = c["source"] in ("workday", "oracle") and not c.get("deep")
         for j in jobs.values():
             if j.get("skey", primary.get(j["company"])) == sk and j["id"] not in seen_now and not j.get("closed"):
-                j["missing"] = j.get("missing", 0) + 1
-                if j["missing"] >= MISSING_BEFORE_CLOSED:
-                    j["closed"] = now
+                to_check.append((j, not partial))
         print(f"  ✓ {name:40s} {len(payload):4d} offres lues, {len(seen_now):3d} stages ({secs}s)")
 
-    fill_posted_dates(jobs)
-    fill_details(jobs)
-    page_changes = scan_pages(state, now)
+    confirm_closures(to_check, now)
+    fill_posted_dates(jobs, budget=300 if full else 60)
+    fill_details(jobs, budget=150 if full else 40)
+    upgraded = upgrade_levels(jobs, now)
+    new += [j for j in upgraded if j not in new]
+
+    page_changes, new_sources = [], []
+    if full:
+        page_changes = scan_pages(state, now, known_titles=[j["title"] for j in jobs.values() if not j.get("closed")])
+        for url, p in state.get("pages", {}).items():
+            firm = next((x["company"] for x in load_pages() if x["url"] == url), "")
+            for link in p.get("ats", []):
+                discovered_links.append((firm, link, f"page étudiants {firm}"))
+        new_sources = discover_sources(state, companies, discovered_links, now)
+        refresh_trackers(state, now)
+        state["last_full"] = now
+        if deep:
+            state["last_deep"] = now
 
     cutoff = (datetime.now(timezone.utc) - timedelta(days=KEEP_CLOSED_DAYS)).isoformat()
     for jid in [k for k, j in jobs.items() if j.get("closed") and j["closed"] < cutoff]:
         del jobs[jid]
-    known = {skey(c) for c in companies}
+    known = {skey(c) for c in all_sources(companies, state)}
     for k in [k for k in state["sources"] if k not in known]:
         del state["sources"][k]
 
@@ -239,6 +391,8 @@ def scan():
     else:
         instant(cfg, [j for j in new if j["level"] in cfg.get("instant_levels", ["A"])])
         notify_pages(cfg, page_changes)
+        notify_sources(cfg, new_sources)
+        health_alerts(cfg, state, companies, now)
 
     lt = local_now(cfg)
     if lt.hour >= cfg.get("digest_hour", 7) and state.get("last_digest") != lt.date().isoformat():
@@ -247,9 +401,125 @@ def scan():
 
     if fingerprint(state) != before or not os.path.exists(DASH_PATH):
         save(state, companies, cfg)
-        print(f"État mis à jour ({len(new)} nouvelles offres).")
+        print(f"État mis à jour ({len(new)} nouvelles offres) en {time.time() - t0:.0f} s.")
     else:
-        print("Aucun changement.")
+        print(f"Aucun changement ({time.time() - t0:.0f} s).")
+
+
+def confirm_closures(items, now, budget=40):
+    """Open each missing posting once: closed right away if it's gone, otherwise count the miss."""
+    checks = [j for j, _ in items if not j.get("close_checked")][:budget]
+
+    def one(j):
+        return j, is_closed(j)
+
+    verdict = {}
+    with cf.ThreadPoolExecutor(10) as ex:
+        for j, v in ex.map(one, checks):
+            verdict[j["id"]] = v
+    for j, counts in items:
+        v = verdict.get(j["id"])
+        if v is True:
+            j["closed"] = now
+            j.pop("close_checked", None)
+        elif counts:
+            j["missing"] = j.get("missing", 0) + 1
+            if v is False:
+                j["close_checked"] = True  # still online: don't reopen it every scan, wait for the 3 misses
+            if j["missing"] >= MISSING_BEFORE_CLOSED:
+                j["closed"] = now
+
+
+def upgrade_levels(jobs, now):
+    """Generic titles ("2027 Summer Analyst") become target offers when the description says M&A, LevFin, PE..."""
+    out = []
+    for j in jobs.values():
+        team = (j.get("details") or {}).get("team")
+        years = set(re.findall(r"20[2-3]\d", j["title"]))
+        if j.get("closed") or j["level"] != "B" or team not in TARGET_TEAMS or NON_TARGET.search(j["title"]) \
+                or (years and not years & {"2027", "2028"}):
+            continue
+        was = j.get("upgraded")
+        j["level"], j["upgraded"] = "A", True
+        if not was and not j.get("seed") and minutes_since(j.get("first_seen")) < 180:
+            out.append(j)  # notified once, the first time it becomes a target offer
+    return out
+
+
+def discover_sources(state, companies, links, now, budget=6):
+    """Platforms seen on student pages / in the aggregator that the radar doesn't read yet: test them, add the good ones."""
+    rows = [c for c in companies if c.get("source") in FETCHERS] + list(state.get("auto_sources", {}).values())
+    known = known_ids(rows)
+    rejected = state.setdefault("rejected_sources", {})
+    by_firm = {c["name"]: c for c in companies}
+    added, tested = [], 0
+    for firm, link, where in links:
+        if not firm or firm not in by_firm:
+            continue
+        for src, sid in candidates([link], known):
+            key = f"{src}:{sid}".lower()
+            if key in state.get("auto_sources", {}) or minutes_since(rejected.get(key)) < 7 * 24 * 60 or tested >= budget:
+                continue
+            tested += 1
+            row = {"source": src, "source_id": sid, "source_url": ""}
+            try:
+                got = FETCHERS[src](row)
+            except Exception:
+                got = []
+            if not got:
+                rejected[key] = now
+                continue
+            base = by_firm[firm]
+            state.setdefault("auto_sources", {})[key] = {
+                "name": firm, "category": base["category"], "tier": base["tier"], "hq": base.get("hq", ""),
+                "source": src, "source_id": sid, "source_url": "", "careers_url": base.get("careers_url", ""),
+                "found_on": where, "at": now, "count": len(got)}
+            known |= {(src, i) for i in ids_of(src, sid)}
+            added.append(state["auto_sources"][key])
+            print(f"  + Nouvelle source pour {firm} : {src} {sid} ({len(got)} offres) via {where}")
+    return added
+
+
+def notify_sources(cfg, added):
+    if not added:
+        return
+    lines = "\n".join(f"• <b>{notify.esc(a['name'])}</b> — {notify.esc(a['source'])} « {notify.esc(a['source_id'])} » "
+                      f"({a['count']} offres), trouvée via {notify.esc(a['found_on'])}" for a in added)
+    notify.send(f"🔎 <b>Nouvelle source ajoutée automatiquement</b>\n{lines}\nSes offres ciblées te seront envoyées au prochain scan.")
+
+
+def health_alerts(cfg, state, companies, now):
+    """Tell once when a ★ firm stops answering (or answers 0 offers) for 24 h."""
+    stars = {skey(c): c["name"] for c in companies if c["tier"] == "1" and c.get("source") in FETCHERS}
+    bad = []
+    for k, name in stars.items():
+        s = state["sources"].get(k, {})
+        since = s.get("fail_since") or s.get("zero_since")
+        if since and minutes_since(since) >= 24 * 60:
+            if not s.get("alerted"):
+                s["alerted"] = True
+                bad.append(f"• <b>{notify.esc(name)}</b> — {'erreur : ' + notify.esc((s.get('error') or '')[:80]) if s.get('fail_since') else '0 offre lue depuis 24 h'}")
+        else:
+            s.pop("alerted", None)
+    if bad:
+        notify.send("⚠️ <b>Radar : source muette depuis 24 h</b>\n" + "\n".join(bad) + "\nJe la vérifie au prochain passage, ou dis-le à Claude.")
+
+
+def refresh_trackers(state, now):
+    """TrackR article once a day, L3vlUp every 6 hours (public pages, read rarely)."""
+    errs = state.setdefault("tracker_errors", {})
+    if minutes_since((state.get("trackr") or {}).get("at")) >= 24 * 60:
+        try:
+            state["trackr"] = {"at": now, "rows": trackr_programmes()}
+            errs.pop("TrackR", None)
+        except Exception as e:
+            errs["TrackR"] = f"{type(e).__name__}: {e}"[:120]
+    if minutes_since((state.get("l3vlup") or {}).get("at")) >= 6 * 60:
+        try:
+            state["l3vlup"] = {"at": now, "rows": l3vlup_open()}
+            errs.pop("L3vlUp", None)
+        except Exception as e:
+            errs["L3vlUp"] = f"{type(e).__name__}: {e}"[:120]
 
 
 def clean_html(s):
@@ -270,7 +540,7 @@ def notify_pages(cfg, changes):
     notify.send("<b>Page étudiants modifiée</b>\n\n" + "\n\n".join(blocks) + dash_link(cfg))
 
 
-def fill_posted_dates(jobs, budget=300):
+def fill_posted_dates(jobs, budget=300):  # noqa: E302
     """Workday lists only say "Posted 30+ Days Ago": fetch the exact date once per posting."""
     todo = [j for j in jobs.values() if j["source"] == "workday" and not j.get("posted")
             and not j.get("posted_tried") and not j.get("closed")][:budget]
@@ -373,7 +643,7 @@ def digest(cfg, state, companies):
         msg += "\n\n<b>Autres stages</b>\n" + "\n".join("• " + notify.job_line(j, False) for j in b[:10])
 
     soon = []
-    for p in programme_status(load_programmes(), state["jobs"], companies, today, state["sources"]):
+    for p in programme_status(load_programmes(state, companies), state["jobs"], companies, today, state["sources"], (state.get("l3vlup") or {}).get("rows")):
         closes = _d(p.get("closes", ""))
         label = f'<b>{notify.esc(p["company"])}</b> — {notify.esc(p["program"])}'
         link = p.get("job_url") or p.get("url")
@@ -422,11 +692,20 @@ def save(state, companies, cfg):
              "open": sum(1 for j in jobs if j["company"] == c["name"] and not j.get("closed"))}
         by_name[c["name"]] = e
         comp.append(e)
-    out = []
-    for j in jobs:
-        j = {k: v for k, v in j.items() if k not in ("missing", "posted_tried", "details_tried", "source", "skey", "key")}
+    out, groups = [], {}
+    for j in sorted(jobs, key=lambda x: (x.get("source") == "aggregator", x["first_seen"])):
+        g = (j["company"], norm_title(j["title"]), norm_title(j.get("location", "")))
+        if g in groups and not j.get("closed"):
+            continue  # same offer listed twice (two boards, aggregator...): keep the first one
+        groups[g] = True
+        det = j.get("details") or {}
+        j = {k: v for k, v in j.items() if k not in ("missing", "posted_tried", "details_tried", "skey", "key", "close_checked")}
         j["score"] = relevance(j)
-        j["country"] = country(j.get("location", ""), j["title"])
+        j["country"] = country(j.get("location", ""), j["title"]) or det.get("country", "")
+        if not j.get("deadline") and det.get("deadline"):
+            j["deadline"] = det["deadline"]
+        if det.get("team"):
+            j["team"] = det["team"]
         j["elig"] = evaluate(j, cfg.get("profile", {}))
         # Publication date: the site's own date if known, else when the radar first saw it (unknown for launch-day offers).
         j["published"] = j.get("posted") or (None if j.get("seed") else j["first_seen"][:10])
@@ -434,10 +713,38 @@ def save(state, companies, cfg):
     out.sort(key=lambda j: (j["published"] or "", j["score"]), reverse=True)
     today = local_now(cfg).date()
     with open(DASH_PATH, "w", encoding="utf-8") as f:
-        json.dump({"updated": now_iso(), "jobs": out, "companies": comp,
-                   "programmes": programme_status(load_programmes(), state["jobs"], companies, today, state["sources"]),
+        json.dump({"updated": now_iso(), "jobs": out, "companies": comp, "perf": perf(state, companies),
+                   "programmes": programme_status(load_programmes(state, companies), state["jobs"], companies, today, state["sources"], (state.get("l3vlup") or {}).get("rows")),
                    "pages": for_dashboard(state)},
                   f, ensure_ascii=False, separators=(",", ":"))
+
+
+def perf(state, companies):
+    """Health of the radar, shown in Infos générales."""
+    rows = all_sources(companies, state)
+    stars = {skey(c) for c in rows if c.get("tier") == "1"}
+    silent, failing = [], []
+    for c in rows:
+        s = state["sources"].get(skey(c), {})
+        if c.get("source") not in FETCHERS:
+            continue
+        if s.get("fails"):
+            failing.append({"name": c["name"], "source": c["source"], "error": (s.get("error") or "")[:100], "star": skey(c) in stars})
+        elif s.get("ever_ok") and not s.get("raw") and c["source"] != "watch":
+            silent.append({"name": c["name"], "source": c["source"], "star": skey(c) in stars, "since": s.get("zero_since")})
+    lat = []
+    for j in state["jobs"].values():
+        if not j.get("seed") and j.get("posted") and j.get("first_seen"):
+            lat.append((date.fromisoformat(j["first_seen"][:10]) - date.fromisoformat(j["posted"][:10])).days)
+    A = [j for j in state["jobs"].values() if j["level"] == "A" and not j.get("closed")]
+    return {"last_full": state.get("last_full"), "last_deep": state.get("last_deep"),
+            "same_day": [sum(1 for x in lat if x <= 0), len(lat)],
+            "failing": failing, "silent": silent,
+            "auto_sources": [{k: a[k] for k in ("name", "source", "source_id", "found_on", "at", "count")} for a in state.get("auto_sources", {}).values()],
+            "details": [sum(1 for j in A if j.get("details")), len(A)],
+            "trackers": {"TrackR": (state.get("trackr") or {}).get("at"), "L3vlUp": (state.get("l3vlup") or {}).get("at"),
+                         "errors": state.get("tracker_errors", {})},
+            "sources_total": sum(1 for c in rows if c.get("source") in FETCHERS)}
 
 
 # ------------------------------------------------------------------ CLI helpers
@@ -478,7 +785,7 @@ def telegram_setup(token):
 def main(argv):
     cmd = argv[1] if len(argv) > 1 else "scan"
     if cmd == "scan":
-        scan()
+        scan(argv[2].lstrip("-") if len(argv) > 2 else None)
     elif cmd == "test":
         test(argv[2:])
     elif cmd == "digest":

@@ -11,9 +11,25 @@ from datetime import datetime, timedelta, timezone
 from urllib.parse import quote, urljoin
 
 from .http import get_json, get_text, post_json
+from .trackers import yourfinancejob
 
 # Used on big boards (thousands of jobs) instead of downloading everything.
-SEARCH_TERMS = ["intern", "internship", "summer", "spring", "insight", "off-cycle", "stage", "placement"]
+SEARCH_TERMS = ["intern", "internship", "summer", "spring", "insight", "off-cycle", "off cycle", "stage", "stagiaire",
+                "placement", "analyst program", "trainee", "praktikum", "working student", "graduate", "discovery", "VIE",
+                "seasonal", "2027", "2028"]
+DEEP_MAX = 5000  # hourly "deep" scan: read whole boards instead of keyword searches
+FAST_TERMS = ["intern", "internship", "summer", "spring", "insight", "off-cycle", "stage", "analyst program"]
+
+
+def terms_for(src):
+    return FAST_TERMS if src.get("fast") else SEARCH_TERMS
+
+
+def run_terms(fn, terms, per_term):
+    """Keyword searches in parallel (3 at a time) instead of one after the other."""
+    import concurrent.futures as cf
+    with cf.ThreadPoolExecutor(3) as ex:
+        list(ex.map(lambda t: fn(t, per_term), terms))
 WD_FULL_SCAN_MAX = 400  # below this many postings, fetch the whole board
 
 
@@ -100,11 +116,12 @@ def workday(src):
                     return total
 
         first = page("", 0)
-        if first.get("total", 0) <= WD_FULL_SCAN_MAX:
+        if src.get("deep"):
+            collect("", DEEP_MAX)
+        elif first.get("total", 0) <= WD_FULL_SCAN_MAX:
             collect("", WD_FULL_SCAN_MAX)
         else:
-            for term in SEARCH_TERMS:
-                collect(term, 100)
+            run_terms(collect, terms_for(src), 40 if src.get("fast") else 100)
     return list(jobs.values())
 
 
@@ -137,9 +154,10 @@ def oracle(src):
         return total
 
     total = collect("", 50)
-    if total > 300:
-        for term in SEARCH_TERMS:
-            collect(term, 150)
+    if src.get("deep"):
+        collect("", DEEP_MAX)
+    elif total > 300:
+        run_terms(collect, terms_for(src), 50 if src.get("fast") else 150)
     elif total > 50:
         collect("", 300)
     return list(jobs.values())
@@ -378,5 +396,5 @@ FETCHERS = {
     "workday": workday, "oracle": oracle, "greenhouse": greenhouse, "lever": lever, "ashby": ashby,
     "smartrecruiters": smartrecruiters, "recruitee": recruitee, "workable": workable, "pinpoint": pinpoint,
     "rss": rss, "teamtailor": rss, "goldman": goldman, "eightfold": eightfold, "beesite": beesite,
-    "oleeo": oleeo, "html": html_links, "watch": watch,
+    "oleeo": oleeo, "html": html_links, "watch": watch, "aggregator": yourfinancejob,
 }

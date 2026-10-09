@@ -199,7 +199,105 @@ def analyze(text, title=""):
     # Rolling basis
     if re.search(r"rolling basis|au fil de l.eau|first come", low):
         d["rolling"] = True
+
+    # Team (title first, then description)
+    team = team_of(title) or team_of(text[:3000])
+    if team:
+        d["team"] = team
+
+    # Deadline written in the text ("apply by 15 November 2026", "closing date: 30/11/2026")
+    dl = deadline_of(t)
+    if dl:
+        d["deadline"] = dl
+
+    # Country from a "Location:" line or the first cities mentioned
+    loc = re.search(r"(?:location|lieu|localisation|based in|bas[ée] [àa])\s*:?\s*([^\n.;]{3,60})", t, I)
+    if loc:
+        from .classify import country
+        c = country(loc.group(1))
+        if c and c != "Plusieurs pays":
+            d["country"] = c
     return d
+
+
+TEAMS = [  # first match wins: most specific first
+    ("Leveraged Finance", r"leveraged finance|lev ?fin|acquisition finance|financement d.acquisition"),
+    ("Restructuring", r"restructuring|liability management|special situations"),
+    ("ECM", r"equity capital markets|\becm\b"),
+    ("DCM", r"debt capital markets|\bdcm\b"),
+    ("Debt Advisory", r"debt advisory|conseil en financement"),
+    ("Private Credit", r"private credit|private debt|direct lending|dette priv|credit (fund|investing|opportunit)"),
+    ("Private Equity", r"private equity|buyout|\blbo\b|capital[- ]investissement|growth equity|venture capital|secondaries|co-?invest"),
+    ("Infrastructure", r"infrastructure (investment|fund|equity|team)|infra(structure)? private"),
+    ("Real Estate", r"real estate|immobilier"),
+    ("Transaction Services", r"transaction services|financial due diligence|\bfdd\b|deals advisory"),
+    ("Valuation", r"valuation|[ée]valuation|fairness opinion"),
+    ("M&A / IBD", r"m ?& ?a\b|mergers|fusions|investment banking|corporate finance|\bibd\b|\bgib\b|advisory|coverage|banque d.affaires"),
+    ("Markets", r"sales (and|&) trading|\btrading\b|global markets|structuring|\bsales\b"),
+    ("Research", r"equity research|credit research|\bresearch\b"),
+    ("Asset Management", r"asset management|portfolio manag|gestion d.actifs|investment management"),
+]
+TEAMS = [(n, re.compile(rx, I)) for n, rx in TEAMS]
+TARGET_TEAMS = {"Leveraged Finance", "Restructuring", "ECM", "DCM", "Debt Advisory", "Private Credit", "Private Equity",
+                "Infrastructure", "Real Estate", "Transaction Services", "Valuation", "M&A / IBD"}
+
+
+def team_of(text):
+    for name, rx in TEAMS:
+        if rx.search(text or ""):
+            return name
+    return ""
+
+
+def deadline_of(text):
+    for m in re.finditer(r"(apply by|applications? (close|deadline)|closing date|deadline( for applications)?|date limite|cl[ôo]ture des candidatures"
+                         r"|candidatures? jusqu.au|submit (your application )?by|no later than)[^.\n]{0,60}", text, I):
+        span = m.group(0)
+        ds = _month_year_day(span)
+        if ds:
+            return ds
+    return None
+
+
+def _month_year_day(text):
+    m = re.search(r"(\d{1,2})(?:st|nd|rd|th|er)?\s+" + MONTH_RX + r"\.?,?\s+(20\d\d)", text, I)
+    if m:
+        mon = _mon(m.group(2))
+        if mon:
+            return f"{m.group(3)}-{mon:02d}-{int(m.group(1)):02d}"
+    m = re.search(MONTH_RX + r"\.?\s+(\d{1,2})(?:st|nd|rd|th)?,?\s+(20\d\d)", text, I)
+    if m:
+        mon = _mon(m.group(1))
+        if mon:
+            return f"{m.group(3)}-{mon:02d}-{int(m.group(2)):02d}"
+    m = re.search(r"\b(\d{1,2})[/.](\d{1,2})[/.](20\d\d)\b", text)
+    if m and 1 <= int(m.group(2)) <= 12:
+        return f"{m.group(3)}-{int(m.group(2)):02d}-{int(m.group(1)):02d}"
+    return None
+
+
+CLOSED_RX = re.compile(r"no longer (accepting|available|open)|this (job|position|role|posting) (has been|is) (closed|filled|expired)"
+                       r"|job (is )?(not found|no longer)|position (has been )?filled|n.est plus (disponible|en ligne)|offre (expir|clôtur|pourvue)"
+                       r"|applications? (are |is )?(now )?closed|page not found|cette offre n.existe plus", I)
+
+
+def is_closed(job):
+    """Open the posting itself: True if gone (404/410) or the page says it's closed, False if still open, None if unsure."""
+    from urllib.error import HTTPError
+    url = job.get("url", "")
+    try:
+        if job.get("source") == "workday":
+            m = re.match(r"https://(([^.]+)\.wd\d+\.myworkdayjobs\.com)/en-US/([^/]+)(/.+)", url)
+            if m:
+                host, tenant, site, path = m.groups()
+                get_json(f"https://{host}/wday/cxs/{tenant}/{site}{path}")
+                return False
+        page = get_text(url)
+        return bool(CLOSED_RX.search(clean(page)[:20000]))
+    except HTTPError as e:
+        return True if e.code in (404, 410) else None
+    except Exception:
+        return None
 
 
 # ----------------------------------------------------------------- eligibility
@@ -283,9 +381,11 @@ def _fmt_month(ym):
 
 def fill_details(jobs, budget=150):
     """Fetch descriptions for target offers that don't have details yet (once per offer)."""
-    todo = [j for j in jobs.values() if j["level"] == "A" and not j.get("closed")
-            and "details" not in j and not j.get("details_tried")]
-    todo.sort(key=lambda j: j.get("first_seen", ""), reverse=True)  # newest first
+    from .classify import NON_TARGET
+    todo = [j for j in jobs.values() if not j.get("closed") and "details" not in j and not j.get("details_tried")
+            and (j["level"] == "A" or (j["level"] == "B" and not NON_TARGET.search(j["title"]) and not team_of(j["title"])))]
+    todo.sort(key=lambda j: (j.get("seed", False), j["level"], j.get("first_seen", "")), reverse=False)
+    todo.sort(key=lambda j: (bool(j.get("seed")), j["level"]))  # new offers first, then target ones
     todo = todo[:budget]
     if not todo:
         return 0

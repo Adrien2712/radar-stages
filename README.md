@@ -1,6 +1,6 @@
 # 📡 Radar Stages
 
-Surveille toutes les 15 minutes les sites carrières de ~240 banques, boutiques M&A, fonds de PE / dette privée et investisseurs institutionnels, et t'envoie une notification Telegram dès qu'un **stage ciblé** (M&A, PE, dette privée, spring week, off-cycle…) est publié.
+Surveille toutes les 5 minutes (boîtes ★) et toutes les 15 minutes (le reste) les sites carrières de ~240 banques, boutiques M&A, fonds de PE / dette privée et investisseurs institutionnels, et t'envoie une notification Telegram dès qu'un **stage ciblé** (M&A, PE, dette privée, spring week, off-cycle…) est publié.
 
 - 🔥 **Notification instantanée** pour chaque nouvelle offre ciblée
 - ☀️ **Récap chaque matin à 7h** : nouveautés des dernières 24h + deadlines proches + springs attendues + sources en panne
@@ -72,6 +72,20 @@ Après ~2 minutes tu reçois le message « 📡 Radar Stages activé ! » avec l
 | Tester en local | `python3 -m radar test` (toutes les sources) ou `python3 -m radar test Lazard KKR` |
 
 **Ciblée (A)** = stage/spring/off-cycle en M&A, IB, PE, dette privée, restructuring, ECM/DCM, infra, immobilier… ou tout stage « métier » chez une boutique / un fonds. **Autre (B)** = stage non ciblé (tech, risques, audit, sales & trading, events…) : visible dans le tableau de bord et le récap du matin, sans notification instantanée.
+
+## Sources
+
+- **Sites carrières des boîtes** (`companies.csv`) : Workday, Oracle, Greenhouse, Oleeo, SmartRecruiters…
+- **Sources découvertes automatiquement** : le radar suit les liens « Apply » des pages étudiants et de YourFinanceJob, teste les plateformes qu'il ne connaît pas encore et les ajoute seul (prévenu sur Telegram).
+- **YourFinanceJob** (agrégateur public, ~1 600 offres de ~280 boîtes) : complète ce que les sites des boîtes ne montrent pas.
+- **TrackR** (frise publique des springs, relue chaque jour) et **L3vlUp** (springs ouvertes + deadlines, relu toutes les 6 h) pour l'onglet Springs.
+
+## Rythme des scans
+
+- toutes les 5 min : les boîtes ★ (mode rapide)
+- toutes les ~15 min : toutes les sources, pages étudiants, découverte de sources
+- toutes les heures : lecture intégrale des grands sites (JPMorgan, Citi…) pour ne rien rater
+- une offre qui disparaît est vérifiée en ouvrant son lien : « Fermée » dès qu'elle n'existe plus
 
 ## Comment ça marche
 

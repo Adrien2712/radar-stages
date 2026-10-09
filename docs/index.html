@@ -224,46 +224,6 @@ dialog p.d{margin:0 0 16px;color:var(--muted);font-size:12.5px}
 .info-body .k b{color:var(--ink);font-variant-numeric:tabular-nums}
 @media (max-width:900px){.home-grid,.info-grid{grid-template-columns:1fr}.subnav{display:flex;overflow-x:auto}}
 @media (max-width:640px){.card-h .c{display:none}.pipe-mini{grid-template-columns:repeat(3,minmax(0,1fr))}.hero h1{font-size:20px}.mini .r .btn{display:none}}
-.grid3{display:grid;grid-template-columns:1.3fr 1fr;gap:14px;margin-bottom:14px}
-.mini .ic{width:32px;height:32px;border-radius:8px;display:grid;place-items:center;font-size:15px;flex:none}
-.ic.r{background:var(--bad-soft)}.ic.g{background:var(--ok-soft)}.ic.b{background:var(--brand-soft)}.ic.v{background:var(--info-soft)}
-.cover{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;padding:14px 16px}
-.firm{border:1px solid var(--line);border-radius:10px;padding:8px 10px;font-size:12px}
-.firm:hover{border-color:var(--brand-2)}
-.firm b{display:block;font-size:12.5px;margin-bottom:4px}
-.dots{display:flex;gap:3px;margin-top:4px;flex-wrap:wrap}
-.dots i{width:9px;height:9px;border-radius:50%;background:var(--line)}
-.dots i.c1{background:#9db4f5}.dots i.c2{background:var(--brand-2)}.dots i.c3{background:var(--ok)}.dots i.c4{background:#c08a00}
-.funnel{display:flex;gap:6px;padding:14px 16px;align-items:flex-end;height:170px}
-.funnel div{flex:1;background:var(--brand-soft);border-radius:8px 8px 4px 4px;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;padding:6px 4px;font-size:11px;color:var(--brand)}
-.funnel div b{font-size:16px}
-.legend{display:flex;gap:12px;padding:0 16px 12px;font-size:11.5px;color:var(--muted);flex-wrap:wrap}
-.legend span{display:flex;align-items:center;gap:5px}
-.legend i{width:9px;height:9px;border-radius:50%;display:inline-block}
-.board6{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px;align-items:start}
-.pcont{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:9px 10px;margin-bottom:8px;font-size:12px;box-shadow:var(--shadow)}
-.pcont:hover{border-color:var(--brand-2)}
-.pcont b{display:block;font-size:12.5px}
-.pcont .w{display:flex;justify-content:space-between;gap:6px;margin-top:6px;color:var(--muted);font-size:11px}
-.org{padding:16px;display:grid;gap:12px}
-.team{border:1px solid var(--line);border-radius:10px;padding:10px}
-.team h4{margin:0 0 8px;font-size:12.5px}
-.person{display:flex;align-items:center;gap:8px;font-size:12px;padding:4px 0;flex-wrap:wrap}
-.path{display:flex;align-items:center;gap:8px;padding:0 16px 16px;flex-wrap:wrap;font-size:12.5px}
-.path .n{border:1px solid var(--line);border-radius:99px;padding:4px 10px;background:var(--surface)}
-.path .n.you{background:var(--brand);color:#fff;border-color:var(--brand)}
-.path .n.goal{background:var(--ok-soft);color:var(--ok);border-color:transparent;font-weight:600}
-.tl{padding:12px 16px;font-size:12.5px}
-.tl .e{display:grid;grid-template-columns:70px 1fr;gap:10px;padding:6px 0;border-top:1px dashed var(--line)}
-.tl .e:first-child{border-top:0}
-.tl .e span{color:var(--muted);font-size:11.5px}
-.drop{border:2px dashed var(--line-2);border-radius:12px;padding:18px;text-align:center;color:var(--muted);font-size:13px;margin:12px 0}
-.drop b{color:var(--brand-2)}
-.res{display:flex;flex-direction:column;gap:2px;font-size:13px}
-.res .k{display:flex;justify-content:space-between;border-bottom:1px solid var(--line);padding:6px 0}
-dialog .nform{max-height:85vh;overflow:auto}
-#ndlg{width:min(780px,calc(100vw - 32px))}
-@media (max-width:900px){.grid3{grid-template-columns:1fr}.board6{grid-template-columns:repeat(2,minmax(0,1fr))}.cover{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .tools{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:18px 0 48px;color:var(--muted);font-size:12px}
 
 @media (max-width:900px){
@@ -300,7 +260,6 @@ dialog .nform{max-height:85vh;overflow:auto}
       <button class="tab" data-tab="pages">Pages étudiantes<span class="n" id="n-pages"></span></button>
       <button class="tab" data-tab="cal">Calendrier</button>
       <button class="tab" data-tab="mine">Candidatures<span class="n" id="n-mine"></span></button>
-      <button class="tab" data-tab="net">Réseau<span class="n" id="n-net"></span></button>
       <button class="tab" data-tab="info">Infos générales</button>
     </nav>
   </div>
@@ -319,6 +278,7 @@ dialog .nform{max-height:85vh;overflow:auto}
       <input type="search" id="q" placeholder="Rechercher une boîte, un poste, une ville…">
       <select id="level"><option value="">Tous les stages</option><option value="A">Offres ciblées</option></select>
       <select id="elig"><option value="">Toutes éligibilités</option><option value="eligible">Éligibles pour moi</option><option value="eligible,check">Éligibles + à vérifier</option></select>
+      <select id="team"><option value="">Toutes les équipes</option></select>
       <select id="cycle"><option value="">Tous les cycles</option></select>
       <select id="country"><option value="">Tous les pays</option></select>
       <select id="category"><option value="">Toutes les catégories</option></select>
@@ -334,11 +294,9 @@ dialog .nform{max-height:85vh;overflow:auto}
   <section id="v-pages" hidden></section>
   <section id="v-cal" hidden></section>
   <section id="v-mine" hidden></section>
-  <section id="v-net" hidden></section>
   <section id="v-info" hidden></section>
 </main>
 
-<dialog id="ndlg"></dialog>
 <dialog id="dlg">
   <form method="dialog" id="addForm">
     <h3>Ajouter une offre</h3>
@@ -496,7 +454,7 @@ function statusSelect(id) {
 /* ---------- filters ---------- */
 function filtered() {
   const q = $("q").value.trim().toLowerCase();
-  const f = {level: $("level").value, cycle: $("cycle").value, country: $("country").value, category: $("category").value, elig: $("elig").value};
+  const f = {level: $("level").value, cycle: $("cycle").value, country: $("country").value, category: $("category").value, elig: $("elig").value, team: $("team").value};
   return allJobs().filter(j => {
     const st = statusOf(j.id);
     if (st === "Ignorer") return false;
@@ -505,6 +463,7 @@ function filtered() {
     if (f.elig && !f.elig.split(",").includes(eligOf(j))) return false;
     if (f.cycle && j.cycle !== f.cycle) return false;
     if (f.country && j.country !== f.country) return false;
+    if (f.team && j.team !== f.team) return false;
     if (f.category && j.category !== f.category) return false;
     if (q && !`${j.company} ${j.title} ${j.location} ${j.country} ${j.category}`.toLowerCase().includes(q)) return false;
     return true;
@@ -522,7 +481,7 @@ function row(j, why) {
         ${j.manual ? '<span class="badge b-info">Ajoutée par toi</span>' : eligBadge(j)}${j.level === "A" && !j.manual ? '<span class="badge b-brand b-plain">Ciblée</span>' : ""}
         ${r.map(x => `<span class="badge b-grey b-plain">${esc(x)}</span>`).join("")}</div>
       <a class="r-title" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
-      <div class="r-meta"><span>${esc([j.location, j.country && !(j.location || "").includes(j.country) ? j.country : ""].filter(Boolean).join(" · ") || "Lieu non précisé")}</span>${j.cycle ? `<span>${esc(j.cycle)}</span>` : ""}<span>${esc(j.category || "")}</span></div>
+      <div class="r-meta"><span>${esc([j.location, j.country && !(j.location || "").includes(j.country) ? j.country : ""].filter(Boolean).join(" · ") || "Lieu non précisé")}</span>${j.cycle ? `<span>${esc(j.cycle)}</span>` : ""}<span>${esc(j.category || "")}</span>${j.team ? `<span><b>${esc(j.team)}</b></span>` : ""}${j.via ? `<span>via ${esc(j.via.split(" · ")[0])}</span>` : ""}</div>
       ${factsHtml(j)}${whyHtml(j)}
     </div>
     <div class="r-side">
@@ -616,20 +575,22 @@ function renderSprings() {
   const q = "";
   const count = s => P.filter(p => p.status === s).length;
   const order = {"ouverte": 0, "à venir": 1, "en retard": 2, "vérifiée": 3, "source indisponible": 4, "non surveillée": 5};
-  const list = P.filter(p => (!SPRING_FILTER || p.status === SPRING_FILTER) && (!q || `${p.company} ${p.program}`.toLowerCase().includes(q)))
+  const list = P.filter(p => (!SPRING_FILTER || p.status === SPRING_FILTER) && (!SPRING_SECTOR || (p.sectors || []).includes(SPRING_SECTOR))
+      && (!q || `${p.company} ${p.program}`.toLowerCase().includes(q)))
     .sort((a, b) => order[a.status] - order[b.status] || (a.expected_open || "").localeCompare(b.expected_open || ""));
   const chip = (s, label) => `<button class="chip ${SPRING_FILTER === s ? "on" : ""}" data-sf="${s}"><b>${s ? count(s) : P.length}</b>${label}</button>`;
   const rows = list.map(p => {
     const [cls, label] = SPRING_STATUS[p.status] || ["b-grey", p.status];
     let when = "";
-    if (p.status === "ouverte") when = (p.opened ? `depuis le ${fmt(p.opened)}` : "déjà ouverte au lancement du radar") + (p.manualOpen ? " · ajoutée par toi" : "");
+    if (p.status === "ouverte") when = (p.opened ? `depuis le ${fmt(p.opened)}` : (p.seen_by || []).includes("Radar") ? "déjà ouverte au lancement du radar" : "signalée ouverte par L3vlUp")
+      + (p.manualOpen ? " · ajoutée par toi" : "") + (p.closes ? ` · ferme le ${fmt(p.closes)}` : "");
     else if (p.status === "vérifiée") when = `vérifiée le ${fmt(p.checked.slice(0, 10))}` + (p.days != null && p.days >= 0 ? ` · attendue dans ${p.days} j` : "");
     else if (p.days != null && p.days >= 0) when = p.days === 0 ? "attendue aujourd'hui" : `dans ${p.days} jour${p.days > 1 ? "s" : ""}`;
     else if (p.days != null) when = `attendue il y a ${-p.days} j`;
     const link = p.job_url || p.url;
     return `<tr>
       <td class="co">${esc(p.company)}</td>
-      <td class="prog">${esc(p.program)}${p.job_title ? `<span class="sub">Repérée : ${esc(p.job_title)}</span>` : ""}${p.notes ? `<span class="sub">${esc(p.notes)}</span>` : ""}</td>
+      <td class="prog">${esc(p.program)}${(p.sectors || []).length ? `<span class="sub">${esc(p.sectors.join(" · "))}</span>` : ""}${p.job_title ? `<span class="sub">Repérée : ${esc(p.job_title)}${(p.seen_by || []).length ? ` (${esc(p.seen_by.join(" + "))})` : ""}</span>` : ""}${p.notes && !(p.seen_by || []).length && !/surveill/i.test(p.status) ? `<span class="sub">${esc(p.notes)}</span>` : (p.notes && /diversité/i.test(p.notes) ? `<span class="sub">${esc(p.notes)}</span>` : "")}</td>
       <td style="white-space:nowrap">${esc(p.country || "")}</td>
       <td class="num">${fmt(p.last_open, true)}</td>
       <td class="num"><b>${fmt(p.expected_open)}</b></td>
@@ -642,14 +603,15 @@ function renderSprings() {
   }).join("");
   $("v-springs").innerHTML = `<div class="page-title"><h1>Springs 2027</h1><p>Les programmes attendus cette saison, et ceux déjà ouverts</p></div>
     <div class="summary">${chip("", "programmes suivis")}${chip("ouverte", "ouvertes")}${chip("à venir", "à venir")}${chip("en retard", "date passée, pas encore repérées")}${chip("vérifiée", "vérifiées par toi")}${chip("non surveillée", "à vérifier à la main")}</div>
-    <p class="note">Date attendue = date d'ouverture du même programme l'an dernier (source : TrackR). Le statut « Ouverte » est détecté automatiquement sur le site de la boîte. Pour celles à vérifier à la main : « J'ai vu l'offre » l'ajoute au site, « Pas encore » note ta vérification.</p>
+    <div class="filters" style="margin:6px 0 0"><select id="ssector"><option value="">Tous les secteurs</option>${[...new Set(P.flatMap(p => p.sectors || []))].sort().map(x => `<option ${x === SPRING_SECTOR ? "selected" : ""}>${esc(x)}</option>`).join("")}</select></div>
+    <p class="note">${P.length} programmes : tous ceux de la frise TrackR (relue chaque jour) + tes ajouts. Date attendue = date d'ouverture du même programme l'an dernier. Le statut « Ouverte » est détecté automatiquement sur le site de la boîte. Pour celles à vérifier à la main : « J'ai vu l'offre » l'ajoute au site, « Pas encore » note ta vérification.</p>
     <div class="panel"><div class="tablewrap"><table>
       <thead><tr><th>Boîte</th><th>Programme</th><th>Pays</th><th>L'an dernier</th><th>Attendue</th><th>Statut</th><th></th></tr></thead>
       <tbody>${rows || `<tr><td colspan="7" class="empty">Aucun programme.</td></tr>`}</tbody></table></div></div>`;
 }
 
 /* ---------- Pages étudiantes ---------- */
-let PAGE_FILTER = "";
+let PAGE_FILTER = "", SPRING_SECTOR = "";
 const PSTAT = {ouvert: ["b-ok", "Candidatures ouvertes"], "bientôt": ["b-brand", "Bientôt / s'inscrire"], "fermé": ["b-bad", "Fermé"], "": ["b-grey", "Pas d'info claire"]};
 function renderPages() {
   const all = DATA.pages || [], q = "";
@@ -696,7 +658,6 @@ function calEvents() {
     ev.push({d: v.d.slice(0, 10), t: "me", label: `${j.company || "?"} — ${v.s}`, url: j.url, pre: v.s});
     if (v.s === "À postuler" && j.deadline) ev.push({d: j.deadline, t: "me", label: `${j.company} — à envoyer avant la deadline`, url: j.url, pre: "À envoyer"});
   }
-  for (const c of NET.contacts) if (c.next && c.next.date) ev.push({d: c.next.date, t: "me", label: `${fullName(c)} — ${c.next.label}`, url: "#", pre: "Réseau"});
   return ev.filter(e => CAL_TYPES.has(e.t));
 }
 function renderCal() {
@@ -834,9 +795,6 @@ function renderHome() {
         ${pages.length ? pages.map(p => { const h = p.history[0] || {added: [], removed: []}; const line = h.added[0] ? "+ " + h.added[0] : "− " + (h.removed[0] || "");
           return `<div class="mini">${mono(p.company)}<div class="t"><b>${esc(p.company)} <span class="sub" style="display:inline">· ${ago(p.last_change)}</span></b><span class="l">${esc(line)}</span></div><div class="r"><a class="btn sm ghost" href="${esc(p.url)}" target="_blank" rel="noopener">Voir</a></div></div>`; }).join("")
           : `<div class="empty">Aucun changement repéré pour l'instant.</div>`}</div>
-      <div class="card"><div class="card-h"><h3>Réseau — à faire</h3><span class="c">${netStats().due.length} action${netStats().due.length > 1 ? "s" : ""}</span><a data-go="net">Tout voir →</a></div>
-        ${NET.contacts.length ? (netStats().due.length ? netStats().due.slice(0, 4).map(todoRow).join("") : `<div class="empty">Rien à faire aujourd'hui côté réseau.</div>`)
-          : `<div class="empty">Importe tes relations LinkedIn dans l'onglet Réseau pour suivre tes contacts.</div>`}</div>
       <div class="card"><div class="card-h"><h3>Mes candidatures</h3><a data-go="mine">Tout voir →</a></div>
         <div class="pipe-mini">${PIPE.map(s => `<div><b>${count(s)}</b><span>${s}</span></div>`).join("")}</div>
         ${count("À postuler") ? `<div class="mini"><div class="t"><span class="l">${count("À postuler")} offre${count("À postuler") > 1 ? "s" : ""} en attente d'envoi</span></div><div class="r"><a class="btn sm ghost" data-go="mine">Y aller</a></div></div>`
@@ -860,7 +818,7 @@ function renderInfo() {
         <div class="k"><span>Pages étudiantes lisibles</span><b>${pages.filter(p => p.ok).length} / ${pages.length}</b></div>
         <div class="k"><span>Offres ciblées analysées</span><b>${read} / ${A.length}</b></div></div></div>
       <div class="card"><div class="card-h"><h3>Mes données</h3></div><div class="info-body">
-        <span>Tes candidatures, tes contacts du réseau, les offres que tu ajoutes et tes vérifications sont enregistrés <b>dans ce navigateur</b>. Exporte-les pour les passer sur ton téléphone ou les sauvegarder.</span>
+        <span>Tes candidatures, les offres que tu ajoutes et tes vérifications sont enregistrées <b>dans ce navigateur</b>. Exporte-les pour les passer sur ton téléphone ou les sauvegarder.</span>
         <div class="acts"><button class="btn sm" data-export>Exporter</button><label class="btn sm ghost">Importer<input type="file" data-import accept=".json" hidden></label></div></div></div>
       <div class="card"><div class="card-h"><h3>Légende</h3></div><div class="info-body">
         <span><span class="badge b-ok">Éligible</span> l'offre correspond à ton profil (diplôme 2029, dispo juin 2027 – août 2028)</span>
@@ -868,368 +826,54 @@ function renderInfo() {
         <span><span class="badge b-bad">Non éligible</span> mauvaise année de diplôme, dates hors césure ou langue exigée</span>
         <span><span class="tier">★</span> boîte prioritaire · <span class="fact warn">Visa à prévoir</span> reste éligible</span></div></div>
     </div>
+    <div class="section-head"><h2>Performance du radar</h2><span class="c">mesurée en continu</span></div>
+    <div class="info-grid" id="perfbox">${perfHtml()}</div>
     <div class="section-head"><h2>Les boîtes suivies</h2><span class="c">${comps.length}</span></div>
     <div class="filters"><input type="search" id="fq" placeholder="Rechercher une boîte, une catégorie, une ville…"></div>
     <div id="firms-box"></div>`;
   $("fq").addEventListener("input", renderFirms);
   renderFirms();
+  fetchRuns();
 }
 
-/* ====================================================================
-   RÉSEAU — contacts, pipeline, relances, cartographie, messages.
-   Tout est stocké dans ce navigateur (données personnelles de tiers :
-   jamais envoyées sur GitHub).
-   ==================================================================== */
-const NKEY = "radar-reseau-v1";
-let NET = {contacts: [], templates: null};
-try { NET = Object.assign({contacts: [], templates: null}, JSON.parse(localStorage.getItem(NKEY) || "{}")); } catch (e) {}
-const saveNet = () => { try { localStorage.setItem(NKEY, JSON.stringify(NET)); } catch (e) { alert("Impossible d'enregistrer (stockage du navigateur plein ou bloqué)."); } };
-const NSTAT = [["repere", "Repéré", "b-grey"], ["contacte", "Contacté", "b-brand"], ["repondu", "A répondu", "b-info"],
-               ["call", "Call fait", "b-warn"], ["reco", "Recommandé", "b-ok"], ["veille", "En veille", "b-grey"]];
-const NSTAT_LABEL = Object.fromEntries(NSTAT.map(([k, l]) => [k, l]));
-const NSTAT_CLS = Object.fromEntries(NSTAT.map(([k, , c]) => [k, c]));
-const NEXT_DEFAULT = {contacte: [7, "Relancer si pas de réponse"], repondu: [2, "Caler le call"], call: [1, "Envoyer un remerciement"],
-                      reco: [1, "Remercier pour la recommandation"], veille: [60, "Donner des nouvelles"]};
-let NSUB = "overview", NFILTER = {q: "", status: "", firm: ""}, NFIRM = "";
-const isoDay = (d = new Date()) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
-const addDays = n => { const d = new Date(); d.setDate(d.getDate() + n); return isoDay(d); };
-const fullName = c => `${c.first || ""} ${c.last || ""}`.trim() || "Sans nom";
-
-/* ---------- correspondance boîte LinkedIn -> boîte suivie ---------- */
-const nnorm = s => String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
-const ncompact = s => nnorm(s).replace(/\(.*?\)/g, " ").replace(/&/g, " ").replace(/\b(and|co|the|group|groupe|sa|sas|inc|llc|ltd|limited|plc|lp|llp|ag|gmbh|se|nv|bv|corp|corporation)\b/g, " ").replace(/[^a-z0-9]/g, "");
-const FIRM_ALIASES = {"J.P. Morgan": ["jpmorgan", "jpmorganchase", "jpmorganchaseco"], "Bank of America": ["bankofamerica", "bofa", "bofasecurities", "merrilllynch"],
-  "Citi": ["citigroup", "citibank", "citi"], "Société Générale": ["societegenerale", "sgcib"], "Crédit Agricole CIB": ["creditagricolecib", "creditagricolecorporateandinvestmentbank", "cacib"],
-  "BNP Paribas": ["bnpparibas"], "Natixis CIB": ["natixis"], "Rothschild & Co": ["rothschild"], "EY": ["ey", "ernstyoung", "eyparthenon"],
-  "PwC": ["pwc", "pricewaterhousecoopers"], "Goldman Sachs": ["goldmansachs"], "Morgan Stanley": ["morganstanley"], "Houlihan Lokey": ["houlihanlokey"],
-  "Edmond de Rothschild Corporate Finance": ["edmondderothschild"]};
-let FIRM_KEYS = null;
-function firmKeys() {
-  if (FIRM_KEYS) return FIRM_KEYS;
-  const keys = [];
-  for (const c of DATA.companies || []) {
-    const own = FIRM_ALIASES[c.name] || [ncompact(c.name)];
-    for (const k of own) if (k.length >= 2) keys.push({name: c.name, key: k});
+/* ---------- performance ---------- */
+let RUNS = null;
+async function fetchRuns() {
+  const m = location.hostname.match(/^([^.]+)\.github\.io$/), repo = location.pathname.split("/")[1];
+  if (!m || !repo || RUNS) return;
+  try {
+    const r = await fetch(`https://api.github.com/repos/${m[1]}/${repo}/actions/workflows/radar.yml/runs?per_page=100&status=completed`);
+    RUNS = ((await r.json()).workflow_runs || []).map(x => ({start: new Date(x.run_started_at), end: new Date(x.updated_at), ok: x.conclusion === "success"}));
+    if ($("perfbox")) $("perfbox").innerHTML = perfHtml();
+  } catch (e) {}
+}
+const median = a => { if (!a.length) return null; const b = [...a].sort((x, y) => x - y); return b[Math.floor(b.length / 2)]; };
+function perfHtml() {
+  const P = DATA.perf || {}, k = (l, v) => `<div class="k"><span>${l}</span><b>${v}</b></div>`;
+  let cadence = "—", dur = "—", fails = "—";
+  if (RUNS && RUNS.length > 1) {
+    const day = RUNS.filter(r => Date.now() - r.start < 864e5).sort((a, b) => a.start - b.start);
+    const gaps = day.slice(1).map((r, i) => (r.start - day[i].start) / 6e4);
+    cadence = gaps.length ? `${Math.round(median(gaps))} min` : "—";
+    dur = `${(median(day.map(r => (r.end - r.start) / 6e4)) || 0).toFixed(1)} min`;
+    fails = `${day.filter(r => !r.ok).length} / ${day.length}`;
   }
-  return (FIRM_KEYS = keys.sort((a, b) => b.key.length - a.key.length));
+  const sd = P.same_day || [0, 0], det = P.details || [0, 0];
+  const list = (arr, empty) => arr && arr.length ? arr.map(x => `<span class="sub">• ${x.star ? "★ " : ""}${esc(x.name)} (${esc(x.source)})${x.error ? " — " + esc(x.error.slice(0, 60)) : ""}</span>`).join("") : `<span class="sub">${empty}</span>`;
+  return `<div class="card"><div class="card-h"><h3>Vitesse</h3></div><div class="info-body">
+      ${k("Écart entre deux scans (24 h)", cadence)}${k("Durée d'un scan", dur)}${k("Scans en échec (24 h)", fails)}
+      ${k("Offres repérées le jour de leur publication", sd[1] ? `${Math.round(100 * sd[0] / sd[1])} % (${sd[0]}/${sd[1]})` : "—")}
+      ${k("Dernier scan complet", P.last_full ? ago(P.last_full) : "—")}${k("Dernière lecture intégrale des grands sites", P.last_deep ? ago(P.last_deep) : "—")}</div></div>
+    <div class="card"><div class="card-h"><h3>Couverture</h3></div><div class="info-body">
+      ${k("Sources lues automatiquement", P.sources_total || "—")}${k("Descriptions d'offres ciblées analysées", det[1] ? `${det[0]} / ${det[1]}` : "—")}
+      ${k("Sources découvertes automatiquement", (P.auto_sources || []).length)}
+      ${(P.auto_sources || []).map(a => `<span class="sub">• ${esc(a.name)} — ${esc(a.source)} ${esc(a.source_id)} (${a.count} offres, via ${esc(a.found_on)})</span>`).join("")}
+      ${k("TrackR relu", P.trackers && P.trackers.TrackR ? ago(P.trackers.TrackR) : "—")}${k("L3vlUp relu", P.trackers && P.trackers.L3vlUp ? ago(P.trackers.L3vlUp) : "—")}</div></div>
+    <div class="card"><div class="card-h"><h3>À surveiller</h3></div><div class="info-body">
+      ${k("Sources en erreur", (P.failing || []).length)}${list(P.failing, "Aucune")}
+      ${k("Sources qui ne renvoient aucune offre", (P.silent || []).length)}${list((P.silent || []).slice(0, 15), "Aucune")}
+      ${Object.entries((P.trackers || {}).errors || {}).map(([n, e]) => `<span class="sub urgent">${esc(n)} : ${esc(e)}</span>`).join("")}</div></div>`;
 }
-function matchFirm(company) {
-  const comp = ncompact(company), words = nnorm(company).split(/[^a-z0-9]+/);
-  for (const {name, key} of firmKeys()) {
-    if (key.length < 5 ? (comp === key || words.includes(key)) : comp.includes(key)) return name;
-  }
-  return "";
-}
-
-/* ---------- import LinkedIn (Connections.csv) ---------- */
-function parseCSV(text) {
-  const rows = []; let row = [], cur = "", q = false;
-  for (let i = 0; i < text.length; i++) {
-    const ch = text[i];
-    if (q) { if (ch === '"') { if (text[i + 1] === '"') { cur += '"'; i++; } else q = false; } else cur += ch; }
-    else if (ch === '"') q = true;
-    else if (ch === ",") { row.push(cur); cur = ""; }
-    else if (ch === "\n" || ch === "\r") { if (ch === "\r" && text[i + 1] === "\n") i++; row.push(cur); rows.push(row); row = []; cur = ""; }
-    else cur += ch;
-  }
-  if (cur || row.length) { row.push(cur); rows.push(row); }
-  return rows;
-}
-function linkedinContacts(text) {
-  const rows = parseCSV(text.replace(/^﻿/, ""));
-  const h = rows.findIndex(r => r.some(x => /first name|prénom/i.test(x)));
-  if (h < 0) throw new Error("En-têtes introuvables");
-  const head = rows[h].map(x => nnorm(x).trim());
-  const col = (...names) => head.findIndex(x => names.some(n => x === n || x.includes(n)));
-  const ci = {first: col("first name", "prenom"), last: col("last name", "nom"), url: col("url"), email: col("email", "e-mail"),
-              company: col("company", "entreprise"), position: col("position", "poste"), on: col("connected on", "date de connexion")};
-  return rows.slice(h + 1).filter(r => r.length > 2 && (r[ci.first] || r[ci.last])).map(r => ({
-    first: (r[ci.first] || "").trim(), last: (r[ci.last] || "").trim(), url: (r[ci.url] || "").trim(), email: (r[ci.email] || "").trim(),
-    company: (r[ci.company] || "").trim(), position: (r[ci.position] || "").trim(), connected_on: (r[ci.on] || "").trim()}));
-}
-let PENDING_IMPORT = [];
-function openImport() {
-  PENDING_IMPORT = [];
-  $("ndlg").innerHTML = `<form method="dialog" class="nform"><h3>Importer mes relations LinkedIn</h3>
-    <p class="d">Sur LinkedIn : <b>Paramètres → Confidentialité des données → Obtenir une copie de vos données</b> → coche « Relations » → tu reçois un e-mail avec <b>Connections.csv</b> (10 min environ). Le fichier est lu ici, dans ton navigateur : il n'est envoyé nulle part.</p>
-    <label class="drop" style="display:block;cursor:pointer"><input type="file" id="nfile" accept=".csv" hidden><b>Choisir Connections.csv</b><br><span class="sub">ou un CSV avec les colonnes First Name, Last Name, Company, Position, URL</span></label>
-    <div id="nprev"></div>
-    <div class="dlg-actions"><button class="btn ghost" value="cancel">Fermer</button><button class="btn" id="ndo" value="cancel" disabled>Importer</button></div></form>`;
-  $("ndlg").showModal();
-}
-async function previewImport(file) {
-  try { PENDING_IMPORT = linkedinContacts(await file.text()); } catch (e) { $("nprev").innerHTML = `<p class="urgent">Fichier non reconnu : ${esc(e.message)}</p>`; return; }
-  FIRM_KEYS = null;
-  PENDING_IMPORT.forEach(c => c.firm = matchFirm(c.company));
-  const inFirms = PENDING_IMPORT.filter(c => c.firm);
-  const withOffers = inFirms.filter(c => openOffersAt(c.firm).length);
-  const byFirm = {}; inFirms.forEach(c => byFirm[c.firm] = (byFirm[c.firm] || 0) + 1);
-  const top = Object.entries(byFirm).sort((a, b) => b[1] - a[1]).slice(0, 8).map(([f, n]) => `${esc(f)} (${n})`).join(", ");
-  $("nprev").innerHTML = `<div class="res">
-      <div class="k"><span>Relations lues</span><b>${PENDING_IMPORT.length}</b></div>
-      <div class="k"><span>Dans tes boîtes suivies</span><b>${inFirms.length}</b></div>
-      <div class="k"><span>Dans une boîte qui a des offres ouvertes</span><b>${withOffers.length}</b></div></div>
-    ${top ? `<p class="sub" style="margin-top:8px">Surtout : ${top}</p>` : ""}
-    <label class="check" style="margin-top:10px"><input type="checkbox" id="nall"> Importer aussi les ${PENDING_IMPORT.length - inFirms.length} relations hors de mes boîtes suivies</label>`;
-  $("ndo").disabled = false;
-  $("ndo").textContent = `Importer ${inFirms.length} contacts`;
-  $("nall").onchange = () => $("ndo").textContent = `Importer ${$("nall").checked ? PENDING_IMPORT.length : inFirms.length} contacts`;
-}
-function doImport() {
-  const list = $("nall") && $("nall").checked ? PENDING_IMPORT : PENDING_IMPORT.filter(c => c.firm);
-  const seen = new Set(NET.contacts.map(c => c.url || nnorm(fullName(c) + c.company)));
-  let n = 0;
-  for (const c of list) {
-    const key = c.url || nnorm(fullName(c) + c.company);
-    if (seen.has(key)) continue;
-    seen.add(key); n++;
-    NET.contacts.push({id: "c" + Date.now().toString(36) + n, ...c, team: "", alumni: false, status: "repere", next: null,
-                       common: "", notes: "", log: [{d: isoDay(), type: "note", text: "Importé depuis LinkedIn"}], source: "linkedin", created: new Date().toISOString()});
-  }
-  saveNet(); render();
-  alert(`${n} contact${n > 1 ? "s" : ""} importé${n > 1 ? "s" : ""}${list.length - n ? ` (${list.length - n} déjà présents)` : ""}.`);
-}
-
-/* ---------- liens avec les offres du radar ---------- */
-function openOffersAt(firm) {
-  if (!firm) return [];
-  const rank = {eligible: 0, check: 1, no: 2};
-  return allJobs().filter(j => j.company === firm && !j.closed && j.level === "A")
-    .sort((a, b) => rank[eligOf(a)] - rank[eligOf(b)] || (seenAt(b) || "").localeCompare(seenAt(a) || ""));
-}
-
-/* ---------- messages ---------- */
-const DEFAULT_TEMPLATES = [
-  {id: "invite", label: "Invitation LinkedIn (300 caractères max)", fr: "Bonjour {prenom}, étudiant en Master in Finance à l'EDHEC, je m'intéresse de près {metier_a} et votre parcours chez {boite} m'a beaucoup intéressé. Je serais ravi d'échanger quelques minutes avec vous. Belle journée, {moi}",
-   en: "Hi {prenom}, I'm a Master in Finance student at EDHEC with a strong interest in {metier_en}. Your path at {boite} caught my attention and I'd love to connect and hear about your experience. Best, {moi}"},
-  {id: "coffee", label: "Demande de coffee chat", fr: "Bonjour {prenom},\n\nJe suis étudiant en Master in Finance à l'EDHEC (diplômé en 2029) et je prépare ma césure 2027-28, que j'aimerais consacrer {metier_a}. Après un premier stage en asset management immobilier (modélisation de cash flows et comités d'investissement sur un portefeuille de 260 M€), {boite} fait partie des équipes qui m'attirent le plus.\n\nAuriez-vous 15 à 20 minutes dans les prochaines semaines pour me parler de votre expérience{equipe_txt} ? Je m'adapte à vos disponibilités.\n\nMerci beaucoup,\n{moi}",
-   en: "Hi {prenom},\n\nI'm a Master in Finance student at EDHEC (class of 2029) preparing my 2027-28 gap year, which I'd like to spend in {metier_en}. After a first internship in real estate asset management (cash-flow modelling and investment committee work on a €260m portfolio), {boite} is one of the teams I'm most drawn to.\n\nWould you have 15-20 minutes in the coming weeks to tell me about your experience{equipe_txt_en}? I'm happy to work around your schedule.\n\nMany thanks,\n{moi}"},
-  {id: "relance", label: "Relance (sans réponse)", fr: "Bonjour {prenom},\n\nJe me permets de revenir vers vous suite à mon message de la semaine dernière. Je sais que votre emploi du temps est chargé : un échange de 10 minutes, quand cela vous arrange, me serait déjà très précieux.\n\nBelle journée,\n{moi}",
-   en: "Hi {prenom},\n\nJust following up on my message from last week. I know your schedule is busy — even 10 minutes whenever suits you would be really valuable to me.\n\nBest,\n{moi}"},
-  {id: "merci", label: "Remerciement après un call", fr: "Bonjour {prenom},\n\nMerci encore pour le temps que vous m'avez consacré, vos conseils sur {sujet} m'ont été très utiles. Je vais suivre vos recommandations et je me permettrai de vous tenir au courant de la suite.\n\nTrès belle journée,\n{moi}",
-   en: "Hi {prenom},\n\nThank you again for your time — your advice on {sujet_en} was really helpful. I'll follow your recommendations and will keep you posted.\n\nBest regards,\n{moi}"},
-  {id: "reco", label: "Demande de recommandation (offre ouverte)", fr: "Bonjour {prenom},\n\nSuite à notre échange, je postule à l'offre « {offre} » chez {boite}, qui correspond exactement à ce dont nous avions parlé. Si cela vous semble pertinent, accepteriez-vous de transmettre mon CV (en pièce jointe) ou de me recommander auprès de l'équipe ?\n\nMerci beaucoup pour votre aide,\n{moi}",
-   en: "Hi {prenom},\n\nFollowing our conversation, I'm applying for the \"{offre}\" role at {boite}, which matches exactly what we discussed. If you feel it's appropriate, would you be willing to pass on my CV (attached) or refer me to the team?\n\nThank you so much for your help,\n{moi}"},
-  {id: "news", label: "Donner des nouvelles", fr: "Bonjour {prenom},\n\nJ'espère que vous allez bien ! Je voulais vous donner des nouvelles depuis notre échange : {nouvelle}. Vos conseils m'ont beaucoup aidé, merci encore.\n\nBelle journée,\n{moi}",
-   en: "Hi {prenom},\n\nI hope you're well! I wanted to give you a quick update since we spoke: {nouvelle}. Your advice really helped — thank you again.\n\nBest,\n{moi}"}
-];
-const templates = () => NET.templates || DEFAULT_TEMPLATES;
-function metierOf(c, en) {
-  const t = nnorm(`${c.team} ${c.position} ${(DATA.companies.find(x => x.name === c.firm) || {}).category || ""}`);
-  if (/private equity|buyout|\bpe\b|capital-investissement|growth/.test(t)) return en ? "private equity" : "le private equity";
-  if (/debt|credit|dette|lending/.test(t)) return en ? "private debt" : "la dette privée";
-  if (/restructuring/.test(t)) return en ? "restructuring" : "le restructuring";
-  if (/transaction services|due diligence/.test(t)) return en ? "transaction services" : "les transaction services";
-  return en ? "M&A" : "le M&A";
-}
-function fillTemplate(tpl, c, lang) {
-  const offer = openOffersAt(c.firm)[0];
-  const v = {prenom: c.first || "", nom: c.last || "", boite: c.firm || c.company || "", moi: "Adrien",
-    metier: metierOf(c, false), metier_en: metierOf(c, true), metier_a: ({"le M&A": "au M&A", "le private equity": "au private equity",
-      "la dette privée": "à la dette privée", "le restructuring": "au restructuring", "les transaction services": "aux transaction services"})[metierOf(c, false)], equipe_txt: c.team ? ` au sein de l'équipe ${c.team}` : "",
-    equipe_txt_en: c.team ? ` in the ${c.team} team` : "", offre: offer ? offer.title : "[intitulé de l'offre]",
-    sujet: "[le sujet abordé]", sujet_en: "[topic]", nouvelle: "[ta nouvelle]"};
-  return (tpl[lang] || tpl.fr).replace(/\{(\w+)\}/g, (m, k) => v[k] !== undefined ? v[k] : m);
-}
-
-/* ---------- rendu ---------- */
-function netStats() {
-  const C = NET.contacts, today = isoDay();
-  const reached = C.filter(c => ["contacte", "repondu", "call", "reco", "veille"].includes(c.status));
-  const replied = C.filter(c => ["repondu", "call", "reco"].includes(c.status) || (c.log || []).some(l => l.type === "reponse"));
-  return {C, today, reached, replied, calls: C.filter(c => ["call", "reco"].includes(c.status) || (c.log || []).some(l => l.type === "call")),
-    recos: C.filter(c => c.status === "reco"), due: C.filter(c => c.next && c.next.date && c.next.date <= today)
-      .sort((a, b) => a.next.date.localeCompare(b.next.date)),
-    inFirms: C.filter(c => c.firm)};
-}
-function todoRow(c) {
-  const late = daysFrom(c.next.date);
-  return `<div class="mini">${mono(fullName(c))}<div class="t"><b>${esc(c.next.label || "À faire")} — ${esc(fullName(c))}</b>
-    <span class="l">${esc([c.firm || c.company, c.team].filter(Boolean).join(" · "))}${late < 0 ? ` · en retard de ${-late} j` : ""}</span></div>
-    <div class="r"><button class="btn sm" data-ndone="${c.id}">Fait</button><button class="btn sm ghost" data-nsnooze="${c.id}">+3 j</button><button class="btn sm ghost" data-nopen="${c.id}">Ouvrir</button></div></div>`;
-}
-function renderNet() {
-  const S = netStats();
-  const subs = [["overview", "Vue d'ensemble"], ["contacts", "Contacts"], ["firms", "Par boîte"], ["messages", "Messages"]];
-  let body = "";
-  if (!S.C.length) {
-    body = `<div class="card" style="padding:28px;text-align:center"><h3 style="margin:0 0 6px">Ton réseau est vide pour l'instant</h3>
-      <p class="sub" style="max-width:520px;margin:0 auto 16px">Importe tes relations LinkedIn : le site garde celles qui travaillent dans tes boîtes suivies et les relie aux offres ouvertes. Tout reste dans ce navigateur.</p>
-      <div class="acts" style="justify-content:center"><button class="btn" data-nimport>Importer mes relations LinkedIn</button><button class="btn ghost" data-nnew>Ajouter un contact</button></div></div>`;
-  } else if (NSUB === "overview") body = netOverview(S);
-  else if (NSUB === "contacts") body = netContacts(S);
-  else if (NSUB === "firms") body = netFirms(S);
-  else body = netMessages(S);
-  $("v-net").innerHTML = `<div class="page-title"><h1>Réseau</h1><p>Tes contacts dans les boîtes que tu vises, et quoi faire avec chacun</p></div>
-    <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:14px">
-      <div class="subnav" style="margin:0">${subs.map(([k, l]) => `<button class="sub ${NSUB === k ? "on" : ""}" data-nsub="${k}">${l}</button>`).join("")}</div>
-      <span class="spacer"></span><button class="btn ghost" data-nimport>Importer LinkedIn</button><button class="btn" data-nnew>+ Contact</button></div>${body}`;
-}
-function netOverview(S) {
-  const kpi = (v, l, cls = "") => `<div class="kpi"><div class="v ${cls}">${v}</div><div class="l">${l}</div></div>`;
-  const rate = S.reached.length ? Math.round(100 * S.replied.length / S.reached.length) + " %" : "—";
-  const funnel = [["Repérés", S.C.length], ["Contactés", S.reached.length], ["Réponses", S.replied.length], ["Calls", S.calls.length], ["Recos", S.recos.length]];
-  const max = Math.max(1, S.C.length);
-  const stars = (DATA.companies || []).filter(c => c.tier === "1");
-  const byFirm = {}; S.C.forEach(c => { if (c.firm) (byFirm[c.firm] = byFirm[c.firm] || []).push(c); });
-  const dotCls = {repere: "", contacte: "c1", repondu: "c2", call: "c3", reco: "c4", veille: "c1"};
-  const cover = stars.map(f => ({f, list: byFirm[f.name] || [], offers: openOffersAt(f.name).length}))
-    .sort((a, b) => (b.offers > 0) - (a.offers > 0) || b.list.length - a.list.length).slice(0, 12);
-  const noContactOpen = stars.filter(f => !(byFirm[f.name] || []).length && openOffersAt(f.name).some(j => eligOf(j) === "eligible")).slice(0, 3);
-  return `<div class="kpis" style="margin-top:0">${kpi(S.inFirms.length, "contacts dans tes boîtes suivies")}${kpi(rate, "taux de réponse")}${kpi(S.calls.length, "calls / coffee chats")}${kpi(S.recos.length, "recommandations", "ok")}${kpi(S.due.length, "actions à faire aujourd'hui", S.due.length ? "bad" : "")}</div>
-    <div class="grid3">
-      <div class="card"><div class="card-h"><h3>À faire aujourd'hui</h3><span class="c">relances, remerciements, nouvelles</span></div>
-        ${S.due.length ? S.due.slice(0, 8).map(todoRow).join("") : `<div class="empty">Rien à faire aujourd'hui. Passe un contact en « Contacté » pour lancer le suivi.</div>`}
-        ${noContactOpen.map(f => `<div class="mini"><div class="ic v">★</div><div class="t"><b>${esc(f.name)} a des offres éligibles pour toi, et tu n'y as aucun contact</b><span class="l">Ajoute quelqu'un depuis l'annuaire alumni EDHEC ou LinkedIn</span></div><div class="r"><button class="btn sm ghost" data-nfirm="${esc(f.name)}">Voir</button></div></div>`).join("")}</div>
-      <div class="card"><div class="card-h"><h3>Ton entonnoir</h3></div>
-        <div class="funnel">${funnel.map(([l, n], i) => `<div style="height:${Math.max(14, 100 * n / max)}%${i === 4 ? ";background:var(--ok-soft);color:var(--ok)" : ""}"><b>${n}</b>${l}</div>`).join("")}</div></div>
-    </div>
-    <div class="card"><div class="card-h"><h3>Couverture de tes boîtes prioritaires</h3><span class="c">celles avec des offres ouvertes d'abord</span><a data-nsub="firms">Par boîte →</a></div>
-      <div class="cover">${cover.map(x => `<div class="firm" style="cursor:pointer" data-nfirm="${esc(x.f.name)}"><b>${esc(x.f.name)}</b>${x.list.length ? `${x.list.length} contact${x.list.length > 1 ? "s" : ""}` : "Aucun contact"}${x.offers ? ` · ${x.offers} offre${x.offers > 1 ? "s" : ""}` : ""}
-        <div class="dots">${x.list.slice(0, 10).map(c => `<i class="${dotCls[c.status]}"></i>`).join("") || "<i></i>"}</div></div>`).join("")}</div>
-      <div class="legend"><span><i style="background:var(--line)"></i>repéré</span><span><i style="background:#9db4f5"></i>contacté</span><span><i style="background:var(--brand-2)"></i>a répondu</span><span><i style="background:var(--ok)"></i>call fait</span><span><i style="background:#c08a00"></i>t'a recommandé</span></div></div>`;
-}
-function netContacts(S) {
-  const f = NFILTER, q = nnorm(f.q);
-  const list = S.C.filter(c => (!f.status || c.status === f.status) && (!f.firm || c.firm === f.firm)
-      && (!q || nnorm(`${fullName(c)} ${c.company} ${c.firm} ${c.position} ${c.team}`).includes(q)))
-    .sort((a, b) => (a.next && a.next.date || "9").localeCompare(b.next && b.next.date || "9") || fullName(a).localeCompare(fullName(b)));
-  const firms = [...new Set(S.C.map(c => c.firm).filter(Boolean))].sort();
-  return `<div class="filters"><input type="search" id="nq" placeholder="Rechercher un nom, une boîte, un poste…" value="${esc(f.q)}">
-      <select id="nst"><option value="">Tous les statuts</option>${NSTAT.map(([k, l]) => `<option value="${k}" ${f.status === k ? "selected" : ""}>${l}</option>`).join("")}</select>
-      <select id="nfi"><option value="">Toutes les boîtes</option>${firms.map(x => `<option ${f.firm === x ? "selected" : ""}>${esc(x)}</option>`).join("")}</select></div>
-    <div class="board6">${NSTAT.map(([k, l, cls]) => { const g = list.filter(c => c.status === k);
-      return `<div class="col"><h3><span class="badge ${cls}">${l}</span><span class="c">${g.length}</span></h3>
-        ${g.slice(0, 40).map(c => `<div class="pcont" data-nopen="${c.id}" style="cursor:pointer"><b>${esc(fullName(c))}</b>${esc(c.firm || c.company || "")}${c.team ? " · " + esc(c.team) : ""}
-          <div class="w"><span>${c.alumni ? "EDHEC" : esc((c.position || "").slice(0, 26))}</span>${c.next && c.next.date ? `<span class="${c.next.date <= S.today ? "urgent" : ""}">${c.next.date <= S.today ? "à faire" : fmt(c.next.date)}</span>` : ""}</div></div>`).join("")}
-        ${g.length > 40 ? `<span class="sub">+ ${g.length - 40} autres (filtre par boîte)</span>` : ""}</div>`; }).join("")}</div>`;
-}
-function netFirms(S) {
-  const withContacts = [...new Set(S.C.map(c => c.firm).filter(Boolean))];
-  const stars = (DATA.companies || []).filter(c => c.tier === "1").map(c => c.name);
-  const options = [...new Set([...withContacts, ...stars])].sort();
-  const firm = NFIRM && options.includes(NFIRM) ? NFIRM : (withContacts[0] || stars[0] || "");
-  const people = S.C.filter(c => c.firm === firm);
-  const teams = {}; people.forEach(c => (teams[c.team || "Équipe non précisée"] = teams[c.team || "Équipe non précisée"] || []).push(c));
-  const offers = openOffersAt(firm).slice(0, 6);
-  const best = people.slice().sort((a, b) => ["reco", "call", "repondu", "contacte", "veille", "repere"].indexOf(a.status) - ["reco", "call", "repondu", "contacte", "veille", "repere"].indexOf(b.status))[0];
-  return `<div class="filters"><select id="nfirmsel">${options.map(o => `<option ${o === firm ? "selected" : ""}>${esc(o)}</option>`).join("")}</select>
-      <span class="sub" style="display:inline">${people.length} contact${people.length > 1 ? "s" : ""} · ${openOffersAt(firm).length} offre${openOffersAt(firm).length > 1 ? "s" : ""} ciblée${openOffersAt(firm).length > 1 ? "s" : ""} ouverte${openOffersAt(firm).length > 1 ? "s" : ""}</span>
-      <button class="btn sm ghost" data-nnew="${esc(firm)}">+ Ajouter un contact chez ${esc(firm)}</button></div>
-    <div class="grid3">
-      <div class="card"><div class="card-h"><h3>Contacts par équipe</h3><span class="c">renseigne l'équipe dans la fiche</span></div>
-        ${people.length ? `<div class="org" style="grid-template-columns:repeat(auto-fill,minmax(220px,1fr))">${Object.entries(teams).map(([t, l]) => `<div class="team"><h4>${esc(t)}</h4>
-          ${l.map(c => `<div class="person" style="cursor:pointer" data-nopen="${c.id}">${mono(fullName(c)).replace('class="mono"', 'class="mono" style="width:24px;height:24px;font-size:10px;border-radius:50%"')}${esc(fullName(c))} · <span class="badge ${NSTAT_CLS[c.status]} b-plain">${NSTAT_LABEL[c.status]}</span></div>`).join("")}</div>`).join("")}</div>`
-          : `<div class="empty">Aucun contact chez ${esc(firm)}. Cherche des alumni EDHEC sur LinkedIn ou dans l'annuaire, puis ajoute-les.</div>`}
-        ${best && offers[0] ? `<div class="path"><b style="margin-right:4px">Chemin vers l'offre :</b><span class="n you">Toi</span>→<span class="n">${esc(fullName(best))} (${NSTAT_LABEL[best.status].toLowerCase()})</span>→<span class="n goal">${esc(offers[0].title)}</span></div>` : ""}</div>
-      <div class="card"><div class="card-h"><h3>Offres ouvertes chez ${esc(firm)}</h3></div>
-        ${offers.length ? offers.map(j => `<div class="mini"><div class="t"><a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a><span class="l sub">${esc(j.location || j.country || "")}</span></div><div class="r">${eligBadge(j)}</div></div>`).join("")
-          : `<div class="empty">Aucune offre ciblée ouverte en ce moment.</div>`}</div>
-    </div>`;
-}
-let NMSG = {contact: "", tpl: "coffee", lang: "fr"};
-function netMessages(S) {
-  const c = S.C.find(x => x.id === NMSG.contact) || S.C[0];
-  const tpl = templates().find(t => t.id === NMSG.tpl) || templates()[0];
-  const text = c ? fillTemplate(tpl, c, NMSG.lang) : "";
-  return `<div class="filters">
-      <select id="nmc">${S.C.slice().sort((a, b) => fullName(a).localeCompare(fullName(b))).map(x => `<option value="${x.id}" ${c && x.id === c.id ? "selected" : ""}>${esc(fullName(x))} — ${esc(x.firm || x.company || "")}</option>`).join("")}</select>
-      <select id="nmt">${templates().map(t => `<option value="${t.id}" ${t.id === tpl.id ? "selected" : ""}>${esc(t.label)}</option>`).join("")}</select>
-      <select id="nml"><option value="fr" ${NMSG.lang === "fr" ? "selected" : ""}>Français</option><option value="en" ${NMSG.lang === "en" ? "selected" : ""}>Anglais</option></select></div>
-    <div class="card"><div class="card-h"><h3>Message prêt à envoyer</h3><span class="c">${text.length} caractères${tpl.id === "invite" && text.length > 300 ? " · trop long pour une invitation LinkedIn" : ""}</span>
-      <a data-ncopy>Copier</a></div>
-      <textarea id="nmtext" style="width:100%;min-height:260px;border:0;padding:16px;font:inherit;font-size:13.5px;line-height:1.6;background:var(--surface);color:var(--ink);resize:vertical">${esc(text)}</textarea></div>
-    <p class="note">Les passages entre crochets sont à compléter. Le texte est modifiable avant de copier ; pour ajuster un modèle durablement, demande-le moi.</p>`;
-}
-
-/* ---------- fiche contact ---------- */
-function openContact(id, preset = {}) {
-  const c = NET.contacts.find(x => x.id === id) || {id: "", first: "", last: "", company: preset.firm || "", firm: preset.firm || "", team: "", position: "", url: "", email: "",
-    alumni: false, status: "repere", next: null, common: "", notes: "", log: []};
-  const offers = openOffersAt(c.firm).slice(0, 3);
-  const firmOpts = (DATA.companies || []).map(x => `<option value="${esc(x.name)}">`).join("");
-  $("ndlg").innerHTML = `<form method="dialog" class="nform" id="nform">
-    <h3>${c.id ? esc(fullName(c)) : "Nouveau contact"}</h3>
-    <div class="grid2"><label class="fld">Prénom<input name="first" value="${esc(c.first)}" required></label><label class="fld">Nom<input name="last" value="${esc(c.last)}"></label></div>
-    <div class="grid2"><label class="fld">Boîte (suivie par le radar)<input name="firm" list="nfirms" value="${esc(c.firm || "")}" placeholder="${esc(c.company || "")}"></label><label class="fld">Équipe<input name="team" value="${esc(c.team)}" placeholder="M&A, FIG, Buyout…"></label></div>
-    <datalist id="nfirms">${firmOpts}</datalist>
-    <div class="grid2"><label class="fld">Poste<input name="position" value="${esc(c.position)}"></label><label class="fld">Profil LinkedIn<input name="url" value="${esc(c.url)}"></label></div>
-    <div class="grid2"><label class="fld">Statut<select name="status">${NSTAT.map(([k, l]) => `<option value="${k}" ${c.status === k ? "selected" : ""}>${l}</option>`).join("")}</select></label>
-      <label class="fld">Points communs<input name="common" value="${esc(c.common)}" placeholder="EDHEC, césure, squash…"></label></div>
-    <div class="grid2"><label class="fld">Prochaine action<input name="nlabel" value="${esc(c.next ? c.next.label : "")}" placeholder="Relancer, remercier…"></label><label class="fld">Pour le<input type="date" name="ndate" value="${esc(c.next ? c.next.date : "")}"></label></div>
-    <label class="check" style="margin:2px 0 10px"><input type="checkbox" name="alumni" ${c.alumni ? "checked" : ""}> Alumni EDHEC</label>
-    <label class="fld">Notes<textarea name="notes" style="min-height:70px;border:1px solid var(--line);border-radius:8px;padding:8px 10px;font:inherit;background:var(--surface);color:var(--ink)">${esc(c.notes)}</textarea></label>
-    ${offers.length ? `<div class="fld">Offres ouvertes dans sa boîte${offers.map(j => `<div class="mini" style="padding:6px 0;border:0"><div class="t"><a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a></div><div class="r">${eligBadge(j)}</div></div>`).join("")}</div>` : ""}
-    ${c.id ? `<div class="fld">Historique
-      <div class="tl" style="padding:4px 0">${(c.log || []).slice().reverse().map(l => `<div class="e"><span>${fmt(l.d)}</span><div>${esc(l.text)}</div></div>`).join("") || '<span class="sub">Vide</span>'}</div>
-      <div class="grid2" style="grid-template-columns:150px 1fr auto"><select id="nlt"><option value="message">Message envoyé</option><option value="reponse">Réponse reçue</option><option value="call">Call / coffee chat</option><option value="reco">Recommandation</option><option value="note">Note</option></select>
-        <input id="nlx" placeholder="Ce qui s'est passé…"><button type="button" class="btn sm" data-nlog="${c.id}">Ajouter</button></div></div>` : ""}
-    <div class="dlg-actions">${c.id ? `<button type="button" class="btn ghost" data-ndel="${c.id}" style="margin-right:auto;color:var(--bad)">Supprimer</button>
-      <button type="button" class="btn ghost" data-nmsg="${c.id}">Écrire un message</button>` : ""}
-      <button class="btn ghost" value="cancel" formnovalidate>Fermer</button><button class="btn" value="save" data-nsave="${c.id}">Enregistrer</button></div></form>`;
-  $("ndlg").showModal();
-}
-function saveContact(id) {
-  const f = $("nform"), v = Object.fromEntries(new FormData(f));
-  let c = NET.contacts.find(x => x.id === id);
-  if (!c) { c = {id: "c" + Date.now().toString(36), company: v.firm, log: [], source: "manuel", created: new Date().toISOString()}; NET.contacts.push(c); }
-  const prev = c.status;
-  Object.assign(c, {first: v.first.trim(), last: v.last.trim(), firm: v.firm.trim(), team: v.team.trim(), position: v.position.trim(), url: v.url.trim(),
-                    common: v.common.trim(), notes: v.notes, alumni: !!v.alumni, status: v.status});
-  if (!c.company) c.company = c.firm;
-  if (v.ndate || v.nlabel) c.next = {date: v.ndate || addDays(3), label: v.nlabel || "À faire"}; else c.next = null;
-  if (prev !== c.status) {
-    c.log = (c.log || []).concat({d: isoDay(), type: "note", text: "Statut : " + NSTAT_LABEL[c.status]});
-    const dflt = NEXT_DEFAULT[c.status];
-    if (dflt && !(v.ndate && v.nlabel && prev)) c.next = {date: addDays(dflt[0]), label: dflt[1]};
-  }
-  saveNet(); render();
-}
-
-/* ---------- événements ---------- */
-document.addEventListener("click", e => {
-  const t = e.target;
-  const hit = sel => t.closest(sel);
-  let el;
-  if ((el = hit("[data-nsub]"))) { NSUB = el.dataset.nsub; render(); return; }
-  if (hit("[data-nimport]")) { openImport(); return; }
-  if ((el = hit("[data-nnew]"))) { openContact("", {firm: el.dataset.nnew || ""}); return; }
-  if ((el = hit("[data-nopen]"))) { if ($("ndlg").open) $("ndlg").close(); openContact(el.dataset.nopen); return; }
-  if ((el = hit("[data-nfirm]"))) { NFIRM = el.dataset.nfirm; NSUB = "firms"; render(); return; }
-  if ((el = hit("[data-ndone]"))) {
-    const c = NET.contacts.find(x => x.id === el.dataset.ndone);
-    c.log = (c.log || []).concat({d: isoDay(), type: "note", text: "Fait : " + (c.next ? c.next.label : "")});
-    c.next = ["call", "reco"].includes(c.status) && !/nouvelles/i.test(c.next ? c.next.label : "") ? {date: addDays(30), label: "Donner des nouvelles"} : null;
-    saveNet(); render(); return;
-  }
-  if ((el = hit("[data-nsnooze]"))) { const c = NET.contacts.find(x => x.id === el.dataset.nsnooze); c.next.date = addDays(3); saveNet(); render(); return; }
-  if ((el = hit("[data-nsave]"))) { e.preventDefault(); if (!$("nform").reportValidity()) return; saveContact(el.dataset.nsave); $("ndlg").close(); return; }
-  if ((el = hit("[data-ndel]"))) { if (confirm("Supprimer ce contact ?")) { NET.contacts = NET.contacts.filter(x => x.id !== el.dataset.ndel); saveNet(); $("ndlg").close(); render(); } return; }
-  if ((el = hit("[data-nlog]"))) {
-    const c = NET.contacts.find(x => x.id === el.dataset.nlog), txt = $("nlx").value.trim(), type = $("nlt").value;
-    if (!txt) return;
-    c.log = (c.log || []).concat({d: isoDay(), type, text: ({message: "Message : ", reponse: "Réponse : ", call: "Call : ", reco: "Recommandation : ", note: ""})[type] + txt});
-    const up = {message: "contacte", reponse: "repondu", call: "call", reco: "reco"}[type];
-    const order = ["repere", "contacte", "repondu", "call", "reco"];
-    if (up && order.indexOf(up) > order.indexOf(c.status)) { c.status = up; const d = NEXT_DEFAULT[up]; if (d) c.next = {date: addDays(d[0]), label: d[1]}; }
-    saveNet(); openContact(c.id); render(); return;
-  }
-  if ((el = hit("[data-nmsg]"))) { NMSG.contact = el.dataset.nmsg; NSUB = "messages"; $("ndlg").close(); render(); return; }
-  if (hit("[data-ncopy]")) { const ta = $("nmtext"); ta.select(); navigator.clipboard ? navigator.clipboard.writeText(ta.value) : document.execCommand("copy"); hit("[data-ncopy]").textContent = "Copié ✓"; return; }
-  if ((el = hit("#ndo")) && !el.disabled) { doImport(); return; }
-});
-document.addEventListener("change", e => {
-  if (e.target.id === "nfile" && e.target.files[0]) previewImport(e.target.files[0]);
-  if (e.target.id === "nst") { NFILTER.status = e.target.value; render(); }
-  if (e.target.id === "nfi") { NFILTER.firm = e.target.value; render(); }
-  if (e.target.id === "nfirmsel") { NFIRM = e.target.value; render(); }
-  if (e.target.id === "nmc") { NMSG.contact = e.target.value; render(); }
-  if (e.target.id === "nmt") { NMSG.tpl = e.target.value; render(); }
-  if (e.target.id === "nml") { NMSG.lang = e.target.value; render(); }
-});
-document.addEventListener("input", e => {
-  if (e.target.id === "nq") { NFILTER.q = e.target.value; const pos = e.target.selectionStart; render(); const q = $("nq"); q.focus(); q.setSelectionRange(pos, pos); }
-});
 
 /* ---------- routing ---------- */
 let SUB = "news";
@@ -1239,16 +883,15 @@ function renderCounts() {
   $("n-springs").textContent = S.springsOpen.length || "";
   $("n-pages").textContent = S.pagesChanged.length || "";
   $("n-mine").textContent = Object.values(ST).filter(v => v.s && v.s !== "Ignorer").length || "";
-  $("n-net").textContent = netStats().due.length || "";
 }
 function render() {
-  ["home", "offres", "springs", "pages", "cal", "mine", "net", "info"].forEach(t => $("v-" + t).hidden = t !== TAB);
+  ["home", "offres", "springs", "pages", "cal", "mine", "info"].forEach(t => $("v-" + t).hidden = t !== TAB);
   if (TAB === "offres") {
     ["prio", "news", "table"].forEach(t => $("v-" + t).hidden = t !== SUB);
     document.querySelectorAll(".sub").forEach(b => b.classList.toggle("on", b.dataset.sub === SUB));
     ({prio: renderPrio, news: renderNews, table: renderTable})[SUB]();
   } else {
-    ({home: renderHome, springs: renderSprings, pages: renderPages, cal: renderCal, mine: renderMine, net: renderNet, info: renderInfo})[TAB]();
+    ({home: renderHome, springs: renderSprings, pages: renderPages, cal: renderCal, mine: renderMine, info: renderInfo})[TAB]();
   }
   renderCounts();
 }
@@ -1264,6 +907,7 @@ function go(target) {  // "offres:prio:eligible", "springs", "cal"...
 
 /* ---------- events ---------- */
 document.addEventListener("change", e => {
+  if (e.target.id === "ssector") { SPRING_SECTOR = e.target.value; render(); return; }
   if (!e.target.matches("select.st")) return;
   const id = e.target.dataset.id, v = e.target.value;
   if (v) {
@@ -1319,20 +963,16 @@ $("dlg").addEventListener("close", () => {
                    deadline: v.deadline || null, prog: v.prog || null, first_seen: new Date().toISOString()});
   saveMan(); render();
 });
-["q", "level", "elig", "cycle", "country", "category", "hideDone"].forEach(id => $(id).addEventListener("input", () => { EXP = {}; TABLE_LIMIT = 100; render(); }));
+["q", "level", "elig", "team", "cycle", "country", "category", "hideDone"].forEach(id => $(id).addEventListener("input", () => { EXP = {}; TABLE_LIMIT = 100; render(); }));
 function exportData() {
   const a = document.createElement("a");
-  a.href = URL.createObjectURL(new Blob([JSON.stringify({version: 4, candidatures: ST, manuel: MAN, reseau: NET}, null, 1)], {type: "application/json"}));
+  a.href = URL.createObjectURL(new Blob([JSON.stringify({version: 3, candidatures: ST, manuel: MAN}, null, 1)], {type: "application/json"}));
   a.download = "radar-mes-donnees.json"; a.click();
 }
 document.addEventListener("change", async e => {
   if (!e.target.matches("input[data-import]")) return;
   try {
     const data = JSON.parse(await e.target.files[0].text());
-    if (data.reseau) {  // contacts du réseau
-      const ids = new Set(NET.contacts.map(c => c.id));
-      NET.contacts.push(...(data.reseau.contacts || []).filter(c => !ids.has(c.id))); saveNet();
-    }
     if (data.manuel) {  // candidatures + offres ajoutées + vérifications
       const ids = new Set(MAN.offers.map(o => o.id));
       MAN.offers.push(...(data.manuel.offers || []).filter(o => !ids.has(o.id)));
@@ -1396,7 +1036,7 @@ function loadData(refresh) {
   });
 }
 loadData(false).then(d => {
-  fill("cycle", d.jobs.map(j => j.cycle)); fill("category", d.jobs.map(j => j.category));
+  fill("cycle", d.jobs.map(j => j.cycle)); fill("category", d.jobs.map(j => j.category)); fill("team", d.jobs.map(j => j.team));
   fill("country", allJobs().map(j => j.country).filter(c => c && c !== "Plusieurs pays"));
   $("companyList").innerHTML = d.companies.map(c => `<option value="${esc(c.name)}">`).join("");
   $("countryList").innerHTML = [...new Set(d.jobs.map(j => j.country).filter(Boolean))].sort().map(c => `<option value="${esc(c)}">`).join("");
