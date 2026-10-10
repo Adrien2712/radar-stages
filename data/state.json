@@ -64413,7 +64413,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -64421,7 +64421,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 48,
 "raw": 48
 },
@@ -64453,7 +64453,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -64461,7 +64461,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 1,
 "raw": 0,
 "zero_since": "2026-10-09T16:56:31+00:00"
@@ -64470,7 +64470,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 63,
 "raw": 62
 },
@@ -64478,16 +64478,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 75,
 "raw": 74
 },
 "Ares Management#workday#aresmgmt.wd1/External": {
-"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+"error": null,
 "ever_ok": true,
-"fail_since": "2026-10-10T06:23:19+00:00",
-"fails": 6,
-"last_ok": "2026-10-10T06:01:09+00:00",
+"fails": 0,
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 250,
 "raw": 250
 },
@@ -64513,7 +64512,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 33,
 "raw": 33
 },
@@ -64521,7 +64520,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 125,
 "raw": 125
 },
@@ -64532,7 +64531,8 @@
 "fails": 6,
 "last_ok": "2026-10-10T06:01:09+00:00",
 "max_raw": 2048,
-"raw": 2047
+"raw": 2047,
+"suspect": 1
 },
 "Barclays#workday#barclays.wd3/External_Career_Site_Barclays": {
 "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
@@ -64542,7 +64542,7 @@
 "last_ok": "2026-10-10T06:01:09+00:00",
 "max_raw": 784,
 "raw": 766,
-"suspect": 2
+"suspect": 3
 },
 "Barings#workday#barings.wd1/Early_Talent|Barings": {
 "error": null,
@@ -64572,16 +64572,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 203,
 "raw": 201
 },
 "Blue Owl#workday#blueowl.wd1/blueowl": {
-"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+"error": null,
 "ever_ok": true,
-"fail_since": "2026-10-10T06:23:19+00:00",
-"fails": 6,
-"last_ok": "2026-10-10T06:01:09+00:00",
+"fails": 0,
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 46,
 "raw": 46
 },
@@ -64589,7 +64588,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 135,
 "raw": 134
 },
@@ -64613,7 +64612,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 45,
 "raw": 45
 },
@@ -64645,7 +64644,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 73,
 "raw": 73
 },
@@ -64653,7 +64652,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 1,
 "raw": 0,
 "zero_since": "2026-10-09T20:14:44+00:00"
@@ -64671,7 +64670,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -64682,7 +64681,8 @@
 "fails": 6,
 "last_ok": "2026-10-10T06:01:09+00:00",
 "max_raw": 2000,
-"raw": 2000
+"raw": 2000,
+"suspect": 1
 },
 "Clipperton#workable#clipperton": {
 "error": null,
@@ -64704,7 +64704,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 100,
 "raw": 100
 },
@@ -64744,7 +64744,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 553,
 "raw": 549
 },
@@ -64754,7 +64754,8 @@
 "fails": 0,
 "last_ok": "2026-10-10T07:48:49+00:00",
 "max_raw": 1195,
-"raw": 632
+"raw": 632,
+"suspect": 1
 },
 "Ducera Partners#greenhouse#ducerapartners|ducerapartnerscampus": {
 "error": null,
@@ -64768,7 +64769,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 15,
 "raw": 15
 },
@@ -64792,7 +64793,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -64808,7 +64809,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 125,
 "raw": 125
 },
@@ -64816,7 +64817,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 9,
 "raw": 9
 },
@@ -64856,7 +64857,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 12,
 "raw": 12
 },
@@ -64864,7 +64865,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 232,
 "raw": 232
 },
@@ -64904,7 +64905,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -64912,7 +64913,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 6,
 "raw": 6
 },
@@ -64944,7 +64945,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 54,
 "raw": 52
 },
@@ -64952,7 +64953,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 12,
 "raw": 12
 },
@@ -64979,13 +64980,13 @@
 "last_ok": "2026-10-10T07:00:29+00:00",
 "max_raw": 5000,
 "raw": 5000,
-"suspect": 3
+"suspect": 4
 },
 "Jefferies#oleeo#jefferies": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 61,
 "raw": 61
 },
@@ -64993,7 +64994,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 19,
 "raw": 19
 },
@@ -65083,7 +65084,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 52,
 "raw": 52
 },
@@ -65091,7 +65092,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 74,
 "raw": 72
 },
@@ -65099,7 +65100,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 126,
 "raw": 124
 },
@@ -65107,7 +65108,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 126,
 "raw": 124
 },
@@ -65115,7 +65116,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 42,
 "raw": 41
 },
@@ -65195,7 +65196,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 37,
 "raw": 37
 },
@@ -65203,7 +65204,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 33,
 "raw": 33
 },
@@ -65211,7 +65212,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 138,
 "raw": 133
 },
@@ -65268,7 +65269,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 52,
 "raw": 51
 },
@@ -65276,7 +65277,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -65300,7 +65301,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 9,
 "raw": 9
 },
@@ -65313,7 +65314,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 52,
 "raw": 52
 },
@@ -65329,7 +65330,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -65345,7 +65346,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 15,
 "raw": 15
 },
@@ -65353,7 +65354,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 6,
 "raw": 6
 },
@@ -65361,7 +65362,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 8,
 "raw": 8
 },
@@ -65451,7 +65452,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 32,
 "raw": 32
 },
@@ -65459,7 +65460,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 120,
 "raw": 120
 },
@@ -65501,7 +65502,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 19,
 "raw": 19
 },
@@ -65567,7 +65568,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 17,
 "raw": 17
 },
@@ -65639,7 +65640,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-10T07:48:49+00:00",
+"last_ok": "2026-10-10T07:59:18+00:00",
 "max_raw": 4,
 "raw": 4
 },
