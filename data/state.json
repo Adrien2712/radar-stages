@@ -15398,6 +15398,7 @@
 "2af21a8bee48e4b9": {
 "category": "Banque BB",
 "close_checked": true,
+"closed": "2026-10-21T16:48:09+00:00",
 "company": "Goldman Sachs",
 "cycle": "Summer",
 "details": {},
@@ -15407,7 +15408,7 @@
 "key": "155671_GS_CAMPUS",
 "level": "B",
 "location": "Albany",
-"missing": 2,
+"missing": 3,
 "posted": null,
 "region": "Autre / NC",
 "seed": true,
@@ -90109,7 +90110,7 @@
 },
 "last_deep": "2026-10-21T16:14:38+00:00",
 "last_digest": "2026-10-21",
-"last_full": "2026-10-21T16:14:38+00:00",
+"last_full": "2026-10-21T16:48:09+00:00",
 "pages": {
 "https://careers.bankofamerica.com/en-us/students": {
 "ats": [
@@ -90411,6 +90412,16 @@
 "history": [
 {
 "added": [
+"🔗 Nouveau lien : Banking, Commercial Banking, Summer Analyst, Amsterdam - The Netherlands 2027",
+"🔗 Nouveau lien : Banking, Commercial Banking, Summer Analyst, Stockholm - Sweden 2027",
+"🔗 Nouveau lien : Banking, Corporate Banking, Financial Institutions Group (FIG), Placement Analyst Internship, Paris - France 2027",
+"🔗 Nouveau lien : Banking, Debt Capital Markets, Placement Analyst Internship, Frankfurt - Germany 2027"
+],
+"at": "2026-10-21T16:48:09+00:00",
+"removed": []
+},
+{
+"added": [
 "🔗 Nouveau lien : Banking – Commercial Baking, Internship, São Paulo – Brazil, 2026",
 "🔗 Nouveau lien : Banking – Commercial Banking, Internship, São Paulo – Brazil, 2026",
 "🔗 Nouveau lien : South Africa Learnership Graduate Program - ICRM, South Africa - Johannesburg, 2026"
@@ -90490,22 +90501,9 @@
 ],
 "at": "2026-10-19T16:07:10+00:00",
 "removed": []
-},
-{
-"added": [
-"🔗 Nouveau lien : India Apprenticeship Program - Commercial Banking",
-"🔗 Nouveau lien : Banking, Financing, Summer Analyst, London - United Kingdom 2027",
-"🔗 Nouveau lien : Markets – Sales and Trading, Off-Cycle Internship, Paris – France, 2027",
-"🔗 Nouveau lien : Internal Audit - Full-Time Analyst, London, 2027"
-],
-"at": "2026-10-19T13:06:24+00:00",
-"removed": [
-"Banking, Financing, Full Time Analyst, London - United Kingdom 2027 (Applicable for 2026 Citi Summer interns only)",
-"Markets, Quantitative Analysis, Off Cycle Placement , London, UK, 2027"
-]
 }
 ],
-"last_change": "2026-10-21T16:14:38+00:00",
+"last_change": "2026-10-21T16:48:09+00:00",
 "lines": [
 "Explore our Early Career programs, job simulations, events and application process."
 ],
@@ -90519,14 +90517,12 @@
 "https://jobs.citi.com/early-career-programs-pre-internships": "Pre-Internships",
 "https://jobs.citi.com/early-careers": "Learn About Early Careers",
 "https://jobs.citi.com/events-preinternships": "Events",
+"https://jobs.citi.com/job/amsterdam/banking-commercial-banking-summer-analyst-amsterdam-the-netherlands-2027/287/102161080560": "Banking, Commercial Banking, Summer Analyst, Amsterdam - The Netherlands 2027",
+"https://jobs.citi.com/job/frankfurt-am-main/banking-debt-capital-markets-placement-analyst-internship-frankfurt-germany-2027/287/102161080288": "Banking, Debt Capital Markets, Placement Analyst Internship, Frankfurt - Germany 2027",
 "https://jobs.citi.com/job/istanbul/long-term-internship-investment-banking-turkey-istanbul-2027/287/102165112096": "Long Term Internship – Investment Banking, Turkey – Istanbul, 2027",
-"https://jobs.citi.com/job/johannesburg/south-africa-learnership-graduate-program-icrm-south-africa-johannesburg-2026/287/101406691024": "South Africa Learnership Graduate Program - ICRM, South Africa - Johannesburg, 2026",
-"https://jobs.citi.com/job/johannesburg/south-africa-learnership-graduate-program-tts-south-africa-johannesburg-2026/287/100756237136": "South Africa Learnership Graduate Program - TTS, South Africa - Johannesburg, 2026",
-"https://jobs.citi.com/job/london/functions-internal-audit-summer-analyst-london-2027/287/102236316864": "Functions - Internal Audit, Summer Analyst - London, 2027",
 "https://jobs.citi.com/job/mississauga/functions-internal-audit-summer-analyst-mississauga-on-2027/287/93639707120": "Functions - Internal Audit, Summer Analyst - Mississauga, ON 2027",
-"https://jobs.citi.com/job/sao-paulo/banking-commercial-baking-internship-sao-paulo-brazil-2026/287/102247788928": "Banking – Commercial Baking, Internship, São Paulo – Brazil, 2026",
-"https://jobs.citi.com/job/sao-paulo/banking-commercial-banking-internship-sao-paulo-brazil-2026/287/102247788912": "Banking – Commercial Banking, Internship, São Paulo – Brazil, 2026",
-"https://jobs.citi.com/job/sao-paulo/banking-investment-banking-internship-sao-paulo-brazil-2027/287/102245042272": "Banking – Investment Banking, Internship, São Paulo – Brazil, 2027"
+"https://jobs.citi.com/job/paris/banking-corporate-banking-financial-institutions-group-fig-placement-analyst-internship-paris-franc/287/102161080304": "Banking, Corporate Banking, Financial Institutions Group (FIG), Placement Analyst Internship, Paris - France 2027",
+"https://jobs.citi.com/job/stockholm/banking-commercial-banking-summer-analyst-stockholm-sweden-2027/287/102161080544": "Banking, Commercial Banking, Summer Analyst, Stockholm - Sweden 2027"
 },
 "since": "2026-10-09T14:00:25+00:00",
 "status": ""
@@ -90699,26 +90695,34 @@
 "https://www.ardian.com/join-us": {
 "ats": [
 "https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Frankfurt/Secondaries---Primaries-Intern---April-2027---Frankfurt--M-F-_JR1002221",
-"https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Luxembourg/Legal-Intern---January-2027---Luxembourg--M-F-_JR1001818",
-"https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Milan/Expansion-Intern---January-2027I-Milan--M-F-_JR1002270",
 "https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Milan/Infrastructure-Intern---December-2026I-Milan--M-F-_JR1002238",
-"https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Montreal/Secondaries---Primaries-Intern---September-2026-I-Montreal_JR1002213",
-"https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Paris-La-Dfense/IT-Documents---Privacy-Stage---Janvier-2027-I-Paris--M-F-_JR1002131",
+"https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Milan/Real-Estate-Intern---December-2026I-Milan--M-F-_JR1002261",
+"https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/New-York/Secondaries---Primaries-Intern---September-2026-I-NYC_JR1001891",
 "https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Paris/Audit-Interne-Stage---Septembre-2026-I-Paris--H-F-_JR1002069",
-"https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Paris/Employees--investments-Fund-Administrative-Assistant-Stage---Janvier-2027---Paris--M-F-_JR1002091-1",
+"https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Paris/Client-Onboarding-Analyst_JR1002014",
+"https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Paris/Data-Sciencist-Stage---Mars-2027---Paris--H-F-_JR1002090",
+"https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Paris/Fund-Finance-Infrastructure-Stage---Mars-2027-I-Paris--H-F-_JR1002108",
+"https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Paris/Fund-Finance-Private-Credit-Stage---Janvier-2027-I-Paris--M-F-_JR1002152",
 "https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Paris/Infrastructure-Nature-Based-Solutions-Stage---Janvier-2027-I-Paris--M-F-_JR1002116",
-"https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Paris/Learning-Intern_JR1002186",
 "https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Paris/Private-Equity-Growth-Stage---Mars-2027---Paris--M-F-_JR1002113",
-"https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Paris/Sustainability-Non-Controlling-Stage---Janvier-2027-I-Paris---H-F-_JR1002142",
+"https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Paris/Private-Equity-Semiconductor-Stage---Mars-2027-I-Paris--H-F-_JR1002229",
 "https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/San-Francisco/Data-Scientist-Analyst---Secondaries---Primaries_JR1001889",
-"https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Singapore/Sales-Intern---4-Jan-2027-I-Singapore--M-F-_JR1002250",
 "https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Tokyo/Investor-Relations-Intern---October-2025--I-Tokyo--M-F-_JR1001528",
+"https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Zurich/Investor-Relations-Intern---January-2027-I-Zurich_JR1002219",
 "https://ardian.wd103.myworkdayjobs.com/en-US/ArdianCareers/login"
 ],
 "error": null,
 "fails": 0,
 "highlights": [],
 "history": [
+{
+"added": [
+"🔗 Nouveau lien : Secondaries & Primaries Intern – September 2026 I NYC",
+"🔗 Nouveau lien : Investor Relations Intern - January 2027 I Zurich"
+],
+"at": "2026-10-21T16:48:09+00:00",
+"removed": []
+},
 {
 "added": [
 "🔗 Nouveau lien : Secondaries & Primaries Intern – September 2026 I Montreal",
@@ -90782,18 +90786,9 @@
 ],
 "at": "2026-10-20T18:15:35+00:00",
 "removed": []
-},
-{
-"added": [
-"🔗 Nouveau lien : Secondaries & Primaries Intern - Summer 2028 | SF",
-"🔗 Nouveau lien : Secondaries & Primaries Intern – September 2026 I Montreal",
-"🔗 Nouveau lien : Meet the Architects of Ardian: Elimane Ndoye, Compliance Managing Director"
-],
-"at": "2026-10-20T15:44:14+00:00",
-"removed": []
 }
 ],
-"last_change": "2026-10-21T16:14:38+00:00",
+"last_change": "2026-10-21T16:48:09+00:00",
 "lines": [
 "Follow Ardian Jobs & Internships",
 "Manage or create my candidate space",
@@ -90801,7 +90796,8 @@
 "Close the alert banner"
 ],
 "links": {
-"https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Montreal/Secondaries---Primaries-Intern---September-2026-I-Montreal_JR1002213": "Secondaries & Primaries Intern – September 2026 I Montreal",
+"https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/New-York/Secondaries---Primaries-Intern---September-2026-I-NYC_JR1001891": "Secondaries & Primaries Intern – September 2026 I NYC",
+"https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Zurich/Investor-Relations-Intern---January-2027-I-Zurich_JR1002219": "Investor Relations Intern - January 2027 I Zurich",
 "https://ardian.wd103.myworkdayjobs.com/en-US/ArdianCareers/login": "My Candidate Space",
 "https://www.ardian.com/expertise": "Discover",
 "https://www.ardian.com/firm": "Discover",
@@ -90836,8 +90832,8 @@
 },
 "https://www.ca-cib.fr/carrieres/etudiants-et-jeunes-diplomes": {
 "ats": [],
-"error": "TimeoutError: The read operation timed out",
-"fails": 5,
+"error": null,
+"fails": 0,
 "highlights": [
 "Ronan Le Jannou et son tuteur Martin Serrand de l’équipe International Trade & Transaction Banking (ITB) nous parle de leur duo Will open in a new tab",
 "Profitez de notre réseau international en faisant le choix d’un VIE à la fin de vos études et développez votre expérience en mettant en application vos acquis sur des missions à responsabilités."
@@ -91661,7 +91657,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 5,
 "raw": 5
 },
@@ -91669,7 +91665,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -91677,7 +91673,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -91685,7 +91681,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -91693,15 +91689,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 23,
-"raw": 21
+"raw": 20
 },
 "Advent International#workday#adventinternational.wd12/AdventCareers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -91709,7 +91705,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 51,
 "raw": 51
 },
@@ -91717,7 +91713,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -91725,7 +91721,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -91733,7 +91729,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 19,
 "raw": 16
 },
@@ -91741,7 +91737,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -91750,7 +91746,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 1,
 "raw": 0,
 "zero_since": "2026-10-09T16:56:31+00:00"
@@ -91759,7 +91755,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 64,
 "raw": 54
 },
@@ -91767,7 +91763,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 75,
 "raw": 68
 },
@@ -91775,7 +91771,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 251,
 "raw": 242
 },
@@ -91785,13 +91781,14 @@
 "fails": 0,
 "last_ok": "2026-10-21T16:14:38+00:00",
 "max_raw": 719,
-"raw": 678
+"raw": 678,
+"suspect": 1
 },
 "BMO Capital Markets#workday#bmo.wd3/Campus": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 47,
 "raw": 19
 },
@@ -91799,7 +91796,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 33,
 "raw": 29
 },
@@ -91807,7 +91804,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 125,
 "raw": 57
 },
@@ -91817,21 +91814,22 @@
 "fails": 0,
 "last_ok": "2026-10-21T16:14:38+00:00",
 "max_raw": 2048,
-"raw": 1984
+"raw": 1984,
+"suspect": 1
 },
 "Barclays#workday#barclays.wd3/External_Career_Site_Barclays": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 784,
-"raw": 725
+"raw": 389
 },
 "Barings#workday#barings.wd1/Early_Talent|Barings": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 48,
 "raw": 44
 },
@@ -91839,7 +91837,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -91847,7 +91845,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 39,
 "raw": 39
 },
@@ -91855,7 +91853,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 203,
 "raw": 175
 },
@@ -91863,7 +91861,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 51,
 "raw": 48
 },
@@ -91871,7 +91869,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 139,
 "raw": 136
 },
@@ -91879,7 +91877,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -91887,7 +91885,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 42,
 "raw": 41
 },
@@ -91895,7 +91893,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 50,
 "raw": 50
 },
@@ -91903,7 +91901,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 42,
 "raw": 40
 },
@@ -91911,7 +91909,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -91919,7 +91917,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -91927,7 +91925,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 77,
 "raw": 77
 },
@@ -91936,7 +91934,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 1,
 "raw": 0,
 "zero_since": "2026-10-09T20:14:44+00:00"
@@ -91945,7 +91943,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 4,
 "raw": 3
 },
@@ -91953,7 +91951,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -91963,13 +91961,14 @@
 "fails": 0,
 "last_ok": "2026-10-21T16:14:38+00:00",
 "max_raw": 2000,
-"raw": 1996
+"raw": 1996,
+"suspect": 1
 },
 "Clipperton#workable#clipperton": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 5,
 "raw": 4
 },
@@ -91977,7 +91976,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -91985,7 +91984,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 100,
 "raw": 100
 },
@@ -91993,7 +91992,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -92001,7 +92000,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -92009,15 +92008,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 722,
-"raw": 714
+"raw": 717
 },
 "Deloitte#watch#https://www.deloitte.com/fr/fr.html": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -92025,23 +92024,23 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 555,
-"raw": 531
+"raw": 532
 },
 "Deutsche Bank#workday#db.wd3/DBWebsite": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 1201,
-"raw": 1168
+"raw": 623
 },
 "Ducera Partners#greenhouse#ducerapartners|ducerapartnerscampus": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 8,
 "raw": 8
 },
@@ -92049,7 +92048,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 15,
 "raw": 10
 },
@@ -92057,7 +92056,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -92065,7 +92064,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -92073,7 +92072,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -92081,14 +92080,16 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 29,
 "raw": 21
 },
 "Evercore#oleeo#evercore": {
-"error": null,
+"cooldown_until": "2026-10-21T17:35:17+00:00",
+"error": "ValueError: vérification anti-robot Oleeo (réessai au prochain scan)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-10-21T16:48:09+00:00",
+"fails": 1,
 "last_ok": "2026-10-21T16:14:38+00:00",
 "max_raw": 126,
 "raw": 122
@@ -92097,7 +92098,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 9,
 "raw": 2
 },
@@ -92105,7 +92106,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -92113,7 +92114,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 10,
 "raw": 10
 },
@@ -92121,7 +92122,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 150,
 "raw": 146
 },
@@ -92129,7 +92130,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -92137,7 +92138,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 13,
 "raw": 12
 },
@@ -92145,7 +92146,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 232,
 "raw": 213
 },
@@ -92153,7 +92154,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 34,
 "raw": 30
 },
@@ -92161,7 +92162,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 62,
 "raw": 60
 },
@@ -92169,7 +92170,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 45,
 "raw": 40
 },
@@ -92177,7 +92178,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 37,
 "raw": 35
 },
@@ -92185,7 +92186,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -92193,7 +92194,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 6,
 "raw": 6
 },
@@ -92201,15 +92202,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 48,
-"raw": 47
+"raw": 48
 },
 "HarbourVest#workday#harbourvest.wd5/HVP": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 68,
 "raw": 67
 },
@@ -92217,7 +92218,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 19,
 "raw": 16
 },
@@ -92225,7 +92226,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 54,
 "raw": 47
 },
@@ -92233,7 +92234,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 16,
 "raw": 14
 },
@@ -92241,7 +92242,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 3,
 "raw": 3
 },
@@ -92249,9 +92250,9 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 777,
-"raw": 742
+"raw": 419
 },
 "J.P. Morgan#oracle#jpmc.fa.oraclecloud.com/CX_1001": {
 "error": null,
@@ -92259,12 +92260,15 @@
 "fails": 0,
 "last_ok": "2026-10-21T16:14:38+00:00",
 "max_raw": 5000,
-"raw": 4999
+"raw": 4999,
+"suspect": 1
 },
 "Jefferies#oleeo#jefferies": {
-"error": null,
+"cooldown_until": "2026-10-21T17:35:17+00:00",
+"error": "ValueError: vérification anti-robot Oleeo (réessai au prochain scan)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-10-21T16:48:09+00:00",
+"fails": 1,
 "last_ok": "2026-10-21T16:14:38+00:00",
 "max_raw": 63,
 "raw": 63
@@ -92273,7 +92277,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 19,
 "raw": 13
 },
@@ -92281,7 +92285,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 192,
 "raw": 182
 },
@@ -92289,7 +92293,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -92297,7 +92301,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 9,
 "raw": 9
 },
@@ -92305,7 +92309,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -92315,13 +92319,14 @@
 "fails": 0,
 "last_ok": "2026-10-21T16:14:38+00:00",
 "max_raw": 588,
-"raw": 570
+"raw": 570,
+"suspect": 1
 },
 "Kroll#watch#https://www.kroll.com/en": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -92329,7 +92334,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -92337,7 +92342,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 3,
 "raw": 3
 },
@@ -92345,7 +92350,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -92353,7 +92358,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -92361,7 +92366,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 54,
 "raw": 53
 },
@@ -92369,7 +92374,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 74,
 "raw": 69
 },
@@ -92377,7 +92382,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 126,
 "raw": 122
 },
@@ -92385,7 +92390,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 126,
 "raw": 122
 },
@@ -92393,7 +92398,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 43,
 "raw": 41
 },
@@ -92401,7 +92406,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 3,
 "raw": 3
 },
@@ -92409,7 +92414,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 70,
 "raw": 65
 },
@@ -92417,7 +92422,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 107,
 "raw": 103
 },
@@ -92425,15 +92430,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 704,
-"raw": 691
+"raw": 481
 },
 "Macquarie#watch#https://www.macquarie.com/fr/en.html": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -92441,7 +92446,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 10,
 "raw": 8
 },
@@ -92449,7 +92454,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -92457,7 +92462,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -92465,7 +92470,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 122,
 "raw": 120
 },
@@ -92473,7 +92478,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 37,
 "raw": 26
 },
@@ -92481,7 +92486,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 36,
 "raw": 35
 },
@@ -92489,7 +92494,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 138,
 "raw": 98
 },
@@ -92497,7 +92502,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -92505,7 +92510,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -92513,7 +92518,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 93,
 "raw": 92
 },
@@ -92521,7 +92526,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 37,
 "raw": 28
 },
@@ -92529,7 +92534,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -92537,7 +92542,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -92545,7 +92550,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 61,
 "raw": 59
 },
@@ -92553,7 +92558,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -92561,7 +92566,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 37,
 "raw": 37
 },
@@ -92569,7 +92574,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -92577,20 +92582,20 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 10,
 "raw": 9
 },
 "PATRIZIA#watch#https://www.patrizia.ag/en": {
 "error": "HTTPError: HTTP Error 403: Forbidden",
 "fail_since": "2026-10-09T14:00:25+00:00",
-"fails": 788
+"fails": 789
 },
 "PJT Partners#workday#pjtpartners.wd1/Careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 56,
 "raw": 54
 },
@@ -92598,7 +92603,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 43,
 "raw": 43
 },
@@ -92606,7 +92611,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -92614,14 +92619,16 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 3,
 "raw": 3
 },
 "Perella Weinberg Partners#oleeo#pwpcareers": {
-"error": null,
+"cooldown_until": "2026-10-21T17:35:17+00:00",
+"error": "ValueError: vérification anti-robot Oleeo (réessai au prochain scan)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-10-21T16:48:09+00:00",
+"fails": 1,
 "last_ok": "2026-10-21T16:14:38+00:00",
 "max_raw": 15,
 "raw": 11
@@ -92630,7 +92637,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 7,
 "raw": 7
 },
@@ -92638,7 +92645,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 8,
 "raw": 5
 },
@@ -92646,7 +92653,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -92654,7 +92661,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 55,
 "raw": 53
 },
@@ -92664,13 +92671,14 @@
 "fails": 0,
 "last_ok": "2026-10-21T16:14:38+00:00",
 "max_raw": 1374,
-"raw": 1362
+"raw": 1362,
+"suspect": 1
 },
 "PwC#workday#pwc.wd3/US_Entry_Level_Careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 71,
 "raw": 56
 },
@@ -92678,7 +92686,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 2,
 "raw": 2
 },
@@ -92686,7 +92694,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -92694,7 +92702,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 39,
 "raw": 20
 },
@@ -92702,15 +92710,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 856,
-"raw": 844
+"raw": 574
 },
 "Raine Group#lever#raine": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 2,
 "raw": 2
 },
@@ -92718,14 +92726,16 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 8,
 "raw": 5
 },
 "Rothschild & Co#oleeo#rothschildandco": {
-"error": null,
+"cooldown_until": "2026-10-21T17:35:17+00:00",
+"error": "ValueError: vérification anti-robot Oleeo (réessai au prochain scan)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-10-21T16:48:09+00:00",
+"fails": 1,
 "last_ok": "2026-10-21T16:14:38+00:00",
 "max_raw": 33,
 "raw": 33
@@ -92734,7 +92744,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 122,
 "raw": 117
 },
@@ -92742,7 +92752,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 2,
 "raw": 2
 },
@@ -92752,13 +92762,14 @@
 "fails": 0,
 "last_ok": "2026-10-21T16:14:38+00:00",
 "max_raw": 1095,
-"raw": 1081
+"raw": 1081,
+"suspect": 1
 },
 "Scotiabank#rss#https://jobs.scotiabank.com/services/rss/job/?locale=en_US&keywords=intern": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 20,
 "raw": 20
 },
@@ -92766,7 +92777,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -92774,15 +92785,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 19,
-"raw": 18
+"raw": 17
 },
 "Sofina#watch#https://www.sofinagroup.com/en": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -92790,7 +92801,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 3,
 "raw": 3
 },
@@ -92798,7 +92809,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 20,
 "raw": 20
 },
@@ -92806,7 +92817,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 55,
 "raw": 55
 },
@@ -92814,7 +92825,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 107,
 "raw": 91
 },
@@ -92822,7 +92833,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 6,
 "raw": 6
 },
@@ -92832,13 +92843,14 @@
 "fails": 0,
 "last_ok": "2026-10-21T16:14:38+00:00",
 "max_raw": 1731,
-"raw": 1707
+"raw": 1707,
+"suspect": 1
 },
 "TPG#greenhouse#tpgcareers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 20,
 "raw": 20
 },
@@ -92846,7 +92858,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -92854,7 +92866,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 76,
 "raw": 74
 },
@@ -92862,7 +92874,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 6,
 "raw": 5
 },
@@ -92870,7 +92882,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 2,
 "raw": 0,
 "zero_since": "2026-10-20T09:41:59+00:00"
@@ -92879,7 +92891,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -92887,7 +92899,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 8,
 "raw": 8
 },
@@ -92895,7 +92907,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 35,
 "raw": 35
 },
@@ -92903,22 +92915,24 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 410,
-"raw": 405
+"raw": 269
 },
 "Warburg Pincus#greenhouse#warburgpincusllc": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 4,
 "raw": 4
 },
 "Wells Fargo#oleeo#wellsfargo": {
-"error": null,
+"cooldown_until": "2026-10-21T17:35:17+00:00",
+"error": "ValueError: vérification anti-robot Oleeo (réessai au prochain scan)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-10-21T16:48:09+00:00",
+"fails": 1,
 "last_ok": "2026-10-21T16:14:38+00:00",
 "max_raw": 0,
 "raw": 0
@@ -92929,13 +92943,14 @@
 "fails": 0,
 "last_ok": "2026-10-21T16:14:38+00:00",
 "max_raw": 1641,
-"raw": 1495
+"raw": 1495,
+"suspect": 1
 },
 "YourFinanceJob (agrégateur)#aggregator#spring-weeks-and-insight-days,summer-internships-list,student-and-graduate,investment-banks,boutique-advisory,private-equity-firms,france,switzerland,new-this-week": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-10-21T16:14:38+00:00",
+"last_ok": "2026-10-21T16:48:09+00:00",
 "max_raw": 1662,
 "raw": 1657
 }
