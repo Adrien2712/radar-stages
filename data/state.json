@@ -10572,6 +10572,7 @@
 "193e866f74a196e3": {
 "category": "Boutique M&A",
 "close_checked": true,
+"closed": "2026-11-07T19:23:34+00:00",
 "company": "Evercore",
 "cycle": "Summer",
 "details": {
@@ -10586,7 +10587,7 @@
 "key": "3478",
 "level": "A",
 "location": "",
-"missing": 2,
+"missing": 3,
 "posted": null,
 "region": "Autre / NC",
 "seed": false,
@@ -12142,7 +12143,7 @@
 "key": "/job/Jakarta/Internship-Program---Advisory---Transaction-Services_770176WD",
 "level": "A",
 "location": "Jakarta",
-"missing": 0,
+"missing": 1,
 "posted": "2026-10-27",
 "region": "Autre / NC",
 "seed": false,
@@ -43587,7 +43588,7 @@
 "key": "/job/Bengaluru-India/XMLNAME-2027-Technology-Program-Intern_R-557386",
 "level": "B",
 "location": "2 Locations",
-"missing": 0,
+"missing": 1,
 "posted": "2026-10-26",
 "region": "Autre / NC",
 "seed": false,
@@ -93800,35 +93801,6 @@
 "url": "https://jll.wd1.myworkdayjobs.com/en-US/jllcareers/job/Denver-CO/Industrial-Property-Management-Summer-2027-Internship---Denver--CO_REQ540471",
 "via": "YourFinanceJob · Summer internships"
 },
-"e6d7ce932d71a77c": {
-"category": "M&A Mid-Market",
-"closed": "2026-10-08T17:07:46+00:00",
-"company": "KeyBanc Capital Markets",
-"cycle": "Summer",
-"details": {
-"duration": "5 sem.",
-"grad_years": [
-2029
-],
-"work_auth_mentioned": true
-},
-"details_tried": true,
-"first_seen": "2026-10-05T11:47:54+00:00",
-"hq": "Cleveland",
-"id": "e6d7ce932d71a77c",
-"key": "/job/Vandalia-OH/Summer-2027-Key-Investment-Services-Internship--Certified-Financial-Planner-Track----Dayton--OH_R-41220",
-"level": "A",
-"location": "Vandalia, OH",
-"missing": 3,
-"posted": "2026-09-05",
-"region": "Autre / NC",
-"seed": true,
-"skey": "KeyBanc Capital Markets#workday#keybank.wd5/External_Career_Site",
-"source": "workday",
-"tier": "3",
-"title": "Summer 2027 Key Investment Services Internship (Certified Financial Planner Track) - Dayton, OH",
-"url": "https://keybank.wd5.myworkdayjobs.com/en-US/External_Career_Site/job/Vandalia-OH/Summer-2027-Key-Investment-Services-Internship--Certified-Financial-Planner-Track----Dayton--OH_R-41220"
-},
 "e6dc19ff3d3db05c": {
 "category": "Banque BB",
 "company": "Morgan Stanley",
@@ -96460,6 +96432,7 @@
 "ed48da7047e7ea13": {
 "category": "Banque BB",
 "close_checked": true,
+"closed": "2026-11-07T19:23:34+00:00",
 "company": "Standard Chartered",
 "cycle": "Stage",
 "first_seen": "2026-11-07T02:05:35+00:00",
@@ -96468,7 +96441,7 @@
 "key": "https://jobs.standardchartered.com/job/Central-Syndicate-&-Portfolio-Management-Intern-Hong-Kong-2027/1374336057/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
 "level": "B",
 "location": "",
-"missing": 2,
+"missing": 3,
 "posted": null,
 "region": "Corée / Asie",
 "seed": false,
@@ -103673,9 +103646,9 @@
 "at": "2026-11-07T15:08:42+00:00",
 "rows": []
 },
-"last_deep": "2026-11-07T15:08:42+00:00",
+"last_deep": "2026-11-07T19:23:34+00:00",
 "last_digest": "2026-11-07",
-"last_full": "2026-11-07T15:08:42+00:00",
+"last_full": "2026-11-07T19:23:34+00:00",
 "pages": {
 "https://careers.bankofamerica.com/en-us/students": {
 "ats": [
@@ -104086,6 +104059,14 @@
 "🔗 Nouveau lien : Services – Treasury and Trade Solutions, Internship, São Paulo – Brazil – 2027",
 "🔗 Nouveau lien : Services – Treasury and Trade Solutions, Internship, São Paulo – Brazil – 2027"
 ],
+"at": "2026-11-07T19:23:34+00:00",
+"removed": []
+},
+{
+"added": [
+"🔗 Nouveau lien : Services – Treasury and Trade Solutions, Internship, São Paulo – Brazil – 2027",
+"🔗 Nouveau lien : Services – Treasury and Trade Solutions, Internship, São Paulo – Brazil – 2027"
+],
 "at": "2026-11-07T08:40:42+00:00",
 "removed": []
 },
@@ -104142,16 +104123,9 @@
 ],
 "at": "2026-10-31T23:19:13+00:00",
 "removed": []
-},
-{
-"added": [
-"🔗 Nouveau lien : Banking, Corporate Banking, Summer Analyst, London – United Kingdom, 2027"
-],
-"at": "2026-10-30T18:57:47+00:00",
-"removed": []
 }
 ],
-"last_change": "2026-11-07T08:40:42+00:00",
+"last_change": "2026-11-07T19:23:34+00:00",
 "lines": [
 "Functions - Finance, Summer Associate, Charlotte - USA, 2027",
 "Functions - Finance, Summer Associate, Buffalo - USA, 2027",
@@ -104173,6 +104147,8 @@
 "https://jobs.citi.com/job/getzville/functions-finance-summer-associate-buffalo-usa-2027/287/102910130192": "Functions - Finance, Summer Associate, Buffalo - USA, 2027",
 "https://jobs.citi.com/job/sao-paulo/services-treasury-and-trade-solutions-internship-sao-paulo-brazil-2027/287/102860944544": "Services – Treasury and Trade Solutions, Internship, São Paulo – Brazil – 2027",
 "https://jobs.citi.com/job/sao-paulo/services-treasury-and-trade-solutions-internship-sao-paulo-brazil-2027/287/102860944912": "Services – Treasury and Trade Solutions, Internship, São Paulo – Brazil – 2027",
+"https://jobs.citi.com/job/sao-paulo/services-treasury-and-trade-solutions-internship-sao-paulo-brazil-2027/287/102960387424": "Services – Treasury and Trade Solutions, Internship, São Paulo – Brazil – 2027",
+"https://jobs.citi.com/job/sao-paulo/services-treasury-and-trade-solutions-internship-sao-paulo-brazil-2027/287/102960387472": "Services – Treasury and Trade Solutions, Internship, São Paulo – Brazil – 2027",
 "https://jobs.citi.com/job/singapore/technology-application-development-full-time-analyst-singapore-2027/287/102841893200": "Technology- Application Development, Full Time Analyst, Singapore 2027",
 "https://jobs.citi.com/job/singapore/technology-application-development-summer-analyst-singapore-2027/287/102841893216": "Technology- Application Development, Summer Analyst, Singapore 2027"
 },
@@ -104201,7 +104177,7 @@
 "https://pwpartners.com/careers/intern-graduate-recruitment/": {
 "ats": [],
 "error": "HTTPError: HTTP Error 403: Forbidden",
-"fails": 7,
+"fails": 8,
 "highlights": [
 "We screen each application and provide a highly communicative and detailed process that ensures we hire the most talented, diverse individuals. Here’s what to expect :",
 "Submit your Application: Apply via the PWP PORTAL .",
@@ -104892,7 +104868,7 @@
 "https://www.lazard.com/careers/students/": {
 "ats": [],
 "error": "HTTPError: HTTP Error 404: Not Found",
-"fails": 22,
+"fails": 23,
 "highlights": [],
 "history": [
 {
@@ -105349,7 +105325,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 5,
 "raw": 5
 },
@@ -105357,7 +105333,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -105365,7 +105341,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -105373,7 +105349,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -105381,7 +105357,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 23,
 "raw": 16
 },
@@ -105390,7 +105366,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 1,
 "raw": 0,
 "zero_since": "2026-10-30T12:46:00+00:00"
@@ -105399,7 +105375,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 52,
 "raw": 52
 },
@@ -105407,7 +105383,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -105415,7 +105391,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -105423,7 +105399,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 19,
 "raw": 17
 },
@@ -105431,7 +105407,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -105440,7 +105416,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 1,
 "raw": 0,
 "zero_since": "2026-10-09T16:56:31+00:00"
@@ -105449,7 +105425,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 64,
 "raw": 56
 },
@@ -105457,7 +105433,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 75,
 "raw": 67
 },
@@ -105465,7 +105441,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 251,
 "raw": 233
 },
@@ -105473,7 +105449,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 730,
 "raw": 595
 },
@@ -105481,7 +105457,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 47,
 "raw": 28
 },
@@ -105489,7 +105465,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 33,
 "raw": 31
 },
@@ -105497,7 +105473,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 125,
 "raw": 30
 },
@@ -105505,23 +105481,23 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 2050,
-"raw": 2050
+"raw": 2048
 },
 "Barclays#workday#barclays.wd3/External_Career_Site_Barclays": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 784,
-"raw": 638
+"raw": 632
 },
 "Barings#workday#barings.wd1/Early_Talent|Barings": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 48,
 "raw": 46
 },
@@ -105529,7 +105505,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -105537,7 +105513,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 39,
 "raw": 37
 },
@@ -105545,7 +105521,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 203,
 "raw": 151
 },
@@ -105553,7 +105529,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 52,
 "raw": 52
 },
@@ -105561,7 +105537,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 142,
 "raw": 142
 },
@@ -105569,7 +105545,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -105577,7 +105553,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 47,
 "raw": 40
 },
@@ -105585,7 +105561,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 55,
 "raw": 41
 },
@@ -105593,7 +105569,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 45,
 "raw": 45
 },
@@ -105601,7 +105577,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -105609,7 +105585,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -105617,7 +105593,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 77,
 "raw": 65
 },
@@ -105626,7 +105602,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 1,
 "raw": 0,
 "zero_since": "2026-10-09T20:14:44+00:00"
@@ -105635,7 +105611,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 4,
 "raw": 3
 },
@@ -105643,7 +105619,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -105651,7 +105627,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 2000,
 "raw": 2000
 },
@@ -105659,7 +105635,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 5,
 "raw": 4
 },
@@ -105667,7 +105643,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 1,
 "raw": 0,
 "zero_since": "2026-10-29T09:28:58+00:00"
@@ -105676,7 +105652,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 100,
 "raw": 100
 },
@@ -105684,7 +105660,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -105692,7 +105668,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -105700,7 +105676,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 728,
 "raw": 723
 },
@@ -105708,7 +105684,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -105716,7 +105692,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 565,
 "raw": 553
 },
@@ -105724,15 +105700,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 1201,
-"raw": 1143
+"raw": 1142
 },
 "Ducera Partners#greenhouse#ducerapartners|ducerapartnerscampus": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 11,
 "raw": 8
 },
@@ -105740,7 +105716,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 15,
 "raw": 13
 },
@@ -105748,7 +105724,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -105756,7 +105732,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -105764,7 +105740,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -105772,7 +105748,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 29,
 "raw": 22
 },
@@ -105780,7 +105756,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 126,
 "raw": 92
 },
@@ -105789,7 +105765,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 9,
 "raw": 0,
 "zero_since": "2026-11-02T10:02:17+00:00"
@@ -105798,7 +105774,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -105806,7 +105782,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 10,
 "raw": 10
 },
@@ -105814,7 +105790,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 150,
 "raw": 124
 },
@@ -105822,7 +105798,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -105830,7 +105806,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 14,
 "raw": 14
 },
@@ -105838,7 +105814,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 232,
 "raw": 192
 },
@@ -105846,7 +105822,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 34,
 "raw": 30
 },
@@ -105854,7 +105830,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 62,
 "raw": 59
 },
@@ -105862,7 +105838,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 46,
 "raw": 44
 },
@@ -105870,7 +105846,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 40,
 "raw": 35
 },
@@ -105878,7 +105854,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -105886,7 +105862,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 6,
 "raw": 2
 },
@@ -105894,7 +105870,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 52,
 "raw": 50
 },
@@ -105902,7 +105878,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 77,
 "raw": 77
 },
@@ -105910,7 +105886,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 19,
 "raw": 14
 },
@@ -105918,7 +105894,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 86,
 "raw": 84
 },
@@ -105926,7 +105902,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 19,
 "raw": 16
 },
@@ -105934,7 +105910,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 3,
 "raw": 2
 },
@@ -105942,7 +105918,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 777,
 "raw": 669
 },
@@ -105950,7 +105926,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 5000,
 "raw": 5000
 },
@@ -105958,7 +105934,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 84,
 "raw": 83
 },
@@ -105966,7 +105942,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 19,
 "raw": 8
 },
@@ -105974,7 +105950,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 192,
 "raw": 192
 },
@@ -105982,7 +105958,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -105990,7 +105966,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 9,
 "raw": 6
 },
@@ -105998,7 +105974,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -106006,15 +105982,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 605,
-"raw": 569
+"raw": 567
 },
 "Kroll#watch#https://www.kroll.com/en": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -106022,7 +105998,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -106030,7 +106006,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 3,
 "raw": 3
 },
@@ -106038,7 +106014,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -106046,7 +106022,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -106054,7 +106030,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 54,
 "raw": 46
 },
@@ -106062,7 +106038,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 85,
 "raw": 75
 },
@@ -106070,7 +106046,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 137,
 "raw": 121
 },
@@ -106078,7 +106054,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 137,
 "raw": 121
 },
@@ -106086,7 +106062,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 43,
 "raw": 37
 },
@@ -106094,7 +106070,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 3,
 "raw": 3
 },
@@ -106102,7 +106078,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 70,
 "raw": 63
 },
@@ -106110,7 +106086,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 112,
 "raw": 108
 },
@@ -106118,7 +106094,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 704,
 "raw": 681
 },
@@ -106126,7 +106102,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -106134,7 +106110,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 12,
 "raw": 10
 },
@@ -106142,7 +106118,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -106150,7 +106126,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -106158,7 +106134,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 122,
 "raw": 114
 },
@@ -106166,7 +106142,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 37,
 "raw": 17
 },
@@ -106174,7 +106150,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 38,
 "raw": 35
 },
@@ -106182,7 +106158,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 138,
 "raw": 82
 },
@@ -106190,7 +106166,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -106198,7 +106174,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -106206,7 +106182,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 94,
 "raw": 92
 },
@@ -106214,7 +106190,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 37,
 "raw": 23
 },
@@ -106222,7 +106198,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -106230,7 +106206,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -106238,7 +106214,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 61,
 "raw": 51
 },
@@ -106246,7 +106222,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -106254,7 +106230,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 40,
 "raw": 34
 },
@@ -106262,7 +106238,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -106270,7 +106246,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 10,
 "raw": 8
 },
@@ -106278,7 +106254,7 @@
 "error": "HTTPError: HTTP Error 403: Forbidden",
 "ever_ok": true,
 "fail_since": "2026-11-05T17:51:45+00:00",
-"fails": 9,
+"fails": 10,
 "last_ok": "2026-11-05T09:57:42+00:00",
 "max_raw": 0,
 "raw": 0
@@ -106287,7 +106263,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 56,
 "raw": 54
 },
@@ -106295,7 +106271,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 54,
 "raw": 54
 },
@@ -106303,7 +106279,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -106311,7 +106287,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 3,
 "raw": 3
 },
@@ -106319,7 +106295,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 15,
 "raw": 8
 },
@@ -106327,7 +106303,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 8,
 "raw": 8
 },
@@ -106335,7 +106311,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 8,
 "raw": 7
 },
@@ -106343,7 +106319,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -106351,7 +106327,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 55,
 "raw": 52
 },
@@ -106359,15 +106335,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 1374,
-"raw": 1325
+"raw": 1324
 },
 "PwC#workday#pwc.wd3/US_Entry_Level_Careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 71,
 "raw": 50
 },
@@ -106375,7 +106351,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 3,
 "raw": 3
 },
@@ -106383,7 +106359,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -106391,7 +106367,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 42,
 "raw": 37
 },
@@ -106399,15 +106375,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 872,
-"raw": 798
+"raw": 796
 },
 "Raine Group#lever#raine": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 2,
 "raw": 2
 },
@@ -106415,7 +106391,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 10,
 "raw": 10
 },
@@ -106423,7 +106399,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 33,
 "raw": 18
 },
@@ -106431,7 +106407,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 122,
 "raw": 104
 },
@@ -106439,7 +106415,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 2,
 "raw": 2
 },
@@ -106447,7 +106423,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 1177,
 "raw": 1025
 },
@@ -106455,7 +106431,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 20,
 "raw": 20
 },
@@ -106463,7 +106439,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -106471,7 +106447,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 19,
 "raw": 18
 },
@@ -106479,7 +106455,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -106487,7 +106463,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 4,
 "raw": 3
 },
@@ -106495,7 +106471,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 20,
 "raw": 20
 },
@@ -106503,7 +106479,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 62,
 "raw": 62
 },
@@ -106511,7 +106487,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 111,
 "raw": 110
 },
@@ -106519,7 +106495,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 68,
 "raw": 4
 },
@@ -106527,7 +106503,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 1853,
 "raw": 1762
 },
@@ -106535,7 +106511,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 21,
 "raw": 19
 },
@@ -106543,7 +106519,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -106551,7 +106527,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 76,
 "raw": 70
 },
@@ -106559,7 +106535,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 6,
 "raw": 6
 },
@@ -106567,7 +106543,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 2,
 "raw": 0,
 "zero_since": "2026-10-20T09:41:59+00:00"
@@ -106576,7 +106552,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -106584,7 +106560,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 8,
 "raw": 8
 },
@@ -106592,7 +106568,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 37,
 "raw": 36
 },
@@ -106600,7 +106576,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 422,
 "raw": 419
 },
@@ -106608,7 +106584,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 5,
 "raw": 5
 },
@@ -106616,7 +106592,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -106624,15 +106600,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 1728,
-"raw": 1657
+"raw": 1645
 },
 "YourFinanceJob (agrégateur)#aggregator#spring-weeks-and-insight-days,summer-internships-list,student-and-graduate,investment-banks,boutique-advisory,private-equity-firms,france,switzerland,new-this-week": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-07T15:08:42+00:00",
+"last_ok": "2026-11-07T19:23:34+00:00",
 "max_raw": 1662,
 "raw": 1657
 }
