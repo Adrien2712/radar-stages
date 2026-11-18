@@ -437,7 +437,7 @@
 "key": "/job/Turin/Internship---Microsoft-Dynamics-365-Business-Central---Torino--ADV-_729085WD",
 "level": "A",
 "location": "Turin",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Autre / NC",
 "seed": false,
@@ -519,7 +519,7 @@
 "key": "/job/Seoul/APAC-Corporate-Intern_R3373",
 "level": "A",
 "location": "Seoul",
-"missing": 0,
+"missing": 1,
 "posted": "2026-11-16",
 "region": "Corée / Asie",
 "seed": false,
@@ -1014,7 +1014,7 @@
 "key": "/job/IL-Rosemont/Management-Consulting---Sales--Service-and-Marketing-Senior-Associate-Intern---Summer-2027_765704WD",
 "level": "B",
 "location": "IL-Rosemont",
-"missing": 0,
+"missing": 1,
 "posted": "2026-10-02",
 "region": "Autre / NC",
 "seed": true,
@@ -2440,7 +2440,7 @@
 "key": "/job/Milano---Piazza-Tre-Torri-2/Advisory-Intern---Operations-Financial-Services---Insurance---Milano_725198WD",
 "level": "B",
 "location": "Milano - Piazza Tre Torri 2",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Europe (autre)",
 "seed": true,
@@ -2782,7 +2782,7 @@
 "key": "/job/IL-Rosemont/Strategy--Deals-Technology-Strategy-Senior-Associate-Intern---Summer-2027_765701WD",
 "level": "B",
 "location": "IL-Rosemont",
-"missing": 0,
+"missing": 1,
 "posted": "2026-10-02",
 "region": "Autre / NC",
 "seed": true,
@@ -2952,7 +2952,7 @@
 "key": "/job/Milan/Stage-Audit-LABO-RTM---Milano--ADT-_643300WD",
 "level": "B",
 "location": "Milan",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Europe (autre)",
 "seed": true,
@@ -3166,7 +3166,6 @@
 "09cb065d82d48d22": {
 "category": "Transaction Services",
 "close_checked": true,
-"closed": "2026-11-10T23:31:53+00:00",
 "company": "Grant Thornton",
 "cycle": "Off-cycle",
 "details": {
@@ -3186,7 +3185,7 @@
 "key": "2507100",
 "level": "A",
 "location": "Neuilly-sur-Seine, Île-de-France, France",
-"missing": 3,
+"missing": 0,
 "posted": "2026-11-05",
 "region": "Paris / France",
 "seed": false,
@@ -4713,7 +4712,7 @@
 "key": "/job/Milan/Contract-Lifecycle-Intern---Milano---DIG-_768108WD",
 "level": "A",
 "location": "Milan",
-"missing": 0,
+"missing": 1,
 "posted": "2026-10-15",
 "region": "Europe (autre)",
 "seed": false,
@@ -5355,7 +5354,7 @@
 "key": "/job/Milan/Advisory-Intern---Operations-Fanancial-Services-ambito-Payments---Open-Finance_663146WD-1",
 "level": "B",
 "location": "Milan",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Europe (autre)",
 "seed": true,
@@ -5945,7 +5944,7 @@
 "key": "/job/IL-Rosemont/Risk-Consulting---Financial-Services-Senior-Associate-Intern---Summer-2027_758896WD",
 "level": "B",
 "location": "IL-Rosemont",
-"missing": 0,
+"missing": 1,
 "posted": "2026-10-02",
 "region": "Autre / NC",
 "seed": true,
@@ -6081,7 +6080,7 @@
 "key": "/job/Milan/Software-Engineer-Intern---Milano--DIG-_765582WD",
 "level": "B",
 "location": "Milan",
-"missing": 0,
+"missing": 1,
 "posted": "2026-10-02",
 "region": "Europe (autre)",
 "seed": true,
@@ -7424,7 +7423,7 @@
 "key": "/job/Rome/Stage-Audit----Roma----ADT-_477609WD",
 "level": "B",
 "location": "Rome",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Europe (autre)",
 "seed": true,
@@ -8344,6 +8343,7 @@
 "199bec2e776b85c8": {
 "category": "Banque BB",
 "close_checked": true,
+"closed": "2026-11-18T10:17:47+00:00",
 "company": "Citi",
 "cycle": "Summer",
 "first_seen": "2026-10-05T11:47:54+00:00",
@@ -8352,7 +8352,7 @@
 "key": "/job/New-York-New-York-United-States/Markets---Sales-and-Trading--Summer-Analyst--New-York-City---US--2027_25928736",
 "level": "B",
 "location": "New York New York United States",
-"missing": 2,
+"missing": 3,
 "posted": "2026-09-05",
 "region": "New York / US",
 "seed": true,
@@ -8716,7 +8716,7 @@
 "key": "/job/IL-Rosemont/Technology-Consulting-Senior-Associate-Intern---Summer-2027_765627WD",
 "level": "B",
 "location": "IL-Rosemont",
-"missing": 0,
+"missing": 1,
 "posted": "2026-10-02",
 "region": "Autre / NC",
 "seed": true,
@@ -8757,7 +8757,7 @@
 "key": "/job/Bari/Stage-Audit-Financial-Services----Bari--ADT-_643372WD",
 "level": "B",
 "location": "Bari",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-09",
 "region": "Autre / NC",
 "seed": true,
@@ -10857,27 +10857,6 @@
 "title": "2027 - Investment Banking Off Cycle Internship – Milan",
 "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/1428-2027-Investment-Banking-Off-Cycle-Internship-Milan/en-GB"
 },
-"2161548ae3ec8c54": {
-"category": "Transaction Services",
-"closed": "2026-10-19T10:16:10+00:00",
-"company": "PwC",
-"cycle": "Off-cycle",
-"first_seen": "2026-10-07T12:33:49+00:00",
-"hq": "London",
-"id": "2161548ae3ec8c54",
-"key": "/job/Neuilly-sur-Seine/Stage-en-Fiscalit-des-entreprises---Juillet-2027---F-H_763681WD",
-"level": "B",
-"location": "Neuilly-sur-Seine",
-"missing": 3,
-"posted": "2026-10-07",
-"region": "Paris / France",
-"seed": false,
-"skey": "PwC#workday#pwc.wd3/Global_Campus_Careers",
-"source": "workday",
-"tier": "2",
-"title": "Stage en Fiscalité des entreprises - Juillet 2027 - F/H",
-"url": "https://pwc.wd3.myworkdayjobs.com/en-US/Global_Campus_Careers/job/Neuilly-sur-Seine/Stage-en-Fiscalit-des-entreprises---Juillet-2027---F-H_763681WD"
-},
 "2178dbdd106dc459": {
 "category": "Banque BB",
 "company": "Morgan Stanley",
@@ -12382,6 +12361,26 @@
 "url": "https://careers.axa.com/jobs/36943?lang=fr-fr",
 "via": "YourFinanceJob · Student & graduate"
 },
+"2589b3ee819c697c": {
+"category": "Banque BB",
+"company": "Deutsche Bank",
+"cycle": "Stage",
+"first_seen": "2026-11-18T10:17:47+00:00",
+"hq": "Frankfurt",
+"id": "2589b3ee819c697c",
+"key": "/job/Zrich-Uraniastrasse-9/Internship---Fixed-Income-Sales-and-Trading--f-m-x-_R0457690",
+"level": "B",
+"location": "Zürich Uraniastrasse 9",
+"missing": 0,
+"posted": "2026-11-18",
+"region": "Suisse",
+"seed": false,
+"skey": "Deutsche Bank#workday#db.wd3/DBWebsite",
+"source": "workday",
+"tier": "1",
+"title": "Internship – Fixed Income Sales and Trading (f/m/x)",
+"url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Zrich-Uraniastrasse-9/Internship---Fixed-Income-Sales-and-Trading--f-m-x-_R0457690"
+},
 "25aa9873bc26f83e": {
 "category": "M&A Mid-Market",
 "company": "Alantra",
@@ -12857,7 +12856,7 @@
 "key": "/job/Milan/Digital-Process---Hyperautomation-Intern---Ambito-Low-Code-Developer---Milano---Financial-Services_651325WD",
 "level": "B",
 "location": "Milan",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Europe (autre)",
 "seed": true,
@@ -15193,6 +15192,7 @@
 "2e9b2714155a778b": {
 "category": "Banque BB",
 "close_checked": true,
+"closed": "2026-11-18T10:17:47+00:00",
 "company": "Jefferies",
 "cycle": "Summer",
 "details": {
@@ -15212,7 +15212,7 @@
 "key": "2051",
 "level": "A",
 "location": "",
-"missing": 2,
+"missing": 3,
 "posted": null,
 "region": "New York / US",
 "seed": false,
@@ -15273,6 +15273,7 @@
 "2ed18ce8e50301f1": {
 "category": "Banque BB",
 "close_checked": true,
+"closed": "2026-11-18T10:17:47+00:00",
 "company": "Jefferies",
 "cycle": "Summer",
 "details": {
@@ -15292,7 +15293,7 @@
 "key": "2033",
 "level": "A",
 "location": "",
-"missing": 2,
+"missing": 3,
 "posted": null,
 "region": "New York / US",
 "seed": false,
@@ -15681,6 +15682,7 @@
 "2fe7e38f4c4fc2ad": {
 "category": "Banque BB",
 "close_checked": true,
+"closed": "2026-11-18T10:17:47+00:00",
 "company": "Jefferies",
 "cycle": "Summer",
 "details": {
@@ -15700,7 +15702,7 @@
 "key": "2032",
 "level": "A",
 "location": "",
-"missing": 2,
+"missing": 3,
 "posted": null,
 "region": "New York / US",
 "seed": false,
@@ -15937,7 +15939,7 @@
 "key": "/job/IL-Rosemont/Strategy--Deals-Strategy-Senior-Associate-Intern---Summer-2027_765700WD",
 "level": "A",
 "location": "IL-Rosemont",
-"missing": 0,
+"missing": 1,
 "posted": "2026-10-02",
 "region": "Autre / NC",
 "seed": true,
@@ -16156,27 +16158,6 @@
 "title": "2027 | APEJ | Seoul | Investment Banking | Off-Cycle Internship",
 "url": "https://higher.gs.com/roles/170784"
 },
-"31293085510c59f3": {
-"category": "Banque BB",
-"closed": "2026-10-19T06:16:15+00:00",
-"company": "RBC Capital Markets",
-"cycle": "Stage",
-"first_seen": "2026-10-05T14:56:02+00:00",
-"hq": "Toronto",
-"id": "31293085510c59f3",
-"key": "/job/TORONTO-Ontario-Canada/XMLNAME-2027-Winter---GRM--AI-Business-Analyst-Intern---Innovation---AI-Centre-of-Excellence--4-Months-_R-0000188000-1",
-"level": "B",
-"location": "TORONTO, Ontario, Canada",
-"missing": 3,
-"posted": "2026-10-05",
-"region": "Autre / NC",
-"seed": false,
-"skey": "RBC Capital Markets#workday#rbc.wd3/RBCEARLYTALENT1",
-"source": "workday",
-"tier": "2",
-"title": "2027 Winter – GRM, AI Business Analyst Intern – Innovation & AI Centre of Excellence (4 Months)",
-"url": "https://rbc.wd3.myworkdayjobs.com/en-US/RBCEARLYTALENT1/job/TORONTO-Ontario-Canada/XMLNAME-2027-Winter---GRM--AI-Business-Analyst-Intern---Innovation---AI-Centre-of-Excellence--4-Months-_R-0000188000-1"
-},
 "314a15730ea2f875": {
 "category": "Private Equity",
 "company": "PAI Partners",
@@ -16192,10 +16173,10 @@
 "id": "314a15730ea2f875",
 "key": "2782343",
 "level": "B",
-"location": "London, Greater London, United Kingdom",
+"location": "Paris, Île-de-France, France",
 "missing": 0,
 "posted": "2026-10-13",
-"region": "London / UK",
+"region": "Paris / France",
 "seed": false,
 "skey": "PAI Partners#recruitee#paipartners",
 "source": "recruitee",
@@ -16266,7 +16247,7 @@
 "key": "/job/New-York-New-York-United-States/Functions---Internal-Audit--Summer-Analyst--New-York---USA--2027_26951374",
 "level": "B",
 "location": "New York New York United States",
-"missing": 1,
+"missing": 2,
 "posted": "2026-09-21",
 "region": "New York / US",
 "seed": true,
@@ -16534,7 +16515,7 @@
 "key": "/job/IL-Rosemont/Accelerated-Solutions-Consulting-Senior-Associate-Intern---Summer-2027_765697WD",
 "level": "A",
 "location": "IL-Rosemont",
-"missing": 0,
+"missing": 1,
 "posted": "2026-10-02",
 "region": "Autre / NC",
 "seed": true,
@@ -16953,7 +16934,7 @@
 "key": "/job/Rome/AI-Adoption-Intern---Roma---DIG-_693283WD",
 "level": "B",
 "location": "Rome",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Europe (autre)",
 "seed": true,
@@ -17065,7 +17046,7 @@
 "key": "/job/Milan/Intern---International-Tax---Transfer-Pricing---Milano--TAX-_747803WD-1",
 "level": "B",
 "location": "Milan",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-09",
 "region": "Europe (autre)",
 "seed": true,
@@ -17271,6 +17252,7 @@
 },
 "344063a3a3a7f943": {
 "category": "Transaction Services",
+"closed": "2026-11-18T10:17:47+00:00",
 "company": "PwC",
 "cycle": "Stage",
 "first_seen": "2026-10-29T12:20:18+00:00",
@@ -17279,7 +17261,7 @@
 "key": "/job/Saint-Peter-Port/Business-Placement--External-Audit_771265WD-1",
 "level": "B",
 "location": "Saint Peter Port",
-"missing": 2,
+"missing": 3,
 "posted": "2026-10-29",
 "region": "Autre / NC",
 "seed": false,
@@ -18038,6 +18020,7 @@
 },
 "369136cdb0e909a1": {
 "category": "M&A Mid-Market",
+"closed": "2026-11-18T10:17:47+00:00",
 "company": "Raymond James",
 "cycle": "Off-cycle",
 "first_seen": "2026-11-16T10:12:25+00:00",
@@ -18046,7 +18029,7 @@
 "key": "/job/Santa-Barbara-California---United-States/Branch-Seasonal-Associate---Santa-Barbara--CA--3GD_R-0013803",
 "level": "B",
 "location": "",
-"missing": 2,
+"missing": 3,
 "posted": "2026-11-15",
 "region": "Autre / NC",
 "seed": false,
@@ -18725,6 +18708,7 @@
 "3937e83daf8c56e0": {
 "category": "Banque BB",
 "close_checked": true,
+"closed": "2026-11-18T10:17:47+00:00",
 "company": "Citi",
 "cycle": "Stage",
 "details": {
@@ -18741,7 +18725,7 @@
 "key": "/job/Sao-Paulo-Sao-Paulo-Brazil/Banking---Debt-Capital-Markets--Internship--So-Paulo---Brazil--2027_261002085",
 "level": "A",
 "location": "Sao Paulo Sao Paulo Brazil",
-"missing": 2,
+"missing": 3,
 "posted": "2026-10-14",
 "region": "Autre / NC",
 "seed": false,
@@ -19252,7 +19236,7 @@
 "key": "/job/Treviso/Stage-Audit---Brescia--Verona--Trento--Padova--Treviso--Udine--ADT-_608419WD",
 "level": "B",
 "location": "6 Locations",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Autre / NC",
 "seed": true,
@@ -19571,6 +19555,7 @@
 },
 "3c8434655f067099": {
 "category": "Banque BB",
+"closed": "2026-11-18T10:17:47+00:00",
 "company": "Santander CIB",
 "cycle": "Summer",
 "first_seen": "2026-11-09T20:50:52+00:00",
@@ -19980,6 +19965,7 @@
 "3dce660142941dd7": {
 "category": "Banque BB",
 "close_checked": true,
+"closed": "2026-11-18T10:17:47+00:00",
 "company": "Citi",
 "cycle": "Summer",
 "details": {
@@ -20001,7 +19987,7 @@
 "key": "/job/Milan-Milano-Italy/Banking--Commercial-Banking--Summer-Analyst--Milan---Italy-2027_26993595",
 "level": "A",
 "location": "Milan Milano Italy",
-"missing": 2,
+"missing": 3,
 "posted": "2026-09-15",
 "region": "Europe (autre)",
 "seed": true,
@@ -20443,7 +20429,7 @@
 "key": "/job/Milano---Via-Monte-Rosa-91/AI-Adoption-Intern---Milano--DIG-_693282WD",
 "level": "B",
 "location": "Milano - Via Monte Rosa 91",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Europe (autre)",
 "seed": true,
@@ -20952,7 +20938,7 @@
 "key": "/job/Milan/Advisory-Intern---Operating-Model-Transformation-FS---Milano_645005WD-2",
 "level": "A",
 "location": "Milan",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-09",
 "region": "Europe (autre)",
 "seed": true,
@@ -20972,7 +20958,7 @@
 "key": "/job/FL-Miami/Miami---Tax-JD---Intern---Summer-2027_756510WD",
 "level": "B",
 "location": "FL-Miami",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-24",
 "region": "New York / US",
 "seed": true,
@@ -21750,6 +21736,7 @@
 "4418017549741434": {
 "category": "Banque BB",
 "close_checked": true,
+"closed": "2026-11-18T10:17:47+00:00",
 "company": "Jefferies",
 "cycle": "Summer",
 "details": {
@@ -21771,7 +21758,7 @@
 "key": "2029",
 "level": "A",
 "location": "",
-"missing": 2,
+"missing": 3,
 "posted": null,
 "region": "New York / US",
 "seed": false,
@@ -21881,7 +21868,7 @@
 "key": "/job/Milan/Stage-Audit---Milano--ADT-_607354WD",
 "level": "B",
 "location": "3 Locations",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Europe (autre)",
 "seed": true,
@@ -23352,7 +23339,7 @@
 "key": "/job/Jakarta/Consulting---Internship---Strategy---Operations---Talent-Pool_641873WD",
 "level": "B",
 "location": "Jakarta",
-"missing": 0,
+"missing": 1,
 "posted": "2026-10-22",
 "region": "Autre / NC",
 "seed": false,
@@ -23943,6 +23930,26 @@
 "title": "2027 | EMEA | Paris | Human Capital Management | One Year Work Placement",
 "url": "https://higher.gs.com/roles/170149"
 },
+"4ab7365aa457f48e": {
+"category": "Transaction Services",
+"company": "Deloitte",
+"cycle": "Stage",
+"first_seen": "2026-11-18T10:17:47+00:00",
+"hq": "London",
+"id": "4ab7365aa457f48e",
+"key": "744000162247379",
+"level": "B",
+"location": "Amsterdam, NL",
+"missing": 0,
+"posted": "2026-11-18",
+"region": "Europe (autre)",
+"seed": false,
+"skey": "Deloitte#smartrecruiters#deloittenetherlands",
+"source": "smartrecruiters",
+"tier": "2",
+"title": "Werkstudent Risk & Data Transformation",
+"url": "https://jobs.smartrecruiters.com/deloittenetherlands/744000162247379"
+},
 "4ad3e8a53b3c6905": {
 "category": "Banque BB",
 "closed": "2026-11-18T02:17:02+00:00",
@@ -24210,7 +24217,7 @@
 "key": "/job/Rome/Capital-Markets---Accounting-Advisory---Intern---Roma--OTS-_732426WD",
 "level": "B",
 "location": "Rome",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Europe (autre)",
 "seed": true,
@@ -24455,27 +24462,6 @@
 "tier": "2",
 "title": "2027 Finance and Accounting Summer Analyst Program - Miami",
 "url": "https://santander.wd3.myworkdayjobs.com/en-US/SantanderCareers/job/Miami/XMLNAME-2027-Finance-and-Accounting-Summer-Analyst-Program---Miami_Req1628626"
-},
-"4c1352d55d3e6f0e": {
-"category": "Banque BB",
-"closed": "2026-10-19T06:16:15+00:00",
-"company": "Deutsche Bank",
-"cycle": "Stage",
-"first_seen": "2026-10-09T14:41:23+00:00",
-"hq": "Frankfurt",
-"id": "4c1352d55d3e6f0e",
-"key": "/job/Shanghai-Two-IFC/CB---Global-Markets--Corporate-Sales-Local-Intern_R0444896",
-"level": "B",
-"location": "Shanghai Two IFC",
-"missing": 3,
-"posted": "2026-09-09",
-"region": "Corée / Asie",
-"seed": true,
-"skey": "Deutsche Bank#workday#db.wd3/DBWebsite",
-"source": "workday",
-"tier": "1",
-"title": "CB - Global Markets, Corporate Sales Local Intern",
-"url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Shanghai-Two-IFC/CB---Global-Markets--Corporate-Sales-Local-Intern_R0444896"
 },
 "4c238ad5f6f474df": {
 "category": "Banque BB",
@@ -24974,7 +24960,7 @@
 "key": "/job/Saint-Helier/Associate---Business-Placement_771254WD",
 "level": "B",
 "location": "Saint Helier",
-"missing": 0,
+"missing": 1,
 "posted": "2026-10-29",
 "region": "Autre / NC",
 "seed": false,
@@ -25266,7 +25252,7 @@
 "key": "/job/Milan/Digital-Innovation-Intern---Milano--DIG-_548709WD",
 "level": "A",
 "location": "Milan",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Europe (autre)",
 "seed": true,
@@ -25446,36 +25432,6 @@
 "tier": "1",
 "title": "2028 Summer Analyst - Minneapolis Industrials & Technology",
 "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6753"
-},
-"4eececb06367d697": {
-"category": "Investisseur institutionnel",
-"closed": "2026-10-19T10:16:10+00:00",
-"company": "CDPQ",
-"cycle": "Stage",
-"details": {
-"country": "Inde",
-"duration": "5–6 mois",
-"start": "2026-10",
-"team": "Private Equity",
-"work_auth_mentioned": true
-},
-"details_tried": true,
-"first_seen": "2026-10-05T11:47:54+00:00",
-"hq": "Montreal",
-"id": "4eececb06367d697",
-"key": "/job/Delhi/Intern_R05123",
-"level": "A",
-"location": "Delhi",
-"missing": 0,
-"posted": "2026-09-22",
-"region": "Autre / NC",
-"seed": true,
-"skey": "CDPQ#workday#cdpq.wd10/CDPQ|CDPQ-recrutement-universitaire",
-"source": "workday",
-"tier": "2",
-"title": "Intern",
-"upgraded": true,
-"url": "https://cdpq.wd10.myworkdayjobs.com/en-US/CDPQ-recrutement-universitaire/job/Delhi/Intern_R05123"
 },
 "4efea1c37577772d": {
 "category": "Investisseur institutionnel",
@@ -26289,6 +26245,7 @@
 },
 "51b6845374c01809": {
 "category": "Boutique M&A",
+"closed": "2026-11-18T10:17:47+00:00",
 "company": "Houlihan Lokey",
 "cycle": "Off-cycle",
 "details": {
@@ -26305,7 +26262,7 @@
 "key": "/job/Sydney-Australia/Off-Cycle-Internship---Corporate-Finance--Part-Time-_R3669",
 "level": "A",
 "location": "Sydney, Australia",
-"missing": 2,
+"missing": 3,
 "posted": "2026-10-23",
 "region": "Corée / Asie",
 "seed": false,
@@ -26668,7 +26625,7 @@
 "key": "/job/Milan/Stage-Audit-Risk-Financial-Services---Milano--ADT-_642418WD-1",
 "level": "B",
 "location": "Milan",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Europe (autre)",
 "seed": true,
@@ -27022,7 +26979,7 @@
 "key": "/job/Milan/RPA-Developer-Intern---Milano--DIG-_669071WD",
 "level": "B",
 "location": "Milan",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Europe (autre)",
 "seed": true,
@@ -27435,28 +27392,6 @@
 "tier": "2",
 "title": "Werkstudent Tax Reporting",
 "url": "https://jobs.smartrecruiters.com/deloittenetherlands/744000156827849"
-},
-"559ce973ea65df55": {
-"category": "Banque BB",
-"close_checked": true,
-"closed": "2026-10-19T09:07:55+00:00",
-"company": "Deutsche Bank",
-"cycle": "Stage",
-"first_seen": "2026-10-05T11:47:54+00:00",
-"hq": "Frankfurt",
-"id": "559ce973ea65df55",
-"key": "75226",
-"level": "B",
-"location": "Shanghai",
-"missing": 3,
-"posted": "2026-08-26",
-"region": "Corée / Asie",
-"seed": true,
-"skey": "Deutsche Bank#beesite#api-deutschebank.beesite.de",
-"source": "beesite",
-"tier": "1",
-"title": "CB - Global Markets, Corporate Sales Local Intern",
-"url": "https://careers.db.com/professionals/search-roles/#/professional/job/75226"
 },
 "55a346e1e4b705d1": {
 "category": "Banque BB",
@@ -28404,7 +28339,7 @@
 "key": "/job/IL-Rosemont/Financial-Crimes-Unit-Consulting-Senior-Associate-Intern---Summer-2027_765384WD",
 "level": "A",
 "location": "IL-Rosemont",
-"missing": 0,
+"missing": 1,
 "posted": "2026-10-02",
 "region": "Autre / NC",
 "seed": true,
@@ -29701,7 +29636,7 @@
 "key": "/job/Rome/Stage-Audit-LABO---Roma--ADT-_643887WD-1",
 "level": "B",
 "location": "Rome",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-09",
 "region": "Europe (autre)",
 "seed": true,
@@ -30348,7 +30283,7 @@
 "key": "/job/Trento/Digital-Procurement-Intern---Trento_706099WD-1",
 "level": "B",
 "location": "Trento",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Autre / NC",
 "seed": true,
@@ -30403,6 +30338,7 @@
 },
 "5e3bb99aff53dfcc": {
 "category": "Banque BB",
+"closed": "2026-11-18T10:17:47+00:00",
 "company": "ING",
 "cycle": "Off-cycle",
 "first_seen": "2026-11-17T11:41:11+00:00",
@@ -30411,7 +30347,7 @@
 "key": "/job/Leuven-Bondgenotenlaan/Stage-Private-Banking_REQ-10123939",
 "level": "B",
 "location": "Leuven Bondgenotenlaan",
-"missing": 2,
+"missing": 3,
 "posted": "2026-11-17",
 "region": "Autre / NC",
 "seed": false,
@@ -31413,6 +31349,7 @@
 },
 "60e869ae04249c5d": {
 "category": "Banque BB",
+"closed": "2026-11-18T10:17:47+00:00",
 "company": "Santander CIB",
 "cycle": "Summer",
 "first_seen": "2026-11-09T20:50:52+00:00",
@@ -31984,7 +31921,7 @@
 "key": "/job/Rubano/Technology-EPM-Junior-Consultant---Internship---Rubano--Padova-_702780WD",
 "level": "B",
 "location": "Rubano",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-09",
 "region": "Autre / NC",
 "seed": true,
@@ -32826,7 +32763,7 @@
 "key": "/job/IL-Rosemont/Strategy--Deals-Strategy-Private-Equity-Senior-Associate-Intern---Summer-2027_765706WD",
 "level": "A",
 "location": "IL-Rosemont",
-"missing": 0,
+"missing": 1,
 "posted": "2026-10-02",
 "region": "Autre / NC",
 "seed": true,
@@ -32907,7 +32844,7 @@
 "key": "/job/IL-Rosemont/Management-Consulting---Sector-Operations---Financial-Services-Senior-Associate-Intern---Summer-2027_765388WD",
 "level": "B",
 "location": "IL-Rosemont",
-"missing": 0,
+"missing": 1,
 "posted": "2026-10-02",
 "region": "Autre / NC",
 "seed": true,
@@ -34682,7 +34619,7 @@
 "key": "/job/Turin/Stage-Audit---Torino-e-Genova--ADT-_474853WD-1",
 "level": "B",
 "location": "2 Locations",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Autre / NC",
 "seed": true,
@@ -34767,6 +34704,28 @@
 "title": "Banking – Corporate Baking, Internship, Bogotá – Colombia, 2026",
 "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Bogota--Colombia/Banking---Corporate-Baking--Internship--Bogot---Colombia--2026_25909660"
 },
+"6b83fd84344fc542": {
+"category": "Boutique M&A",
+"company": "Lazard",
+"cycle": "Stage",
+"details_tried": true,
+"first_seen": "2026-11-18T10:17:47+00:00",
+"hq": "New York",
+"id": "6b83fd84344fc542",
+"key": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6638",
+"level": "A",
+"location": "London, United Kingdom",
+"missing": 0,
+"posted": null,
+"region": "London / UK",
+"seed": false,
+"skey": "YourFinanceJob (agrégateur)#aggregator#spring-weeks-and-insight-days,summer-internships-list,student-and-graduate,investment-banks,boutique-advisory,private-equity-firms,france,switzerland,new-this-week",
+"source": "aggregator",
+"tier": "1",
+"title": "2027-2028 London Financial Advisory Industrial Placement",
+"url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6638",
+"via": "YourFinanceJob · Boutique advisory"
+},
 "6b8fd31e79440a48": {
 "category": "Transaction Services",
 "company": "PwC",
@@ -34777,7 +34736,7 @@
 "key": "/job/IL-Rosemont/Sustainability-Strategy---Senior-Associate-Intern---Summer-2027_765703WD",
 "level": "B",
 "location": "IL-Rosemont",
-"missing": 0,
+"missing": 1,
 "posted": "2026-10-02",
 "region": "Autre / NC",
 "seed": true,
@@ -34952,6 +34911,7 @@
 },
 "6c0c0082e70f38ba": {
 "category": "Private Equity",
+"closed": "2026-11-18T10:17:47+00:00",
 "company": "Blackstone",
 "cycle": "Summer",
 "first_seen": "2026-10-05T11:47:54+00:00",
@@ -34960,7 +34920,7 @@
 "key": "/job/London/XMLNAME-2027-Blackstone-Real-Estate-Institutional-Client-Solutions-Summer-Analyst--London-_43188",
 "level": "B",
 "location": "London",
-"missing": 2,
+"missing": 3,
 "posted": "2026-07-13",
 "posted_tried": true,
 "region": "London / UK",
@@ -35166,7 +35126,7 @@
 "key": "/job/Milan/GenAI-Adoption-Intern---Milano--DIG-_678360WD",
 "level": "A",
 "location": "Milan",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Europe (autre)",
 "seed": false,
@@ -36577,6 +36537,7 @@
 "70a8567e8ff6b7ba": {
 "category": "Banque BB",
 "close_checked": true,
+"closed": "2026-11-18T10:17:47+00:00",
 "company": "Deutsche Bank",
 "cycle": "Stage",
 "first_seen": "2026-10-20T13:27:00+00:00",
@@ -36585,7 +36546,7 @@
 "key": "76272",
 "level": "B",
 "location": "Paris",
-"missing": 2,
+"missing": 3,
 "posted": "2026-10-20",
 "region": "Paris / France",
 "seed": true,
@@ -36756,7 +36717,7 @@
 "key": "/job/VANCOUVER-British-Columbia-Canada/Group-Advantage-Relationship-Manager-Intern_R-0000191899",
 "level": "B",
 "location": "VANCOUVER, British Columbia, Canada",
-"missing": 0,
+"missing": 1,
 "posted": "2026-11-04",
 "region": "Autre / NC",
 "seed": false,
@@ -37038,7 +36999,7 @@
 "key": "/job/Rome/SAP-Internship---Roma--ADV-_675808WD",
 "level": "A",
 "location": "Rome",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-10",
 "region": "Europe (autre)",
 "seed": true,
@@ -37185,27 +37146,6 @@
 "tier": "2",
 "title": "Private Equity Internship - Frankfurt TSM (April - June 2027)",
 "url": "https://tritonpartners.wd3.myworkdayjobs.com/en-US/External/job/Frankfurt/Private-Equity-Internship---Frankfurt-TSM--April---June-2027-_R1125"
-},
-"7295697d98b9f5d0": {
-"category": "Banque BB",
-"closed": "2026-10-19T06:16:15+00:00",
-"company": "BMO Capital Markets",
-"cycle": "Stage",
-"first_seen": "2026-10-07T20:54:10+00:00",
-"hq": "Toronto",
-"id": "7295697d98b9f5d0",
-"key": "/job/Toronto-ON-CAN/Wealth-Investorline-Associate--Winter-2027--Co-op-Internship----4-months_R260025850",
-"level": "B",
-"location": "Toronto, ON, CAN",
-"missing": 3,
-"posted": "2026-10-07",
-"region": "Autre / NC",
-"seed": false,
-"skey": "BMO Capital Markets#workday#bmo.wd3/Campus",
-"source": "workday",
-"tier": "3",
-"title": "Wealth Investorline Associate, Winter 2027 (Co-op/Internship) - 4 months",
-"url": "https://bmo.wd3.myworkdayjobs.com/en-US/Campus/job/Toronto-ON-CAN/Wealth-Investorline-Associate--Winter-2027--Co-op-Internship----4-months_R260025850"
 },
 "7295cee4c54816aa": {
 "category": "Autre (agrégateur)",
@@ -37750,7 +37690,7 @@
 "key": "/job/Palermo/Advisory---Intern---Palermo---Acceleration-Center--ADV-_760593WD",
 "level": "A",
 "location": "Palermo",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-11",
 "region": "Autre / NC",
 "seed": true,
@@ -39353,7 +39293,7 @@
 "key": "/job/Treviso/Technology-EPM-Junior-Consultant---Treviso---Internship---Private-Sector_651627WD",
 "level": "B",
 "location": "Treviso",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Autre / NC",
 "seed": true,
@@ -39672,7 +39612,7 @@
 "key": "/job/OAKVILLE-Ontario-Canada/Banking-Advisor-Intern_R-0000191860",
 "level": "B",
 "location": "OAKVILLE, Ontario, Canada",
-"missing": 0,
+"missing": 1,
 "posted": "2026-11-04",
 "region": "Autre / NC",
 "seed": true,
@@ -39807,7 +39747,7 @@
 "key": "/job/Treviso/Advisory-Intern-Consultant---Technology-EPM---EST--Treviso--Rubano--Verona-_610467WD",
 "level": "B",
 "location": "3 Locations",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Autre / NC",
 "seed": true,
@@ -40314,6 +40254,26 @@
 "title": "2027 Equity Research Off-Cycle Internship (London)",
 "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/candidate/so/pm/1/pl/1/opp/21517-2027-Equity-Research-Off-Cycle-Internship-London/en-GB"
 },
+"7c7890b2111f7c58": {
+"category": "Banque BB",
+"company": "Morgan Stanley",
+"cycle": "Spring / Insight",
+"first_seen": "2026-11-18T10:17:47+00:00",
+"hq": "New York",
+"id": "7c7890b2111f7c58",
+"key": "22480",
+"level": "B",
+"location": "",
+"missing": 0,
+"posted": null,
+"region": "Corée / Asie",
+"seed": false,
+"skey": "Morgan Stanley#oleeo#morganstanley",
+"source": "oleeo",
+"tier": "1",
+"title": "2027 Financial Control Group Spring Internship Program (Mumbai)",
+"url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/candidate/so/pm/1/pl/1/opp/22480-2027-Financial-Control-Group-Spring-Internship-Program-Mumbai/en-GB"
+},
 "7c89ea09a9d70eb1": {
 "category": "Banque BB",
 "company": "Morgan Stanley",
@@ -40426,7 +40386,7 @@
 "key": "/job/Milan/Advisory---Intern---Milano---Deals-Valuation-Financial-Services_605599WD",
 "level": "A",
 "location": "Milan",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Europe (autre)",
 "seed": true,
@@ -40999,7 +40959,7 @@
 "key": "744000161820095",
 "level": "B",
 "location": "Amsterdam, NL",
-"missing": 0,
+"missing": 1,
 "posted": "2026-11-16",
 "region": "Europe (autre)",
 "seed": false,
@@ -41081,7 +41041,7 @@
 "key": "/job/IL-Rosemont/Management-Consulting---Operations---Supply-Chain-Solutions-Senior-Associate-Intern---Summer-2027_765632WD",
 "level": "B",
 "location": "IL-Rosemont",
-"missing": 0,
+"missing": 1,
 "posted": "2026-10-02",
 "region": "Autre / NC",
 "seed": true,
@@ -41094,6 +41054,7 @@
 "7eeaf49cec203354": {
 "category": "Banque BB",
 "close_checked": true,
+"closed": "2026-11-18T10:17:47+00:00",
 "company": "Citi",
 "cycle": "Stage",
 "details": {
@@ -41109,7 +41070,7 @@
 "key": "/job/Sao-Paulo-Sao-Paulo-Brazil/Banking---Infrastructure-Finance--Internship--So-Paulo---Brazil--2027_261002090",
 "level": "A",
 "location": "Sao Paulo Sao Paulo Brazil",
-"missing": 2,
+"missing": 3,
 "posted": "2026-10-14",
 "region": "Autre / NC",
 "seed": false,
@@ -41663,7 +41624,7 @@
 "key": "/job/Milan/Cloud-Architect-Intern---Milano_768771WD-1",
 "level": "B",
 "location": "Milan",
-"missing": 0,
+"missing": 1,
 "posted": "2026-10-19",
 "region": "Europe (autre)",
 "seed": false,
@@ -41792,7 +41753,7 @@
 "key": "/job/Milan/Cloud-Infrastructure-Intern---Milano_767954WD",
 "level": "B",
 "location": "Milan",
-"missing": 0,
+"missing": 1,
 "posted": "2026-10-14",
 "region": "Europe (autre)",
 "seed": false,
@@ -41872,7 +41833,7 @@
 "key": "/job/Trento/Tester-Intern---Trento--DIG-_591164WD",
 "level": "A",
 "location": "Trento",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-09",
 "region": "Autre / NC",
 "seed": true,
@@ -42179,7 +42140,7 @@
 "key": "/job/Jakarta/Internship---Digital--Cloud--Data---IT-Strategy-Stream_764264WD",
 "level": "B",
 "location": "Jakarta",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-25",
 "region": "Autre / NC",
 "seed": true,
@@ -43486,7 +43447,7 @@
 "key": "/job/Bologna/AI-Adoption-Intern---Bologna--DIG-_693279WD",
 "level": "B",
 "location": "Bologna",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Autre / NC",
 "seed": true,
@@ -44028,7 +43989,7 @@
 "key": "/job/Bologna/Stage-Audit-Financial-Services---Bologna-e-Firenze--ADT-_595917WD-1",
 "level": "B",
 "location": "2 Locations",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Autre / NC",
 "seed": true,
@@ -44148,7 +44109,7 @@
 "key": "/job/Milan/D-A-e-Reporting-Intern---Milano--DIG-_726190WD",
 "level": "B",
 "location": "Milan",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Europe (autre)",
 "seed": true,
@@ -44641,7 +44602,7 @@
 "key": "/job/IL-Rosemont/Risk---Reg---Technology---Analytics-Senior-Associate-Intern---Summer-2027_765386WD",
 "level": "B",
 "location": "IL-Rosemont",
-"missing": 0,
+"missing": 1,
 "posted": "2026-10-02",
 "region": "Autre / NC",
 "seed": true,
@@ -45960,7 +45921,7 @@
 "key": "/job/Jakarta/Internship---Digital--Cloud--Data---IT-Due-Diligence_764263WD",
 "level": "B",
 "location": "Jakarta",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-25",
 "region": "Autre / NC",
 "seed": true,
@@ -46063,7 +46024,7 @@
 "key": "/job/Bologna/Stage-Audit---Bologna--Firenze--Parma--Ancona--ADT-_600384WD-1",
 "level": "B",
 "location": "Bologna",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-10",
 "region": "Autre / NC",
 "seed": true,
@@ -46264,6 +46225,7 @@
 "8f5831e7edda8554": {
 "category": "Banque BB",
 "close_checked": true,
+"closed": "2026-11-18T10:17:47+00:00",
 "company": "Jefferies",
 "cycle": "Summer",
 "details": {
@@ -46282,7 +46244,7 @@
 "key": "1989",
 "level": "A",
 "location": "",
-"missing": 2,
+"missing": 3,
 "posted": null,
 "region": "New York / US",
 "seed": false,
@@ -46535,27 +46497,6 @@
 "url": "https://job-boards.greenhouse.io/capstoneinvestmentadvisors/jobs/8882130002",
 "via": "YourFinanceJob · Summer internships"
 },
-"90327bb1cf1b1206": {
-"category": "Banque BB",
-"closed": "2026-10-19T06:16:15+00:00",
-"company": "BMO Capital Markets",
-"cycle": "Stage",
-"first_seen": "2026-10-08T16:56:18+00:00",
-"hq": "Toronto",
-"id": "90327bb1cf1b1206",
-"key": "/job/Toronto-ON-CAN/Analyst--Capital-Markets-Treasury---Winter-2027--Co-op-Internship----4-Months_R260028665-1",
-"level": "B",
-"location": "Toronto, ON, CAN",
-"missing": 3,
-"posted": "2026-10-08",
-"region": "Autre / NC",
-"seed": false,
-"skey": "BMO Capital Markets#workday#bmo.wd3/Campus",
-"source": "workday",
-"tier": "3",
-"title": "Analyst, Capital Markets Treasury - Winter 2027 (Co-op/Internship) - 4 Months",
-"url": "https://bmo.wd3.myworkdayjobs.com/en-US/Campus/job/Toronto-ON-CAN/Analyst--Capital-Markets-Treasury---Winter-2027--Co-op-Internship----4-Months_R260028665-1"
-},
 "903977ef413d1428": {
 "category": "Banque BB",
 "closed": "2026-11-06T22:23:39+00:00",
@@ -46628,6 +46569,31 @@
 "title": "Salt Lake City - Digital Assurance & Transparency (DAT) - Intern - Summer 2027",
 "upgraded": true,
 "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Entry_Level_Careers/job/UT-Salt-Lake-City/Salt-Lake-City---Digital-Assurance---Transparency--DAT----Intern---Summer-2027_764775WD"
+},
+"907ad907b7c99c25": {
+"category": "M&A Mid-Market",
+"company": "Kepler Cheuvreux",
+"cycle": "Off-cycle",
+"details": {
+"team": "Markets"
+},
+"details_tried": true,
+"first_seen": "2026-11-18T10:17:47+00:00",
+"hq": "Paris",
+"id": "907ad907b7c99c25",
+"key": "https://keplercheuvreux.teamtailor.com/jobs/8474780-internship-structuring-dynamic-strategies-nyon",
+"level": "A",
+"location": "Nyon, Switzerland, CH",
+"missing": 0,
+"posted": null,
+"region": "Suisse",
+"seed": false,
+"skey": "YourFinanceJob (agrégateur)#aggregator#spring-weeks-and-insight-days,summer-internships-list,student-and-graduate,investment-banks,boutique-advisory,private-equity-firms,france,switzerland,new-this-week",
+"source": "aggregator",
+"tier": "3",
+"title": "INTERNSHIP - STRUCTURING - DYNAMIC STRATEGIES - NYON",
+"url": "https://keplercheuvreux.teamtailor.com/jobs/8474780-internship-structuring-dynamic-strategies-nyon",
+"via": "YourFinanceJob · Suisse"
 },
 "908f3db5912de7d0": {
 "category": "Banque BB",
@@ -46822,7 +46788,7 @@
 "key": "/job/Milan/Digital-Transformation-Intern---Milano--DIG-_749880WD",
 "level": "A",
 "location": "Milan",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Europe (autre)",
 "seed": true,
@@ -46832,27 +46798,6 @@
 "title": "Digital Transformation Intern - Milano [DIG]",
 "upgraded": true,
 "url": "https://pwc.wd3.myworkdayjobs.com/en-US/Global_Campus_Careers/job/Milan/Digital-Transformation-Intern---Milano--DIG-_749880WD"
-},
-"90e8aed7c275cffa": {
-"category": "Transaction Services",
-"closed": "2026-10-19T06:16:15+00:00",
-"company": "PwC",
-"cycle": "Off-cycle",
-"first_seen": "2026-10-05T11:47:54+00:00",
-"hq": "London",
-"id": "90e8aed7c275cffa",
-"key": "/job/Singapore/Actuarial-Services--Actuarial--Benefits-and-Insurance--Year-End-Internship--Nov-26---Mar-Apr-27-_741155WD",
-"level": "B",
-"location": "Singapore",
-"missing": 3,
-"posted": "2026-09-17",
-"region": "Corée / Asie",
-"seed": true,
-"skey": "PwC#workday#pwc.wd3/Global_Campus_Careers",
-"source": "workday",
-"tier": "2",
-"title": "Actuarial Services (Actuarial, Benefits and Insurance) Off-Cycle Internship (Jan - Jun 27)",
-"url": "https://pwc.wd3.myworkdayjobs.com/en-US/Global_Campus_Careers/job/Singapore/Actuarial-Services--Actuarial--Benefits-and-Insurance--Year-End-Internship--Nov-26---Mar-Apr-27-_741155WD"
 },
 "91094bc59044d7f9": {
 "category": "Banque BB",
@@ -47017,7 +46962,7 @@
 "key": "/job/Milan/Operations-Internship--Supply-Chain--Logistics-e-Procurement----MILANO--ADV-_675890WD",
 "level": "B",
 "location": "Milan",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Europe (autre)",
 "seed": true,
@@ -47194,6 +47139,7 @@
 "91e34b2d6d2dd0ad": {
 "category": "Banque BB",
 "close_checked": true,
+"closed": "2026-11-18T10:17:47+00:00",
 "company": "Nomura",
 "cycle": "Off-cycle",
 "details": {
@@ -47210,7 +47156,7 @@
 "key": "1504",
 "level": "A",
 "location": "",
-"missing": 2,
+"missing": 3,
 "posted": null,
 "region": "Europe (autre)",
 "seed": true,
@@ -50220,6 +50166,7 @@
 "9aac920d69bde847": {
 "category": "Banque BB",
 "close_checked": true,
+"closed": "2026-11-18T10:17:47+00:00",
 "company": "Jefferies",
 "cycle": "Summer",
 "details": {
@@ -50239,7 +50186,7 @@
 "key": "2035",
 "level": "A",
 "location": "",
-"missing": 2,
+"missing": 3,
 "posted": null,
 "region": "New York / US",
 "seed": false,
@@ -50489,7 +50436,7 @@
 "key": "/job/IL-Rosemont/Management-Consulting---Sector-Operations---Health-Senior-Associate-Intern---Summer-2027_765646WD",
 "level": "B",
 "location": "IL-Rosemont",
-"missing": 0,
+"missing": 1,
 "posted": "2026-10-02",
 "region": "Autre / NC",
 "seed": true,
@@ -50655,7 +50602,7 @@
 "key": "/job/Milan/Procurement-Intern---Milano--ADV-_605329WD-1",
 "level": "B",
 "location": "Milan",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Europe (autre)",
 "seed": true,
@@ -52615,7 +52562,7 @@
 "key": "/job/Milan/Business---Technology-Consultant--Financial-Services----INTERNSHIP---Milano--ADV-_647514WD",
 "level": "B",
 "location": "Milan",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Europe (autre)",
 "seed": true,
@@ -52646,7 +52593,7 @@
 "key": "6614",
 "level": "A",
 "location": "New York, United States",
-"missing": 1,
+"missing": 2,
 "posted": "2026-10-06",
 "region": "New York / US",
 "seed": false,
@@ -53733,6 +53680,7 @@
 },
 "a55117d7d63c0e43": {
 "category": "Private Equity",
+"closed": "2026-11-18T10:17:47+00:00",
 "company": "Blackstone",
 "cycle": "Off-cycle",
 "first_seen": "2026-10-05T11:47:54+00:00",
@@ -53741,7 +53689,7 @@
 "key": "/job/Frankfurt-Omniturm/XMLNAME-2026-Blackstone-Private-Equity-H2-Off-Cycle-Internship-Frankfurt_41376-1",
 "level": "B",
 "location": "Frankfurt Omniturm",
-"missing": 2,
+"missing": 3,
 "posted": "2026-04-14",
 "posted_tried": true,
 "region": "Europe (autre)",
@@ -53766,7 +53714,7 @@
 "key": "/job/IL-Rosemont/Delivering-Deal-Value--DDV--Senior-Associate-Intern---Summer-2027_765612WD",
 "level": "A",
 "location": "IL-Rosemont",
-"missing": 0,
+"missing": 1,
 "posted": "2026-10-02",
 "region": "Autre / NC",
 "seed": true,
@@ -55381,6 +55329,7 @@
 },
 "a9dd34c864e5d7fb": {
 "category": "Banque BB",
+"closed": "2026-11-18T10:17:47+00:00",
 "company": "ING",
 "cycle": "Stage",
 "details": {
@@ -55397,7 +55346,7 @@
 "key": "/job/Bruxelles-Avenue-Marnix-ING/Intern-Social-Media_REQ-10122247",
 "level": "B",
 "location": "Bruxelles Avenue Marnix (ING)",
-"missing": 2,
+"missing": 3,
 "posted": "2026-09-30",
 "region": "Europe (autre)",
 "seed": true,
@@ -56362,7 +56311,7 @@
 "key": "/job/Milan/Finance-Intern--Banking---AWM----Milano----ADV-_762779WD",
 "level": "A",
 "location": "Milan",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-16",
 "region": "Europe (autre)",
 "seed": true,
@@ -57073,7 +57022,7 @@
 "key": "/job/Milan/Stage---Tax-IVA---Milano--TAX-_710711WD",
 "level": "B",
 "location": "Milan",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Europe (autre)",
 "seed": true,
@@ -57385,7 +57334,7 @@
 "key": "/job/Singapore/Intern--Financial-Markets-Business-Management_REQ-10122759",
 "level": "B",
 "location": "Singapore",
-"missing": 0,
+"missing": 1,
 "posted": "2026-10-06",
 "region": "Corée / Asie",
 "seed": false,
@@ -57769,7 +57718,7 @@
 "key": "/job/Milan/SAP-Consultant-Intern_768798WD-1",
 "level": "B",
 "location": "Milan",
-"missing": 0,
+"missing": 1,
 "posted": "2026-10-19",
 "region": "Europe (autre)",
 "seed": false,
@@ -57978,7 +57927,7 @@
 "key": "/job/Rome/Stage-Audit-Financial-Services----Roma--ADT-_477265WD",
 "level": "B",
 "location": "4 Locations",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Autre / NC",
 "seed": true,
@@ -58219,6 +58168,7 @@
 "b2a4cd6abe39ee70": {
 "category": "Banque BB",
 "close_checked": true,
+"closed": "2026-11-18T10:17:47+00:00",
 "company": "Citi",
 "cycle": "Summer",
 "first_seen": "2026-10-05T11:47:54+00:00",
@@ -58227,7 +58177,7 @@
 "key": "/job/Irving-Texas-United-States/Functions---Internal-Audit--Summer-Analyst--Dallas---USA--2027_26951372",
 "level": "B",
 "location": "Irving Texas United States",
-"missing": 2,
+"missing": 3,
 "posted": "2026-09-05",
 "region": "New York / US",
 "seed": true,
@@ -58254,7 +58204,7 @@
 "key": "/job/Jakarta/Internship---Consulting---SAP_650008WD-1",
 "level": "A",
 "location": "Jakarta",
-"missing": 0,
+"missing": 1,
 "posted": "2026-11-05",
 "region": "Autre / NC",
 "seed": false,
@@ -59074,6 +59024,28 @@
 "title": "Internship - Corporate Advisory Team, Mid-Market M&A (f/m/x)",
 "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Milano-Via-Turati-25-27/Internship---Corporate-Advisory-Team--Mid-Market-M-A--f-m-x-_R0455361"
 },
+"b54713f79dcbe6f2": {
+"category": "Banque BB",
+"company": "ING",
+"cycle": "Off-cycle",
+"details_tried": true,
+"first_seen": "2026-11-18T10:17:47+00:00",
+"hq": "Amsterdam",
+"id": "b54713f79dcbe6f2",
+"key": "https://careers.ing.com/en/job/paris/stagiaire-corporate-lending-origination-and-execution-credit-analyst/3121/45851654656",
+"level": "A",
+"location": "Paris, France",
+"missing": 0,
+"posted": null,
+"region": "Paris / France",
+"seed": false,
+"skey": "YourFinanceJob (agrégateur)#aggregator#spring-weeks-and-insight-days,summer-internships-list,student-and-graduate,investment-banks,boutique-advisory,private-equity-firms,france,switzerland,new-this-week",
+"source": "aggregator",
+"tier": "3",
+"title": "Stagiaire Corporate Lending - Origination & Execution / Credit Analyst",
+"url": "https://careers.ing.com/en/job/paris/stagiaire-corporate-lending-origination-and-execution-credit-analyst/3121/45851654656",
+"via": "YourFinanceJob · France"
+},
 "b562eeffd5074912": {
 "category": "Banque BB",
 "company": "Goldman Sachs",
@@ -59540,7 +59512,7 @@
 "key": "/job/Verona/Intern-Technology-EPM--Private-sector----Verona--ADV-_617371WD-2",
 "level": "B",
 "location": "Verona",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Autre / NC",
 "seed": true,
@@ -59795,6 +59767,30 @@
 "title": "2027 Global Private Bank - Advisor Summer Internship Program - Zurich",
 "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774235"
 },
+"b75a1538aa70b41f": {
+"category": "Banque BB",
+"company": "Deutsche Bank",
+"cycle": "Stage",
+"details": {
+"team": "M&A / IBD"
+},
+"details_tried": true,
+"first_seen": "2026-11-18T10:17:47+00:00",
+"hq": "Frankfurt",
+"id": "b75a1538aa70b41f",
+"key": "76768",
+"level": "A",
+"location": "Beijing",
+"missing": 0,
+"posted": "2026-11-18",
+"region": "Corée / Asie",
+"seed": false,
+"skey": "Deutsche Bank#beesite#api-deutschebank.beesite.de",
+"source": "beesite",
+"tier": "1",
+"title": "Corporate Bank - Coverage Local Intern",
+"url": "https://careers.db.com/professionals/search-roles/#/professional/job/76768"
+},
 "b75ffebf11ef409f": {
 "category": "Boutique M&A",
 "close_checked": true,
@@ -59830,6 +59826,7 @@
 "b779b8ddc40b1465": {
 "category": "Banque BB",
 "close_checked": true,
+"closed": "2026-11-18T10:17:47+00:00",
 "company": "Jefferies",
 "cycle": "Summer",
 "details": {
@@ -59848,7 +59845,7 @@
 "key": "2043",
 "level": "A",
 "location": "",
-"missing": 2,
+"missing": 3,
 "posted": null,
 "region": "New York / US",
 "seed": false,
@@ -60274,7 +60271,7 @@
 "key": "/job/Milan/SAP-Internship---Milano--ADV-_629041WD",
 "level": "A",
 "location": "Milan",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-07",
 "region": "Europe (autre)",
 "seed": false,
@@ -60366,7 +60363,7 @@
 "key": "/job/Rubano/Advisory-private---Intern---SAP-MM---PM---Rubano---BUS-TECH_632647WD",
 "level": "A",
 "location": "Rubano",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Autre / NC",
 "seed": true,
@@ -63255,7 +63252,7 @@
 "key": "210742448",
 "level": "A",
 "location": "Zurich, ZH, Switzerland",
-"missing": 1,
+"missing": 2,
 "posted": "2026-04-30",
 "region": "Suisse",
 "seed": true,
@@ -63374,6 +63371,7 @@
 "c0d71142ffae1f50": {
 "category": "Banque BB",
 "close_checked": true,
+"closed": "2026-11-18T10:17:47+00:00",
 "company": "Citi",
 "cycle": "Summer",
 "details": {
@@ -63395,7 +63393,7 @@
 "key": "/job/Amsterdam--Netherlands/Banking--Commercial-Banking--Summer-Analyst--Amsterdam---The-Netherlands-2027_26993571",
 "level": "A",
 "location": "Amsterdam  Netherlands",
-"missing": 2,
+"missing": 3,
 "posted": "2026-09-27",
 "region": "Europe (autre)",
 "seed": true,
@@ -64375,6 +64373,7 @@
 "c4f052fb0e4f43b1": {
 "category": "Banque BB",
 "close_checked": true,
+"closed": "2026-11-18T10:17:47+00:00",
 "company": "Citi",
 "cycle": "Summer",
 "details": {
@@ -64396,7 +64395,7 @@
 "key": "/job/Stockholm--Sweden/Banking--Commercial-Banking--Summer-Analyst--Stockholm---Sweden-2027_26993619",
 "level": "A",
 "location": "Stockholm  Sweden",
-"missing": 2,
+"missing": 3,
 "posted": "2026-09-23",
 "region": "Europe (autre)",
 "seed": true,
@@ -64705,7 +64704,7 @@
 "key": "/job/IL-Rosemont/Strategy--Strategy-Consulting-Senior-Associate-Intern---Summer-2027_765647WD",
 "level": "A",
 "location": "IL-Rosemont",
-"missing": 0,
+"missing": 1,
 "posted": "2026-10-02",
 "region": "Autre / NC",
 "seed": true,
@@ -66913,7 +66912,7 @@
 "key": "/job/Naples/Stage-Audit----Napoli--Pescara--Bari--Palermo-e-Catania--ADT-_595887WD",
 "level": "B",
 "location": "5 Locations",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Autre / NC",
 "seed": true,
@@ -67153,6 +67152,7 @@
 },
 "cd7c576bb5006090": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "Jefferies",
 "cycle": "Summer",
 "first_seen": "2026-10-05T11:47:54+00:00",
@@ -67161,7 +67161,7 @@
 "key": "1929",
 "level": "B",
 "location": "",
-"missing": 0,
+"missing": 1,
 "posted": null,
 "region": "London / UK",
 "seed": true,
@@ -67687,27 +67687,6 @@
 "tier": "1",
 "title": "2027 Spring Insights: Analyse & Trade at JPMorganChase – London",
 "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210795361"
-},
-"cf20cf2897f46713": {
-"category": "Banque BB",
-"closed": "2026-10-19T06:16:15+00:00",
-"company": "RBC Capital Markets",
-"cycle": "Stage",
-"first_seen": "2026-10-05T14:56:02+00:00",
-"hq": "Toronto",
-"id": "cf20cf2897f46713",
-"key": "/job/TORONTO-Ontario-Canada/XMLNAME-2027-Winter---GRM--AI-Developer-Intern---Innovation---AI-Center-of-Excellence--4-Months-_R-0000188001-1",
-"level": "B",
-"location": "TORONTO, Ontario, Canada",
-"missing": 3,
-"posted": "2026-10-05",
-"region": "Autre / NC",
-"seed": false,
-"skey": "RBC Capital Markets#workday#rbc.wd3/RBCEARLYTALENT1",
-"source": "workday",
-"tier": "2",
-"title": "2027 Winter – GRM, AI Developer Intern - Innovation & AI Center of Excellence (4 Months)",
-"url": "https://rbc.wd3.myworkdayjobs.com/en-US/RBCEARLYTALENT1/job/TORONTO-Ontario-Canada/XMLNAME-2027-Winter---GRM--AI-Developer-Intern---Innovation---AI-Center-of-Excellence--4-Months-_R-0000188001-1"
 },
 "cf22e80e0548f0ab": {
 "category": "Autre (agrégateur)",
@@ -68433,7 +68412,7 @@
 "key": "/job/Rome/IT-Project-Management---INTERNSHIP---Roma_627026WD",
 "level": "B",
 "location": "Rome",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Europe (autre)",
 "seed": true,
@@ -70672,7 +70651,7 @@
 "key": "/job/Milan/Digital-Consultant-Intern---Milano--DIG-_700725WD",
 "level": "B",
 "location": "Milan",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Europe (autre)",
 "seed": true,
@@ -71776,6 +71755,7 @@
 "da906cf8a7cb688c": {
 "category": "Banque BB",
 "close_checked": true,
+"closed": "2026-11-18T10:17:47+00:00",
 "company": "Jefferies",
 "cycle": "Summer",
 "details": {
@@ -71795,7 +71775,7 @@
 "key": "2034",
 "level": "A",
 "location": "",
-"missing": 2,
+"missing": 3,
 "posted": null,
 "region": "New York / US",
 "seed": false,
@@ -72951,7 +72931,7 @@
 "key": "/job/Milan/Business---Technology-Junior-Consultant---Milano---INTERNSHIP_608946WD",
 "level": "B",
 "location": "Milan",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Europe (autre)",
 "seed": true,
@@ -73652,7 +73632,7 @@
 "key": "/job/Naples/Stage-Audit-LABO---Napoli--ADT-_643926WD",
 "level": "B",
 "location": "Naples",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-09",
 "region": "Autre / NC",
 "seed": true,
@@ -73848,27 +73828,6 @@
 "title": "2027 Investment Management Summer Analyst Programme - Global Sales and Marketing (London)",
 "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/candidate/so/pm/1/pl/1/opp/22262-2027-Investment-Management-Summer-Analyst-Programme-Global-Sales-and-Marketing-London/en-GB",
 "via": "YourFinanceJob · Summer internships"
-},
-"e112c42988aa06e5": {
-"category": "Banque BB",
-"closed": "2026-10-19T06:16:15+00:00",
-"company": "RBC Capital Markets",
-"cycle": "Stage",
-"first_seen": "2026-10-09T14:20:19+00:00",
-"hq": "Toronto",
-"id": "e112c42988aa06e5",
-"key": "/job/TORONTO-Ontario-Canada/XMLNAME-2027-Winter---GRM--AI-Developer-Intern---Innovation---AI-Center-of-Excellence--4-Months-_R-0000188001",
-"level": "B",
-"location": "TORONTO, Ontario, Canada",
-"missing": 3,
-"posted": "2026-10-05",
-"region": "Autre / NC",
-"seed": true,
-"skey": "RBC Capital Markets#workday#rbc.wd3/RBCGLOBAL1",
-"source": "workday",
-"tier": "2",
-"title": "2027 Winter – GRM, AI Developer Intern - Innovation & AI Center of Excellence (4 Months)",
-"url": "https://rbc.wd3.myworkdayjobs.com/en-US/RBCGLOBAL1/job/TORONTO-Ontario-Canada/XMLNAME-2027-Winter---GRM--AI-Developer-Intern---Innovation---AI-Center-of-Excellence--4-Months-_R-0000188001"
 },
 "e1498b0aac297840": {
 "category": "Transaction Services",
@@ -75116,7 +75075,7 @@
 "key": "/job/Jakarta/Internship---Consulting---Workforce-Transformation---Talent-Pool_641881WD",
 "level": "A",
 "location": "Jakarta",
-"missing": 0,
+"missing": 1,
 "posted": "2026-10-23",
 "region": "Autre / NC",
 "seed": false,
@@ -75561,7 +75520,7 @@
 "key": "/job/Milan/Stage-Audit-Financial-Services---Milano--ADT-_642957WD",
 "level": "B",
 "location": "Milan",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-09",
 "region": "Europe (autre)",
 "seed": true,
@@ -77040,7 +76999,7 @@
 "key": "/job/Milan/Data---AI-Consultant---INTERNSHIP---Milano_604836WD",
 "level": "B",
 "location": "Milan",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Europe (autre)",
 "seed": true,
@@ -77207,27 +77166,6 @@
 "tier": "1",
 "title": "Investment Banking, Q1 2027 M&A Intern (Frankfurt, Germany)",
 "url": "https://alantra.wd3.myworkdayjobs.com/en-US/Alantra/job/Germany---Frankfurt/Investment-Banking--Q1-2027-M-A-Intern--Frankfurt--Germany-_JR466"
-},
-"ea8d2897b3f9f27d": {
-"category": "Banque BB",
-"closed": "2026-10-19T06:16:15+00:00",
-"company": "RBC Capital Markets",
-"cycle": "Stage",
-"first_seen": "2026-10-09T14:20:19+00:00",
-"hq": "Toronto",
-"id": "ea8d2897b3f9f27d",
-"key": "/job/TORONTO-Ontario-Canada/XMLNAME-2027-Winter---GRM--AI-Business-Analyst-Intern---Innovation---AI-Centre-of-Excellence--4-Months-_R-0000188000",
-"level": "B",
-"location": "TORONTO, Ontario, Canada",
-"missing": 3,
-"posted": "2026-10-05",
-"region": "Autre / NC",
-"seed": true,
-"skey": "RBC Capital Markets#workday#rbc.wd3/RBCGLOBAL1",
-"source": "workday",
-"tier": "2",
-"title": "2027 Winter – GRM, AI Business Analyst Intern – Innovation & AI Centre of Excellence (4 Months)",
-"url": "https://rbc.wd3.myworkdayjobs.com/en-US/RBCGLOBAL1/job/TORONTO-Ontario-Canada/XMLNAME-2027-Winter---GRM--AI-Business-Analyst-Intern---Innovation---AI-Centre-of-Excellence--4-Months-_R-0000188000"
 },
 "ea8dd53138c0a76d": {
 "category": "Banque BB",
@@ -77836,6 +77774,7 @@
 },
 "eced312e466e7ea2": {
 "category": "Banque BB",
+"closed": "2026-11-18T10:17:47+00:00",
 "company": "Barclays",
 "cycle": "Summer",
 "details": {
@@ -77856,7 +77795,7 @@
 "key": "/job/Houston-609-Main-Street/Banking-Associate-Summer-Internship-Program-2027-Houston_JR-0000130641",
 "level": "A",
 "location": "Houston, 609 Main Street",
-"missing": 2,
+"missing": 3,
 "posted": "2026-10-02",
 "region": "New York / US",
 "seed": true,
@@ -77953,7 +77892,7 @@
 "key": "/job/Milan/Capital-Projects---Economics----ambito-Infrastrutture--Trasporti-e-Logistica---Intern----Milano--ADV-_765299WD",
 "level": "A",
 "location": "Milan",
-"missing": 0,
+"missing": 1,
 "posted": "2026-10-01",
 "region": "Europe (autre)",
 "seed": true,
@@ -78627,6 +78566,7 @@
 "ee7d5b95b8be6915": {
 "category": "Banque BB",
 "close_checked": true,
+"closed": "2026-11-18T10:17:47+00:00",
 "company": "Jefferies",
 "cycle": "Summer",
 "details": {
@@ -78645,7 +78585,7 @@
 "key": "2039",
 "level": "A",
 "location": "",
-"missing": 2,
+"missing": 3,
 "posted": null,
 "region": "New York / US",
 "seed": false,
@@ -78891,7 +78831,7 @@
 "key": "/job/Rubano/SAP-Internship---Rubano--PD---ADV-_621491WD-1",
 "level": "A",
 "location": "Rubano",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-09",
 "region": "Autre / NC",
 "seed": true,
@@ -79738,6 +79678,7 @@
 "f150aafcd0abdff7": {
 "category": "Banque BB",
 "close_checked": true,
+"closed": "2026-11-18T10:17:47+00:00",
 "company": "Citi",
 "cycle": "Summer",
 "details": {
@@ -79759,7 +79700,7 @@
 "key": "/job/TAURUS/Banking--Commercial-Banking--Summer-Analyst--Frankfurt---Germany-2027_26993561",
 "level": "A",
 "location": "TAURUS",
-"missing": 2,
+"missing": 3,
 "posted": "2026-09-15",
 "region": "Europe (autre)",
 "seed": true,
@@ -80063,6 +80004,7 @@
 "f23e60663d58ac1b": {
 "category": "Banque BB",
 "close_checked": true,
+"closed": "2026-11-18T10:17:47+00:00",
 "company": "Jefferies",
 "cycle": "Summer",
 "details": {
@@ -80082,7 +80024,7 @@
 "key": "2046",
 "level": "A",
 "location": "",
-"missing": 2,
+"missing": 3,
 "posted": null,
 "region": "New York / US",
 "seed": false,
@@ -80296,7 +80238,7 @@
 "key": "/job/Milan/Advisory---Intern-Trainee---Delivering-Deal-Value---Milano--ADV-_606789WD-2",
 "level": "B",
 "location": "Milan",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Europe (autre)",
 "seed": true,
@@ -81301,7 +81243,7 @@
 "key": "/job/POINTE-CLAIRE-Quebec-Canada/Assistant-Branch-Manager_R-0000191932-2",
 "level": "B",
 "location": "POINTE-CLAIRE, Quebec, Canada",
-"missing": 0,
+"missing": 1,
 "posted": "2026-11-04",
 "region": "Autre / NC",
 "seed": false,
@@ -81591,7 +81533,7 @@
 "key": "/job/Milan/Advisory---Intern---Roma---M-A-Infrastructure_664714WD",
 "level": "A",
 "location": "Milan",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Europe (autre)",
 "seed": true,
@@ -81644,6 +81586,7 @@
 },
 "f8dd0a7486af69aa": {
 "category": "Transaction Services",
+"closed": "2026-11-18T10:17:47+00:00",
 "company": "PwC",
 "cycle": "Off-cycle",
 "first_seen": "2026-11-12T15:31:25+00:00",
@@ -81652,7 +81595,7 @@
 "key": "/job/Neuilly-sur-Seine/Stage-Contrleur-de-Gestion---Janvier-2027-F-H_773072WD",
 "level": "B",
 "location": "Neuilly-sur-Seine",
-"missing": 2,
+"missing": 3,
 "posted": "2026-11-12",
 "region": "Paris / France",
 "seed": false,
@@ -82077,6 +82020,7 @@
 "fa8821097b11c6da": {
 "category": "Banque BB",
 "close_checked": true,
+"closed": "2026-11-18T10:17:47+00:00",
 "company": "Jefferies",
 "cycle": "Summer",
 "details": {
@@ -82095,7 +82039,7 @@
 "key": "2001",
 "level": "A",
 "location": "",
-"missing": 2,
+"missing": 3,
 "posted": null,
 "region": "New York / US",
 "seed": false,
@@ -82192,6 +82136,33 @@
 "title": "Internal Audit Analytics & AI Intern, Internal Audit (Jan - Jun 2027)",
 "url": "https://jobs.temasek.com.sg/job/Internal-Audit-Analytics-&amp;-AI-Intern%2C-Internal-Audit-%28Jan-Jun-2027%29-238891/1368995957/",
 "via": "YourFinanceJob · Private equity"
+},
+"fae237ae6a64c3b3": {
+"category": "Banque BB",
+"company": "Deutsche Bank",
+"cycle": "Stage",
+"details": {
+"grad_years": [
+2027
+],
+"team": "M&A / IBD"
+},
+"details_tried": true,
+"first_seen": "2026-11-18T10:17:47+00:00",
+"hq": "Frankfurt",
+"id": "fae237ae6a64c3b3",
+"key": "/job/Beijing-China-Central-Place/Corporate-Bank---Coverage-Local-Intern_R0445071",
+"level": "A",
+"location": "Beijing China Central Place",
+"missing": 0,
+"posted": "2026-11-18",
+"region": "Corée / Asie",
+"seed": true,
+"skey": "Deutsche Bank#workday#db.wd3/DBWebsite",
+"source": "workday",
+"tier": "1",
+"title": "Corporate Bank - Coverage Local Intern",
+"url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Beijing-China-Central-Place/Corporate-Bank---Coverage-Local-Intern_R0445071"
 },
 "faebfd64425fec37": {
 "category": "Banque BB",
@@ -82955,7 +82926,7 @@
 "key": "/job/Milan/IT-Project-Management---INTERNSHIP---Milano--CNS-_606394WD-1",
 "level": "B",
 "location": "Milan",
-"missing": 0,
+"missing": 1,
 "posted": "2026-09-05",
 "region": "Europe (autre)",
 "seed": true,
@@ -83585,7 +83556,7 @@
 "key": "/job/IL-Rosemont/Sustainability-CP-I---Senior-Associate-Intern---Summer-2027_765702WD",
 "level": "B",
 "location": "IL-Rosemont",
-"missing": 0,
+"missing": 1,
 "posted": "2026-10-02",
 "region": "Autre / NC",
 "seed": true,
@@ -83643,12 +83614,12 @@
 }
 },
 "l3vlup": {
-"at": "2026-11-18T02:17:02+00:00",
+"at": "2026-11-18T10:17:47+00:00",
 "rows": []
 },
-"last_deep": "2026-11-18T02:17:02+00:00",
-"last_digest": "2026-11-17",
-"last_full": "2026-11-18T02:17:02+00:00",
+"last_deep": "2026-11-18T10:17:47+00:00",
+"last_digest": "2026-11-18",
+"last_full": "2026-11-18T10:17:47+00:00",
 "pages": {
 "https://careers.bankofamerica.com/en-us/students": {
 "ats": [
@@ -84027,7 +83998,7 @@
 "https://hgcapital.com/join-us": {
 "ats": [],
 "error": "HTTPError: HTTP Error 404: Not Found",
-"fails": 6,
+"fails": 7,
 "highlights": [],
 "history": [],
 "lines": [
@@ -84150,7 +84121,6 @@
 "https://jobs.citi.com/early-career-programs-internships": "Internships",
 "https://jobs.citi.com/early-career-programs-pre-internships": "Pre-Internships",
 "https://jobs.citi.com/early-careers": "Learn About Early Careers",
-"https://jobs.citi.com/job/belfast/human-resources-summer-analyst-united-kingdom-belfast-2027/287/103079944480": "Human Resources - Summer Analyst, United Kingdom - Belfast, 2027",
 "https://jobs.citi.com/job/dubai/corporate-banking-summer-intern-analyst-dubai-uae-uae-nationals-preferred/287/103370639504": "Corporate Banking Summer Intern Analyst, Dubai, UAE (UAE Nationals Preferred)",
 "https://jobs.citi.com/job/sao-paulo/banking-commercial-banking-internship-sao-paulo-brazil-2027/287/103424693424": "Banking – Commercial Banking, Internship, São Paulo – Brazil, 2027",
 "https://jobs.citi.com/job/sao-paulo/estagio-exclusivo-pcd-banking-corporate-banking-internship-sao-paulo-brazil-2026/287/103161217472": "Estágio Exclusivo PCD | Banking - Corporate Banking, Internship, São Paulo – Brazil, 2026"
@@ -84180,7 +84150,7 @@
 "https://pwpartners.com/careers/intern-graduate-recruitment/": {
 "ats": [],
 "error": "HTTPError: HTTP Error 403: Forbidden",
-"fails": 48,
+"fails": 49,
 "highlights": [
 "We screen each application and provide a highly communicative and detailed process that ensures we hire the most talented, diverse individuals. Here’s what to expect :",
 "Submit your Application: Apply via the PWP PORTAL .",
@@ -84321,25 +84291,34 @@
 "ats": [
 "https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Frankfurt/Real-Estate-Private-Equity-Intern---November-2026---Q1-2027----Frankfurt--M-F-_JR1002217",
 "https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/London/Private-Credit-Intern---April-2026---London_JR1002279-1",
-"https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Luxembourg/Corporate-Finance-Intern---January-2027-I-Luxembourg--M-F-_JR1002199",
-"https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Milan/Buyout-Intern---December-2026I-Milan--M-F-_JR1002317",
-"https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Milan/Expansion-Intern---January-2027I-Milan--M-F-_JR1002270",
+"https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Luxembourg/Legal-Intern---January-2027---Luxembourg--M-F-_JR1001818",
 "https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Milan/Real-Estate-Intern---December-2026I-Milan--M-F-_JR1002261",
-"https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Paris-La-Dfense/IT-Documents---Privacy-Stage---Janvier-2027-I-Paris--M-F-_JR1002131",
+"https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Montreal/Secondaries---Primaries-Intern---January-2026-I-Montreal_JR1002253",
+"https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Montreal/Secondaries---Primaries-Intern---September-2026-I-Montreal_JR1002213",
 "https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Paris/Affaires-Publiques-et-Gouvernementales-Stage---Mars-2027---Paris--H-F-_JR1002137",
 "https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Paris/Capital-Markets-Stage---Mars-2027---Paris--H-F-_JR1002111",
-"https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Paris/Fund-Finance-Cross-Functional-Stage---Mars-2027-I-Paris--H-F-_JR1002096",
-"https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Paris/Investor-Relations-Digital-Transformation-and-Data---Janvier-2027-I-Paris--H-F-_JR1002127",
+"https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Paris/Employees--investments-Fund-Administrative-Assistant-Stage---Janvier-2027---Paris--M-F-_JR1002091-1",
+"https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Paris/Fund-Finance-Private-Credit-Stage---Janvier-2027-I-Paris--M-F-_JR1002152",
+"https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Paris/Group-Finance-Analyst---Budget---Reporting---CDD--H-F-_JR1002276",
+"https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Paris/Private-Equity-Semiconductor-Stage---Mars-2027-I-Paris--H-F-_JR1002229",
 "https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/San-Francisco/Data-Scientist-Analyst---Secondaries---Primaries_JR1001889",
 "https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/San-Francisco/Secondaries---Primaries-Intern---Summer-2027---SF_JR1001962",
-"https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Singapore/Compliance-Team-Intern---December-2026---Singapore--M-F-_JR1002248",
-"https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Tokyo/Investor-Relations-Intern---October-2025--I-Tokyo--M-F-_JR1001528",
+"https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Zurich/Customized-Solutions-Intern---March---July-2027---Zurich--M-F-_JR1002285",
 "https://ardian.wd103.myworkdayjobs.com/en-US/ArdianCareers/login"
 ],
 "error": null,
 "fails": 0,
 "highlights": [],
 "history": [
+{
+"added": [
+"🔗 Nouveau lien : Secondaries & Primaries Intern – September 2026 I Montreal",
+"🔗 Nouveau lien : Secondaries & Primaries Intern – January 2026 I Montreal",
+"🔗 Nouveau lien : Meet the Architects of Ardian: Janine Paustian, Investment Manager"
+],
+"at": "2026-11-18T10:17:47+00:00",
+"removed": []
+},
 {
 "added": [
 "🔗 Nouveau lien : Secondaries & Primaries Intern - Summer 2027 | SF",
@@ -84405,19 +84384,9 @@
 ],
 "at": "2026-11-15T19:05:51+00:00",
 "removed": []
-},
-{
-"added": [
-"🔗 Nouveau lien : Secondaries & Primaries Intern – September 2026 I NYC",
-"🔗 Nouveau lien : Investor Relations Intern - January 2027 I Zurich",
-"🔗 Nouveau lien : Infrastructure Intern - Luxembourg - March 2027",
-"🔗 Nouveau lien : Fund Finance Infrastructure Intern - December 2026 | MTL"
-],
-"at": "2026-11-15T12:39:25+00:00",
-"removed": []
 }
 ],
-"last_change": "2026-11-17T20:00:21+00:00",
+"last_change": "2026-11-18T10:17:47+00:00",
 "lines": [
 "Follow Ardian Jobs & Internships",
 "Manage or create my candidate space",
@@ -84426,6 +84395,8 @@
 ],
 "links": {
 "https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/London/Private-Credit-Intern---April-2026---London_JR1002279-1": "Private Credit Intern - December 2026 | London",
+"https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Montreal/Secondaries---Primaries-Intern---January-2026-I-Montreal_JR1002253": "Secondaries & Primaries Intern – January 2026 I Montreal",
+"https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Montreal/Secondaries---Primaries-Intern---September-2026-I-Montreal_JR1002213": "Secondaries & Primaries Intern – September 2026 I Montreal",
 "https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/San-Francisco/Secondaries---Primaries-Intern---Summer-2027---SF_JR1001962": "Secondaries & Primaries Intern - Summer 2027 | SF",
 "https://ardian.wd103.myworkdayjobs.com/en-US/ArdianCareers/login": "My Candidate Space",
 "https://www.ardian.com/expertise": "Discover",
@@ -84434,6 +84405,7 @@
 "https://www.ardian.com/news-insights": "Discover",
 "https://www.ardian.com/news-insights/all": "All news & insights",
 "https://www.ardian.com/news-insights/article/how-serve-business-efficiency-hr": "How to serve business efficiency in HR",
+"https://www.ardian.com/news-insights/article/meet-architects-ardian-janine-paustian-investment-manager": "Meet the Architects of Ardian: Janine Paustian, Investment Manager",
 "https://www.ardian.com/news-insights/article/our-practices-are-evolving-reflect-our-scale": "Our practices are evolving to reflect our scale",
 "https://www.ardian.com/news-insights/article/women-private-equity-accelerating-movement": "Women in private equity: accelerating the movement",
 "https://www.ardian.com/news-insights/articles": "ARTICLES",
@@ -84442,7 +84414,6 @@
 "https://www.ardian.com/news-insights/podcasts-all": "PODCASTS",
 "https://www.ardian.com/news-insights/publications": "PUBLICATIONS",
 "https://www.ardian.com/news-insights/video/meet-architects-ardian-ada-wen-managing-director-secondaries-primaries": "Meet the Architects of Ardian | Ada Wen, Managing Director, Secondaries & Primaries",
-"https://www.ardian.com/news-insights/video/meet-architects-ardian-alexandra-goltsova-head-corporate-development": "Meet the Architects of Ardian: Alexandra Goltsova, Head of Corporate Development",
 "https://www.ardian.com/news-insights/video/meet-architects-ardian-alexis-manet-managing-director-buyout": "Meet the Architects of Ardian | Alexis Manet, Managing Director, Buyout",
 "https://www.ardian.com/news-insights/video/meet-architects-ardian-audrey-detavernier-senior-managing-director-co": "Meet the Architects of Ardian | Audrey Detavernier, Senior Managing Director, Co-Investment",
 "https://www.ardian.com/news-insights/video/meet-architects-ardian-elisabetta-bozzoni-pantaleoni-director-expansion": "Meet the Architects of Ardian | Elisabetta Bozzoni Pantaleoni, Director, Expansion",
@@ -84872,7 +84843,7 @@
 "https://www.lazard.com/careers/students/": {
 "ats": [],
 "error": "HTTPError: HTTP Error 404: Not Found",
-"fails": 63,
+"fails": 64,
 "highlights": [],
 "history": [
 {
@@ -85329,7 +85300,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 5,
 "raw": 5
 },
@@ -85337,7 +85308,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -85345,7 +85316,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -85353,7 +85324,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -85361,7 +85332,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 23,
 "raw": 14
 },
@@ -85370,7 +85341,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 1,
 "raw": 0,
 "zero_since": "2026-10-30T12:46:00+00:00"
@@ -85379,7 +85350,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 53,
 "raw": 52
 },
@@ -85387,7 +85358,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -85395,7 +85366,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -85403,7 +85374,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 19,
 "raw": 18
 },
@@ -85411,7 +85382,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -85420,7 +85391,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 1,
 "raw": 0,
 "zero_since": "2026-10-09T16:56:31+00:00"
@@ -85429,7 +85400,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 64,
 "raw": 55
 },
@@ -85437,7 +85408,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 75,
 "raw": 67
 },
@@ -85445,23 +85416,23 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 251,
-"raw": 239
+"raw": 236
 },
 "BBVA CIB#workday#bbva.wd3/BBVA": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 730,
-"raw": 576
+"raw": 557
 },
 "BMO Capital Markets#workday#bmo.wd3/Campus": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 47,
 "raw": 32
 },
@@ -85469,7 +85440,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 33,
 "raw": 33
 },
@@ -85477,31 +85448,31 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 125,
-"raw": 16
+"raw": 17
 },
 "Bank of America#workday#ghr.wd1/lateral-emea|Lateral-US": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 2088,
-"raw": 2072
+"raw": 2067
 },
 "Barclays#workday#barclays.wd3/External_Career_Site_Barclays": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 784,
-"raw": 669
+"raw": 674
 },
 "Barings#workday#barings.wd1/Early_Talent|Barings": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 48,
 "raw": 44
 },
@@ -85509,7 +85480,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -85517,7 +85488,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 39,
 "raw": 38
 },
@@ -85525,31 +85496,31 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 203,
-"raw": 155
+"raw": 156
 },
 "Blue Owl#workday#blueowl.wd1/blueowl": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 55,
-"raw": 55
+"raw": 53
 },
 "Brookfield#workday#brookfield.wd5/brookfield": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 145,
-"raw": 145
+"raw": 144
 },
 "Bryan Garnier & Co#watch#https://stifelinstitutional.com/global-coverage/europe/": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -85557,7 +85528,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 47,
 "raw": 40
 },
@@ -85565,15 +85536,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 55,
-"raw": 34
+"raw": 33
 },
 "Canaccord Genuity#workday#cgf.wd10/CG": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 46,
 "raw": 43
 },
@@ -85581,7 +85552,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -85589,7 +85560,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -85597,7 +85568,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 77,
 "raw": 63
 },
@@ -85606,7 +85577,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 1,
 "raw": 0,
 "zero_since": "2026-10-09T20:14:44+00:00"
@@ -85615,7 +85586,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 4,
 "raw": 3
 },
@@ -85623,7 +85594,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -85631,7 +85602,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 2000,
 "raw": 2000
 },
@@ -85639,7 +85610,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 5,
 "raw": 4
 },
@@ -85647,7 +85618,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 2,
 "raw": 2
 },
@@ -85655,7 +85626,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 100,
 "raw": 100
 },
@@ -85663,7 +85634,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -85671,7 +85642,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -85679,15 +85650,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 741,
-"raw": 725
+"raw": 722
 },
 "Deloitte#watch#https://www.deloitte.com/fr/fr.html": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -85695,23 +85666,23 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 572,
-"raw": 566
+"raw": 564
 },
 "Deutsche Bank#workday#db.wd3/DBWebsite": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 1201,
-"raw": 1186
+"raw": 1191
 },
 "Ducera Partners#greenhouse#ducerapartners|ducerapartnerscampus": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 11,
 "raw": 8
 },
@@ -85719,7 +85690,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 15,
 "raw": 11
 },
@@ -85727,7 +85698,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -85735,7 +85706,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -85743,7 +85714,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -85751,7 +85722,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 29,
 "raw": 20
 },
@@ -85759,7 +85730,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 126,
 "raw": 51
 },
@@ -85767,7 +85738,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 9,
 "raw": 1
 },
@@ -85775,7 +85746,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -85783,7 +85754,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 10,
 "raw": 10
 },
@@ -85791,15 +85762,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 150,
-"raw": 122
+"raw": 123
 },
 "GBL / Sienna#watch#https://www.gbl.com/en": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -85807,7 +85778,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 14,
 "raw": 12
 },
@@ -85815,7 +85786,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 232,
 "raw": 192
 },
@@ -85823,7 +85794,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 34,
 "raw": 30
 },
@@ -85831,15 +85802,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 62,
-"raw": 58
+"raw": 59
 },
 "Guggenheim Partners#workday#guggenheim.wd1/Guggenheim_Careers_Campus|Guggenheim_Undergraduate_Programs|Guggenheim_Careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 46,
 "raw": 39
 },
@@ -85847,7 +85818,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 40,
 "raw": 36
 },
@@ -85855,7 +85826,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -85864,7 +85835,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 6,
 "raw": 0,
 "zero_since": "2026-11-10T10:52:10+00:00"
@@ -85873,7 +85844,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 52,
 "raw": 49
 },
@@ -85881,7 +85852,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 77,
 "raw": 72
 },
@@ -85889,7 +85860,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 19,
 "raw": 12
 },
@@ -85897,7 +85868,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 86,
 "raw": 81
 },
@@ -85905,15 +85876,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 20,
-"raw": 19
+"raw": 17
 },
 "IK Partners#recruitee#ikpartners": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 3,
 "raw": 2
 },
@@ -85921,15 +85892,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 777,
-"raw": 646
+"raw": 645
 },
 "J.P. Morgan#oracle#jpmc.fa.oraclecloud.com/CX_1001": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 5000,
 "raw": 5000
 },
@@ -85937,15 +85908,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 84,
-"raw": 64
+"raw": 62
 },
 "KKR#greenhouse#staged": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 19,
 "raw": 10
 },
@@ -85953,15 +85924,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 199,
-"raw": 193
+"raw": 194
 },
 "KPMG#watch#https://kpmg.com/xx/en.html": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -85969,7 +85940,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 9,
 "raw": 6
 },
@@ -85977,7 +85948,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -85985,15 +85956,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 605,
-"raw": 574
+"raw": 571
 },
 "Kroll#watch#https://www.kroll.com/en": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -86001,7 +85972,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -86009,7 +85980,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 3,
 "raw": 3
 },
@@ -86017,7 +85988,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -86025,7 +85996,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -86033,7 +86004,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 54,
 "raw": 45
 },
@@ -86041,7 +86012,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 85,
 "raw": 71
 },
@@ -86049,7 +86020,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 137,
 "raw": 116
 },
@@ -86057,7 +86028,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 137,
 "raw": 116
 },
@@ -86065,7 +86036,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 43,
 "raw": 35
 },
@@ -86073,7 +86044,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 3,
 "raw": 2
 },
@@ -86081,7 +86052,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 70,
 "raw": 67
 },
@@ -86089,15 +86060,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
-"max_raw": 115,
-"raw": 115
+"last_ok": "2026-11-18T10:17:47+00:00",
+"max_raw": 116,
+"raw": 116
 },
 "MUFG#workday#mufgub.wd3/MUFG-Careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 704,
 "raw": 685
 },
@@ -86105,7 +86076,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -86113,7 +86084,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 12,
 "raw": 7
 },
@@ -86121,7 +86092,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -86129,7 +86100,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -86137,7 +86108,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 122,
 "raw": 115
 },
@@ -86145,15 +86116,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 37,
-"raw": 12
+"raw": 11
 },
 "Moelis & Company#workday#moelis.wd1/University-Hires|Experienced-Hires": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 38,
 "raw": 33
 },
@@ -86161,15 +86132,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 138,
-"raw": 76
+"raw": 77
 },
 "Mubadala#watch#https://www.mubadala.com/en": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -86177,7 +86148,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -86185,7 +86156,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 94,
 "raw": 93
 },
@@ -86193,7 +86164,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 37,
 "raw": 23
 },
@@ -86201,7 +86172,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -86209,7 +86180,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -86217,15 +86188,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 61,
-"raw": 56
+"raw": 55
 },
 "Oddo BHF#watch#https://www.oddo-bhf.com/fr/": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -86233,7 +86204,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 40,
 "raw": 33
 },
@@ -86241,7 +86212,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -86249,7 +86220,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 10,
 "raw": 8
 },
@@ -86257,7 +86228,7 @@
 "error": "HTTPError: HTTP Error 403: Forbidden",
 "ever_ok": true,
 "fail_since": "2026-11-05T17:51:45+00:00",
-"fails": 50,
+"fails": 51,
 "last_ok": "2026-11-05T09:57:42+00:00",
 "max_raw": 0,
 "raw": 0
@@ -86266,7 +86237,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 56,
 "raw": 52
 },
@@ -86274,7 +86245,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 54,
 "raw": 51
 },
@@ -86282,7 +86253,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -86290,7 +86261,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 3,
 "raw": 3
 },
@@ -86298,7 +86269,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 15,
 "raw": 5
 },
@@ -86306,7 +86277,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 8,
 "raw": 5
 },
@@ -86314,7 +86285,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 8,
 "raw": 7
 },
@@ -86322,7 +86293,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -86330,7 +86301,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 55,
 "raw": 46
 },
@@ -86338,23 +86309,23 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 1374,
-"raw": 1249
+"raw": 1079
 },
 "PwC#workday#pwc.wd3/US_Entry_Level_Careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 71,
-"raw": 48
+"raw": 29
 },
 "QIA#oracle#fa-esgr-saasfaprod1.fa.ocs.oraclecloud.com/CX_1": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 3,
 "raw": 3
 },
@@ -86362,7 +86333,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -86370,7 +86341,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 42,
 "raw": 19
 },
@@ -86378,15 +86349,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 872,
-"raw": 790
+"raw": 761
 },
 "Raine Group#lever#raine": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 2,
 "raw": 2
 },
@@ -86394,7 +86365,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 11,
 "raw": 6
 },
@@ -86402,7 +86373,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 33,
 "raw": 18
 },
@@ -86410,15 +86381,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 122,
-"raw": 110
+"raw": 111
 },
 "SMBC#watch#https://www.smbcgroup.com/emea/careers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 2,
 "raw": 2
 },
@@ -86426,15 +86397,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 1177,
-"raw": 1085
+"raw": 1058
 },
 "Scotiabank#rss#https://jobs.scotiabank.com/services/rss/job/?locale=en_US&keywords=intern": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 20,
 "raw": 20
 },
@@ -86442,7 +86413,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -86450,7 +86421,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 19,
 "raw": 16
 },
@@ -86458,7 +86429,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -86466,7 +86437,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 4,
 "raw": 3
 },
@@ -86474,7 +86445,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 20,
 "raw": 20
 },
@@ -86482,7 +86453,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 64,
 "raw": 62
 },
@@ -86490,7 +86461,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 126,
 "raw": 125
 },
@@ -86498,7 +86469,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 68,
 "raw": 6
 },
@@ -86506,15 +86477,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 1853,
-"raw": 1774
+"raw": 1718
 },
 "TPG#greenhouse#tpgcareers": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 21,
 "raw": 12
 },
@@ -86522,7 +86493,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -86530,15 +86501,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 76,
-"raw": 70
+"raw": 69
 },
 "Triton Partners#workday#tritonpartners.wd3/External": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 6,
 "raw": 6
 },
@@ -86546,7 +86517,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 2,
 "raw": 0,
 "zero_since": "2026-10-20T09:41:59+00:00"
@@ -86555,7 +86526,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -86563,7 +86534,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 12,
 "raw": 10
 },
@@ -86571,7 +86542,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 39,
 "raw": 33
 },
@@ -86579,7 +86550,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 441,
 "raw": 433
 },
@@ -86587,7 +86558,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 5,
 "raw": 5
 },
@@ -86595,7 +86566,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -86603,15 +86574,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 1728,
-"raw": 1460
+"raw": 1420
 },
 "YourFinanceJob (agrégateur)#aggregator#spring-weeks-and-insight-days,summer-internships-list,student-and-graduate,investment-banks,boutique-advisory,private-equity-firms,france,switzerland,new-this-week": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-18T02:17:02+00:00",
+"last_ok": "2026-11-18T10:17:47+00:00",
 "max_raw": 1662,
 "raw": 1657
 }
