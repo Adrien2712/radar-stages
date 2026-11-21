@@ -4897,6 +4897,7 @@
 "1020d8869bf319fe": {
 "category": "Banque BB",
 "close_checked": true,
+"closed": "2026-11-21T08:52:34+00:00",
 "company": "Goldman Sachs",
 "cycle": "Off-cycle",
 "details": {},
@@ -4906,7 +4907,7 @@
 "key": "170901_GS_CAMPUS",
 "level": "B",
 "location": "London",
-"missing": 2,
+"missing": 3,
 "posted": null,
 "region": "London / UK",
 "seed": true,
@@ -5733,6 +5734,7 @@
 "12bc2be57b049806": {
 "category": "Banque BB",
 "close_checked": true,
+"closed": "2026-11-21T08:52:34+00:00",
 "company": "Morgan Stanley",
 "cycle": "Off-cycle",
 "first_seen": "2026-10-05T12:21:45+00:00",
@@ -5741,7 +5743,7 @@
 "key": "21966",
 "level": "B",
 "location": "",
-"missing": 2,
+"missing": 3,
 "posted": null,
 "region": "London / UK",
 "seed": true,
@@ -7278,6 +7280,7 @@
 },
 "17634a9d24c29af4": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "Morgan Stanley",
 "cycle": "Off-cycle",
 "first_seen": "2026-10-05T12:21:45+00:00",
@@ -7286,7 +7289,7 @@
 "key": "21636",
 "level": "B",
 "location": "",
-"missing": 0,
+"missing": 1,
 "posted": null,
 "region": "London / UK",
 "seed": true,
@@ -22967,6 +22970,27 @@
 "title": "Technology - Infrastructure, Summer Analyst (Internship), Philippines, 2027",
 "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Taguig--Philippines/Technology---Infrastructure--Summer-Analyst--Internship---Philippines--2027_261002885"
 },
+"4a28d9127c15255f": {
+"category": "Private Equity",
+"company": "Ardian",
+"cycle": "Off-cycle",
+"first_seen": "2026-11-21T08:52:34+00:00",
+"hq": "Paris",
+"id": "4a28d9127c15255f",
+"key": "https://ardian.wd103.myworkdayjobs.com/en-US/ArdianCareers/job/Paris/Employees--investments-Fund-Administrative-Assistant-Stage---Janvier-2027---Paris--M-F-_JR1002091-1",
+"level": "B",
+"location": "Paris",
+"missing": 0,
+"posted": null,
+"region": "Paris / France",
+"seed": false,
+"skey": "YourFinanceJob (agrégateur)#aggregator#spring-weeks-and-insight-days,summer-internships-list,student-and-graduate,investment-banks,boutique-advisory,private-equity-firms,france,switzerland,new-this-week",
+"source": "aggregator",
+"tier": "1",
+"title": "Employees' investments Fund Administrative Assistant Stage - Janvier 2027 | Paris (M/F)",
+"url": "https://ardian.wd103.myworkdayjobs.com/en-US/ArdianCareers/job/Paris/Employees--investments-Fund-Administrative-Assistant-Stage---Janvier-2027---Paris--M-F-_JR1002091-1",
+"via": "YourFinanceJob · Student & graduate"
+},
 "4a6ad9c9f092248f": {
 "category": "Transaction Services",
 "company": "PwC",
@@ -23633,6 +23657,7 @@
 },
 "4c640c33a27d1c1b": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "Morgan Stanley",
 "cycle": "Off-cycle",
 "first_seen": "2026-10-05T12:21:45+00:00",
@@ -23641,7 +23666,7 @@
 "key": "21615",
 "level": "B",
 "location": "",
-"missing": 0,
+"missing": 1,
 "posted": null,
 "region": "London / UK",
 "seed": true,
@@ -25624,27 +25649,6 @@
 "tier": "2",
 "title": "Stage Audit Risk Financial Services - Milano [ADT]",
 "url": "https://pwc.wd3.myworkdayjobs.com/en-US/Global_Campus_Careers/job/Milan/Stage-Audit-Risk-Financial-Services---Milano--ADT-_642418WD-1"
-},
-"533edab9ed053c27": {
-"category": "Banque BB",
-"closed": "2026-10-22T06:18:01+00:00",
-"company": "TD Securities",
-"cycle": "Summer",
-"first_seen": "2026-10-20T03:11:39+00:00",
-"hq": "Toronto",
-"id": "533edab9ed053c27",
-"key": "/job/Toronto-Ontario/TD-Asset-Management-Investment-Management-Intern-Co-op--Summer-2027-_R_1517194",
-"level": "B",
-"location": "Toronto, Ontario",
-"missing": 3,
-"posted": "2026-10-20",
-"region": "Autre / NC",
-"seed": false,
-"skey": "TD Securities#workday#td.wd3/TD_Bank_Careers",
-"source": "workday",
-"tier": "3",
-"title": "TD Asset Management Investment Management Intern/Co-op (Summer 2027)",
-"url": "https://td.wd3.myworkdayjobs.com/en-US/TD_Bank_Careers/job/Toronto-Ontario/TD-Asset-Management-Investment-Management-Intern-Co-op--Summer-2027-_R_1517194"
 },
 "5348f950fa72a8c0": {
 "category": "M&A Mid-Market",
@@ -34233,6 +34237,7 @@
 "6e6fea661650bee1": {
 "category": "Banque BB",
 "close_checked": true,
+"closed": "2026-11-21T08:52:34+00:00",
 "company": "Goldman Sachs",
 "cycle": "Summer",
 "details": {},
@@ -34242,7 +34247,7 @@
 "key": "188644_GS_CAMPUS",
 "level": "B",
 "location": "New York",
-"missing": 2,
+"missing": 3,
 "posted": null,
 "region": "New York / US",
 "seed": false,
@@ -34498,6 +34503,28 @@
 "tier": "2",
 "title": "2027 Summer Analyst - Risk Management - Tempe, AZ",
 "url": "https://mufgub.wd3.myworkdayjobs.com/en-US/MUFG-Careers/job/Tempe-AZ/XMLNAME-2027-Summer-Analyst---Risk-Management---Tempe--AZ_10079164-WD-2"
+},
+"6f2f313d9ea132ba": {
+"category": "Boutique M&A",
+"company": "Raine Group",
+"cycle": "Summer",
+"details_tried": true,
+"first_seen": "2026-11-21T08:52:34+00:00",
+"hq": "New York",
+"id": "6f2f313d9ea132ba",
+"key": "https://jobs.lever.co/raine/e07652af-67ae-4d64-a2ad-6ba4b203c132",
+"level": "A",
+"location": "New York, NY",
+"missing": 0,
+"posted": null,
+"region": "New York / US",
+"seed": false,
+"skey": "YourFinanceJob (agrégateur)#aggregator#spring-weeks-and-insight-days,summer-internships-list,student-and-graduate,investment-banks,boutique-advisory,private-equity-firms,france,switzerland,new-this-week",
+"source": "aggregator",
+"tier": "3",
+"title": "2028 Summer Analyst (New York)",
+"url": "https://jobs.lever.co/raine/e07652af-67ae-4d64-a2ad-6ba4b203c132",
+"via": "YourFinanceJob · Boutique advisory"
 },
 "6f31da7258fa6fa2": {
 "category": "Banque BB",
@@ -36500,6 +36527,7 @@
 "74b8ca5dfa5f9bd3": {
 "category": "Transaction Services",
 "close_checked": true,
+"closed": "2026-11-21T08:52:34+00:00",
 "company": "Grant Thornton",
 "cycle": "Off-cycle",
 "details": {
@@ -36511,7 +36539,7 @@
 "key": "2504105",
 "level": "B",
 "location": "Neuilly-sur-Seine, Île-de-France, France",
-"missing": 2,
+"missing": 3,
 "posted": "2026-02-24",
 "region": "Paris / France",
 "seed": true,
@@ -36520,35 +36548,6 @@
 "tier": "3",
 "title": "Stagiaire - Fiscalité Patrimoniale/Mobilité Internationale - Neuilly (H/F)",
 "url": "https://carrieresfrance.grant-thornton.fr/o/stagiaire-fiscalite-patrimonialemobilite-internationale-neuilly-hf"
-},
-"74b938d8bfe6566d": {
-"category": "Boutique M&A",
-"close_checked": true,
-"closed": "2026-10-22T06:18:01+00:00",
-"company": "Evercore",
-"cycle": "Summer",
-"details": {
-"rolling": true,
-"start": "2026-09",
-"team": "M&A / IBD"
-},
-"details_tried": true,
-"first_seen": "2026-10-07T19:10:06+00:00",
-"hq": "New York",
-"id": "74b938d8bfe6566d",
-"key": "3404",
-"level": "A",
-"location": "",
-"missing": 3,
-"posted": null,
-"region": "Autre / NC",
-"seed": false,
-"skey": "Evercore#oleeo#evercore",
-"source": "oleeo",
-"tier": "1",
-"title": "2028 Summer Analyst Intro to Evercore - Swarthmore College",
-"upgraded": true,
-"url": "https://evercore.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/3404-2028-Summer-Analyst-Intro-to-Evercore-Swarthmore-College/en-GB"
 },
 "74bd2e6e4f2dfc52": {
 "category": "Banque BB",
@@ -44324,7 +44323,7 @@
 "key": "https://jobs.ca-cib.com/offre-de-emploi/emploi-analyste-m-a-large-cap-stage-h-f_117025.aspx",
 "level": "A",
 "location": "",
-"missing": 1,
+"missing": 2,
 "posted": null,
 "region": "Autre / NC",
 "seed": false,
@@ -44993,29 +44992,6 @@
 "title": "INTERNSHIP - STRUCTURING - DYNAMIC STRATEGIES - NYON",
 "url": "https://keplercheuvreux.teamtailor.com/jobs/8474780-internship-structuring-dynamic-strategies-nyon",
 "via": "YourFinanceJob · Suisse"
-},
-"908f3db5912de7d0": {
-"category": "Banque BB",
-"closed": "2026-10-22T06:18:01+00:00",
-"company": "MUFG",
-"cycle": "Stage",
-"details": {},
-"details_tried": true,
-"first_seen": "2026-10-12T04:33:01+00:00",
-"hq": "Tokyo",
-"id": "908f3db5912de7d0",
-"key": "/job/Indonesia---Jakarta/Internship--Global-Corporate-Business-Management_10080085-WD-1",
-"level": "B",
-"location": "Indonesia - Jakarta",
-"missing": 0,
-"posted": "2026-10-12",
-"region": "Autre / NC",
-"seed": false,
-"skey": "MUFG#workday#mufgub.wd3/MUFG-Careers",
-"source": "workday",
-"tier": "2",
-"title": "Internship, Global Corporate Business Management",
-"url": "https://mufgub.wd3.myworkdayjobs.com/en-US/MUFG-Careers/job/Indonesia---Jakarta/Internship--Global-Corporate-Business-Management_10080085-WD-1"
 },
 "90a09acebfe9509e": {
 "category": "Banque BB",
@@ -46825,6 +46801,7 @@
 },
 "959bffb6f8bb06ac": {
 "category": "Banque BB",
+"close_checked": true,
 "company": "Standard Chartered",
 "cycle": "Stage",
 "details": {
@@ -46839,7 +46816,7 @@
 "key": "https://jobs.standardchartered.com/job/Paris-Intern-Public-Sector-coverage/1378135157/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
 "level": "A",
 "location": "",
-"missing": 0,
+"missing": 1,
 "posted": null,
 "region": "Paris / France",
 "seed": false,
@@ -48623,35 +48600,6 @@
 "tier": "1",
 "title": "Technology, Application Development, Summer Analyst, New York Or New Jersey - USA, 2027",
 "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Jersey-City-New-Jersey-United-States/Technology--Application-Development--Summer-Analyst--New-York-Or-New-Jersey---USA--2027_261004378"
-},
-"9adf108b78de7011": {
-"category": "Transaction Services",
-"closed": "2026-10-22T05:20:18+00:00",
-"company": "PwC",
-"cycle": "Off-cycle",
-"details": {
-"documents": [
-"CV",
-"Relevés de notes"
-],
-"team": "Research"
-},
-"details_tried": true,
-"first_seen": "2026-10-05T11:47:54+00:00",
-"hq": "London",
-"id": "9adf108b78de7011",
-"key": "/job/Singapore/Business-Development-Off-Cycle-Internship--Jan---Jun-27-_742070WD",
-"level": "B",
-"location": "Singapore",
-"missing": 3,
-"posted": "2026-09-05",
-"region": "Corée / Asie",
-"seed": true,
-"skey": "PwC#workday#pwc.wd3/Global_Campus_Careers",
-"source": "workday",
-"tier": "2",
-"title": "Business Development Off-Cycle Internship (Jan - Jun 27)",
-"url": "https://pwc.wd3.myworkdayjobs.com/en-US/Global_Campus_Careers/job/Singapore/Business-Development-Off-Cycle-Internship--Jan---Jun-27-_742070WD"
 },
 "9ae204c132353f72": {
 "category": "Autre (agrégateur)",
@@ -54006,6 +53954,7 @@
 "abe3a5a010a69f5d": {
 "category": "Banque BB",
 "close_checked": true,
+"closed": "2026-11-21T08:52:34+00:00",
 "company": "Deutsche Bank",
 "cycle": "Stage",
 "first_seen": "2026-10-12T16:27:54+00:00",
@@ -54014,7 +53963,7 @@
 "key": "76146",
 "level": "B",
 "location": "Paris",
-"missing": 2,
+"missing": 3,
 "posted": "2026-10-12",
 "region": "Paris / France",
 "seed": true,
@@ -59058,6 +59007,7 @@
 "bc037a3ef58dec76": {
 "category": "Boutique M&A",
 "close_checked": true,
+"closed": "2026-11-21T08:52:34+00:00",
 "company": "Lazard",
 "cycle": "Off-cycle",
 "first_seen": "2026-10-12T12:34:57+00:00",
@@ -59066,7 +59016,7 @@
 "key": "6726",
 "level": "B",
 "location": "Paris, France",
-"missing": 2,
+"missing": 3,
 "posted": "2026-10-12",
 "region": "Paris / France",
 "seed": false,
@@ -64207,6 +64157,7 @@
 "cc746cca43e0185c": {
 "category": "Banque BB",
 "close_checked": true,
+"closed": "2026-11-21T08:52:34+00:00",
 "company": "Crédit Agricole CIB",
 "cycle": "Off-cycle",
 "first_seen": "2026-11-12T15:31:25+00:00",
@@ -64215,7 +64166,7 @@
 "key": "https://jobs.ca-cib.com/offre-de-emploi/emploi-12-month-internship-middle-office_115760.aspx",
 "level": "B",
 "location": "",
-"missing": 2,
+"missing": 3,
 "posted": null,
 "region": "Autre / NC",
 "seed": false,
@@ -66164,29 +66115,6 @@
 "title": "Stage - Digital Analyst (H/F)",
 "url": "https://jobs.smartrecruiters.com/coface/7f04e940-3fcb-4003-946f-0dc54a2e1bd4",
 "via": "YourFinanceJob · Student & graduate"
-},
-"d21eb0ebc4afd5ce": {
-"category": "Boutique M&A",
-"close_checked": true,
-"closed": "2026-10-22T06:18:01+00:00",
-"company": "Evercore",
-"cycle": "Summer",
-"deadline": "2026-10-21",
-"first_seen": "2026-10-05T11:47:54+00:00",
-"hq": "New York",
-"id": "d21eb0ebc4afd5ce",
-"key": "3359",
-"level": "B",
-"location": "",
-"missing": 3,
-"posted": null,
-"region": "Autre / NC",
-"seed": true,
-"skey": "Evercore#oleeo#evercore",
-"source": "oleeo",
-"tier": "1",
-"title": "2028 Evercore Equity Capital Markets Summer Analyst Coffee Chats - Cornell",
-"url": "https://evercore.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/3359-2028-Evercore-Equity-Capital-Markets-Summer-Analyst-Coffee-Chats-Cornell/en-GB"
 },
 "d22723d1e9c7c863": {
 "category": "Boutique M&A",
@@ -71694,6 +71622,7 @@
 "e2dd1eaf5a328d17": {
 "category": "Boutique M&A",
 "close_checked": true,
+"closed": "2026-11-21T08:52:34+00:00",
 "company": "Lazard",
 "cycle": "Off-cycle",
 "first_seen": "2026-10-05T11:47:54+00:00",
@@ -71702,7 +71631,7 @@
 "key": "6329",
 "level": "B",
 "location": "Paris, France",
-"missing": 2,
+"missing": 3,
 "posted": "2026-06-29",
 "region": "Paris / France",
 "seed": true,
@@ -74182,6 +74111,7 @@
 "e9ff839758082d32": {
 "category": "Banque BB",
 "close_checked": true,
+"closed": "2026-11-21T08:52:34+00:00",
 "company": "Crédit Agricole CIB",
 "cycle": "Off-cycle",
 "first_seen": "2026-11-20T12:56:05+00:00",
@@ -74190,7 +74120,7 @@
 "key": "https://jobs.ca-cib.com/offre-de-emploi/emploi-12-month-internship-legal_117631.aspx",
 "level": "B",
 "location": "",
-"missing": 2,
+"missing": 3,
 "posted": null,
 "region": "Autre / NC",
 "seed": false,
@@ -75590,33 +75520,6 @@
 "tier": "2",
 "title": "2027 MUFG UK Summer Analyst Programme: Global Markets – Markets Engineering",
 "url": "https://mufgub.wd3.myworkdayjobs.com/en-US/MUFG-Careers/job/London/XMLNAME-2027-MUFG-UK-Summer-Analyst-Programme--Global-Markets---Markets-Engineering_10080069-WD-1"
-},
-"ee0f3c8895161519": {
-"category": "Banque BB",
-"closed": "2026-10-22T04:19:00+00:00",
-"company": "Deutsche Bank",
-"cycle": "Stage",
-"details": {
-"languages": [
-"chinois"
-]
-},
-"details_tried": true,
-"first_seen": "2026-10-19T07:53:25+00:00",
-"hq": "Frankfurt",
-"id": "ee0f3c8895161519",
-"key": "/job/Beijing-China-Central-Place/Corporate-Bank---Trade-Finance---Lending-Local-Intern_R0453523",
-"level": "B",
-"location": "Beijing China Central Place",
-"missing": 3,
-"posted": "2026-10-19",
-"region": "Corée / Asie",
-"seed": false,
-"skey": "Deutsche Bank#workday#db.wd3/DBWebsite",
-"source": "workday",
-"tier": "1",
-"title": "Corporate Bank - Trade Finance & Lending Local Intern",
-"url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Beijing-China-Central-Place/Corporate-Bank---Trade-Finance---Lending-Local-Intern_R0453523"
 },
 "ee124ab464e3d7d0": {
 "category": "Autre (agrégateur)",
@@ -77720,31 +77623,6 @@
 "title": "Private Equity Infrastructure Stage - Juillet ou Septembre 2027 | Paris (H/F)",
 "url": "https://ardian.wd103.myworkdayjobs.com/en-US/ArdianCareers/job/Paris/Private-Equity-Infrastructure-Stage---Juillet-ou-Septembre-2027---Paris--H-F-_JR1002323"
 },
-"f4a28faa5f6f7cb9": {
-"category": "Banque BB",
-"closed": "2026-10-22T07:50:44+00:00",
-"company": "Deutsche Bank",
-"cycle": "Stage",
-"details": {
-"team": "DCM"
-},
-"details_tried": true,
-"first_seen": "2026-10-09T14:41:23+00:00",
-"hq": "Frankfurt",
-"id": "f4a28faa5f6f7cb9",
-"key": "/job/Beijing-China-Central-Place/Investment-Bank---DCM-Local-Intern_R0424279",
-"level": "A",
-"location": "Beijing China Central Place",
-"missing": 3,
-"posted": "2026-09-09",
-"region": "Corée / Asie",
-"seed": true,
-"skey": "Deutsche Bank#workday#db.wd3/DBWebsite",
-"source": "workday",
-"tier": "1",
-"title": "Investment Bank - DCM Local Intern",
-"url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Beijing-China-Central-Place/Investment-Bank---DCM-Local-Intern_R0424279"
-},
 "f4e056ce465cb4ee": {
 "category": "Boutique M&A",
 "company": "Rothschild & Co",
@@ -77822,27 +77700,6 @@
 "title": "2027 Investment Management Off Cycle Internship - Private Equity Solutions (London)",
 "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/candidate/so/pm/1/pl/1/opp/22233-2027-Investment-Management-Off-Cycle-Internship-Private-Equity-Solutions-London/en-GB",
 "via": "YourFinanceJob · Investment banks"
-},
-"f4f419af17f74ae2": {
-"category": "Transaction Services",
-"closed": "2026-10-22T05:20:18+00:00",
-"company": "PwC",
-"cycle": "Off-cycle",
-"first_seen": "2026-10-05T11:47:54+00:00",
-"hq": "London",
-"id": "f4f419af17f74ae2",
-"key": "/job/Singapore/Human-Resources---Corporate-Sustainability-Off-Cycle-Internship--Jan---Jun-27-_741761WD",
-"level": "B",
-"location": "Singapore",
-"missing": 3,
-"posted": "2026-09-05",
-"region": "Corée / Asie",
-"seed": true,
-"skey": "PwC#workday#pwc.wd3/Global_Campus_Careers",
-"source": "workday",
-"tier": "2",
-"title": "Human Resources - Corporate Sustainability Off-Cycle Internship (Jan - Jun 27)",
-"url": "https://pwc.wd3.myworkdayjobs.com/en-US/Global_Campus_Careers/job/Singapore/Human-Resources---Corporate-Sustainability-Off-Cycle-Internship--Jan---Jun-27-_741761WD"
 },
 "f4f690f0ee34c446": {
 "category": "Transaction Services",
@@ -79563,6 +79420,7 @@
 "fbd48e1c2ee83a75": {
 "category": "Banque BB",
 "close_checked": true,
+"closed": "2026-11-21T08:52:34+00:00",
 "company": "Goldman Sachs",
 "cycle": "Summer",
 "details": {},
@@ -79572,7 +79430,7 @@
 "key": "188207_GS_CAMPUS",
 "level": "B",
 "location": "New York",
-"missing": 2,
+"missing": 3,
 "posted": null,
 "region": "New York / US",
 "seed": false,
@@ -80701,12 +80559,12 @@
 }
 },
 "l3vlup": {
-"at": "2026-11-20T20:53:45+00:00",
+"at": "2026-11-21T08:52:34+00:00",
 "rows": []
 },
-"last_deep": "2026-11-21T01:51:37+00:00",
-"last_digest": "2026-11-20",
-"last_full": "2026-11-21T01:51:37+00:00",
+"last_deep": "2026-11-21T08:52:34+00:00",
+"last_digest": "2026-11-21",
+"last_full": "2026-11-21T08:52:34+00:00",
 "pages": {
 "https://careers.bankofamerica.com/en-us/students": {
 "ats": [
@@ -81085,7 +80943,7 @@
 "https://hgcapital.com/join-us": {
 "ats": [],
 "error": "HTTPError: HTTP Error 404: Not Found",
-"fails": 16,
+"fails": 17,
 "highlights": [],
 "history": [],
 "lines": [
@@ -81237,7 +81095,7 @@
 "https://pwpartners.com/careers/intern-graduate-recruitment/": {
 "ats": [],
 "error": "HTTPError: HTTP Error 403: Forbidden",
-"fails": 58,
+"fails": 59,
 "highlights": [
 "We screen each application and provide a highly communicative and detailed process that ensures we hire the most talented, diverse individuals. Here’s what to expect :",
 "Submit your Application: Apply via the PWP PORTAL .",
@@ -81939,7 +81797,7 @@
 "https://www.lazard.com/careers/students/": {
 "ats": [],
 "error": "HTTPError: HTTP Error 404: Not Found",
-"fails": 73,
+"fails": 74,
 "highlights": [],
 "history": [
 {
@@ -82396,7 +82254,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 5,
 "raw": 5
 },
@@ -82404,7 +82262,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -82412,7 +82270,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -82420,7 +82278,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -82428,7 +82286,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 23,
 "raw": 12
 },
@@ -82437,15 +82295,16 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 1,
 "raw": 0,
 "zero_since": "2026-10-30T12:46:00+00:00"
 },
 "Alantra#workday#alantra.wd3/Alantra": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 53,
 "raw": 52
@@ -82454,22 +82313,24 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
 "Alvarez & Marsal#workday#alvarezandmarsal.wd1/alvarezandmarsal": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 0,
 "raw": 0
 },
 "Antares Capital#workday#antares.wd5/antares": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 19,
 "raw": 17
@@ -82478,7 +82339,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -82487,15 +82348,16 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 1,
 "raw": 0,
 "zero_since": "2026-10-09T16:56:31+00:00"
 },
 "Apollo#workday#athene.wd5/Apollo_Careers": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 64,
 "raw": 53
@@ -82504,38 +82366,42 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 75,
 "raw": 67
 },
 "Ares Management#workday#aresmgmt.wd1/External": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 251,
 "raw": 225
 },
 "BBVA CIB#workday#bbva.wd3/BBVA": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 730,
 "raw": 602
 },
 "BMO Capital Markets#workday#bmo.wd3/Campus": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 47,
 "raw": 31
 },
 "Bain Capital#workday#baincapital.wd1/External_Public": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 36,
 "raw": 36
@@ -82544,30 +82410,33 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 125,
 "raw": 23
 },
 "Bank of America#workday#ghr.wd1/lateral-emea|Lateral-US": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 2088,
 "raw": 2064
 },
 "Barclays#workday#barclays.wd3/External_Career_Site_Barclays": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 784,
 "raw": 658
 },
 "Barings#workday#barings.wd1/Early_Talent|Barings": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 48,
 "raw": 43
@@ -82576,7 +82445,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -82584,30 +82453,33 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 39,
 "raw": 38
 },
 "Blackstone#workday#blackstone.wd1/Blackstone_Campus_Careers|Blackstone_Careers": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 203,
 "raw": 150
 },
 "Blue Owl#workday#blueowl.wd1/blueowl": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 55,
 "raw": 51
 },
 "Brookfield#workday#brookfield.wd5/brookfield": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 146,
 "raw": 143
@@ -82616,7 +82488,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -82624,15 +82496,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 47,
-"raw": 42
+"raw": 40
 },
 "CPP Investments#workday#cppib.wd10/cppinvestments": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 55,
 "raw": 33
 },
@@ -82640,7 +82512,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 46,
 "raw": 44
 },
@@ -82648,7 +82520,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -82656,14 +82528,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 1,
 "raw": 1
 },
 "Carlyle#workday#carlyle.wd1/Carlyle": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 77,
 "raw": 63
@@ -82673,15 +82546,16 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 1,
 "raw": 0,
 "zero_since": "2026-10-09T20:14:44+00:00"
 },
 "Cerberus Capital#workday#cerberus.wd1/CerberusCareers": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 4,
 "raw": 3
@@ -82690,14 +82564,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 1,
 "raw": 1
 },
 "Citi#workday#citi.wd5/2": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 2000,
 "raw": 2000
@@ -82706,7 +82581,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 5,
 "raw": 4
 },
@@ -82714,7 +82589,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 2,
 "raw": 2
 },
@@ -82722,7 +82597,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 100,
 "raw": 100
 },
@@ -82730,7 +82605,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -82738,7 +82613,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -82746,7 +82621,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 741,
 "raw": 723
 },
@@ -82754,7 +82629,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -82762,14 +82637,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 572,
-"raw": 552
+"raw": 550
 },
 "Deutsche Bank#workday#db.wd3/DBWebsite": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 1201,
 "raw": 1173
@@ -82778,7 +82654,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 11,
 "raw": 8
 },
@@ -82786,7 +82662,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 15,
 "raw": 13
 },
@@ -82794,7 +82670,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -82802,7 +82678,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -82810,7 +82686,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -82818,7 +82694,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 29,
 "raw": 20
 },
@@ -82826,7 +82702,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 126,
 "raw": 57
 },
@@ -82834,7 +82710,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 9,
 "raw": 2
 },
@@ -82842,7 +82718,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -82850,7 +82726,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 11,
 "raw": 11
 },
@@ -82858,7 +82734,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 150,
 "raw": 113
 },
@@ -82866,7 +82742,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -82874,7 +82750,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 14,
 "raw": 12
 },
@@ -82882,7 +82758,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 232,
 "raw": 190
 },
@@ -82890,7 +82766,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 34,
 "raw": 32
 },
@@ -82898,22 +82774,24 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 62,
 "raw": 57
 },
 "Guggenheim Partners#workday#guggenheim.wd1/Guggenheim_Careers_Campus|Guggenheim_Undergraduate_Programs|Guggenheim_Careers": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 46,
 "raw": 38
 },
 "Gunvor#workday#gunvor.wd3/Gunvor_Careers": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 40,
 "raw": 36
@@ -82922,7 +82800,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -82931,7 +82809,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 6,
 "raw": 0,
 "zero_since": "2026-11-10T10:52:10+00:00"
@@ -82940,38 +82818,42 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 52,
 "raw": 48
 },
 "HarbourVest#workday#harbourvest.wd5/HVP": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 77,
 "raw": 73
 },
 "Harris Williams#workday#pnc.wd5/HarrisWilliams": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 19,
 "raw": 12
 },
 "Houlihan Lokey#workday#hl.wd1/Campus|Corporate": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 86,
 "raw": 77
 },
 "ICG#workday#icg.wd3/external_careers": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 20,
 "raw": 20
@@ -82980,14 +82862,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 3,
 "raw": 2
 },
 "ING#workday#ing.wd3/ICSGBLCOR|ICSFRADIR": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 777,
 "raw": 632
@@ -82996,7 +82879,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 5000,
 "raw": 5000
 },
@@ -83004,7 +82887,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 84,
 "raw": 62
 },
@@ -83012,7 +82895,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 19,
 "raw": 10
 },
@@ -83020,7 +82903,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 199,
 "raw": 198
 },
@@ -83028,7 +82911,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -83036,22 +82919,24 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 9,
 "raw": 7
 },
 "Kering#workday#kering.wd3/Kering": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 0,
 "raw": 0
 },
 "KeyBanc Capital Markets#workday#keybank.wd5/External_Career_Site": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 608,
 "raw": 603
@@ -83060,7 +82945,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -83068,7 +82953,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -83076,7 +82961,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 3,
 "raw": 3
 },
@@ -83084,7 +82969,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -83092,7 +82977,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -83100,7 +82985,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 54,
 "raw": 42
 },
@@ -83108,7 +82993,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 85,
 "raw": 59
 },
@@ -83116,7 +83001,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 137,
 "raw": 101
 },
@@ -83124,7 +83009,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 137,
 "raw": 101
 },
@@ -83132,7 +83017,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 43,
 "raw": 40
 },
@@ -83140,14 +83025,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 3,
 "raw": 2
 },
 "Lombard Odier#workday#lombardodier.wd3/Lombard_Odier_Careers": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 71,
 "raw": 69
@@ -83156,14 +83042,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 116,
 "raw": 111
 },
 "MUFG#workday#mufgub.wd3/MUFG-Careers": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 704,
 "raw": 691
@@ -83172,7 +83059,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 1,
 "raw": 1
 },
@@ -83180,7 +83067,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 12,
 "raw": 8
 },
@@ -83188,7 +83075,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -83196,14 +83083,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
 "Mizuho#workday#mizuho.wd1/mizuhoamericas": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 122,
 "raw": 118
@@ -83212,14 +83100,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 37,
 "raw": 5
 },
 "Moelis & Company#workday#moelis.wd1/University-Hires|Experienced-Hires": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 38,
 "raw": 29
@@ -83228,30 +83117,32 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 138,
-"raw": 79
+"raw": 77
 },
 "Mubadala#watch#https://www.mubadala.com/en": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
 "Muzinich & Co#workday#muzinich.wd5/muzinichcareers": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 1,
 "raw": 1
 },
 "Neuberger Berman#workday#nb.wd1/NBCareers": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 94,
 "raw": 93
@@ -83260,7 +83151,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 37,
 "raw": 23
 },
@@ -83268,7 +83159,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -83276,14 +83167,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
 "Oaktree Capital#workday#oaktree.wd1/Oaktree": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 61,
 "raw": 59
@@ -83292,14 +83184,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
 "Ontario Teachers' (OTPP)#workday#otppb.wd3/OntarioTeachers_Careers": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 40,
 "raw": 32
@@ -83308,7 +83201,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -83316,7 +83209,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 10,
 "raw": 8
 },
@@ -83324,23 +83217,25 @@
 "error": "HTTPError: HTTP Error 403: Forbidden",
 "ever_ok": true,
 "fail_since": "2026-11-20T20:53:45+00:00",
-"fails": 2,
+"fails": 3,
 "last_ok": "2026-11-20T12:56:05+00:00",
 "max_raw": 0,
 "raw": 0
 },
 "PJT Partners#workday#pjtpartners.wd1/Careers": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 56,
 "raw": 43
 },
 "PSP Investments#workday#investpsp.wd3/psp_careers": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 54,
 "raw": 49
@@ -83349,7 +83244,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -83357,7 +83252,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 3,
 "raw": 3
 },
@@ -83365,14 +83260,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 15,
 "raw": 5
 },
 "Perella Weinberg Partners#workday#pwp.wd1/PWP_Experienced_Opportunities": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 8,
 "raw": 4
@@ -83381,7 +83277,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 8,
 "raw": 8
 },
@@ -83389,7 +83285,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -83397,22 +83293,24 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 55,
 "raw": 45
 },
 "PwC#workday#pwc.wd3/Global_Campus_Careers": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 1374,
 "raw": 1232
 },
 "PwC#workday#pwc.wd3/US_Entry_Level_Careers": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 71,
 "raw": 20
@@ -83421,7 +83319,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 3,
 "raw": 3
 },
@@ -83429,22 +83327,24 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
 "RBC Capital Markets#workday#rbc.wd3/RBCEARLYTALENT1": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 42,
 "raw": 19
 },
 "RBC Capital Markets#workday#rbc.wd3/RBCGLOBAL1": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 872,
 "raw": 791
@@ -83453,14 +83353,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 2,
 "raw": 1
 },
 "Raymond James#workday#raymondjames.wd1/RaymondJamesEarlyCareers": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 11,
 "raw": 7
@@ -83469,14 +83370,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 33,
 "raw": 17
 },
 "Rothschild & Co#workday#rothschildandco.wd3/Rothschildandco_Interns|Rothschildandco_Lateral": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 122,
 "raw": 113
@@ -83485,14 +83387,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 2,
 "raw": 2
 },
 "Santander CIB#workday#santander.wd3/SantanderCareers": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 1177,
 "raw": 1062
@@ -83501,7 +83404,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 20,
 "raw": 20
 },
@@ -83509,14 +83412,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
 "Sixth Street#workday#sixthstreet.wd1/sixthstreetcareers": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 19,
 "raw": 16
@@ -83525,7 +83429,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -83533,7 +83437,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 4,
 "raw": 3
 },
@@ -83541,7 +83445,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 20,
 "raw": 20
 },
@@ -83549,7 +83453,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 64,
 "raw": 61
 },
@@ -83557,7 +83461,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 126,
 "raw": 118
 },
@@ -83565,14 +83469,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 68,
 "raw": 6
 },
 "TD Securities#workday#td.wd3/TD_Bank_Careers": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 1901,
 "raw": 1787
@@ -83581,7 +83486,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 21,
 "raw": 12
 },
@@ -83589,22 +83494,24 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 1,
 "raw": 1
 },
 "Trafigura#workday#trafigura.wd3/TrafiguraCareerSite": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 76,
 "raw": 66
 },
 "Triton Partners#workday#tritonpartners.wd3/External": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 6,
 "raw": 6
@@ -83613,7 +83520,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 2,
 "raw": 2
 },
@@ -83621,7 +83528,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
@@ -83629,7 +83536,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 12,
 "raw": 10
 },
@@ -83637,7 +83544,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 39,
 "raw": 30
 },
@@ -83645,15 +83552,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 441,
-"raw": 425
+"raw": 424
 },
 "Warburg Pincus#greenhouse#warburgpincusllc": {
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 5,
 "raw": 5
 },
@@ -83661,14 +83568,15 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 0,
 "raw": 0
 },
 "Wells Fargo#workday#wf.wd1/WellsFargoJobs": {
-"error": null,
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
 "ever_ok": true,
-"fails": 0,
+"fail_since": "2026-11-21T08:52:34+00:00",
+"fails": 1,
 "last_ok": "2026-11-21T01:51:37+00:00",
 "max_raw": 1728,
 "raw": 1625
@@ -83677,7 +83585,7 @@
 "error": null,
 "ever_ok": true,
 "fails": 0,
-"last_ok": "2026-11-21T01:51:37+00:00",
+"last_ok": "2026-11-21T08:52:34+00:00",
 "max_raw": 1662,
 "raw": 1657
 }
